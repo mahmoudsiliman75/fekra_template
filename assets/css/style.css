@@ -185,7 +185,7 @@ nav .menu_btn svg {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 30px;
+  padding: 50px;
 }
 
 .small_menu .btn_box {
@@ -483,7 +483,7 @@ nav .menu_btn svg {
 }
 
 .about_sec {
-  padding: 30px;
+  padding: 50px 0;
 }
 
 .about_sec .header_wraper {
@@ -604,6 +604,148 @@ nav .menu_btn svg {
 }
 
 .about_sec .about_card_wraper .card_text {
+  word-break: break-word;
+  word-spacing: 2px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.services_sec {
+  padding: 50px 0;
+}
+
+.services_sec .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.services_sec .header_wraper h2 {
+  color: #00334e;
+  font-weight: 600;
+  text-transform: uppercase;
+  word-spacing: 3px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.services_sec .header_wraper h2::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ea5455;
+}
+
+.services_sec .header_wraper h2::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 40%;
+  height: 4px;
+  background-color: #00334e;
+}
+
+.services_sec .services_text_wraper {
+  word-break: break-word;
+  word-spacing: 2px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  text-align: center;
+  margin-block: 15px;
+}
+
+.services_sec a {
+  text-decoration: none;
+}
+
+.services_sec a .service_card_wraper {
+  min-height: 465px;
+  max-height: 465px;
+  text-align: center;
+  position: relative;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px 2px rgba(225, 225, 225, 0.6);
+          box-shadow: 0 0 10px 2px rgba(225, 225, 225, 0.6);
+}
+
+.services_sec a .service_card_wraper:hover .img_wraper .overlay {
+  opacity: 1;
+}
+
+.services_sec a .service_card_wraper:hover .img_wraper img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.services_sec a .service_card_wraper .img_wraper {
+  position: relative;
+  overflow: hidden;
+  min-height: 235px;
+  max-height: 235px;
+}
+
+.services_sec a .service_card_wraper .img_wraper .overlay {
+  opacity: 0;
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(234, 84, 85, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.services_sec a .service_card_wraper .img_wraper .overlay svg {
+  color: #fff;
+}
+
+.services_sec a .service_card_wraper .img_wraper img {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.services_sec a .service_card_wraper .card_title_wraper {
+  margin-top: 25px;
+}
+
+.services_sec a .service_card_wraper .card_title_wraper h4 {
+  color: #00334e;
+}
+
+.services_sec a .service_card_wraper .card_text {
+  padding: 20px;
   word-break: break-word;
   word-spacing: 2px;
   font-size: 18px;
