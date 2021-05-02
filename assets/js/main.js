@@ -48,63 +48,6 @@ $(document).ready( function() {
   // END:: TOGGLE MENU
 
   // START:: OWL CAROUSEL
-  $('#videos_slider').owlCarousel({
-    loop:true,
-    autoplay:true,
-    autoplayTimeout:6000,
-    autoplayHoverPause:true,
-    margin:10,
-    nav:true,
-    dots: false,
-    items:1,
-    rtl: true, 
-    responsive:{
-      0:{
-        items:1,
-        nav:true
-      },
-      600:{
-        items:1,
-        nav:false
-      },
-      1000:{
-        items:3,
-        nav:true,
-        loop:false
-      }
-    }
-  });
-
-  $('#team').owlCarousel({
-    loop:true,
-    autoplay:true,
-    autoplayTimeout:6000,
-    autoplayHoverPause:true,
-    margin:60,
-    items:1,
-    rtl: true, 
-    responsive:{
-      0:{
-        items:1,
-        nav:false,
-        dots:false,
-        loop:true
-      },
-      600:{
-        items:2,
-        nav:false,
-        dots:false,
-        loop:true
-      },
-      1000:{
-        items:3,
-        nav:true,
-        dots: true,
-        loop:true
-      }
-    }
-  });
-
   $('#clients').owlCarousel({
     loop:true,
     autoplay:true,
@@ -134,155 +77,16 @@ $(document).ready( function() {
     }
   });
 
-  $('#awards').owlCarousel({
+  $('#testemonials').owlCarousel({
     loop:true,
     autoplay:true,
     autoplayTimeout:6000,
     autoplayHoverPause:true,
     margin:10,
-
+    nav: false,
+    dots: false,
     items:1,
     rtl: true, 
-    responsive:{
-      0:{
-        items:2,
-        nav:false,
-        dots:false,
-        loop:true
-      },
-      600:{
-        items:4,
-        nav:false,
-        dots:false,
-        loop:true
-      },
-      1000:{
-        items:6,
-        nav:true,
-        dots: true,
-        loop:true
-      }
-    }
-  });
-
-  $('#serv_products').owlCarousel({
-    loop:true,
-    autoplay:true,
-    autoplayTimeout:6000,
-    autoplayHoverPause:true,
-    margin:60,
-    items:1,
-    rtl: true, 
-    responsive:{
-      0:{
-        items:1,
-        nav:false,
-        dots:false,
-        loop:true
-      },
-      600:{
-        items:2,
-        nav:false,
-        dots:false,
-        loop:true
-      },
-      1000:{
-        items:4,
-        nav:true,
-        dots: true,
-        loop:true
-      }
-    }
-  });
-
-  $('#latest_news').owlCarousel({
-    loop:true,
-    autoplay:true,
-    autoplayTimeout:6000,
-    autoplayHoverPause:true,
-    margin:60,
-    items:1,
-    rtl: true,
-    responsive:{
-      0:{
-        items:1,
-        nav:false,
-        dots:false,
-        loop:true
-      },
-      600:{
-        items:2,
-        nav:false,
-        dots:false,
-        loop:true
-      },
-      1000:{
-        items:3,
-        nav:true,
-        dots:false,
-        loop:true
-      }
-    }
-  });
-
-  $('#media_latest_news').owlCarousel({
-    loop:true,
-    autoplay:true,
-    autoplayTimeout:6000,
-    autoplayHoverPause:true,
-    margin:60,
-    items:1,
-    rtl: true,
-    responsive:{
-      0:{
-        items:1,
-        nav:false,
-        dots:false,
-        loop:true
-      },
-      600:{
-        items:1,
-        nav:false,
-        dots:false,
-        loop:true
-      },
-      1000:{
-        items:1,
-        nav:true,
-        dots:true,
-        loop:true
-      }
-    }
-  });
-
-  $('#events').owlCarousel({
-    loop:true,
-    autoplay:true,
-    autoplayTimeout:6000,
-    autoplayHoverPause:true,
-    margin:60,
-    items:1,
-    rtl: true,
-    responsive:{
-      0:{
-        items:1,
-        nav:false,
-        dots:false,
-        loop:true
-      },
-      600:{
-        items:1,
-        nav:false,
-        dots:false,
-        loop:true
-      },
-      1000:{
-        items:1,
-        nav:true,
-        dots: true,
-        loop:true
-      }
-    }
   });
   // END:: OWL CAROUSEL
 

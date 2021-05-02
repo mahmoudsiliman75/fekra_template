@@ -529,6 +529,16 @@
 </div>
 <!-- END:: CLIENTS SECTION -->
 
+<!-- START:: TESTEMONIALS SECTION -->
+<div class="testemonials">
+  <div class="container">
+    <div class="header_wraper">
+      <h2> Testemonials </h2>
+    </div>
+  </div>
+</div>
+<!-- END:: TESTEMONIALS SECTION -->
+
 <!-- START:: INCLUDING THE FOOTER -->
 <?php include('./layouts/TheFooter.php')?>
 <!-- END:: INCLUDING THE FOOTER -->

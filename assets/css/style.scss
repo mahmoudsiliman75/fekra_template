@@ -685,7 +685,23 @@ nav {
 
 // START:: TESTEMONILS SECTION STYLES
 .testemonials {
-  
+  padding: $paddingAmount 0;
+  background: url('../media/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .sec_desc_wraper {
+    @include textWraper();
+    text-align: center;
+    margin-block: 15px;
+  }
 }
 // END:: TESTEMONILS SECTION STYLES
 

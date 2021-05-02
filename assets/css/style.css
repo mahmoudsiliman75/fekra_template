@@ -1100,6 +1100,69 @@ nav .menu_btn svg {
           filter: grayscale(0);
 }
 
+.testemonials {
+  padding: 50px 0;
+  background: url("../media/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.testemonials .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.testemonials .header_wraper h2 {
+  color: #00334e;
+  font-weight: 600;
+  text-transform: uppercase;
+  word-spacing: 3px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.testemonials .header_wraper h2::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ea5455;
+}
+
+.testemonials .header_wraper h2::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 40%;
+  height: 4px;
+  background-color: #00334e;
+}
+
+.testemonials .sec_desc_wraper {
+  word-break: break-word;
+  word-spacing: 2px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  text-align: center;
+  margin-block: 15px;
+}
+
 footer {
   background-color: #212121;
 }
