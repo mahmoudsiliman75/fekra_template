@@ -40,7 +40,7 @@
   <!-- END:: INCLUDING MAIN STYLE FILE -->
 
   <!-- START:: SET FAV ICON -->
-  <link rel="icon" href="assets/media/logo.png">
+  <link rel="icon" href="assets/media/icons/logo/logo.png">
   <!-- END:: SET FAV ICON -->
 
   <title> Fekra </title>
@@ -48,11 +48,11 @@
 <body>
 
 <!-- START:: LARGE SCREENS NAVBAR -->
-<nav class="d-flex justify-content-between align-items-center">
+<nav class="main_nav d-flex justify-content-between align-items-center">
   <!-- START:: THE LOGO -->
   <div class="site-logo">
     <a href="index.php">
-      <img src="assets/media/logo.png" alt="The Logo">
+      <img src="assets/media/icons/logo/logo.png" alt="The Logo">
     </a>
   </div>
   <!-- END:: THE LOGO -->
@@ -62,6 +62,10 @@
     <ul class="list-unstyled d-flex align-items-center justify-content-center mb-0">
       <li class="active"> 
         <a href="index.php"> Home </a>
+      </li>
+
+      <li> 
+        <a href="#"> About Us </a>
       </li>
 
     </ul>
@@ -142,7 +146,6 @@
 
 <!-- START:: PRE LOADER -->
 <!-- <div class="pre_loader">
-  <img src="assets/media/logo.png">
   <div class="spinner">
     <div class="rect1"></div>
     <div class="rect2"></div>

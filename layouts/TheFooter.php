@@ -12,7 +12,7 @@
     <div class="row justify-content-center">
       <div class="footer_logo col-6 col-md-2"> 
         <a href="index.php">
-          <img src="assets/media/logo.png" alt="The Logo">
+          <img src="assets/media/icons/logo/logo.png" alt="The Logo">
         </a>
       </div>
 
@@ -96,8 +96,8 @@
       </div>
 
       <div class="copy_rights col-12 d-flex justify-content-between">
-        <span> Powered By <a href="https://www.facebook.com/MediaServAgency/" target="_blank"> MediaServ </a> </span>
-        <span> &copy; 2021 Al Koubasy </span>
+        <span> Powered By <a href="https://www.facebook.com/MediaServAgency/" target="_blank"> Technomasr </a> </span>
+        <span> &copy; 2021 Fekra </span>
       </div>
     </div>
   </div>

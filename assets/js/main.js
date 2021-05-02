@@ -5,12 +5,16 @@ $(window).on('load', function() {
 // END:: HANDILING PRELOADER
 
 $(document).ready( function() {
-  // START:: COUNT UP
-//   $('.counter').counterUp({
-//     delay: 10,
-//     time: 1000
-// });
-  // END:: COUNT UP
+  // START:: STIKY NAVBAR
+  $(window).on('scroll',function() {
+    if ( $(window).scrollTop() ) {
+      $('.main_nav').addClass('stiky');
+    } else {
+      $('.main_nav').removeClass('stiky');
+    }
+  });
+  
+  // END:: STIKY NAVBAR
 
   // START:: WOW JS
   wow = new WOW(

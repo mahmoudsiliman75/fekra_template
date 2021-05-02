@@ -9,22 +9,43 @@
     <li data-target="#home_slider" data-slide-to="0" class="active"></li>
     <li data-target="#home_slider" data-slide-to="1"></li>
     <li data-target="#home_slider" data-slide-to="2"></li>
-    <li data-target="#home_slider" data-slide-to="3"></li>
   </ol>
 
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/media/slider1.jpeg" class="d-block" alt="Slide 1">
+      <img src="assets/media/slider/slide1.jpeg" class="d-block" alt="Slide 1">
+      <div class="overlay">
+        <div class="intro_text_wraper">
+          <h1> Welcome To <span>Our Website</span> </h1>
+          <h5> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non laudantium eum aliquam reiciendis. </h5>
+        </div>
+        
+        <div class="btn_wraber mt-4">
+          <a href="#"> Learn More </a>
+        </div>
+      </div>
     </div>
+
     <div class="carousel-item">
-      <img src="assets/media/slider2.jpeg" class="d-block" alt="Slide 2">
+      <img src="assets/media/slider/slide2.jpeg" class="d-block" alt="Slide 2">
+      <div class="overlay">
+        <div class="intro_text_wraper">
+          <h1> Welcome To <span>Our Website</span> </h1>
+          <h5> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non laudantium eum aliquam reiciendis. </h5>
+        </div>
+      </div>
     </div>
+
     <div class="carousel-item">
-      <img src="assets/media/slider3.jpeg" class="d-block" alt="Slide 3">
+      <img src="assets/media/slider/slide3.jpg" class="d-block" alt="Slide 3">
+      <div class="overlay">
+        <div class="intro_text_wraper">
+          <h1> Welcome To <span>Our Website</span> </h1>
+          <h5> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non laudantium eum aliquam reiciendis. </h5>
+        </div>
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="assets/media/slider4.jpeg" class="d-block" alt="Slide 4">
-    </div>
+
   </div>
 
   <a class="carousel-control-prev" href="#home_slider" role="button" data-slide="prev">
