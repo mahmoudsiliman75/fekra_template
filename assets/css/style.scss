@@ -649,6 +649,46 @@ nav {
 }
 // END:: TEAM MEMBERS SECTION STYLES
 
+// START:: OUR CLIENTS SECTION STYLES
+.our_clients_sec {
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .owl-carousel {
+    position: relative;
+    @include flexCenterAlignment();
+
+    .item {
+      .img_wraper {
+        min-height: 150px;
+        max-height: 150px;
+        img {
+          width: 100%;
+          min-height: 150px;
+          max-height: 150px;
+          filter: grayscale(100);
+          @include transitioning();
+          &:hover {
+            filter: grayscale(0);
+          }
+        }
+      }
+    }
+  }
+}
+// END:: OUR CLIENTS SECTION STYLES
+
+// START:: TESTEMONILS SECTION STYLES
+.testemonials {
+  
+}
+// END:: TESTEMONILS SECTION STYLES
+
 // START:: FOOTER STYLES
 footer {
   background-color: $darkGrey;

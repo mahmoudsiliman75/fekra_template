@@ -477,6 +477,57 @@
 </div>
 <!-- END:: TEAM MEMBERS SECTION -->
 
+<!-- START:: CLIENTS SECTION -->
+<div class="our_clients_sec">
+  <div class="container-fluid">
+    <div class="header_wraper">
+      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> Our Clients </h2>
+    </div>
+
+    <div class="row flex-column align-items-center justify-content-center mt-3 overflow-hidden">
+      <div id="clients" class="owl-carousel owl-theme col-11 wow fadeInRightBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
+
+        <div class="item text-center">
+          <div class="img_wraper">
+            <img src="assets/media/clients/partner-1.png" alt="client"> 
+          </div>
+        </div>
+
+        <div class="item text-center">
+          <div class="img_wraper">
+            <img src="assets/media/clients/partner-2.png" alt="client"> 
+          </div>
+        </div>
+
+        <div class="item text-center">
+          <div class="img_wraper">
+            <img src="assets/media/clients/partner-3.png" alt="client"> 
+          </div>
+        </div>
+
+        <div class="item text-center">
+          <div class="img_wraper">
+            <img src="assets/media/clients/partner-1.png" alt="client"> 
+          </div>
+        </div>
+
+        <div class="item text-center">
+          <div class="img_wraper">
+            <img src="assets/media/clients/partner-2.png" alt="client"> 
+          </div>
+        </div>
+
+        <div class="item text-center">
+          <div class="img_wraper">
+            <img src="assets/media/clients/partner-3.png" alt="client"> 
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END:: CLIENTS SECTION -->
 
 <!-- START:: INCLUDING THE FOOTER -->
 <?php include('./layouts/TheFooter.php')?>
