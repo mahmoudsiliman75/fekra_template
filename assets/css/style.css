@@ -531,7 +531,7 @@ nav .menu_btn svg {
   background-color: #00334e;
 }
 
-.about_sec .about_text_wraper {
+.about_sec .sec_desc_wraper {
   word-break: break-word;
   word-spacing: 2px;
   font-size: 18px;
@@ -661,7 +661,7 @@ nav .menu_btn svg {
   background-color: #00334e;
 }
 
-.services_sec .services_text_wraper {
+.services_sec .sec_desc_wraper {
   word-break: break-word;
   word-spacing: 2px;
   font-size: 18px;
@@ -711,6 +711,7 @@ nav .menu_btn svg {
   height: 100%;
   width: 100%;
   background-color: rgba(234, 84, 85, 0.8);
+  border-radius: 5px 5px 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -734,6 +735,7 @@ nav .menu_btn svg {
   width: 100%;
   height: 100%;
   z-index: 2;
+  border-radius: 5px 5px 0 0;
 }
 
 .services_sec a .service_card_wraper .card_title_wraper {
@@ -752,6 +754,268 @@ nav .menu_btn svg {
   color: #666;
   line-height: 1.6;
   font-size: 16px;
+}
+
+.services_sec .btn_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.services_sec .btn_wraper a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ea5455;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid #ea5455;
+  border-radius: 5px;
+  padding: 10px 20px;
+  position: relative;
+  padding: 6px 12px;
+}
+
+.services_sec .btn_wraper a::before, .services_sec .btn_wraper a::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 20%;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.services_sec .btn_wraper a::before {
+  top: -2px;
+  left: 10%;
+}
+
+.services_sec .btn_wraper a::after {
+  bottom: -2px;
+  right: 10%;
+}
+
+.services_sec .btn_wraper a:hover::before {
+  left: 65%;
+}
+
+.services_sec .btn_wraper a:hover::after {
+  right: 65%;
+}
+
+.team_sec {
+  padding: 50px 0;
+  background-color: #00334e;
+}
+
+.team_sec .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.team_sec .header_wraper h2 {
+  color: #00334e;
+  font-weight: 600;
+  text-transform: uppercase;
+  word-spacing: 3px;
+  position: relative;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+.team_sec .header_wraper h2::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ea5455;
+}
+
+.team_sec .header_wraper h2::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 40%;
+  height: 4px;
+  background-color: #00334e;
+}
+
+.team_sec .header_wraper h2::after {
+  background-color: #fff;
+}
+
+.team_sec .sec_desc_wraper {
+  word-break: break-word;
+  word-spacing: 2px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  color: #fff;
+  text-align: center;
+  margin-block: 15px;
+}
+
+.team_sec .member_card_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.team_sec .member_card_wraper .image_wraper {
+  position: relative;
+  min-width: 255px;
+  max-width: 255px;
+  min-height: 285px;
+  max-height: 285px;
+}
+
+.team_sec .member_card_wraper .image_wraper::before {
+  content: '';
+  display: block;
+  position: absolute;
+  right: -20px;
+  bottom: -20px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #fff;
+  border-radius: 30px;
+}
+
+.team_sec .member_card_wraper .image_wraper img {
+  min-width: 255px;
+  max-width: 255px;
+  min-height: 285px;
+  max-height: 285px;
+  border-radius: 30px;
+}
+
+.team_sec .member_card_wraper .card_body {
+  text-align: center;
+}
+
+.team_sec .member_card_wraper .card_body .info {
+  margin-top: 30px;
+}
+
+.team_sec .member_card_wraper .card_body .info h4 {
+  color: #fff;
+}
+
+.team_sec .member_card_wraper .card_body .info h5 {
+  color: #ea5455;
+}
+
+.team_sec .member_card_wraper .card_body .social_links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.team_sec .member_card_wraper .card_body .social_links li {
+  display: inline-block;
+  margin-inline: 6px;
+}
+
+.team_sec .member_card_wraper .card_body .social_links li a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.team_sec .member_card_wraper .card_body .social_links li a:hover {
+  color: #ea5455;
+}
+
+.team_sec .btn_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.team_sec .btn_wraper a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ea5455;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid #ea5455;
+  border-radius: 5px;
+  padding: 10px 20px;
+  position: relative;
+  padding: 6px 12px;
+}
+
+.team_sec .btn_wraper a::before, .team_sec .btn_wraper a::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 20%;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.team_sec .btn_wraper a::before {
+  top: -2px;
+  left: 10%;
+}
+
+.team_sec .btn_wraper a::after {
+  bottom: -2px;
+  right: 10%;
+}
+
+.team_sec .btn_wraper a:hover::before {
+  left: 65%;
+}
+
+.team_sec .btn_wraper a:hover::after {
+  right: 65%;
+}
+
+.team_sec .btn_wraper a::before, .team_sec .btn_wraper a::after {
+  background-color: #00334e;
 }
 
 footer {
