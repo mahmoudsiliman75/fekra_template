@@ -21,7 +21,7 @@
         </div>
         
         <div class="btn_wraber mt-4">
-          <a href="#"> Learn More </a>
+          <a href="index.php#about_sec"> Learn More </a>
         </div>
       </div>
     </div>
@@ -59,6 +59,105 @@
 
 </div>
 <!-- END:: HOME SLIDER -->
+
+<!-- START:: ABOUT US SECTION -->
+<div id="about_sec" class="about_sec">
+  <div class="container">
+    <div class="header_wraper">
+      <h2> About Us </h2>
+    </div>
+
+    <div class="about_text_wraper">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+      Culpa enim praesentium minima sunt, eveniet ratione velit 
+      similique omnis porro doloremque dolores? Aut accusantium 
+      possimus voluptates nobis ullam? Amet, ipsa est.
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-10 col-lg-3 mt-5">
+        <div class="about_card_wraper">
+          <div class="icon_wraper">
+            <span>
+              <i class="fas fa-star fa-2x"></i> 
+            </span>
+          </div>
+
+          <div class="card_title_wraper">
+            <h4> Title 1 </h4>
+          </div>
+
+          <div class="card_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
+            facilis. Quas ex provident quam, inventore consectetur 
+          </div>
+        </div>
+      </div>
+
+      <div class="col-10 col-lg-3 mt-5">
+        <div class="about_card_wraper">
+          <div class="icon_wraper">
+            <span>
+              <i class="fas fa-rocket fa-2x"></i>
+            </span>
+          </div>
+
+          <div class="card_title_wraper">
+            <h4> Title 2 </h4>
+          </div>
+
+          <div class="card_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
+            facilis. Quas ex provident quam, inventore consectetur 
+          </div>
+        </div>
+      </div>
+
+      <div class="col-10 col-lg-3 mt-5">
+        <div class="about_card_wraper">
+          <div class="icon_wraper">
+            <span>
+              <i class="fas fa-award fa-2x"></i> 
+            </span>
+          </div>
+
+          <div class="card_title_wraper">
+            <h4> Title 3 </h4>
+          </div>
+
+          <div class="card_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
+            facilis. Quas ex provident quam, inventore consectetur 
+          </div>
+        </div>
+      </div>
+
+      <div class="col-10 col-lg-3 mt-5">
+        <div class="about_card_wraper">
+          <div class="icon_wraper">
+            <span>
+              <i class="fas fa-cog fa-2x"></i>
+            </span>
+          </div>
+
+          <div class="card_title_wraper">
+            <h4> Title 3 </h4>
+          </div>
+
+          <div class="card_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
+            facilis. Quas ex provident quam, inventore consectetur 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END:: ABOUT US SECTION -->
 
 
 <!-- START:: INCLUDING THE FOOTER -->

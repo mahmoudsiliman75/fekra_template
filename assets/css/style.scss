@@ -11,6 +11,10 @@
 // END:: MIXINS
 
 // START:: GLOBAL STYLES
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
   overflow-x: hidden;
@@ -71,10 +75,10 @@ nav {
     padding: 5px 10px;
     background-color: rgba(45, 64, 89, 0.7);
     .site-logo {
-      min-width: 60px;
-      max-width: 60px;
-      min-height: 60px;
-      max-height: 60px;
+      min-width: 50px;
+      max-width: 50px;
+      min-height: 50px;
+      max-height: 50px;
       img {
         width: 100%;
         height: 100%;
@@ -124,7 +128,7 @@ nav {
       padding: 0 5px;
       font-weight: bold;
       border: 2px solid $corpColor2;
-      @include borderradius($largeBorderRadiusAmount);
+      @include borderRadius($largeBorderRadiusAmount);
       width: 60px;
       @include flexCenterAlignment();
       justify-content: space-between;
@@ -137,7 +141,7 @@ nav {
         &.circle {
           width: 20px;
           height: 20px;
-          @include borderradius(50%);
+          @include borderRadius(50%);
           background-color: $corpColor2;
         }
       }
@@ -297,12 +301,12 @@ nav {
       width: 13px;
       height: 13px;
       border: none;
-      @include borderradius(50%);
+      @include borderRadius(50%);
       &.active {
         width: 40px;
         background-color: $corpColor2;
         border: none;
-        @include borderradius(30px);
+        @include borderRadius(30px);
       }
     }
   }
@@ -337,6 +341,7 @@ nav {
           text-align: center;
           h1 {
             span {
+              @include borderRadius(5px);
               background-color: $corpColor2;
               font-weight: 600;
               padding: 15px;
@@ -350,7 +355,13 @@ nav {
                 width: 100%;
                 height: 100%;
                 border: 2px solid $corpColor2;
+                @include borderRadius(5px);
               }
+            }
+          }
+          @media (max-width: 767px) {
+            h1 {
+              font-size: 2rem;
             }
           }
           h5 {
@@ -361,28 +372,117 @@ nav {
 
         .btn_wraber {
           @include flexCenterAlignment();
-          a {
-            display: inline-block;
-            text-decoration: none;
-            text-transform: uppercase;
-            color: $corpColor2;
-            font-size: 18px;
-            font-weight: 600;
-            border: 2px solid $corpColor2;
-            padding: 10px 20px;
 
-            &:hover {
-              background-color: $corpColor2;
-              color: $white;
-            }
+          a {
+            @include secondaryBtnStyle();
+          }
+        }
+      }
+    }
+  }
+}
+// END:: HOME SLIDER STYLES
+
+// START:: HOME PAGE ABOUT SEC
+.about_sec {
+  padding: $paddingAmount;
+
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      color: $corpColor1;
+      font-weight: 600;
+      text-transform: uppercase;
+      word-spacing: 3px;
+      position: relative;
+      padding-bottom: 10px;
+
+      &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: $corpColor2;
+      }
+
+      &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: -1px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 40%;
+        height: 4px;
+        background-color: $corpColor1;
+      }
+    }
+  }
+
+  .about_text_wraper {
+    @include textWraper();
+    text-align: center;
+    margin-block: 15px;
+  }
+
+  .about_card_wraper {
+    min-height: 285px;
+    max-height: 285px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    @include borderRadius(5px);
+    @include midShadow();
+
+    &:hover {
+      .icon_wraper {
+        span {
+          border: 2px solid $corpColor2;
+          background-color: $corpColor2;
+          transform: rotate(360deg) scale(1.1);
+          svg {
+            color: $white;
           }
         }
       }
     }
 
+    .icon_wraper {
+      position: absolute;
+      top: -25px;
+      left: 50%;
+      transform: translateX(-50%);
+      span {
+        @include transitioning();
+        border: 2px dashed $corpColor2;
+        @include borderRadius(50%);
+        @include flexCenterAlignment();
+        width: 60px;
+        height: 60px;
+        svg {
+          @include transitioning();
+          color: $corpColor2;
+        }
+      }
+    }
+
+    .card_title_wraper {
+      margin-top: 25px;
+      h4 {
+        color: $corpColor1;
+      }
+    }
+
+    .card_text {
+      @include textWraper();
+      font-size: 16px;
+    }
   }
 }
-// END:: HOME SLIDER STYLES
+// END:: HOME PAGE ABOUT SEC
 
 // START:: FOOTER STYLES
 footer {
