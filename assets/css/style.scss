@@ -718,7 +718,38 @@ nav {
         padding: 20px;
         border: 2px solid $corpColor1;
         @include borderRadius($borderRadiusAmount);
-        // @include simpleShadow();
+        @include transitioning();
+        &:hover {
+          background-color: $corpColor1;
+          border: 2px solid $white;
+          box-shadow: 0 0 5px 2px #003552;
+
+          .img_wraper {
+            img {
+              border-right: 2px solid $white;
+              border-bottom: 2px solid $white;
+            }
+          }
+
+          .card_body {
+            margin-inline-end: 120px;
+            position: relative;
+  
+            img {
+              filter: brightness(0) invert(1);
+            }
+  
+            h4 {
+              color: $white;
+            }
+  
+            .text {
+              @include textWraper();
+              color: $white;
+              font-size: 16px;
+            }
+          }
+        }
 
         .img_wraper {
           min-width: 120px;
@@ -737,6 +768,7 @@ nav {
             border-right: 2px solid $corpColor1;
             border-bottom: 2px solid $corpColor1;
             border-radius: $borderRadiusAmount 0;
+            @include transitioning();
           }
         }
 
@@ -749,15 +781,18 @@ nav {
             height: 40px;
             float: right;
             z-index: 1;
+            @include transitioning();
           }
 
           h4 {
             color: $corpColor1;
+            @include transitioning();
           }
 
           .text {
             @include textWraper();
             font-size: 16px;
+            @include transitioning();
           }
         }
       }

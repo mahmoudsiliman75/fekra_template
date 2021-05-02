@@ -1182,6 +1182,45 @@ nav .menu_btn svg {
   padding: 20px;
   border: 2px solid #00334e;
   border-radius: 10px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.testemonials .owl-carousel .item .testemonial_card:hover {
+  background-color: #00334e;
+  border: 2px solid #fff;
+  -webkit-box-shadow: 0 0 5px 2px #003552;
+          box-shadow: 0 0 5px 2px #003552;
+}
+
+.testemonials .owl-carousel .item .testemonial_card:hover .img_wraper img {
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.testemonials .owl-carousel .item .testemonial_card:hover .card_body {
+  -webkit-margin-end: 120px;
+          margin-inline-end: 120px;
+  position: relative;
+}
+
+.testemonials .owl-carousel .item .testemonial_card:hover .card_body img {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+
+.testemonials .owl-carousel .item .testemonial_card:hover .card_body h4 {
+  color: #fff;
+}
+
+.testemonials .owl-carousel .item .testemonial_card:hover .card_body .text {
+  word-break: break-word;
+  word-spacing: 2px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  color: #fff;
+  font-size: 16px;
 }
 
 .testemonials .owl-carousel .item .testemonial_card .img_wraper {
@@ -1203,6 +1242,8 @@ nav .menu_btn svg {
   border-right: 2px solid #00334e;
   border-bottom: 2px solid #00334e;
   border-radius: 10px 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .testemonials .owl-carousel .item .testemonial_card .card_body {
@@ -1216,10 +1257,14 @@ nav .menu_btn svg {
   height: 40px;
   float: right;
   z-index: 1;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .testemonials .owl-carousel .item .testemonial_card .card_body h4 {
   color: #00334e;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .testemonials .owl-carousel .item .testemonial_card .card_body .text {
@@ -1229,6 +1274,8 @@ nav .menu_btn svg {
   color: #666;
   line-height: 1.6;
   font-size: 16px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 footer {
