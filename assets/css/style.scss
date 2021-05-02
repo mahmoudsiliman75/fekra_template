@@ -11,6 +11,10 @@
 // END:: MIXINS
 
 // START:: GLOBAL STYLES
+* {
+  @include boxSizing();
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -430,6 +434,7 @@ nav {
       span {
         @include transitioning();
         border: 2px dashed $corpColor2;
+        background-color: $white;
         @include borderRadius(50%);
         @include flexCenterAlignment();
         width: 60px;
@@ -686,14 +691,15 @@ nav {
 // START:: TESTEMONILS SECTION STYLES
 .testemonials {
   padding: $paddingAmount 0;
-  background: url('../media/bg.jpg');
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
+  background-color: $corpColor2;
   .header_wraper {
     @include flexCenterAlignment();
     h2 {
       @include mainHeaderStyle();
+      color: $white;
+      &::before {
+        background-color: $white;
+      }
     }
   }
 
@@ -701,6 +707,61 @@ nav {
     @include textWraper();
     text-align: center;
     margin-block: 15px;
+  }
+
+  .owl-carousel {
+    .item {
+      padding: 10px;
+      .testemonial_card {
+        position: relative;
+        background-color: $white;
+        padding: 20px;
+        border: 2px solid $corpColor1;
+        @include borderRadius($borderRadiusAmount);
+        // @include simpleShadow();
+
+        .img_wraper {
+          min-width: 120px;
+          max-width: 120px;
+          min-height: 120px;
+          max-height: 120px;
+          @include borderRadius(50%);
+          position: absolute;
+          top: 0;
+          left: 0;
+          img {
+            min-width: 120px;
+            max-width: 120px;
+            min-height: 120px;
+            max-height: 120px;
+            border-right: 2px solid $corpColor1;
+            border-bottom: 2px solid $corpColor1;
+            border-radius: $borderRadiusAmount 0;
+          }
+        }
+
+        .card_body {
+          margin-inline-end: 120px;
+          position: relative;
+
+          img {
+            width: 40px;
+            height: 40px;
+            float: right;
+            z-index: 1;
+          }
+
+          h4 {
+            color: $corpColor1;
+          }
+
+          .text {
+            @include textWraper();
+            font-size: 16px;
+          }
+        }
+      }
+    }
   }
 }
 // END:: TESTEMONILS SECTION STYLES

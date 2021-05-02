@@ -535,6 +535,69 @@
     <div class="header_wraper">
       <h2> Testemonials </h2>
     </div>
+
+    <div class="row flex-column align-items-center justify-content-center mt-3 overflow-hidden">
+      <div id="testemonials" class="owl-carousel owl-theme col-12 wow fadeInRightBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
+
+        <div class="item">
+          <div class="testemonial_card">
+            <div class="img_wraper">
+              <img src="assets/media/team/member1.jpg" alt="">
+            </div>
+
+            <div class="card_body">
+              <img src="assets/media/shapes/qutation.png" alt="">
+              <h4> Client Name 1 </h4>
+              <div class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Omnis quas dignissimos amet. Sed fuga mollitia in voluptatum eum. 
+                Itaque illo dolores voluptates modi cumque a fugiat fuga 
+                sapiente praesentium iusto.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="testemonial_card">
+            <div class="img_wraper">
+              <img src="assets/media/team/member2.jpg" alt="">
+            </div>
+
+            <div class="card_body">
+              <img src="assets/media/shapes/qutation.png" alt="">
+              <h4> Client Name 2 </h4>
+              <div class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Omnis quas dignissimos amet. Sed fuga mollitia in voluptatum eum. 
+                Itaque illo dolores voluptates modi cumque a fugiat fuga 
+                sapiente praesentium iusto.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="testemonial_card">
+            <div class="img_wraper">
+              <img src="assets/media/team/member3.jpg" alt="">
+            </div>
+
+            <div class="card_body">
+              <img src="assets/media/shapes/qutation.png" alt="">
+              <h4> Client Name 3 </h4>
+              <div class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Omnis quas dignissimos amet. Sed fuga mollitia in voluptatum eum. 
+                Itaque illo dolores voluptates modi cumque a fugiat fuga 
+                sapiente praesentium iusto.
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
   </div>
 </div>
 <!-- END:: TESTEMONIALS SECTION -->

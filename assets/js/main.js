@@ -13,7 +13,6 @@ $(document).ready( function() {
       $('.main_nav').removeClass('stiky');
     }
   });
-  
   // END:: STIKY NAVBAR
 
   // START:: WOW JS
@@ -58,6 +57,8 @@ $(document).ready( function() {
     dots: false,
     items:1,
     rtl: true, 
+    smartSpeed: 2000,
+    dotsSpeed: 2000,
     responsive:{
       0:{
         items:2,
@@ -82,11 +83,30 @@ $(document).ready( function() {
     autoplay:true,
     autoplayTimeout:6000,
     autoplayHoverPause:true,
-    margin:10,
+    margin:30,
     nav: false,
-    dots: false,
-    items:1,
+    dots: true,
+    items:2,
     rtl: true, 
+    smartSpeed: 2000,
+    dotsSpeed: 2000,
+    responsive:{
+      0:{
+        items:1,
+        nav:false,
+        loop:true
+      },
+      600:{
+        items:1,
+        nav:false,
+        loop:true
+      },
+      1000:{
+        items:2,
+        nav:false,
+        loop:true
+      }
+    }
   });
   // END:: OWL CAROUSEL
 

@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -575,6 +581,7 @@ nav .menu_btn svg {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   border: 2px dashed #ea5455;
+  background-color: #fff;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1102,10 +1109,7 @@ nav .menu_btn svg {
 
 .testemonials {
   padding: 50px 0;
-  background: url("../media/bg.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
+  background-color: #ea5455;
 }
 
 .testemonials .header_wraper {
@@ -1127,6 +1131,7 @@ nav .menu_btn svg {
   word-spacing: 3px;
   position: relative;
   padding-bottom: 10px;
+  color: #fff;
 }
 
 .testemonials .header_wraper h2::before {
@@ -1153,6 +1158,10 @@ nav .menu_btn svg {
   background-color: #00334e;
 }
 
+.testemonials .header_wraper h2::before {
+  background-color: #fff;
+}
+
 .testemonials .sec_desc_wraper {
   word-break: break-word;
   word-spacing: 2px;
@@ -1161,6 +1170,65 @@ nav .menu_btn svg {
   line-height: 1.6;
   text-align: center;
   margin-block: 15px;
+}
+
+.testemonials .owl-carousel .item {
+  padding: 10px;
+}
+
+.testemonials .owl-carousel .item .testemonial_card {
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  border: 2px solid #00334e;
+  border-radius: 10px;
+}
+
+.testemonials .owl-carousel .item .testemonial_card .img_wraper {
+  min-width: 120px;
+  max-width: 120px;
+  min-height: 120px;
+  max-height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.testemonials .owl-carousel .item .testemonial_card .img_wraper img {
+  min-width: 120px;
+  max-width: 120px;
+  min-height: 120px;
+  max-height: 120px;
+  border-right: 2px solid #00334e;
+  border-bottom: 2px solid #00334e;
+  border-radius: 10px 0;
+}
+
+.testemonials .owl-carousel .item .testemonial_card .card_body {
+  -webkit-margin-end: 120px;
+          margin-inline-end: 120px;
+  position: relative;
+}
+
+.testemonials .owl-carousel .item .testemonial_card .card_body img {
+  width: 40px;
+  height: 40px;
+  float: right;
+  z-index: 1;
+}
+
+.testemonials .owl-carousel .item .testemonial_card .card_body h4 {
+  color: #00334e;
+}
+
+.testemonials .owl-carousel .item .testemonial_card .card_body .text {
+  word-break: break-word;
+  word-spacing: 2px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  font-size: 16px;
 }
 
 footer {
