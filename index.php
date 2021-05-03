@@ -1112,7 +1112,7 @@
             </div>
 
             <div class="form-group mb-4">
-              <textarea placeholder="Your Inquiry"></textarea>
+              <textarea placeholder="Your Message"></textarea>
             </div>
 
             <div class="btn_box">

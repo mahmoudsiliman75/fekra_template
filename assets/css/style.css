@@ -25,33 +25,118 @@ body::-webkit-scrollbar-thumb {
 
 .header_img_wraper {
   position: relative;
-  min-height: 300px;
-  max-height: 300px;
+  min-height: 400px;
+  max-height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.header_img_wraper img {
+.header_img_wraper .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
   width: 100%;
-  min-height: 300px;
-  max-height: 300px;
+  height: 100%;
+  background-color: rgba(45, 64, 89, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.header_img_wraper .spikes {
+.header_img_wraper .overlay .intro_text_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #fff;
+  text-align: center;
+}
+
+.header_img_wraper .overlay .intro_text_wraper h1 span {
+  border-radius: 5px;
+  background-color: #ea5455;
+  font-weight: 600;
+  padding: 15px;
   position: relative;
-  background: transparent;
 }
 
-.header_img_wraper .spikes::after {
+.header_img_wraper .overlay .intro_text_wraper h1 span::after {
   content: '';
   position: absolute;
-  right: 0;
-  left: -0%;
-  bottom: 0;
-  z-index: 10;
+  right: -15px;
+  bottom: -15px;
   display: block;
-  height: 30px;
-  background-size: 30px 100%;
-  background-image: linear-gradient(325deg, #fff 25%, transparent 25%), linear-gradient(36deg, #fff 25%, transparent 25%);
-  background-position: 0 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #ea5455;
+  border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+  .header_img_wraper .overlay .intro_text_wraper h1 {
+    font-size: 2rem;
+  }
+}
+
+.header_img_wraper .overlay .intro_text_wraper h5 {
+  width: 80%;
+  margin-top: 45px;
+}
+
+.header_img_wraper .overlay .btn_wraber {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header_img_wraper .overlay .btn_wraber a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #ea5455;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid #ea5455;
+  border-radius: 5px;
+  padding: 10px 20px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.header_img_wraper .overlay .btn_wraber a:hover {
+  background-color: #ea5455;
+  color: #fff;
 }
 
 nav {
@@ -1888,6 +1973,250 @@ nav .menu_btn svg {
 }
 
 .contact_us_sec .form_wraper .btn_box button:hover::after {
+  right: 65%;
+}
+
+.get_in_touch {
+  padding-top: 50px;
+}
+
+.get_in_touch .social img {
+  min-width: 70px;
+  max-width: 70px;
+  min-height: 70px;
+  max-height: 70px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.get_in_touch .social img:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.contact_info .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+}
+
+.contact_info .card:hover span svg {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.contact_info .card span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 75px;
+  height: 75px;
+  border: 2px dotted #666;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.contact_info .card span svg {
+  color: #ea5455;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.contact_info .card h4 {
+  color: #00334e;
+}
+
+.contact_info .card h5 {
+  color: #666;
+}
+
+@media (max-width: 992px) {
+  .contact_info .line_wraper {
+    display: none !important;
+  }
+}
+
+.share .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-margin-start: 75px;
+          margin-inline-start: 75px;
+}
+
+.share .header_wraper h2 {
+  color: #00334e;
+  font-weight: 600;
+  text-transform: uppercase;
+  word-spacing: 3px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.share .header_wraper h2::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ea5455;
+}
+
+.share .header_wraper h2::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 40%;
+  height: 4px;
+  background-color: #00334e;
+}
+
+.share .share_img_wraper img {
+  width: 100%;
+  min-height: 400px;
+  max-height: 400px;
+  border-radius: 10px;
+}
+
+.share .share_info_wraper {
+  padding-top: 20px;
+  font-size: 20px;
+  color: #666;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.share .iframe_waper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.share .iframe_waper iframe {
+  border-radius: 10px;
+  width: 100%;
+  min-height: 500px;
+  max-height: 500px;
+}
+
+.share .form_wraper {
+  padding: 50px 0;
+}
+
+.share .form_wraper form {
+  text-align: start;
+}
+
+.share .form_wraper form .form-group {
+  text-align: start;
+}
+
+.share .form_wraper form .form-group input,
+.share .form_wraper form .form-group textarea {
+  width: 100%;
+  border: none;
+  -webkit-box-shadow: 0 0 10px 2px rgba(225, 225, 225, 0.6);
+          box-shadow: 0 0 10px 2px rgba(225, 225, 225, 0.6);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.share .form_wraper form .form-group input:focus,
+.share .form_wraper form .form-group textarea:focus {
+  outline: none;
+}
+
+.share .form_wraper form .form-group textarea {
+  height: 250px;
+}
+
+.share .form_wraper form .btn_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.share .form_wraper form .btn_box button {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #ea5455;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid #ea5455;
+  border-radius: 5px;
+  padding: 10px 20px;
+  position: relative;
+  padding: 6px 12px;
+}
+
+.share .form_wraper form .btn_box button::before, .share .form_wraper form .btn_box button::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 20%;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.share .form_wraper form .btn_box button::before {
+  top: -2px;
+  left: 10%;
+}
+
+.share .form_wraper form .btn_box button::after {
+  bottom: -2px;
+  right: 10%;
+}
+
+.share .form_wraper form .btn_box button:hover::before {
+  left: 65%;
+}
+
+.share .form_wraper form .btn_box button:hover::after {
   right: 65%;
 }
 
