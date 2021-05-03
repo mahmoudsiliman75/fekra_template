@@ -89,12 +89,8 @@
   <div class="container">
     <div class="row justify-content-center">
 
-      <div class="col-12 col-md-6 iframe_waper">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110532.89549083744!2d31.30329406893522!3d30.032468600716175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583c1380cba7ef%3A0xd541260e9e06978d!2sNasr%20City%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1601175174423!5m2!1sen!2seg" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-      </div>
-
-      <div class="col-12 col-md-6 form_wraper">
-        <div class="header_wraper">
+      <div class="col-12 col-md-8 form_wraper">
+        <div class="header_wraper justify-content-center">
           <h2> Write Us A Message </h2>
         </div>
 
