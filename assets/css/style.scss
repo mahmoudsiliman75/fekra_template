@@ -35,7 +35,8 @@ body {
   position: relative;
   min-height: 400px;
   max-height: 400px;
-  background-size: cover !important;
+  background-size: 100% !important;
+  background-position: center !important;
   background-repeat: no-repeat !important;
 
   .overlay {
@@ -80,18 +81,6 @@ body {
         h1 {
           font-size: 2rem;
         }
-      }
-      h5 {
-        width: 80%;
-        margin-top: 45px;
-      }
-    }
-
-    .btn_wraber {
-      @include flexCenterAlignment();
-
-      a {
-        @include secondaryBtnStyle();
       }
     }
   }
@@ -707,6 +696,103 @@ nav {
   }
 }
 // END:: TEAM MEMBERS SECTION STYLES
+
+// START:: ALL TEAM SECTION STYLES
+.all_team_sec {
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .sec_desc_wraper {
+    @include textWraper();
+    text-align: center;
+    margin-block: 15px;
+  }
+
+  .member_card_wraper {
+    @include flexCenterAlignment();
+    flex-direction: column;
+    .image_wraper {
+      position: relative;
+      min-width: 255px;
+      max-width: 255px;
+      min-height: 285px;
+      max-height: 285px;
+      &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        right: -20px;
+        bottom: -20px;
+        width: 100%;
+        height: 100%;
+        border: 2px solid rgb(209, 209, 209);
+        @include borderRadius($largeBorderRadiusAmount);
+        @include transitioning();
+      }
+
+      &:hover {
+        &::before, img {
+          transform: scale(1.05);
+        }
+
+        &::before {
+          right: -10px;
+          bottom: -10px;
+        }
+
+        img {
+          position: absolute;
+        }
+      }
+
+      img {
+        min-width: 255px;
+        max-width: 255px;
+        min-height: 285px;
+        max-height: 285px;
+        @include borderRadius($largeBorderRadiusAmount);
+        @include transitioning();
+      }
+    }
+
+    .card_body {
+      text-align: center;
+      .info {
+        margin-top: 30px;
+        h4 {
+          color: $corpColor1;
+        }
+        h5 {
+          color: $corpColor2;
+        }
+      }
+
+      .social_links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li {
+          display: inline-block;
+          margin-inline: 6px;
+          a {
+            color: $corpColor1;
+            text-decoration: none;
+            @include transitioning();
+            &:hover {
+              color: $corpColor2;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// END:: ALL TEAM SECTION STYLES
 
 // START:: PRODUCTS SECTION STYLES
 .products_sec {

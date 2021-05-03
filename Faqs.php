@@ -27,7 +27,7 @@
     </div>
 
     <div class="row justify-content-center">
-      <div class="col-10 col-md-6 my-3">
+      <div class="col-12 col-md-6 my-3">
         <div class="video_wraper">
           <iframe src="https://www.youtube.com/embed/xZPafUhm68s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>

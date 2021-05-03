@@ -72,6 +72,9 @@
         <a href="Faqs.php"> FAQs </a>
       </li>
 
+      <li> 
+        <a href="Team.php"> Our Team </a>
+      </li>
     </ul>
   </div>
   <!-- START:: NAV LINKS -->

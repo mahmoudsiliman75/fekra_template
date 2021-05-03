@@ -340,7 +340,7 @@
     <div class="row justify-content-center justify-content-md-between">
       <div class="col-10 col-md-3 my-3">
         <div class="member_card_wraper">
-          <a href="#">
+          <a href="MemberProfile.php">
             <div class="image_wraper">
               <img src="assets/media/team/member1.jpg" alt="">
             </div>
@@ -383,7 +383,7 @@
 
       <div class="col-10 col-md-3 my-3">
         <div class="member_card_wraper">
-          <a href="#">
+          <a href="MemberProfile.php">
             <div class="image_wraper">
               <img src="assets/media/team/member2.jpg" alt="">
             </div>
@@ -426,7 +426,7 @@
 
       <div class="col-10 col-md-3 my-3">
         <div class="member_card_wraper">
-          <a href="#">
+          <a href="MemberProfile.php">
             <div class="image_wraper">
               <img src="assets/media/team/member3.jpg" alt="">
             </div>
@@ -470,7 +470,7 @@
 
     <div class="col-12 mt-3">
       <div class="btn_wraper">
-        <a href="#"> All Team </a>
+        <a href="Team.php"> All Team </a>
       </div>
     </div>
   </div>
@@ -701,11 +701,11 @@
 <div class="our_clients_sec">
   <div class="container-fluid">
     <div class="header_wraper">
-      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> Our Clients </h2>
+      <h2> Our Clients </h2>
     </div>
 
     <div class="row flex-column align-items-center justify-content-center mt-3 overflow-hidden">
-      <div id="clients" class="owl-carousel owl-theme col-11 wow fadeInRightBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
+      <div id="clients" class="owl-carousel owl-theme col-11">
 
         <div class="item text-center">
           <div class="img_wraper">
@@ -753,10 +753,10 @@
 <div class="testemonials">
   <div class="container">
     <div class="header_wraper">
-      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> Testemonials </h2>
+      <h2> Testemonials </h2>
     </div>
 
-    <div class="sec_desc_wraper wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+    <div class="sec_desc_wraper">
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
       Culpa enim praesentium minima sunt, eveniet ratione velit 
       similique omnis porro doloremque dolores? Aut accusantium 
@@ -764,7 +764,7 @@
     </div>
 
     <div class="row flex-column align-items-center justify-content-center mt-3 overflow-hidden">
-      <div id="testemonials" class="owl-carousel owl-theme col-12 wow fadeInRightBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
+      <div id="testemonials" class="owl-carousel owl-theme col-12">
 
         <div class="item">
           <div class="testemonial_card">
@@ -833,10 +833,10 @@
 <div class="faq_sec">
   <div class="container">
     <div class="header_wraper">
-      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> FAQs </h2>
+      <h2> FAQs </h2>
     </div>
 
-    <div class="sec_desc_wraper wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+    <div class="sec_desc_wraper">
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
       Culpa enim praesentium minima sunt, eveniet ratione velit 
       similique omnis porro doloremque dolores? Aut accusantium 
