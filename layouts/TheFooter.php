@@ -19,17 +19,17 @@
       <div class="short_cuts col-12 col-md-4 d-flex justify-content-between justify-content-md-center"> 
         <div class="d-flex flex-column align-items-start justify-content-start p-3">
           <a href="index.php"> Home </a>
-          <a href="AboutUs.php"> About Us </a>
-          <a href="Faq.php"> FAQs </a>
-          <a href="AllProducts.php"> Product </a>
-          <a href="Quality.php"> Quality </a>
+          <a href="#"> Link 1 </a>
+          <a href="#"> Link 2 </a>
+          <a href="#"> Link 4 </a>
+          <a href="#"> Link 5 </a>
         </div>
 
         <div class="d-flex flex-column align-items-start justify-content-start p-3">
-          <a href="Media.php"> Media </a>
-          <a href="Carrers.php"> Carrers </a>
-          <a href="auth.php"> Login </a>  
-          <a href="ContactUs.php"> Contact Us </a>
+          <a href="#"> Link 6 </a>
+          <a href="#"> Link 7 </a>
+          <a href="#"> Link 8 </a>  
+          <a href="#"> Link 9 </a>
         </div>
       </div>
 
@@ -39,13 +39,13 @@
         <ul class="list-unstyled p-0">
           <li class="d-flex"> 
             <i class="fas fa-map-marker-alt mx-1"></i>
-            <span> El Doki, Giza, Egypt </span>
+            <span> The Address Will Go Here </span>
           </li>
 
           <li class="d-flex"> 
             <i class="fas fa-envelope mx-1"></i>
             <span> 
-              <a href="mailto: info@Al-koubasy.com"> info@Al-koubasy.com </a> </span>
+              <a href="mailto: info@Localhost.com"> info@Localhost.com </a> </span>
           </li>
 
           <li class="d-flex"> 
@@ -64,35 +64,28 @@
         <ul class="list-unstyled">
           <li> 
             <a href="#" class="facebook" target="_blanck"> 
-              <i class="fab fa-facebook-square fa-2x"></i>
+              <img src="assets/media/icons/social/facebook.png" alt="">
             </a>
           </li>
 
           <li> 
             <a href="#" class="instagram" target="_blanck"> 
-              <i class="fab fa-instagram-square fa-2x"></i>
+              <img src="assets/media/icons/social/instagram.png" alt="">
             </a>
           </li>
 
           <li> 
             <a href="#" class="youtube" target="_blanck"> 
-              <i class="fab fa-youtube fa-2x"></i>
+              <img src="assets/media/icons/social/youtube.png" alt="">
             </a>
           </li>
 
           <li> 
             <a href="#" class="twitter" target="_blanck"> 
-              <i class="fab fa-twitter-square fa-2x"></i>
+              <img src="assets/media/icons/social/twitter.png" alt="">
             </a>
           </li>
         </ul>
-
-        <h5 class="text-center mt-0 mb-2"> Payment System </h5>
-        <span class="d-block text-center mt-0 mb-2 payment"> 
-          <a href="#" target="_blanck">
-            <i class="fab fa-cc-visa fa-2x"></i>
-          </a>
-        </span>
       </div>
 
       <div class="copy_rights col-12 d-flex justify-content-between">

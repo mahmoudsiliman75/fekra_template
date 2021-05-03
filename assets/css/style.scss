@@ -1085,6 +1085,7 @@ nav {
       @include flexCenterAlignment();
       button {
         @include mainBtnStyle();
+        padding: 6px 12px;
       }
     }
   }
@@ -1093,7 +1094,7 @@ nav {
 
 // START:: FOOTER STYLES
 footer {
-  background-color: $darkGrey;
+  background-color: $corpColor1;
 
   .footer_logo {
     @include flexCenterAlignment();
@@ -1167,19 +1168,9 @@ footer {
         @include transitioning();
         a {
           opacity: 0.5;
-          svg{
-            &.fa-facebook-square {
-              color: #097CEB;
-            }
-            &.fa-instagram-square {
-              color: #983AA8;
-            }
-            &.fa-youtube {
-              color: #FF011D;
-            }
-            &.fa-twitter-square {
-              color: #2AA9E0;
-            }
+          img {
+            width: 50px;
+            height: 50px;
           }
         }
         &:hover {
@@ -1205,12 +1196,12 @@ footer {
 
   .copy_rights {
     padding: 5px;
-    background-color: #121212;
+    background-color: #001925;
     color: $white;
     span {
       a {
         text-decoration: none;
-        color: $lightOrange;
+        color: $corpColor2;
         @include transitioning();
       }
     }

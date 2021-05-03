@@ -1859,6 +1859,7 @@ nav .menu_btn svg {
   border-radius: 5px;
   padding: 10px 20px;
   position: relative;
+  padding: 6px 12px;
 }
 
 .contact_us_sec .form_wraper .btn_box button::before, .contact_us_sec .form_wraper .btn_box button::after {
@@ -1891,7 +1892,7 @@ nav .menu_btn svg {
 }
 
 footer {
-  background-color: #212121;
+  background-color: #00334e;
 }
 
 footer .footer_logo {
@@ -1995,20 +1996,9 @@ footer .follow_us ul li a {
   opacity: 0.5;
 }
 
-footer .follow_us ul li a svg.fa-facebook-square {
-  color: #097CEB;
-}
-
-footer .follow_us ul li a svg.fa-instagram-square {
-  color: #983AA8;
-}
-
-footer .follow_us ul li a svg.fa-youtube {
-  color: #FF011D;
-}
-
-footer .follow_us ul li a svg.fa-twitter-square {
-  color: #2AA9E0;
+footer .follow_us ul li a img {
+  width: 50px;
+  height: 50px;
 }
 
 footer .follow_us ul li:hover {
@@ -2037,13 +2027,13 @@ footer .follow_us .payment:hover {
 
 footer .copy_rights {
   padding: 5px;
-  background-color: #121212;
+  background-color: #001925;
   color: #fff;
 }
 
 footer .copy_rights span a {
   text-decoration: none;
-  color: #ff7c00;
+  color: #ea5455;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
