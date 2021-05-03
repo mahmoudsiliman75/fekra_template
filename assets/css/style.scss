@@ -35,8 +35,8 @@ body {
   position: relative;
   min-height: 400px;
   max-height: 400px;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
 
   .overlay {
     position: absolute;
@@ -634,6 +634,22 @@ nav {
         height: 100%;
         border: 2px solid $white;
         @include borderRadius($largeBorderRadiusAmount);
+        @include transitioning();
+      }
+
+      &:hover {
+        &::before, img {
+          transform: scale(1.05);
+        }
+
+        &::before {
+          right: -10px;
+          bottom: -10px;
+        }
+
+        img {
+          position: absolute;
+        }
       }
 
       img {
@@ -642,6 +658,7 @@ nav {
         min-height: 285px;
         max-height: 285px;
         @include borderRadius($largeBorderRadiusAmount);
+        @include transitioning();
       }
     }
 
@@ -946,13 +963,25 @@ nav {
   .faqs_wraper {
     .accordion {
       .card {
-        .card-header {                  
+        .card-header {    
+          padding: 0;              
           h4 {
             button {
+              padding: 15px;
               border: none;
               background-color: transparent;
               text-decoration: none;
               color: $corpColor1;
+              svg {
+                @include transitioning();
+              }
+              &[aria-expanded='true'] {
+                color: $white;
+                background-image: linear-gradient(to right, $corpColor1, $corpColor2);
+                svg {
+                  transform: rotate(90deg);
+                }
+              }
             }
           }
         }
@@ -1058,6 +1087,68 @@ nav {
   }
 }
 // END:: NEWS SECCTION STYLES
+
+// START:: MAIN FAQS SECTION STYLES
+.main_faqs {
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .sec_desc_wraper {
+    @include textWraper();
+    text-align: center;
+    margin-block: 15px;
+  }
+
+  .video_wraper {
+    iframe {
+      width: 100%;
+      min-height: 400px;
+      max-height: 400px;
+      @include borderRadius($borderRadiusAmount);
+    }
+  }
+
+  .faqs_wraper {
+    .accordion {
+      .card {
+        .card-header {    
+          padding: 0;              
+          h4 {
+            button {
+              padding: 15px;
+              border: none;
+              background-color: transparent;
+              text-decoration: none;
+              color: $corpColor1;
+              svg {
+                @include transitioning();
+              }
+              &[aria-expanded='true'] {
+                color: $white;
+                background-image: linear-gradient(to right, $corpColor1, $corpColor2);
+                svg {
+                  transform: rotate(90deg);
+                }
+              }
+            }
+          }
+        }
+
+        .card-body {
+          @include textWraper();
+          font-size: 16px;
+          padding-inline-start: 45px;
+        }
+      }
+    }
+  }
+}
+// END:: MAIN FAQS SECTION STYLES
 
 // START:: CONTACT US SECTION STYLES
 .contact_us_sec {

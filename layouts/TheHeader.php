@@ -65,7 +65,11 @@
       </li>
 
       <li> 
-        <a href="#"> About Us </a>
+        <a href="javascript:;" class="dropdown_toggeler"> About Us </a>
+      </li>
+
+      <li> 
+        <a href="Faqs.php"> FAQs </a>
       </li>
 
     </ul>
@@ -93,7 +97,7 @@
 <!-- END:: LARGE SCREENS NAVBAR -->
 
 <!-- START:: SMALL SCREENS MENU -->
-<div class="small_menu">
+<!-- <div class="small_menu">
   <div class="btn_box">
     <button id="colse_menu">
       <i class="far fa-times-circle"></i>
@@ -141,7 +145,7 @@
       <a href="UserProfile.php"> Profile </a>
     </li>
   </ul>
-</div>
+</div> -->
 <!-- END:: SMALL SCREENS MENU -->
 
 <!-- START:: PRE LOADER -->
