@@ -166,7 +166,7 @@
 
           <div class="card_body">
             <div class="info">
-              <h4> Name 1 </h4>
+              <h4> Name 4 </h4>
               <h5> Member Role </h5>
             </div>
 
@@ -209,7 +209,7 @@
 
           <div class="card_body">
             <div class="info">
-              <h4> Name 2 </h4>
+              <h4> Name 5 </h4>
               <h5> Member Role </h5>
             </div>
 
@@ -252,7 +252,7 @@
 
           <div class="card_body">
             <div class="info">
-              <h4> Name 3 </h4>
+              <h4> Name 6 </h4>
               <h5> Member Role </h5>
             </div>
 

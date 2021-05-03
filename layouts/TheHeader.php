@@ -66,6 +66,20 @@
 
       <li> 
         <a href="javascript:;" class="dropdown_toggeler"> About Us </a>
+
+        <ul class="dropdown_menu">
+          <li> 
+            <a href="#">Item</a> 
+          </li>
+
+          <li> 
+            <a href="#">Item</a> 
+          </li>
+
+          <li> 
+            <a href="#">Item</a> 
+          </li>
+        </ul>
       </li>
 
       <li> 
@@ -74,6 +88,24 @@
 
       <li> 
         <a href="Team.php"> Our Team </a>
+      </li>
+
+      <li> 
+        <a href="javascript:;" class="dropdown_toggeler"> Contact Us </a>
+
+        <ul class="dropdown_menu">
+          <li> 
+            <a href="ContactUs1.php">Contact Us 1</a> 
+          </li>
+
+          <li> 
+            <a href="ContactUs2.php">Contact Us 2</a>  
+          </li>
+
+          <li> 
+            <a href="ContactUs3.php">Contact Us 3</a> 
+          </li>
+        </ul>
       </li>
     </ul>
   </div>

@@ -133,6 +133,7 @@ nav {
   .nav-links {
     ul {
       li {
+        position: relative;
         @include menuHoverEffect();
         &.active {
           a {
@@ -143,6 +144,43 @@ nav {
         &:hover {
           a{
             color: $corpColor2;
+          }
+        }
+
+        .dropdown_menu {
+          display: none;
+          width: 200px;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          position: absolute;
+          top: 35px;
+          background-color: $white;
+          border-top: 2px solid $corpColor2;
+          border-bottom: 2px solid $corpColor2;
+          @include transitioning();
+
+          &.active {
+            display: block;
+          }
+
+          li {
+            padding: 8px 20px 8px 5px;
+            border-bottom: 1px solid rgb(211, 211, 211);
+            &:last-child {
+              border-bottom: none;
+            }
+            a {
+              text-decoration: none;
+              color: $corpColor1;
+              @include transitioning();
+            }
+
+            &:hover {
+              a {
+                color: $corpColor2;
+              }
+            }
           }
         }
       }

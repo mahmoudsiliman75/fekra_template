@@ -15,6 +15,12 @@ $(document).ready( function() {
   });
   // END:: STIKY NAVBAR
 
+  // START:: TOGGLE DROPDOWN MENU
+  $('.dropdown_toggeler').on('click', function() {
+    $(this).next().toggleClass('active');
+  });
+  // END:: TOGGLE DROPDOWN MENU
+
   // START:: WOW JS
   wow = new WOW(
     {

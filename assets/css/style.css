@@ -148,6 +148,7 @@ nav .site-logo img {
 }
 
 nav .nav-links ul li {
+  position: relative;
   margin: 0 10px;
   font-size: 17px;
 }
@@ -168,6 +169,45 @@ nav .nav-links ul li.active a {
 }
 
 nav .nav-links ul li:hover a {
+  color: #ea5455;
+}
+
+nav .nav-links ul li .dropdown_menu {
+  display: none;
+  width: 200px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 35px;
+  background-color: #fff;
+  border-top: 2px solid #ea5455;
+  border-bottom: 2px solid #ea5455;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+nav .nav-links ul li .dropdown_menu.active {
+  display: block;
+}
+
+nav .nav-links ul li .dropdown_menu li {
+  padding: 8px 20px 8px 5px;
+  border-bottom: 1px solid lightgray;
+}
+
+nav .nav-links ul li .dropdown_menu li:last-child {
+  border-bottom: none;
+}
+
+nav .nav-links ul li .dropdown_menu li a {
+  text-decoration: none;
+  color: #00334e;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+nav .nav-links ul li .dropdown_menu li:hover a {
   color: #ea5455;
 }
 
