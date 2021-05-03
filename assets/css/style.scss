@@ -817,6 +817,41 @@ nav {
     text-align: center;
     margin-block: 15px;
   }
+
+  .heighlight_faqs_wraper {
+    .heighlight_faq_card {
+      h3 {
+        color: $corpColor2;
+      }
+      .answer {
+        @include textWraper();
+        padding-inline-start: 25px;
+      }
+    }
+  }
+
+  .faqs_wraper {
+    .accordion {
+      .card {
+        .card-header {                  
+          h4 {
+            button {
+              border: none;
+              background-color: transparent;
+              text-decoration: none;
+              color: $corpColor1;
+            }
+          }
+        }
+
+        .card-body {
+          @include textWraper();
+          font-size: 16px;
+          padding-inline-start: 45px;
+        }
+      }
+    }
+  }
 }
 // END:: FAQS SECTION STYLES
 

@@ -1338,6 +1338,38 @@ nav .menu_btn svg {
   margin-block: 15px;
 }
 
+.faq_sec .heighlight_faqs_wraper .heighlight_faq_card h3 {
+  color: #ea5455;
+}
+
+.faq_sec .heighlight_faqs_wraper .heighlight_faq_card .answer {
+  word-break: break-word;
+  word-spacing: 2px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  -webkit-padding-start: 25px;
+          padding-inline-start: 25px;
+}
+
+.faq_sec .faqs_wraper .accordion .card .card-header h4 button {
+  border: none;
+  background-color: transparent;
+  text-decoration: none;
+  color: #00334e;
+}
+
+.faq_sec .faqs_wraper .accordion .card .card-body {
+  word-break: break-word;
+  word-spacing: 2px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  font-size: 16px;
+  -webkit-padding-start: 45px;
+          padding-inline-start: 45px;
+}
+
 footer {
   background-color: #212121;
 }
