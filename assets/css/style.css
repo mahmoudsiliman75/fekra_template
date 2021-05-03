@@ -2220,6 +2220,41 @@ nav .menu_btn svg {
   right: 65%;
 }
 
+.branches_sec .map_info_wraper h3 {
+  text-align: start;
+  color: #00334e;
+  border: none !important;
+}
+
+.branches_sec .map_info_wraper .iframe_waper iframe {
+  width: 100%;
+  min-height: 300px;
+  max-height: 300px;
+  border-radius: 10px;
+}
+
+.branches_sec .map_info_wraper .map_text ul {
+  padding: 0;
+}
+
+.branches_sec .map_info_wraper .map_text ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #666;
+}
+
+.branches_sec .map_info_wraper .map_text ul li span {
+  color: #ea5455;
+  -webkit-margin-end: 10px;
+          margin-inline-end: 10px;
+}
+
 footer {
   background-color: #00334e;
 }

@@ -1263,6 +1263,44 @@ nav {
 }
 // END:: SHARE SECTION STYLES
 
+// START:: BRANCHES SECTION STYLES
+.branches_sec {
+  .map_info_wraper {
+    h3 {
+      text-align: start;
+      color: $corpColor1;
+      border: none !important;
+    }
+
+    .iframe_waper {
+      iframe {
+        width: 100%;
+        min-height: 300px;
+        max-height: 300px;
+        @include borderRadius($borderRadiusAmount);
+      }
+    }
+
+    .map_text {
+      ul {
+        padding: 0;
+        li {
+          display: flex;
+          justify-content: flex-start;
+          font-size: 18px;
+          margin-bottom: 8px;
+          color: $lightGrey;
+          span {
+            color: $corpColor2;
+            margin-inline-end: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+// END:: BRANCHES SECTION STYLES
+
 // START:: FOOTER STYLES
 footer {
   background-color: $corpColor1;
