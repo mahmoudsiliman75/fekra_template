@@ -533,7 +533,14 @@
 <div class="testemonials">
   <div class="container">
     <div class="header_wraper">
-      <h2> Testemonials </h2>
+      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> Testemonials </h2>
+    </div>
+
+    <div class="sec_desc_wraper wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+      Culpa enim praesentium minima sunt, eveniet ratione velit 
+      similique omnis porro doloremque dolores? Aut accusantium 
+      possimus voluptates nobis ullam? Amet, ipsa est.
     </div>
 
     <div class="row flex-column align-items-center justify-content-center mt-3 overflow-hidden">
@@ -601,6 +608,23 @@
   </div>
 </div>
 <!-- END:: TESTEMONIALS SECTION -->
+
+<!-- START:: FAQS SECTION -->
+<div class="faq_sec">
+  <div class="container">
+    <div class="header_wraper">
+      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> FAQs </h2>
+    </div>
+
+    <div class="sec_desc_wraper wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+      Culpa enim praesentium minima sunt, eveniet ratione velit 
+      similique omnis porro doloremque dolores? Aut accusantium 
+      possimus voluptates nobis ullam? Amet, ipsa est.
+    </div>
+  </div>
+</div>
+<!-- END:: FAQS SECTION -->
 
 <!-- START:: INCLUDING THE FOOTER -->
 <?php include('./layouts/TheFooter.php')?>

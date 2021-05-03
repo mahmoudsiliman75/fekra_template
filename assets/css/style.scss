@@ -705,6 +705,7 @@ nav {
 
   .sec_desc_wraper {
     @include textWraper();
+    color: $white;
     text-align: center;
     margin-block: 15px;
   }
@@ -800,6 +801,24 @@ nav {
   }
 }
 // END:: TESTEMONILS SECTION STYLES
+
+// START:: FAQS SECTION STYLES
+.faq_sec {
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .sec_desc_wraper {
+    @include textWraper();
+    text-align: center;
+    margin-block: 15px;
+  }
+}
+// END:: FAQS SECTION STYLES
 
 // START:: FOOTER STYLES
 footer {
