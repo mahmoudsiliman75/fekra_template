@@ -708,6 +708,106 @@ nav .menu_btn svg {
   font-size: 16px;
 }
 
+.about_us_1 {
+  padding: 50px 0;
+}
+
+.about_us_1 .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about_us_1 .header_wraper h2,
+.about_us_1 .header_wraper h4 {
+  color: #00334e;
+  font-weight: 600;
+  text-transform: uppercase;
+  word-spacing: 3px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.about_us_1 .header_wraper h2::before,
+.about_us_1 .header_wraper h4::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ea5455;
+}
+
+.about_us_1 .header_wraper h2::after,
+.about_us_1 .header_wraper h4::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 40%;
+  height: 4px;
+  background-color: #00334e;
+}
+
+.about_us_1 .sec_desc_wraper {
+  word-break: break-word;
+  word-spacing: 2px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  text-align: center;
+  margin-block: 15px;
+}
+
+.about_us_1 .service_card_wraper {
+  text-align: center;
+  position: relative;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px 2px rgba(225, 225, 225, 0.6);
+          box-shadow: 0 0 10px 2px rgba(225, 225, 225, 0.6);
+}
+
+.about_us_1 .service_card_wraper:hover .img_wraper .overlay {
+  opacity: 1;
+}
+
+.about_us_1 .service_card_wraper:hover .img_wraper img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.about_us_1 .service_card_wraper .img_wraper {
+  position: relative;
+  overflow: hidden;
+  min-height: 235px;
+  max-height: 235px;
+}
+
+.about_us_1 .service_card_wraper .img_wraper img {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  border-radius: 5px 5px 0 0;
+}
+
+.about_us_1 .service_card_wraper .card_title_wraper h4 {
+  padding-block: 15px;
+  color: #00334e;
+}
+
 .services_sec {
   padding: 50px 0;
 }
@@ -2668,8 +2768,8 @@ footer .follow_us ul li a {
 }
 
 footer .follow_us ul li a img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
 
 footer .follow_us ul li:hover {

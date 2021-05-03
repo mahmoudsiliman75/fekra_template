@@ -89,7 +89,7 @@
       </div>
 
       <div class="copy_rights col-12 d-flex justify-content-between">
-        <span> Powered By <a href="https://www.facebook.com/MediaServAgency/" target="_blank"> Technomasr </a> </span>
+        <span> Powered By <a href="https://www.technomasr.com/" target="_blank"> Technomasr </a> </span>
         <span> &copy; 2021 Fekra </span>
       </div>
     </div>

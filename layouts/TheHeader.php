@@ -69,15 +69,11 @@
 
         <ul class="dropdown_menu">
           <li> 
-            <a href="#">Item</a> 
+            <a href="AboutUs1.php"> About Us 1 </a> 
           </li>
 
           <li> 
-            <a href="#">Item</a> 
-          </li>
-
-          <li> 
-            <a href="#">Item</a> 
+            <a href="AboutUs2.php"> About Us 2 </a> 
           </li>
         </ul>
       </li>
