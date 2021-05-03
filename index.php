@@ -1,5 +1,5 @@
 <!-- START:: INCLUDING THE HEADER -->
-<?php include('./layouts/TheHeader.php')?>
+<?php include('layouts/TheHeader.php')?>
 <!-- END:: INCLUDING THE HEADER -->
 
 <!-- START:: HOME SLIDER -->
@@ -687,6 +687,12 @@
         </div>
       </div>
     </div>
+
+    <div class="col-12 mt-3">
+      <div class="btn_wraper">
+        <a href="#"> All Products </a>
+      </div>
+    </div>
   </div>
 </div>
 <!-- END:: OUR PRODUCTS SECTION -->
@@ -1068,6 +1074,58 @@
 </div>
 <!-- END:: NEWS SECTION -->
 
+<!-- START:: CONTACT US SECTION -->
+<div class="contact_us_sec">
+  <div class="container">
+    <div class="header_wraper mb-4">
+      <h2> Get In Touch With Us </h2>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-6 p-0">
+        <div class="map_wraper">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19338.15820346373!2d31.374660789535696!3d31.039183138529495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1616017063461!5m2!1sar!2seg" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy"
+          >
+          </iframe>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 p-0">
+        <div class="form_wraper">
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your Full Name*" required>
+              <span>
+                <i class="fas fa-user-circle fa-2x"></i>
+              </span>
+            </div>
+
+            <div class="form-group">
+              <input type="tele" class="form-control" placeholder="Your Phone Number*" required>
+              <span>
+                <i class="fas fa-phone-square-alt fa-2x"></i>
+              </span>
+            </div>
+
+            <div class="form-group mb-4">
+              <textarea placeholder="Your Inquiry"></textarea>
+            </div>
+
+            <div class="btn_box">
+              <button> Submit </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END:: CONTACT US SECTION -->
+
 <!-- START:: INCLUDING THE FOOTER -->
-<?php include('./layouts/TheFooter.php')?>
+<?php include('layouts/TheFooter.php')?>
 <!-- END:: INCLUDING THE FOOTER -->
