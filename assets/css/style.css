@@ -1025,6 +1025,118 @@ nav .menu_btn svg {
   background-color: #00334e;
 }
 
+.products_sec {
+  padding: 50px 0;
+}
+
+.products_sec .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.products_sec .header_wraper h2 {
+  color: #00334e;
+  font-weight: 600;
+  text-transform: uppercase;
+  word-spacing: 3px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.products_sec .header_wraper h2::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ea5455;
+}
+
+.products_sec .header_wraper h2::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 40%;
+  height: 4px;
+  background-color: #00334e;
+}
+
+.products_sec .sec_desc_wraper {
+  word-break: break-word;
+  word-spacing: 2px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  text-align: center;
+  margin-block: 15px;
+}
+
+.products_sec .nav-pills {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.products_sec .nav-pills .nav-item .nav-link {
+  color: #00334e;
+}
+
+.products_sec .nav-pills .nav-item .nav-link.active {
+  color: #fff;
+  background-color: #00334e;
+}
+
+.products_sec .tab-pane a {
+  text-decoration: none;
+}
+
+.products_sec .tab-pane a .product_card_wraper:hover .img_wraper img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.products_sec .tab-pane a .product_card_wraper .img_wraper {
+  overflow: hidden;
+  min-width: 350px;
+  max-width: 350px;
+  min-height: 235px;
+  max-height: 235px;
+  border-radius: 5px;
+}
+
+.products_sec .tab-pane a .product_card_wraper .img_wraper img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.products_sec .tab-pane a .product_card_wraper .card_title_wraper h4 {
+  text-align: center;
+  color: #ea5455;
+}
+
 .our_clients_sec {
   padding: 50px 0;
 }
