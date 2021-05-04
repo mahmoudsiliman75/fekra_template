@@ -89,6 +89,14 @@
           <li> 
             <a href="AllServices2.php"> Services 2 </a> 
           </li>
+
+          <li> 
+            <a href="SingleService1.php"> Single Service 1 </a> 
+          </li>
+
+          <li> 
+            <a href="SingleService2.php"> Single Service 1 </a>  
+          </li>
         </ul>
       </li>
 

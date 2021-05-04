@@ -179,7 +179,7 @@ nav .nav-links ul li .dropdown_menu {
   margin: 0;
   padding: 0;
   position: absolute;
-  top: 35px;
+  top: 40px;
   background-color: #fff;
   border-top: 2px solid #ea5455;
   border-bottom: 2px solid #ea5455;
@@ -1242,6 +1242,118 @@ nav .menu_btn svg {
   color: #666;
   line-height: 1.6;
   font-size: 16px;
+}
+
+.service_details {
+  padding: 50px 0;
+}
+
+.service_details .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.service_details .header_wraper h2 {
+  color: #00334e;
+  font-weight: 600;
+  text-transform: uppercase;
+  word-spacing: 3px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.service_details .header_wraper h2::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ea5455;
+}
+
+.service_details .header_wraper h2::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 40%;
+  height: 4px;
+  background-color: #00334e;
+}
+
+.service_details .sec_desc_wraper {
+  word-break: break-word;
+  word-spacing: 2px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  text-align: center;
+  margin-block: 15px;
+}
+
+.service_details .service_img_wraper {
+  width: 100%;
+  height: auto;
+}
+
+.service_details .service_img_wraper img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.service_details .desc {
+  word-break: break-word;
+  word-spacing: 2px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  text-align: start;
+}
+
+.service_details .owl-carousel {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.service_details .owl-carousel .item .img_wraper {
+  min-height: 150px;
+  max-height: 150px;
+}
+
+.service_details .owl-carousel .item .img_wraper img {
+  width: 100%;
+  min-height: 150px;
+  max-height: 150px;
+  -webkit-filter: grayscale(100);
+          filter: grayscale(100);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.service_details .owl-carousel .item .img_wraper img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
 }
 
 .team_sec {

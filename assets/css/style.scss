@@ -154,7 +154,7 @@ nav {
           margin: 0;
           padding: 0;
           position: absolute;
-          top: 35px;
+          top: 40px;
           background-color: $white;
           border-top: 2px solid $corpColor2;
           border-bottom: 2px solid $corpColor2;
@@ -833,6 +833,61 @@ nav {
   }
 }
 // END:: MAIN SERVICES SECTION STYLES
+
+// START:: SERVICE DETAILS SCTION STYLE
+.service_details {
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .sec_desc_wraper {
+    @include textWraper();
+    text-align: center;
+    margin-block: 15px;
+  }
+
+  .service_img_wraper {
+    width: 100%;
+    height: auto;
+    img {
+      width: 100%;
+      height: auto;
+      @include borderRadius($borderRadiusAmount);
+    }
+  }
+
+  .desc {
+    @include textWraper();
+    text-align: start;
+  }
+
+  .owl-carousel {
+    position: relative;
+    @include flexCenterAlignment();
+
+    .item {
+      .img_wraper {
+        min-height: 150px;
+        max-height: 150px;
+        img {
+          width: 100%;
+          min-height: 150px;
+          max-height: 150px;
+          filter: grayscale(100);
+          @include transitioning();
+          &:hover {
+            filter: grayscale(0);
+          }
+        }
+      }
+    }
+  }
+}
+// END:: SERVICE DETAILS SCTION STYLE
 
 // START:: TEAM MEMBERS SECTION STYLES
 .team_sec { 
