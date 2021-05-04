@@ -87,7 +87,7 @@
           </li>
 
           <li> 
-            <a href="AllServices1.php"> Services 2 </a> 
+            <a href="AllServices2.php"> Services 2 </a> 
           </li>
         </ul>
       </li>

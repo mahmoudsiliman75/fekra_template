@@ -476,8 +476,10 @@ nav {
     position: relative;
     @include borderRadius(5px);
     @include midShadow();
+    @include transitioning();
 
     &:hover {
+      transform: scale(1.04);
       .icon_wraper {
         span {
           border: 2px solid $corpColor2;
@@ -700,8 +702,10 @@ nav {
     position: relative;
     @include borderRadius(5px);
     @include midShadow();
+    @include transitioning();
 
     &:hover {
+      transform: scale(1.04);
       .icon_wraper {
         span {
           border: 2px solid $corpColor2;
@@ -752,6 +756,12 @@ nav {
     text-align: center;
     margin-block: 15px;
   }
+
+  .filter {
+    position: sticky;
+    top: 65px;
+  }
+
 
   a {
     text-decoration: none;
