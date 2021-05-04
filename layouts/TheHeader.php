@@ -125,7 +125,7 @@
           </li>
 
           <li> 
-            <a href="SidebarBlog.php"> Single Product 1 </a> 
+            <a href="SingleProduct1.php"> Single Product 1 </a> 
           </li>
 
           <li> 

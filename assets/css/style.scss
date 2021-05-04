@@ -1275,6 +1275,61 @@ nav {
 }
 // END:: PRODUCTS SECTION STYLES
 
+// START:: PRODUCT DETAILS SCTION STYLE
+.product_details {
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .sec_desc_wraper {
+    @include textWraper();
+    text-align: center;
+    margin-block: 15px;
+  }
+
+  .product_img_wraper {
+    width: 100%;
+    height: auto;
+    img {
+      width: 100%;
+      height: auto;
+      @include borderRadius($borderRadiusAmount);
+    }
+  }
+
+  .desc {
+    @include textWraper();
+    text-align: start;
+  }
+
+  .owl-carousel {
+    position: relative;
+    @include flexCenterAlignment();
+
+    .item {
+      .img_wraper {
+        min-height: 150px;
+        max-height: 150px;
+        img {
+          width: 100%;
+          min-height: 150px;
+          max-height: 150px;
+          filter: grayscale(100);
+          @include transitioning();
+          &:hover {
+            filter: grayscale(0);
+          }
+        }
+      }
+    }
+  }
+}
+// END:: PRODUCT DETAILS SCTION STYLE
+
 // START:: OUR CLIENTS SECTION STYLES
 .our_clients_sec {
   padding: $paddingAmount 0;

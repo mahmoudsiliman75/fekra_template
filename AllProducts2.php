@@ -71,7 +71,7 @@
       </div>
 
       <div class="col-12 col-md-9">
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-10 col-lg-6 my-3">
             <a href="#">
               <div class="product_card_wraper">
