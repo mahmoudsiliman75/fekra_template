@@ -113,6 +113,28 @@
       </li>
 
       <li> 
+        <a href="javascript:;" class="dropdown_toggeler"> Products </a>
+
+        <ul class="dropdown_menu">
+          <li> 
+            <a href="AllProducts1.php"> All Products 1 </a> 
+          </li>
+
+          <li> 
+            <a href="AllProducts1.php"> All Products 2 </a> 
+          </li>
+
+          <li> 
+            <a href="SidebarBlog.php"> Single Product 1 </a> 
+          </li>
+
+          <li> 
+            <a href="SidebarBlog.php"> Single Product 2 </a> 
+          </li>
+        </ul>
+      </li>
+
+      <li> 
         <a href="javascript:;" class="dropdown_toggeler"> Blog </a>
 
         <ul class="dropdown_menu">

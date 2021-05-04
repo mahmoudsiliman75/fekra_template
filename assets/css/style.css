@@ -2754,6 +2754,102 @@ nav .menu_btn svg {
   transition: all 0.4s ease-in-out;
 }
 
+.main_products {
+  padding: 50px 0;
+}
+
+.main_products .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main_products .header_wraper h2 {
+  color: #00334e;
+  font-weight: 600;
+  text-transform: uppercase;
+  word-spacing: 3px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.main_products .header_wraper h2::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ea5455;
+}
+
+.main_products .header_wraper h2::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 40%;
+  height: 4px;
+  background-color: #00334e;
+}
+
+.main_products .sec_desc_wraper {
+  word-break: break-word;
+  word-spacing: 2px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  text-align: center;
+  margin-block: 15px;
+}
+
+.main_products .filter {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 65px;
+}
+
+.main_products a {
+  text-decoration: none;
+}
+
+.main_products a .product_card_wraper:hover .img_wraper img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.main_products a .product_card_wraper .img_wraper {
+  overflow: hidden;
+  min-width: 350px;
+  max-width: 350px;
+  min-height: 235px;
+  max-height: 235px;
+  border-radius: 5px;
+}
+
+.main_products a .product_card_wraper .img_wraper img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.main_products a .product_card_wraper .card_title_wraper h4 {
+  text-align: center;
+  color: #ea5455;
+}
+
 .blog_sec {
   padding: 50px 0;
 }
