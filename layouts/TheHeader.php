@@ -79,6 +79,20 @@
       </li>
 
       <li> 
+        <a href="javascript:;" class="dropdown_toggeler"> Services </a>
+
+        <ul class="dropdown_menu">
+          <li> 
+            <a href="AllServices1.php"> Services 1 </a> 
+          </li>
+
+          <li> 
+            <a href="AllServices1.php"> Services 2 </a> 
+          </li>
+        </ul>
+      </li>
+
+      <li> 
         <a href="Faqs.php"> FAQs </a>
       </li>
 
