@@ -4,7 +4,6 @@
 
 <!-- START:: HEDAER IMAGE SECTION -->
 <div class="header_img_wraper" style="background: url('assets/media/pic5.jpeg');">
-
   <div class="overlay">
     <div class="intro_text_wraper">
       <h1> <span> Blog </span> </h1>

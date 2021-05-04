@@ -117,11 +117,11 @@
 
         <ul class="dropdown_menu">
           <li> 
-            <a href="Blog.php"> Blog With SideBar </a> 
+            <a href="SidebarBlog.php"> Blog With SideBar </a> 
           </li>
 
           <li> 
-            <a href="AllServices2.php"> Article With SideBar </a> 
+            <a href="SidebarArticle.php"> Article With SideBar </a> 
           </li>
         </ul>
       </li>
