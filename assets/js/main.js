@@ -18,6 +18,7 @@ $(document).ready( function() {
   // START:: TOGGLE DROPDOWN MENU
   $('.dropdown_toggeler').on('click', function() {
     $(this).next().toggleClass('active');
+    $(this).parent().siblings().children('.dropdown_menu').removeClass('active');
   });
   // END:: TOGGLE DROPDOWN MENU
 
@@ -154,18 +155,4 @@ $(document).ready( function() {
   $('#qualifications').selectpicker();
   $('#years').selectpicker();
   // END:: BOOTSTRAP SELECT
-
-  // START:: CART INCREASE & DECREASE BTNS
-  $(".plus_btn").on('click', function() {
-    let productAmount = parseInt($(this).parent().siblings('.amount').text());
-    productAmount += 1;
-    $(this).parent().siblings('.amount').text(productAmount);
-  });
-
-  $(".minus_btn").on('click', function() {
-    let productAmount = parseInt($(this).parent().siblings('.amount').text());
-    productAmount -= 1;
-    $(this).parent().siblings('.amount').text(productAmount);
-  });
-  // END:: CART INCREASE & DECREASE BTNS
 });
