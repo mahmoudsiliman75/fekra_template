@@ -113,6 +113,10 @@
       </li>
 
       <li> 
+        <a href="Blog.php"> Blog </a>
+      </li>
+
+      <li> 
         <a href="javascript:;" class="dropdown_toggeler"> Contact Us </a>
 
         <ul class="dropdown_menu">

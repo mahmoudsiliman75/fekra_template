@@ -14,7 +14,7 @@
 <!-- END:: HEDAER IMAGE SECTION -->
 
 <!-- START:: ABOUT US SECTION -->
-<div class="about_us_1">
+<div class="main_about_us">
   <!-- START:: ABOUT TEXT SECTION -->
   <div class="container">
     <div class="header_wraper">
