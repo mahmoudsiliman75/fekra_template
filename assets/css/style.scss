@@ -579,8 +579,19 @@ nav {
 
   .sec_desc_wraper {
     @include textWraper();
-    text-align: center;
+    text-align: start;
     margin-block: 15px;
+  }
+
+  .img_wraper {
+    width: 100%;
+    height: 100%;
+    margin-inline-end: 25px;
+    img {
+      width: 100%;
+      height: auto;
+      @include borderRadius($borderRadiusAmount);
+    }
   }
 
   .about_video_sec {

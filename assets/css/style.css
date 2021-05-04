@@ -813,8 +813,21 @@ nav .menu_btn svg {
   font-size: 18px;
   color: #666;
   line-height: 1.6;
-  text-align: center;
+  text-align: start;
   margin-block: 15px;
+}
+
+.about_us_1 .img_wraper {
+  width: 100%;
+  height: 100%;
+  -webkit-margin-end: 25px;
+          margin-inline-end: 25px;
+}
+
+.about_us_1 .img_wraper img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 .about_us_1 .about_video_sec {
