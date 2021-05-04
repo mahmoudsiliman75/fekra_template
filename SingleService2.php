@@ -35,7 +35,7 @@
 				<div id="slider" class="flexslider">
 					<ul class="slides">
 						<li>
-							<iframe src="https://www.youtube.com/embed/8udmtW-y8Qc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/xZPafUhm68s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</li>
 						<li>
 							<img src="assets/media/pic1.jpeg" />
@@ -61,7 +61,7 @@
 				<div id="carousel" class="flexslider">
 					<ul class="slides">
 						<li>
-							<img class="min_img" src="https://i.ytimg.com/vi/8udmtW-y8Qc/default.jpg" />
+							<img class="min_img" src="https://i.ytimg.com/vi_webp/xZPafUhm68s/sddefault.webp" />
 						</li>
 						<li>
 							<img class="min_img" src="assets/media/pic1.jpeg" />

@@ -15,6 +15,7 @@
 
 <!-- START:: ABOUT US SECTION -->
 <div class="about_us_1">
+  <!-- START:: ABOUT TEXT SECTION -->
   <div class="container">
     <div class="header_wraper">
       <h2> Our Story </h2>
@@ -60,6 +61,7 @@
       </div>
     </div>
   </div>
+  <!-- END:: ABOUT TEXT SECTION -->
 
   <!-- START:: VIDEO SECTION -->
   <div class="about_video_sec">

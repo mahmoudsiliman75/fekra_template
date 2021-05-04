@@ -134,8 +134,8 @@ $(document).ready( function() {
   $('#carousel').flexslider({
     animation: "slide",
     controlNav: true,
-    animationLoop: true,
-    slideshow: true,
+    animationLoop: false,
+    slideshow: false,
     itemWidth: 160,
     itemMargin: 0,
     asNavFor: '#slider'
