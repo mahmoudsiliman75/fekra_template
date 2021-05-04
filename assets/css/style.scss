@@ -1488,6 +1488,63 @@ nav {
 }
 // END:: MAIN FAQS SECTION STYLES
 
+// START:: PORTFOLIO SECTION STYLES
+.portfolio_sec {
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .sec_desc_wraper {
+    @include textWraper();
+    text-align: center;
+    margin-block: 15px;
+  }
+
+  .nav-pills {
+    width: 100%;
+    @include flexCenterAlignment();
+    .nav-item {
+      .nav-link {
+        color: $corpColor1;
+        &.active {
+          color: $white;
+          background-color: $corpColor1;
+        }
+      }
+    }
+  }
+
+  .tab-pane {
+    .portfolio_img_wraper {
+      overflow: hidden;
+      min-width: 350px;
+      max-width: 350px;
+      min-height: 235px;
+      max-height: 235px;
+      @include borderRadius(5px);
+      &:hover {
+        img {
+          transform: scale(1.1);
+        }
+      }
+
+      a {
+        img {
+          width: 100%;
+          height: 100%;
+          @include borderRadius(5px);
+          @include transitioning();
+        }
+      }
+    }
+  }
+}
+// END:: PORTFOLIO SECTION STYLES
+
 // START:: CONTACT US SECTION STYLES
 .contact_us_sec {
   padding: $paddingAmount 0;

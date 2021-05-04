@@ -101,6 +101,10 @@
       </li>
 
       <li> 
+        <a href="Portfolio.php"> Portfolio </a>
+      </li>
+
+      <li> 
         <a href="javascript:;" class="dropdown_toggeler"> Contact Us </a>
 
         <ul class="dropdown_menu">
