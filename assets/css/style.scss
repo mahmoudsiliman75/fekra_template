@@ -155,6 +155,22 @@ nav {
     }
   }
 
+  &.profile_nav {
+    position: relative;
+    background-color: $corpColor1;
+    .site-logo {
+      min-width: 50px;
+      max-width: 50px;
+      min-height: 50px;
+      max-height: 50px;
+      padding: 5px 10px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
   // START:: NAV LOGO STYLE
   .site-logo {
     min-width: 70px;
@@ -1198,6 +1214,74 @@ nav {
   }
 }
 // END:: ALL TEAM SECTION STYLES
+
+// START:: PROFILE SECTION STYLES
+.profile_sec {
+  padding: $paddingAmount 0;
+  min-height: calc( 100vh - (90px + 194px) );
+  @include flexCenterAlignment();
+  .container {
+    @include flexCenterAlignment();
+
+    .card_wraper {
+      padding: 30px;
+      position: relative;
+      width: 50%;
+      @include midShadow();
+      @include borderRadius($largeBorderRadiusAmount);
+      @media (max-width: 767px) {
+        width: 90%;
+      }
+
+      .card_img {
+        position: absolute;
+        top: -100px;
+        left: 50%;
+        transform: translateX(-50%);
+        min-width: 200px;
+        max-width: 200px;
+        min-height: 200px;
+        max-height: 200px;
+        img {
+          min-width: 200px;
+          max-width: 200px;
+          min-height: 200px;
+          max-height: 200px;
+          @include borderRadius($largeBorderRadiusAmount);
+        }
+      }
+
+      .card_body {
+        padding-top: 90px;
+        text-align: center;
+        h5 {
+          color: $corpColor1;
+        }
+        h6 {
+          color: $corpColor2;
+        }
+        .social_links {
+          list-style: none;
+          padding: 0;
+          margin: 15px 0 0 0;
+          li {
+            display: inline-block;
+            margin-inline: 6px;
+            a {
+              color: $corpColor1;
+              text-decoration: none;
+              @include transitioning();
+              &:hover {
+                color: $corpColor2;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// END:: PROFILE SECTION STYLES
 
 // START:: PRODUCTS SECTION STYLES
 .products_sec {

@@ -175,6 +175,24 @@ nav.stiky .site-logo img {
   height: 100%;
 }
 
+nav.profile_nav {
+  position: relative;
+  background-color: #00334e;
+}
+
+nav.profile_nav .site-logo {
+  min-width: 50px;
+  max-width: 50px;
+  min-height: 50px;
+  max-height: 50px;
+  padding: 5px 10px;
+}
+
+nav.profile_nav .site-logo img {
+  width: 100%;
+  height: 100%;
+}
+
 nav .site-logo {
   min-width: 70px;
   max-width: 70px;
@@ -1860,6 +1878,102 @@ nav .menu_btn svg {
 }
 
 .all_team_sec .member_card_wraper .card_body .social_links li a:hover {
+  color: #ea5455;
+}
+
+.profile_sec {
+  padding: 50px 0;
+  min-height: calc( 100vh - (90px + 194px));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.profile_sec .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.profile_sec .container .card_wraper {
+  padding: 30px;
+  position: relative;
+  width: 50%;
+  -webkit-box-shadow: 0 0 10px 2px rgba(225, 225, 225, 0.6);
+          box-shadow: 0 0 10px 2px rgba(225, 225, 225, 0.6);
+  border-radius: 30px;
+}
+
+@media (max-width: 767px) {
+  .profile_sec .container .card_wraper {
+    width: 90%;
+  }
+}
+
+.profile_sec .container .card_wraper .card_img {
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  min-width: 200px;
+  max-width: 200px;
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.profile_sec .container .card_wraper .card_img img {
+  min-width: 200px;
+  max-width: 200px;
+  min-height: 200px;
+  max-height: 200px;
+  border-radius: 30px;
+}
+
+.profile_sec .container .card_wraper .card_body {
+  padding-top: 90px;
+  text-align: center;
+}
+
+.profile_sec .container .card_wraper .card_body h5 {
+  color: #00334e;
+}
+
+.profile_sec .container .card_wraper .card_body h6 {
+  color: #ea5455;
+}
+
+.profile_sec .container .card_wraper .card_body .social_links {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0 0;
+}
+
+.profile_sec .container .card_wraper .card_body .social_links li {
+  display: inline-block;
+  margin-inline: 6px;
+}
+
+.profile_sec .container .card_wraper .card_body .social_links li a {
+  color: #00334e;
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.profile_sec .container .card_wraper .card_body .social_links li a:hover {
   color: #ea5455;
 }
 
