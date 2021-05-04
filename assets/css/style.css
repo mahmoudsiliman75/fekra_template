@@ -23,6 +23,46 @@ body::-webkit-scrollbar-thumb {
   background-color: #00334e;
 }
 
+.flexslider {
+  margin-bottom: 15px !important;
+}
+
+.flexslider .flex-viewport {
+  max-height: 500px !important;
+}
+
+.flexslider .flex-viewport .slides img,
+.flexslider .flex-viewport .slides iframe {
+  border-radius: 10px;
+  min-height: 500px;
+  max-height: 500px;
+  width: 100%;
+}
+
+.flexslider .flex-viewport .slides .min_img {
+  min-width: 150px;
+  max-width: 150px;
+  min-height: 120px;
+  max-height: 120px;
+}
+
+.flexslider .flex-control-thumbs {
+  max-height: 120px !important;
+}
+
+.flexslider .flex-control-thumbs li {
+  padding: 0 5px;
+}
+
+.flexslider .flex-control-thumbs li img {
+  height: 120px !important;
+  border-radius: 10px;
+}
+
+.flexslider .flex-direction-nav {
+  display: none !important;
+}
+
 .header_img_wraper {
   position: relative;
   min-height: 400px;
@@ -775,6 +815,75 @@ nav .menu_btn svg {
   line-height: 1.6;
   text-align: center;
   margin-block: 15px;
+}
+
+.about_us_1 .about_video_sec {
+  position: relative;
+}
+
+.about_us_1 .about_video_sec .video_wrape {
+  min-height: 600px;
+  max-height: 600px;
+  background-repeat: no-repeat !important;
+  background-size: 100% !important;
+  background-position: center !important;
+  position: relative;
+}
+
+.about_us_1 .about_video_sec .video_wrape .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about_us_1 .about_video_sec .video_wrape .overlay button {
+  width: 95px;
+  height: 95px;
+  background-color: #fff !important;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.about_us_1 .about_video_sec .video_wrape .overlay button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.about_us_1 .about_video_sec .video_wrape .overlay button img {
+  width: 115px;
+  height: 115px;
+}
+
+.about_us_1 .about_video_sec .video_wrape .overlay .modal .modal-dialog .modal-body {
+  padding: 0;
+}
+
+.about_us_1 .about_video_sec .video_wrape .overlay .modal .modal-dialog .modal-body iframe {
+  width: 100%;
+  min-height: 600px;
+  margin: 0;
 }
 
 .about_us_1 .service_card_wraper {

@@ -31,6 +31,45 @@ body {
   }
 }
 
+// START:: FLEX SLIDER GLOBAL STYLES
+.flexslider {
+  margin-bottom: 15px !important;
+  .flex-viewport {
+    max-height: 500px !important;
+    .slides {
+      img,
+      iframe {
+        border-radius: $borderRadiusAmount;
+        min-height: 500px;
+        max-height: 500px;
+        width: 100%
+      }
+      .min_img {
+        min-width: 150px;
+        max-width: 150px;
+        min-height: 120px;
+        max-height: 120px;
+      }
+    } 
+  }
+
+  .flex-control-thumbs {
+    max-height: 120px !important;
+    li {
+      padding: 0 5px;
+      img {
+        height: 120px !important;
+        border-radius: $borderRadiusAmount;
+      }
+    }
+  }
+
+  .flex-direction-nav {
+    display: none !important;
+  }
+}
+// END:: FLEX SLIDER GLOBAL STYLES
+
 .header_img_wraper {
   position: relative;
   min-height: 400px;
@@ -544,9 +583,58 @@ nav {
     margin-block: 15px;
   }
 
+  .about_video_sec {
+    position: relative;
+    .video_wrape {
+      min-height: 600px;
+      max-height: 600px;
+      background-repeat: no-repeat !important;
+      background-size: 100% !important;
+      background-position: center !important;
+      position: relative;
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        @include flexCenterAlignment();
+        button {
+          width: 95px;
+          height: 95px;
+          background-color: $white !important;
+          @include borderRadius(50%);
+          @include flexCenterAlignment();
+          @include transitioning();
+
+          &:focus {
+            box-shadow: none;
+          }
+
+          img {
+            width: 115px;
+            height: 115px;
+          }
+        }
+  
+        .modal {
+          .modal-dialog {
+            .modal-body {
+              padding: 0;
+              iframe {
+                width: 100%;
+                min-height: 600px;
+                margin: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
   .service_card_wraper {
-    // min-height: 465px;
-    // max-height: 465px;
     text-align: center;
     position: relative;
     @include borderRadius(5px);

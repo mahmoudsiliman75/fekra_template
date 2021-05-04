@@ -130,6 +130,10 @@
 <script src="assets/js/wow.min.js"></script>
 <!-- END:: INCLUDING WOW JS SCRIPT FILE -->
 
+<!-- START:: INCLUDING FLEX SLIDER SCRIPT FILE -->
+<script src="assets/js/jquery.flexslider.js"></script>
+<!-- END:: INCLUDING FLEX SLIDER SCRIPT FILE -->
+
 <!-- START:: INCLUDING COUNTUP SCRIPT FILES -->
 <script src="assets/js/countup.js"></script>
 <!-- END:: INCLUDING COUNTUP SCRIPT FILES -->

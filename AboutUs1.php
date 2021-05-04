@@ -59,8 +59,36 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="row justify-content-center mt-3">
+  <!-- START:: VIDEO SECTION -->
+  <div class="about_video_sec">
+    <div class="video_wrape" style="background-image: url('https://i.ytimg.com/vi_webp/xZPafUhm68s/sddefault.webp');">
+      <div class="overlay">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
+          <img src="assets/media/icons/play.png" alt="">
+        </button>
+
+        <!-- START:: DEMO MODAL -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+              <div class="modal-body">
+                <iframe src="https://www.youtube.com/embed/xZPafUhm68s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END:: DEMO MODAL -->
+      </div>
+    </div>
+  </div>
+  <!-- END:: VIDEO SECTION -->
+
+  <!-- START:: WHAT WE DO SECTION -->
+  <div class="container">
+    <div class="row justify-content-center mt-5">
       <div class="col-12 header_wraper mb-3">
         <h2> What We Do </h2>
       </div>
@@ -138,6 +166,8 @@
       </div>
     </div>
   </div>
+  <!-- END:: WHAT WE DO SECTION -->
+
 </div>
 <!-- END:: ABOUT US SECTION -->
 

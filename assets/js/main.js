@@ -131,23 +131,23 @@ $(document).ready( function() {
   // END:: TOGGLE FORMS
 
   // START:: FLEX SLIDER
-  // $('#carousel').flexslider({
-  //   animation: "slide",
-  //   controlNav: true,
-  //   animationLoop: true,
-  //   slideshow: true,
-  //   itemWidth: 160,
-  //   itemMargin: 0,
-  //   asNavFor: '#slider'
-  // });
+  $('#carousel').flexslider({
+    animation: "slide",
+    controlNav: true,
+    animationLoop: true,
+    slideshow: true,
+    itemWidth: 160,
+    itemMargin: 0,
+    asNavFor: '#slider'
+  });
 
-  // $('#slider').flexslider({
-  //   animation: "slide",
-  //   controlNav: false,
-  //   animationLoop: false,
-  //   slideshow: false,
-  //   sync: "#carousel"
-  // });
+  $('#slider').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    sync: "#carousel"
+  });
   // END:: FLEX SLIDER
 
   // START:: BOOTSTRAP SELECT
