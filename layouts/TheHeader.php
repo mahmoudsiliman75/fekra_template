@@ -121,7 +121,7 @@
           </li>
 
           <li> 
-            <a href="AllProducts1.php"> All Products 2 </a> 
+            <a href="AllProducts2.php"> All Products 2 </a> 
           </li>
 
           <li> 

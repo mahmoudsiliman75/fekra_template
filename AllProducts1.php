@@ -17,7 +17,7 @@
   <div class="container">
 
     <div class="header_wraper">
-      <h2> Our Services </h2>
+      <h2> Our Products </h2>
     </div>
 
     <div class="sec_desc_wraper">
@@ -36,7 +36,7 @@
             </div>
 
             <div class="card_title_wraper mt-3">
-              <h4> Cat1 Service1 </h4>
+              <h4> Cat1 Product1 </h4>
             </div>
           </div>
         </a>
@@ -50,7 +50,7 @@
             </div>
 
             <div class="card_title_wraper mt-3">
-              <h4> Cat1 Service2 </h4>
+              <h4> Cat1 Product2 </h4>
             </div>
           </div>
         </a>
@@ -64,7 +64,7 @@
             </div>
 
             <div class="card_title_wraper mt-3">
-              <h4> Cat1 Service3 </h4>
+              <h4> Cat1 Product3 </h4>
             </div>
           </div>
         </a>
@@ -78,7 +78,7 @@
             </div>
 
             <div class="card_title_wraper mt-3">
-              <h4> Cat2 Service1 </h4>
+              <h4> Cat2 Product1 </h4>
             </div>
           </div>
         </a>
@@ -92,7 +92,7 @@
             </div>
 
             <div class="card_title_wraper mt-3">
-              <h4> Cat2 Service2 </h4>
+              <h4> Cat2 Product2 </h4>
             </div>
           </div>
         </a>
@@ -106,7 +106,7 @@
             </div>
 
             <div class="card_title_wraper mt-3">
-              <h4> Cat2 Service3 </h4>
+              <h4> Cat2 Product3 </h4>
             </div>
           </div>
         </a>
