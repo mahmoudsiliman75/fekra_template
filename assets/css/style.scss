@@ -125,7 +125,7 @@ body {
   }
 }
 
-.bg_wraber {
+.bg_wraper {
   background: url('../media/shapes/striples-bg.svg');
   background-size: 100%;
   background-position: center;
@@ -964,10 +964,10 @@ nav {
 
 .services_sec_index_2 {
   padding: $paddingAmount 0;
-  background: url('../media/shapes/striples-bg.svg');
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+  // background: url('../media/shapes/striples-bg.svg');
+  // background-size: 100%;
+  // background-position: center;
+  // background-repeat: no-repeat;
 
   .header_wraper {
     @include flexCenterAlignment();
@@ -979,7 +979,7 @@ nav {
   .sec_desc_wraper {
     @include textWraper();
     text-align: center;
-    margin-block: 15px;
+    margin-block: 25px;
   }
 
   a {
@@ -1393,9 +1393,8 @@ nav {
 
   .sec_desc_wraper {
     @include textWraper();
-    color: $white;
     text-align: center;
-    margin-block: 15px;
+    margin-block: 25px;
   }
 
   .member_card_wraper {

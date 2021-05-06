@@ -143,7 +143,7 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-.bg_wraber {
+.bg_wraper {
   background: url("../media/shapes/striples-bg.svg");
   background-size: 100%;
   background-position: center;
@@ -1345,10 +1345,6 @@ nav .menu_btn svg {
 
 .services_sec_index_2 {
   padding: 50px 0;
-  background: url("../media/shapes/striples-bg.svg");
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .services_sec_index_2 .header_wraper {
@@ -1398,7 +1394,7 @@ nav .menu_btn svg {
   color: #666;
   line-height: 1.6;
   text-align: center;
-  margin-block: 15px;
+  margin-block: 25px;
 }
 
 .services_sec_index_2 a {
@@ -2163,9 +2159,8 @@ nav .menu_btn svg {
   font-size: 18px;
   color: #666;
   line-height: 1.6;
-  color: #fff;
   text-align: center;
-  margin-block: 15px;
+  margin-block: 25px;
 }
 
 .team_sec_index_2 .member_card_wraper {

@@ -40,124 +40,125 @@
 </div>
 <!-- END:: INDEX2 HOME SLIDER -->
 
-<!-- START:: ABOUT US SECTION -->
-<div class="about_sec_index_2">
-  <div class="container">
-    <div class="header_wraper">
-      <h2> About Us </h2>
-    </div>
+<div class="bg_wraper">
+  <!-- START:: ABOUT US SECTION -->
+  <div class="about_sec_index_2">
+    <div class="container">
+      <div class="header_wraper">
+        <h2> About Us </h2>
+      </div>
 
-    <div class="sec_desc_wraper">
+      <div class="sec_desc_wraper">
+        <div class="row justify-content-center">
+          <div class="col-9 col-md-5">
+            <div class="image_wraper">
+              <img src="assets/media/pic3.jpeg" alt="">
+            </div>
+          </div>
+
+          <div class="col-12 col-md-7">
+            <div class="text_wraper">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+              Culpa enim praesentium minima sunt, eveniet ratione velit 
+              similique omnis porro doloremque dolores? Aut accusantium 
+              possimus voluptates nobis ullam? Amet, ipsa est.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+              Culpa enim praesentium minima sunt, eveniet ratione velit 
+              similique omnis porro doloremque dolores? Aut accusantium 
+              possimus voluptates nobis ullam? Amet, ipsa est.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+              Culpa enim praesentium minima sunt, eveniet ratione velit 
+              similique omnis porro doloremque dolores? Aut accusantium 
+              possimus voluptates nobis ullam? Amet, ipsa est.
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="row justify-content-center">
-        <div class="col-9 col-md-5">
-          <div class="image_wraper">
-            <img src="assets/media/pic3.jpeg" alt="">
+        <div class="col-10 col-lg-3 mt-5">
+          <div class="about_card_wraper">
+            <div class="icon_wraper">
+              <span>
+                <i class="fas fa-star fa-2x"></i> 
+              </span>
+            </div>
+
+            <div class="card_title_wraper">
+              <h4> Title 1 </h4>
+            </div>
+
+            <div class="card_text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
+              facilis. Quas ex provident quam, inventore consectetur 
+            </div>
           </div>
         </div>
 
-        <div class="col-12 col-md-7">
-          <div class="text_wraper">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-            Culpa enim praesentium minima sunt, eveniet ratione velit 
-            similique omnis porro doloremque dolores? Aut accusantium 
-            possimus voluptates nobis ullam? Amet, ipsa est.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-            Culpa enim praesentium minima sunt, eveniet ratione velit 
-            similique omnis porro doloremque dolores? Aut accusantium 
-            possimus voluptates nobis ullam? Amet, ipsa est.
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-            Culpa enim praesentium minima sunt, eveniet ratione velit 
-            similique omnis porro doloremque dolores? Aut accusantium 
-            possimus voluptates nobis ullam? Amet, ipsa est.
+        <div class="col-10 col-lg-3 mt-5">
+          <div class="about_card_wraper">
+            <div class="icon_wraper">
+              <span>
+                <i class="fas fa-rocket fa-2x"></i>
+              </span>
+            </div>
+
+            <div class="card_title_wraper">
+              <h4> Title 2 </h4>
+            </div>
+
+            <div class="card_text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
+              facilis. Quas ex provident quam, inventore consectetur 
+            </div>
           </div>
         </div>
-      </div>
-    </div>
 
-    <div class="row justify-content-center">
-      <div class="col-10 col-lg-3 mt-5">
-        <div class="about_card_wraper">
-          <div class="icon_wraper">
-            <span>
-              <i class="fas fa-star fa-2x"></i> 
-            </span>
-          </div>
+        <div class="col-10 col-lg-3 mt-5">
+          <div class="about_card_wraper">
+            <div class="icon_wraper">
+              <span>
+                <i class="fas fa-award fa-2x"></i> 
+              </span>
+            </div>
 
-          <div class="card_title_wraper">
-            <h4> Title 1 </h4>
-          </div>
+            <div class="card_title_wraper">
+              <h4> Title 3 </h4>
+            </div>
 
-          <div class="card_text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
-            facilis. Quas ex provident quam, inventore consectetur 
+            <div class="card_text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
+              facilis. Quas ex provident quam, inventore consectetur 
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-10 col-lg-3 mt-5">
-        <div class="about_card_wraper">
-          <div class="icon_wraper">
-            <span>
-              <i class="fas fa-rocket fa-2x"></i>
-            </span>
-          </div>
+        <div class="col-10 col-lg-3 mt-5">
+          <div class="about_card_wraper">
+            <div class="icon_wraper">
+              <span>
+                <i class="fas fa-cog fa-2x"></i>
+              </span>
+            </div>
 
-          <div class="card_title_wraper">
-            <h4> Title 2 </h4>
-          </div>
+            <div class="card_title_wraper">
+              <h4> Title 3 </h4>
+            </div>
 
-          <div class="card_text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
-            facilis. Quas ex provident quam, inventore consectetur 
-          </div>
-        </div>
-      </div>
-
-      <div class="col-10 col-lg-3 mt-5">
-        <div class="about_card_wraper">
-          <div class="icon_wraper">
-            <span>
-              <i class="fas fa-award fa-2x"></i> 
-            </span>
-          </div>
-
-          <div class="card_title_wraper">
-            <h4> Title 3 </h4>
-          </div>
-
-          <div class="card_text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
-            facilis. Quas ex provident quam, inventore consectetur 
-          </div>
-        </div>
-      </div>
-
-      <div class="col-10 col-lg-3 mt-5">
-        <div class="about_card_wraper">
-          <div class="icon_wraper">
-            <span>
-              <i class="fas fa-cog fa-2x"></i>
-            </span>
-          </div>
-
-          <div class="card_title_wraper">
-            <h4> Title 3 </h4>
-          </div>
-
-          <div class="card_text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
-            facilis. Quas ex provident quam, inventore consectetur 
+            <div class="card_text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
+              facilis. Quas ex provident quam, inventore consectetur 
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<!-- END:: ABOUT US SECTION -->
+  <!-- END:: ABOUT US SECTION -->
 
   <!-- START:: SERVICES SECTION -->
   <div class="services_sec_index_2">
@@ -322,163 +323,165 @@
     </div>
   </div>
   <!-- END:: SERVICES SECTION -->
+</div>
 
-  <!-- START:: TEAM MEMBERS SECTION -->
-  <div class="team_sec_index_2">
-    <div class="container">
-      <div class="header_wraper">
-        <h2> Our Team </h2>
-      </div>
+<!-- START:: TEAM MEMBERS SECTION -->
+<div class="team_sec_index_2">
+  <div class="container">
+    <div class="header_wraper">
+      <h2> Our Team </h2>
+    </div>
 
-      <div class="sec_desc_wraper">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Culpa enim praesentium minima sunt, eveniet ratione velit 
-        similique omnis porro doloremque dolores? Aut accusantium 
-        possimus voluptates nobis ullam? Amet, ipsa est.
-      </div>
+    <div class="sec_desc_wraper">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+      Culpa enim praesentium minima sunt, eveniet ratione velit 
+      similique omnis porro doloremque dolores? Aut accusantium 
+      possimus voluptates nobis ullam? Amet, ipsa est.
+    </div>
 
-      <div class="row justify-content-center justify-content-md-between">
-        <div class="col-10 col-md-3 my-3">
-          <div class="member_card_wraper">
-            <a href="MemberProfile.php">
-              <div class="image_wraper">
-                <img src="assets/media/shapes/fluid.jpg">
-                <img src="assets/media/team/member1.jpg" alt="">
-              </div>
-            </a>
-
-            <div class="card_body">
-              <div class="info">
-                <h4> Name 1 </h4>
-                <h5> Member Role </h5>
-              </div>
-
-              <ul class="social_links">
-                <li>
-                  <a href="#" target="_blank">
-                    <i class="fab fa-facebook-f fa-lg"></i>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" target="_blank">
-                    <i class="fab fa-linkedin-in fa-lg"></i>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" target="_blank">
-                    <i class="fab fa-twitter fa-lg"></i>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" target="_blank">
-                    <i class="fab fa-instagram fa-lg"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-10 col-md-3 my-3">
-          <div class="member_card_wraper">
-            <a href="MemberProfile.php">
-              <div class="image_wraper">
+    <div class="row justify-content-center justify-content-md-between">
+      <div class="col-10 col-md-3 my-3">
+        <div class="member_card_wraper">
+          <a href="MemberProfile.php">
+            <div class="image_wraper">
               <img src="assets/media/shapes/fluid.jpg">
-                <img src="assets/media/team/member2.jpg" alt="">
-              </div>
-            </a>
-
-            <div class="card_body">
-              <div class="info">
-                <h4> Name 2 </h4>
-                <h5> Member Role </h5>
-              </div>
-
-              <ul class="social_links">
-                <li>
-                  <a href="#" target="_blank">
-                    <i class="fab fa-facebook-f fa-lg"></i>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" target="_blank">
-                    <i class="fab fa-linkedin-in fa-lg"></i>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" target="_blank">
-                    <i class="fab fa-twitter fa-lg"></i>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" target="_blank">
-                    <i class="fab fa-instagram fa-lg"></i>
-                  </a>
-                </li>
-              </ul>
+              <img src="assets/media/team/member1.jpg" alt="">
             </div>
-          </div>
-        </div>
+          </a>
 
-        <div class="col-10 col-md-3 my-3">
-          <div class="member_card_wraper">
-            <a href="MemberProfile.php">
-              <div class="image_wraper">
-              <img src="assets/media/shapes/fluid.jpg">
-                <img src="assets/media/team/member3.jpg" alt="">
-              </div>
-            </a>
-
-            <div class="card_body">
-              <div class="info">
-                <h4> Name 3 </h4>
-                <h5> Member Role </h5>
-              </div>
-
-              <ul class="social_links">
-                <li>
-                  <a href="#" target="_blank">
-                    <i class="fab fa-facebook-f fa-lg"></i>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" target="_blank">
-                    <i class="fab fa-linkedin-in fa-lg"></i>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" target="_blank">
-                    <i class="fab fa-twitter fa-lg"></i>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" target="_blank">
-                    <i class="fab fa-instagram fa-lg"></i>
-                  </a>
-                </li>
-              </ul>
+          <div class="card_body">
+            <div class="info">
+              <h4> Name 1 </h4>
+              <h5> Member Role </h5>
             </div>
+
+            <ul class="social_links">
+              <li>
+                <a href="#" target="_blank">
+                  <i class="fab fa-facebook-f fa-lg"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" target="_blank">
+                  <i class="fab fa-linkedin-in fa-lg"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" target="_blank">
+                  <i class="fab fa-twitter fa-lg"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" target="_blank">
+                  <i class="fab fa-instagram fa-lg"></i>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
 
-      <div class="col-12 mt-3">
-        <div class="btn_wraper">
-          <a href="Team.php"> All Team </a>
+      <div class="col-10 col-md-3 my-3">
+        <div class="member_card_wraper">
+          <a href="MemberProfile.php">
+            <div class="image_wraper">
+            <img src="assets/media/shapes/fluid.jpg">
+              <img src="assets/media/team/member2.jpg" alt="">
+            </div>
+          </a>
+
+          <div class="card_body">
+            <div class="info">
+              <h4> Name 2 </h4>
+              <h5> Member Role </h5>
+            </div>
+
+            <ul class="social_links">
+              <li>
+                <a href="#" target="_blank">
+                  <i class="fab fa-facebook-f fa-lg"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" target="_blank">
+                  <i class="fab fa-linkedin-in fa-lg"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" target="_blank">
+                  <i class="fab fa-twitter fa-lg"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" target="_blank">
+                  <i class="fab fa-instagram fa-lg"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-10 col-md-3 my-3">
+        <div class="member_card_wraper">
+          <a href="MemberProfile.php">
+            <div class="image_wraper">
+            <img src="assets/media/shapes/fluid.jpg">
+              <img src="assets/media/team/member3.jpg" alt="">
+            </div>
+          </a>
+
+          <div class="card_body">
+            <div class="info">
+              <h4> Name 3 </h4>
+              <h5> Member Role </h5>
+            </div>
+
+            <ul class="social_links">
+              <li>
+                <a href="#" target="_blank">
+                  <i class="fab fa-facebook-f fa-lg"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" target="_blank">
+                  <i class="fab fa-linkedin-in fa-lg"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" target="_blank">
+                  <i class="fab fa-twitter fa-lg"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" target="_blank">
+                  <i class="fab fa-instagram fa-lg"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
+
+    <div class="col-12 mt-3">
+      <div class="btn_wraper">
+        <a href="Team.php"> All Team </a>
+      </div>
+    </div>
   </div>
-  <!-- END:: TEAM MEMBERS SECTION -->
+</div>
+<!-- END:: TEAM MEMBERS SECTION -->
+
 <!-- START:: OUR PRODUCTS SECTION -->
 <div class="products_sec">
   <div class="container">
