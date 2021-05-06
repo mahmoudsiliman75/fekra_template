@@ -75,6 +75,39 @@
   }
 }
 
+@mixin secondBtnStyle {
+  text-decoration: none;
+  border: 2px solid $corpColor1;
+  padding: 8px 16px;
+  margin-top: 15px;
+  color: $corpColor1;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  @include borderRadius(5px);
+  @include transitioning();
+  overflow: hidden;
+  position: relative;
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: $corpColor1;
+    z-index: -1;
+    @include transitioning();
+  }
+  &:hover {
+    color: $white;
+    &::before {
+      left: 0;
+    }
+  }
+}
+
 @mixin secondaryBtnStyle {
   display: inline-block;
   text-decoration: none;
