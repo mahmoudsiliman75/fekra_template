@@ -315,7 +315,7 @@
         </div>
       </div>
 
-      <div class="col-12 mt-3">
+      <div class="col-12">
         <div class="btn_wraper">
           <a href="#"> All Services </a>
         </div>
@@ -483,7 +483,7 @@
 <!-- END:: TEAM MEMBERS SECTION -->
 
 <!-- START:: OUR PRODUCTS SECTION -->
-<div class="products_sec">
+<div class="products_sec_index_2">
   <div class="container">
     <div class="header_wraper">
       <h2>Our Products</h2>
@@ -515,87 +515,159 @@
       <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
         <div class="row justify-content-center">
           <div class="col-10 col-lg-4 my-3">
-            <a href="#">
-              <div class="product_card_wraper">
-                <div class="img_wraper">
-                  <img src="assets/media/pic1.jpeg" alt="">
+            <div class="product_card_wraper">
+              <div class="front_face">
+                <img src="assets/media/pic1.jpeg" alt="">
+              </div>
+
+              <div class="back_face">
+                <h4> Product Name 1 </h4>
+
+                <div class="text_wraper">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Voluptate, vero laudantium laborum cumque quidem. 
                 </div>
 
-                <div class="card_title_wraper mt-3">
-                  <h4> Cat1 Product1 </h4>
+                <div class="price_wraper">
+                  <span class="price_after"> 100 EGP </span>
+                  <span class="price_before" > 200 EGP </span>
+                </div>
+
+                <div class="btn_wraper">
+                  <a href="#"> More Details </a>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
 
           <div class="col-10 col-lg-4 my-3">
-            <a href="#">
-              <div class="product_card_wraper">
-                <div class="img_wraper">
-                  <img src="assets/media/pic2.jpeg" alt="">
+            <div class="product_card_wraper">
+              <div class="front_face">
+                <img src="assets/media/pic2.jpeg" alt="">
+              </div>
+
+              <div class="back_face">
+                <h4> Product Name 2 </h4>
+
+                <div class="text_wraper">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Voluptate, vero laudantium laborum cumque quidem. 
                 </div>
 
-                <div class="card_title_wraper mt-3">
-                  <h4> Cat1 Product2 </h4>
+                <div class="price_wraper">
+                  <span class="price_after"> 100 EGP </span>
+                  <span class="price_before" > 200 EGP </span>
+                </div>
+
+                <div class="btn_wraper">
+                  <a href="#"> More Details </a>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
 
           <div class="col-10 col-lg-4 my-3">
-            <a href="#">
-              <div class="product_card_wraper">
-                <div class="img_wraper">
-                  <img src="assets/media/pic3.jpeg" alt="">
+            <div class="product_card_wraper">
+              <div class="front_face">
+                <img src="assets/media/pic3.jpeg" alt="">
+              </div>
+
+              <div class="back_face">
+                <h4> Product Name 3 </h4>
+
+                <div class="text_wraper">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Voluptate, vero laudantium laborum cumque quidem. 
                 </div>
 
-                <div class="card_title_wraper mt-3">
-                  <h4> Cat1 Product3 </h4>
+                <div class="price_wraper">
+                  <span class="price_after"> 100 EGP </span>
+                  <span class="price_before" > 200 EGP </span>
+                </div>
+
+                <div class="btn_wraper">
+                  <a href="#"> More Details </a>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
 
           <div class="col-10 col-lg-4 my-3">
-            <a href="#">
-              <div class="product_card_wraper">
-                <div class="img_wraper">
-                  <img src="assets/media/pic4.jpeg" alt="">
+            <div class="product_card_wraper">
+              <div class="front_face">
+                <img src="assets/media/pic4.jpeg" alt="">
+              </div>
+
+              <div class="back_face">
+                <h4> Product Name 4 </h4>
+
+                <div class="text_wraper">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Voluptate, vero laudantium laborum cumque quidem. 
                 </div>
 
-                <div class="card_title_wraper mt-3">
-                  <h4> Cat2 Product1 </h4>
+                <div class="price_wraper">
+                  <span class="price_after"> 100 EGP </span>
+                  <span class="price_before" > 200 EGP </span>
+                </div>
+
+                <div class="btn_wraper">
+                  <a href="#"> More Details </a>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
 
           <div class="col-10 col-lg-4 my-3">
-            <a href="#">
-              <div class="product_card_wraper">
-                <div class="img_wraper">
-                  <img src="assets/media/pic5.jpeg" alt="">
+            <div class="product_card_wraper">
+              <div class="front_face">
+                <img src="assets/media/pic5.jpeg" alt="">
+              </div>
+
+              <div class="back_face">
+                <h4> Product Name 5 </h4>
+
+                <div class="text_wraper">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Voluptate, vero laudantium laborum cumque quidem. 
                 </div>
 
-                <div class="card_title_wraper mt-3">
-                  <h4> Cat2 Product2 </h4>
+                <div class="price_wraper">
+                  <span class="price_after"> 100 EGP </span>
+                  <span class="price_before" > 200 EGP </span>
+                </div>
+
+                <div class="btn_wraper">
+                  <a href="#"> More Details </a>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
 
           <div class="col-10 col-lg-4 my-3">
-            <a href="#">
-              <div class="product_card_wraper">
-                <div class="img_wraper">
-                  <img src="assets/media/pic1.jpeg" alt="">
+            <div class="product_card_wraper">
+              <div class="front_face">
+                <img src="assets/media/pic6.jpeg" alt="">
+              </div>
+
+              <div class="back_face">
+                <h4> Product Name 6 </h4>
+
+                <div class="text_wraper">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Voluptate, vero laudantium laborum cumque quidem. 
                 </div>
 
-                <div class="card_title_wraper mt-3">
-                  <h4> Cat2 Product3 </h4>
+                <div class="price_wraper">
+                  <span class="price_after"> 100 EGP </span>
+                  <span class="price_before" > 200 EGP </span>
+                </div>
+
+                <div class="btn_wraper">
+                  <a href="#"> More Details </a>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
         </div>
       </div>
@@ -603,45 +675,81 @@
       <div class="tab-pane fade" id="pills-cat1" role="tabpanel" aria-labelledby="pills-cat1-tab">
         <div class="row justify-content-center">
           <div class="col-10 col-lg-4 my-3">
-            <a href="#">
-              <div class="product_card_wraper">
-                <div class="img_wraper">
-                  <img src="assets/media/pic1.jpeg" alt="">
+            <div class="product_card_wraper">
+              <div class="front_face">
+                <img src="assets/media/pic1.jpeg" alt="">
+              </div>
+
+              <div class="back_face">
+                <h4> Product Name 1 </h4>
+
+                <div class="text_wraper">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Voluptate, vero laudantium laborum cumque quidem. 
                 </div>
 
-                <div class="card_title_wraper mt-3">
-                  <h4> Cat1 Product1 </h4>
+                <div class="price_wraper">
+                  <span class="price_after"> 100 EGP </span>
+                  <span class="price_before" > 200 EGP </span>
+                </div>
+
+                <div class="btn_wraper">
+                  <a href="#"> More Details </a>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
 
           <div class="col-10 col-lg-4 my-3">
-            <a href="#">
-              <div class="product_card_wraper">
-                <div class="img_wraper">
-                  <img src="assets/media/pic2.jpeg" alt="">
+            <div class="product_card_wraper">
+              <div class="front_face">
+                <img src="assets/media/pic2.jpeg" alt="">
+              </div>
+
+              <div class="back_face">
+                <h4> Product Name 2 </h4>
+
+                <div class="text_wraper">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Voluptate, vero laudantium laborum cumque quidem. 
                 </div>
 
-                <div class="card_title_wraper mt-3">
-                  <h4> Cat1 Product2 </h4>
+                <div class="price_wraper">
+                  <span class="price_after"> 100 EGP </span>
+                  <span class="price_before" > 200 EGP </span>
+                </div>
+
+                <div class="btn_wraper">
+                  <a href="#"> More Details </a>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
 
           <div class="col-10 col-lg-4 my-3">
-            <a href="#">
-              <div class="product_card_wraper">
-                <div class="img_wraper">
-                  <img src="assets/media/pic3.jpeg" alt="">
+            <div class="product_card_wraper">
+              <div class="front_face">
+                <img src="assets/media/pic3.jpeg" alt="">
+              </div>
+
+              <div class="back_face">
+                <h4> Product Name 3 </h4>
+
+                <div class="text_wraper">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Voluptate, vero laudantium laborum cumque quidem. 
                 </div>
 
-                <div class="card_title_wraper mt-3">
-                  <h4> Cat1 Product3 </h4>
+                <div class="price_wraper">
+                  <span class="price_after"> 100 EGP </span>
+                  <span class="price_before" > 200 EGP </span>
+                </div>
+
+                <div class="btn_wraper">
+                  <a href="#"> More Details </a>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
         </div>
       </div>
@@ -649,51 +757,87 @@
       <div class="tab-pane fade" id="pills-cat2" role="tabpanel" aria-labelledby="pills-cat2-tab">
         <div class="row justify-content-center">
           <div class="col-10 col-lg-4 my-3">
-            <a href="#">
-              <div class="product_card_wraper">
-                <div class="img_wraper">
-                  <img src="assets/media/pic4.jpeg" alt="">
+            <div class="product_card_wraper">
+              <div class="front_face">
+                <img src="assets/media/pic4.jpeg" alt="">
+              </div>
+
+              <div class="back_face">
+                <h4> Product Name 4 </h4>
+
+                <div class="text_wraper">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Voluptate, vero laudantium laborum cumque quidem. 
                 </div>
 
-                <div class="card_title_wraper mt-3">
-                  <h4> Cat2 Product1 </h4>
+                <div class="price_wraper">
+                  <span class="price_after"> 100 EGP </span>
+                  <span class="price_before" > 200 EGP </span>
+                </div>
+
+                <div class="btn_wraper">
+                  <a href="#"> More Details </a>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
 
           <div class="col-10 col-lg-4 my-3">
-            <a href="#">
-              <div class="product_card_wraper">
-                <div class="img_wraper">
-                  <img src="assets/media/pic5.jpeg" alt="">
+            <div class="product_card_wraper">
+              <div class="front_face">
+                <img src="assets/media/pic5.jpeg" alt="">
+              </div>
+
+              <div class="back_face">
+                <h4> Product Name 5 </h4>
+
+                <div class="text_wraper">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Voluptate, vero laudantium laborum cumque quidem. 
                 </div>
 
-                <div class="card_title_wraper mt-3">
-                  <h4> Cat2 Product2 </h4>
+                <div class="price_wraper">
+                  <span class="price_after"> 100 EGP </span>
+                  <span class="price_before" > 200 EGP </span>
+                </div>
+
+                <div class="btn_wraper">
+                  <a href="#"> More Details </a>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
 
           <div class="col-10 col-lg-4 my-3">
-            <a href="#">
-              <div class="product_card_wraper">
-                <div class="img_wraper">
-                  <img src="assets/media/pic1.jpeg" alt="">
+            <div class="product_card_wraper">
+              <div class="front_face">
+                <img src="assets/media/pic6.jpeg" alt="">
+              </div>
+
+              <div class="back_face">
+                <h4> Product Name 6 </h4>
+
+                <div class="text_wraper">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Voluptate, vero laudantium laborum cumque quidem. 
                 </div>
 
-                <div class="card_title_wraper mt-3">
-                  <h4> Cat2 Product3 </h4>
+                <div class="price_wraper">
+                  <span class="price_after"> 100 EGP </span>
+                  <span class="price_before" > 200 EGP </span>
+                </div>
+
+                <div class="btn_wraper">
+                  <a href="#"> More Details </a>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="col-12 mt-3">
+    <div class="col-12">
       <div class="btn_wraper">
         <a href="#"> All Products </a>
       </div>
