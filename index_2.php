@@ -41,17 +41,37 @@
 <!-- END:: INDEX2 HOME SLIDER -->
 
 <!-- START:: ABOUT US SECTION -->
-<div id="about_sec" class="about_sec">
+<div class="about_sec_index_2">
   <div class="container">
     <div class="header_wraper">
       <h2> About Us </h2>
     </div>
 
     <div class="sec_desc_wraper">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-      Culpa enim praesentium minima sunt, eveniet ratione velit 
-      similique omnis porro doloremque dolores? Aut accusantium 
-      possimus voluptates nobis ullam? Amet, ipsa est.
+      <div class="row justify-content-center">
+        <div class="col-9 col-md-5">
+          <div class="image_wraper">
+            <img src="assets/media/pic3.jpeg" alt="">
+          </div>
+        </div>
+
+        <div class="col-12 col-md-7">
+          <div class="text_wraper">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Culpa enim praesentium minima sunt, eveniet ratione velit 
+            similique omnis porro doloremque dolores? Aut accusantium 
+            possimus voluptates nobis ullam? Amet, ipsa est.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Culpa enim praesentium minima sunt, eveniet ratione velit 
+            similique omnis porro doloremque dolores? Aut accusantium 
+            possimus voluptates nobis ullam? Amet, ipsa est.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Culpa enim praesentium minima sunt, eveniet ratione velit 
+            similique omnis porro doloremque dolores? Aut accusantium 
+            possimus voluptates nobis ullam? Amet, ipsa est.
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="row justify-content-center">

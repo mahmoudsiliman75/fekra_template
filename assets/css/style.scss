@@ -635,6 +635,106 @@ nav {
     }
   }
 }
+
+.about_sec_index_2 {
+  padding-bottom: $paddingAmount;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include secondHeaderStyle();
+    }
+  }
+
+  .sec_desc_wraper {
+    margin-block: 30px;
+    .image_wraper {
+      width: 100%;
+      height: auto;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .text_wraper {
+      @include textWraper();
+      text-align: start;
+    }
+  }
+
+  .row {
+    & > div {
+      &:nth-child(odd) {
+        .about_card_wraper {
+          margin-top: 15px;
+          @media ( max-width: 991px ) {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+
+    .about_card_wraper {
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      @include midShadow();
+      @include transitioning();
+      &::before,
+      &::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 3px;
+        position: relative;
+        @include transitioning();
+        background-image: linear-gradient(to right, $corpColor1, $corpColor2);
+      }
+      &::before {
+        top: 0;
+        left: 0;
+        margin-bottom: 20px;
+      }
+      &::after {
+        bottom: 0;
+        right: 0;
+        margin-top: 20px;
+      }
+      &:hover {
+        transform: scale(1.03);
+        &::before {
+          left: -50%;
+        }
+        &::after {
+          right: -50%;
+        }
+      }
+  
+  
+      .icon_wraper {
+        @include flexCenterAlignment();
+        span {
+          svg {
+            color: $corpColor2;
+          }
+        }
+      }
+  
+      .card_title_wraper {
+        margin-top: 25px;
+        h4 {
+          color: $corpColor1;
+        }
+      }
+  
+      .card_text {
+        @include textWraper();
+        padding-inline: 15px;
+        font-size: 16px;
+      }
+    }
+  }
+}
 // END:: HOME PAGE ABOUT SECTION STYLES
 
 // START:: ABOUT US SECTION 1 STYLES
