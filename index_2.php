@@ -160,7 +160,7 @@
 <!-- END:: ABOUT US SECTION -->
 
 <!-- START:: SERVICES SECTION -->
-<div class="services_sec">
+<div class="services_sec_index_2">
   <div class="container">
     <div class="header_wraper">
       <h2> Our Services </h2>
