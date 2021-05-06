@@ -847,7 +847,7 @@
 <!-- END:: OUR PRODUCTS SECTION -->
 
 <!-- START:: CLIENTS SECTION -->
-<div class="our_clients_sec">
+<div class="our_clients_sec_index_2">
   <div class="container-fluid">
     <div class="header_wraper">
       <h2> Our Clients </h2>
