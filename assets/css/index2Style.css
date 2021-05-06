@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.carousel.carousel_2 {
+  background: url("../media/shapes/banner-15-bottom.png");
+  background-position: bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.carousel.carousel_2 .carousel-indicators li {
+  padding: 0;
+  width: 13px;
+  height: 13px;
+  border: none;
+  border-radius: 50%;
+}
+
+.carousel.carousel_2 .carousel-indicators li.active {
+  width: 40px;
+  background-color: #ea5455;
+  border: none;
+  border-radius: 30px;
+}
+
+.carousel.carousel_2 .carousel-inner {
+  max-height: 800px;
+  position: relative;
+}
+
+.carousel.carousel_2 .carousel-inner .carousel-item img {
+  width: 100%;
+  min-height: 800px;
+  max-height: 800px;
+}
+/*# sourceMappingURL=index2Style.css.map */

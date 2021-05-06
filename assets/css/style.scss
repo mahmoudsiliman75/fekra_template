@@ -3,7 +3,7 @@
 // END:: INCLUDING GOOGLE FONT
 
 // START:: VARIABLES
-@import 'variables.scss';
+@import 'variables.scss'; 
 // END:: VARIABLES
 
 // START:: MIXINS
@@ -504,6 +504,61 @@ nav {
     }
   }
 }
+
+.carousel {
+  &.carousel_2 {
+    position: relative;
+    // .carousel-indicators {
+    //   position: absolute;
+    //   right: 0;
+    //   bottom: 15% !important;
+
+    //   @media ( max-width: 900px ) {
+    //     position: absolute;
+    //     right: 0;
+    //     bottom: 7% !important;
+    //   }
+
+    //   li {
+    //     padding: 0;
+    //     width: 13px;
+    //     height: 13px;
+    //     border: none;
+    //     @include borderRadius(50%);
+    //     &.active {
+    //       width: 40px;
+    //       background-color: $corpColor2;
+    //       border: none;
+    //       @include borderRadius(30px);
+    //     }
+    //   }
+    // }
+
+    .section_curve_wraper {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 1;
+      img {
+        width: 100%;
+      }
+    }
+
+    .carousel-inner {
+      max-height: 800px;
+      
+
+      .carousel-item {
+        img {
+          width: 100%;
+          min-height: 800px;
+          max-height: 800px;
+        }
+      }
+    }
+  }
+}
 // END:: HOME SLIDER STYLES
 
 // START:: HOME PAGE ABOUT SECTION STYLES
@@ -513,7 +568,7 @@ nav {
   .header_wraper {
     @include flexCenterAlignment();
     h2 {
-      @include mainHeaderStyle();
+      @include secondHeaderStyle();
     }
   }
 
@@ -2481,3 +2536,6 @@ footer {
 // }
 //END:: FLOATING ICON STYLES
 
+// START:: IMPORTING INDEX2 STYLES
+// @import "index2Style.scss"
+// END:: IMPORTING INDEX2 STYLES

@@ -61,7 +61,17 @@
   <div class="nav-links">
     <ul class="list-unstyled d-flex align-items-center justify-content-center mb-0">
       <li class="active"> 
-        <a href="index.php"> Home </a>
+        <a href="javascript:;" class="dropdown_toggeler"> Home </a>
+
+        <ul class="dropdown_menu">
+          <li> 
+            <a href="index.php"> Home 1 </a> 
+          </li>
+
+          <li> 
+            <a href="index_2.php"> Home 2 </a> 
+          </li>
+        </ul>
       </li>
 
       <li> 
@@ -242,7 +252,7 @@
 <!-- END:: SMALL SCREENS MENU -->
 
 <!-- START:: PRE LOADER -->
-<div class="pre_loader">
+<!-- <div class="pre_loader">
   <div class="spinner">
     <div class="rect1"></div>
     <div class="rect2"></div>
@@ -250,5 +260,5 @@
     <div class="rect4"></div>
     <div class="rect5"></div>
   </div>
-</div>
+</div> -->
 <!-- END:: PRE LOADER -->
