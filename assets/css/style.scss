@@ -141,6 +141,7 @@ nav {
   left: 0;
   padding: 20px 10px;
   z-index: 10;
+  background-color: rgba(45, 64, 89, 0.5);
   @include transitioning();
 
   &.stiky {
