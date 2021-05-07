@@ -1078,7 +1078,7 @@
   <!-- END:: FAQS SECTION -->
 
   <!-- START:: NEWS SECTION -->
-  <div class="news_sec">
+  <div class="news_sec_index_2">
     <div class="container">
       <div class="header_wraper">
         <h2> News </h2>
@@ -1099,12 +1099,13 @@
                 <div class="overlay">
                   <i class="fas fa-info-circle fa-3x"></i>
                 </div>
-                <img src="assets/media/pic1.jpeg" alt="">
+                <img class="card_img" src="assets/media/pic1.jpeg" alt="">
+                <img class="card_curve" src="assets/media/shapes/banner-15-bottom.png" alt="">
               </div>
 
               <div class="card_title_wraper">
                 <h4> Article Title 1 </h4>
-                <h5> 1 - 5 - 2021 </h5>
+                <h6> 1, May, 2021 </h6>
               </div>
 
               <div class="card_text">
@@ -1123,12 +1124,13 @@
                 <div class="overlay">
                   <i class="fas fa-info-circle fa-3x"></i>
                 </div>
-                <img src="assets/media/pic2.jpeg" alt="">
+                <img class="card_img" src="assets/media/pic2.jpeg" alt="">
+                <img class="card_curve" src="assets/media/shapes/banner-15-bottom.png" alt="">
               </div>
 
               <div class="card_title_wraper">
                 <h4> Article Title 2 </h4>
-                <h5> 1 - 5 - 2021 </h5>
+                <h6> 1, May, 2021 </h6>
               </div>
 
               <div class="card_text">
@@ -1147,12 +1149,13 @@
                 <div class="overlay">
                   <i class="fas fa-info-circle fa-3x"></i>
                 </div>
-                <img src="assets/media/pic3.jpeg" alt="">
+                <img class="card_img" src="assets/media/pic3.jpeg" alt="">
+                <img class="card_curve" src="assets/media/shapes/banner-15-bottom.png" alt="">
               </div>
 
               <div class="card_title_wraper">
                 <h4> Article Title 3 </h4>
-                <h5> 1 - 5 - 2021 </h5>
+                <h6> 1, May, 2021 </h6>
               </div>
 
               <div class="card_text">
@@ -1171,12 +1174,13 @@
                 <div class="overlay">
                   <i class="fas fa-info-circle fa-3x"></i>
                 </div>
-                <img src="assets/media/pic4.jpeg" alt="">
+                <img class="card_img" src="assets/media/pic4.jpeg" alt="">
+                <img class="card_curve" src="assets/media/shapes/banner-15-bottom.png" alt="">
               </div>
 
               <div class="card_title_wraper">
                 <h4> Article Title 4 </h4>
-                <h5> 1 - 5 - 2021 </h5>
+                <h6> 1, May, 2021 </h6>
               </div>
 
               <div class="card_text">
@@ -1195,12 +1199,13 @@
                 <div class="overlay">
                   <i class="fas fa-info-circle fa-3x"></i>
                 </div>
-                <img src="assets/media/pic5.jpeg" alt="">
+                <img class="card_img" src="assets/media/pic5.jpeg" alt="">
+                <img class="card_curve" src="assets/media/shapes/banner-15-bottom.png" alt="">
               </div>
 
               <div class="card_title_wraper">
                 <h4> Article Title 5 </h4>
-                <h5> 1 - 5 - 2021 </h5>
+                <h6> 1, May, 2021 </h6>
               </div>
 
               <div class="card_text">
@@ -1211,6 +1216,32 @@
             </div>
           </a>
         </div>
+
+        <div class="col-10 col-lg-4 my-3">
+          <a href="#">
+            <div class="article_card_wraper">
+              <div class="img_wraper">
+                <div class="overlay">
+                  <i class="fas fa-info-circle fa-3x"></i>
+                </div>
+                <img class="card_img" src="assets/media/pic6.jpeg" alt="">
+                <img class="card_curve" src="assets/media/shapes/banner-15-bottom.png" alt="">
+              </div>
+
+              <div class="card_title_wraper">
+                <h4> Article Title 6 </h4>
+                <h6> 1, May, 2021 </h6>
+              </div>
+
+              <div class="card_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
+                facilis. Quas ex provident quam, inventore consectetur 
+              </div>
+            </div>
+          </a>
+        </div>
+
       </div>
     </div>
   </div>

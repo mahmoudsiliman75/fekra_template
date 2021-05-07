@@ -2209,15 +2209,65 @@ nav {
     margin-block: 15px;
   }
 
-  .heighlight_faqs_wraper {
-    .heighlight_faq_card {
-      h3 {
-        color: $corpColor2;
+  .faqs_wraper {
+    .accordion {
+      .card {
+        .card-header {    
+          padding: 0;              
+          h4 {
+            button {
+              padding: 15px;
+              border: none;
+              background-color: transparent;
+              text-decoration: none;
+              color: $corpColor1;
+              svg {
+                @include transitioning();
+              }
+              &[aria-expanded='true'] {
+                color: $white;
+                background-image: linear-gradient(to right, $corpColor1, $corpColor2);
+                svg {
+                  transform: rotate(90deg);
+                }
+              }
+            }
+          }
+        }
+
+        .card-body {
+          @include textWraper();
+          font-size: 16px;
+          padding-inline-start: 45px;
+        }
       }
-      .answer {
-        @include textWraper();
-        padding-inline-start: 25px;
-      }
+    }
+  }
+}
+// END:: FAQS SECTION STYLES
+
+// START:: MAIN FAQS SECTION STYLES
+.main_faqs {
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .sec_desc_wraper {
+    @include textWraper();
+    text-align: center;
+    margin-block: 15px;
+  }
+
+  .video_wraper {
+    iframe {
+      width: 100%;
+      min-height: 400px;
+      max-height: 400px;
+      @include borderRadius($borderRadiusAmount);
     }
   }
 
@@ -2256,7 +2306,7 @@ nav {
     }
   }
 }
-// END:: FAQS SECTION STYLES
+// END:: MAIN FAQS SECTION STYLES
 
 // START:: NEWS SECCTION STYLES
 .news_sec {
@@ -2347,15 +2397,13 @@ nav {
     }
   }
 }
-// END:: NEWS SECCTION STYLES
 
-// START:: MAIN FAQS SECTION STYLES
-.main_faqs {
+.news_sec_index_2 {
   padding: $paddingAmount 0;
   .header_wraper {
     @include flexCenterAlignment();
     h2 {
-      @include mainHeaderStyle();
+      @include secondHeaderStyle();
     }
   }
 
@@ -2365,51 +2413,99 @@ nav {
     margin-block: 15px;
   }
 
-  .video_wraper {
-    iframe {
-      width: 100%;
-      min-height: 400px;
-      max-height: 400px;
-      @include borderRadius($borderRadiusAmount);
-    }
-  }
-
-  .faqs_wraper {
-    .accordion {
-      .card {
-        .card-header {    
-          padding: 0;              
-          h4 {
-            button {
-              padding: 15px;
-              border: none;
-              background-color: transparent;
-              text-decoration: none;
-              color: $corpColor1;
-              svg {
-                @include transitioning();
-              }
-              &[aria-expanded='true'] {
-                color: $white;
-                background-image: linear-gradient(to right, $corpColor1, $corpColor2);
-                svg {
-                  transform: rotate(90deg);
-                }
-              }
-            }
+  a {
+    text-decoration: none;
+    .article_card_wraper {
+      background-color: $white;
+      min-height: 465px;
+      max-height: 465px;
+      text-align: center;
+      position: relative;
+      @include borderRadius(5px);
+      @include midShadow();
+  
+      &:hover {
+        .img_wraper {
+          .overlay {
+            opacity: 1;
+          }
+  
+          .card_img {
+            transform: scale(1.05);
           }
         }
-
-        .card-body {
-          @include textWraper();
-          font-size: 16px;
-          padding-inline-start: 45px;
+      }
+  
+      .img_wraper {
+        position: relative;
+        overflow: hidden;
+        min-height: 250px;
+        max-height: 250px;
+        .overlay {
+          opacity: 0;
+          z-index: 3;
+          position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          background-color: rgba(234, 84, 85, 0.8);
+          border-radius: 5px 5px 0 0;
+          @include flexCenterAlignment();
+          @include transitioning();
+          svg {
+            color: $white;
+          }
         }
+  
+        .card_img {
+          @include transitioning();
+          width: 100%;
+          min-height: 240px;
+          max-height: 240px;
+          z-index: 2;
+          border-radius: 5px 5px 0 0;
+        }
+
+        .card_curve {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          z-index: 10;
+        }
+      }
+  
+      .card_title_wraper {
+        margin-top: 25px;
+        position: relative;
+        h4 {
+          text-align: center;
+          color: $corpColor1;
+          margin-bottom: 0;
+        }
+        h6 {
+          position: absolute;
+          right: 15px;
+          top: -38px;
+          z-index: 11;
+          color: $white;
+          padding: 5px;
+          background-image: linear-gradient(to right, $corpColor1, $corpColor2);
+          @include borderRadius($largeBorderRadiusAmount);
+        }
+      }
+  
+      .card_text {
+        padding: 10px 20px 20px 20px;
+        @include textWraper();
+        font-size: 16px;
       }
     }
   }
 }
-// END:: MAIN FAQS SECTION STYLES
+// END:: NEWS SECCTION STYLES
 
 // START:: PORTFOLIO SECTION STYLES
 .portfolio_sec {
