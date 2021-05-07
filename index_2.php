@@ -1249,7 +1249,7 @@
 </div>
 
 <!-- START:: CONTACT US SECTION -->
-<div class="contact_us_sec">
+<div class="contact_us_sec_index_2">
   <div class="container">
     <div class="header_wraper mb-4">
       <h2> Get In Touch With Us </h2>
