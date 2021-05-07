@@ -899,31 +899,36 @@
 <!-- END:: CLIENTS SECTION -->
 
 <!-- START:: TESTEMONIALS SECTION -->
-<div class="testemonials">
+<div class="testemonials_index_2">
   <div class="container">
     <div class="header_wraper">
       <h2> Testemonials </h2>
     </div>
 
-    <div class="sec_desc_wraper">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-      Culpa enim praesentium minima sunt, eveniet ratione velit 
-      similique omnis porro doloremque dolores? Aut accusantium 
-      possimus voluptates nobis ullam? Amet, ipsa est.
-    </div>
-
     <div class="row flex-column align-items-center justify-content-center mt-3 overflow-hidden">
-      <div id="testemonials" class="owl-carousel owl-theme col-12">
+      <div id="testemonials_2" class="owl-carousel owl-theme col-8">
 
         <div class="item">
           <div class="testemonial_card">
+            <div class="card_body">
+              <div class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Omnis quas dignissimos amet. Sed fuga mollitia in voluptatum eum. 
+                Itaque illo dolores voluptates modi cumque a fugiat fuga 
+                sapiente praesentium iusto.
+              </div>
+            </div>
+
             <div class="img_wraper">
               <img src="assets/media/team/member1.jpg" alt="">
+              <h5> Client Name 1 </h5>
             </div>
+          </div>
+        </div>
 
+        <div class="item">
+          <div class="testemonial_card">
             <div class="card_body">
-              <img src="assets/media/shapes/qutation.png" alt="">
-              <h4> Client Name 1 </h4>
               <div class="text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Omnis quas dignissimos amet. Sed fuga mollitia in voluptatum eum. 
@@ -931,43 +936,28 @@
                 sapiente praesentium iusto.
               </div>
             </div>
-          </div>
-        </div>
 
-        <div class="item">
-          <div class="testemonial_card">
             <div class="img_wraper">
               <img src="assets/media/team/member2.jpg" alt="">
-            </div>
-
-            <div class="card_body">
-              <img src="assets/media/shapes/qutation.png" alt="">
-              <h4> Client Name 2 </h4>
-              <div class="text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Omnis quas dignissimos amet. Sed fuga mollitia in voluptatum eum. 
-                Itaque illo dolores voluptates modi cumque a fugiat fuga 
-                sapiente praesentium iusto.
-              </div>
+              <h5> Client Name 2 </h5>
             </div>
           </div>
         </div>
 
         <div class="item">
           <div class="testemonial_card">
-            <div class="img_wraper">
-              <img src="assets/media/team/member3.jpg" alt="">
-            </div>
-
             <div class="card_body">
-              <img src="assets/media/shapes/qutation.png" alt="">
-              <h4> Client Name 3 </h4>
               <div class="text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Omnis quas dignissimos amet. Sed fuga mollitia in voluptatum eum. 
                 Itaque illo dolores voluptates modi cumque a fugiat fuga 
                 sapiente praesentium iusto.
               </div>
+            </div>
+
+            <div class="img_wraper">
+              <img src="assets/media/team/member3.jpg" alt="">
+              <h5> Client Name 3 </h5>
             </div>
           </div>
         </div>

@@ -115,6 +115,20 @@ $(document).ready( function() {
       }
     }
   });
+
+  $('#testemonials_2').owlCarousel({
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:6000,
+    autoplayHoverPause:true,
+    margin:30,
+    nav: false,
+    dots: true,
+    items:1,
+    rtl: true, 
+    smartSpeed: 2000,
+    dotsSpeed: 2000,
+  });
   // END:: OWL CAROUSEL
 
   // START:: TOGGLE FORMS

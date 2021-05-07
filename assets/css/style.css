@@ -3419,8 +3419,7 @@ nav .menu_btn svg {
 
 .testemonials_index_2 {
   padding: 50px 0;
-  background-color: #ea5455;
-  background: url("../media/shapes/client-shape2.png") #ea5455;
+  background: url("../media/shapes/client-shape2.png") #00334e;
   background-repeat: no-repeat;
   background-size: 80%;
   background-position: right 0;
@@ -3443,52 +3442,42 @@ nav .menu_btn svg {
 }
 
 .testemonials_index_2 .container .header_wraper h2 {
-  color: #00334e;
-  font-weight: 600;
-  text-transform: uppercase;
-  word-spacing: 3px;
+  padding: 8px 15px;
   position: relative;
-  padding-bottom: 10px;
+  color: #ea5455;
   color: #fff;
 }
 
-.testemonials_index_2 .container .header_wraper h2::before {
-  content: '';
-  display: block;
+.testemonials_index_2 .container .header_wraper h2::before, .testemonials_index_2 .container .header_wraper h2::after {
+  content: "";
   position: absolute;
-  bottom: 0;
+  top: 0;
+  display: block;
+  height: 100%;
+  width: 20px;
+  border: 2px solid #00334e;
+}
+
+.testemonials_index_2 .container .header_wraper h2::before {
   left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #ea5455;
+  border-right: none;
+  border-radius: 5px 0 0 5px;
 }
 
 .testemonials_index_2 .container .header_wraper h2::after {
-  content: '';
-  display: block;
-  position: absolute;
-  bottom: -1px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  width: 40%;
-  height: 4px;
-  background-color: #00334e;
+  right: 0;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
 }
 
 .testemonials_index_2 .container .header_wraper h2::before {
-  background-color: #fff;
+  border: 2px solid #ea5455;
+  border-right: none;
 }
 
-.testemonials_index_2 .container .sec_desc_wraper {
-  word-break: break-word;
-  word-spacing: 2px;
-  font-size: 18px;
-  color: #666;
-  line-height: 1.6;
-  color: #fff;
-  text-align: center;
-  margin-block: 15px;
+.testemonials_index_2 .container .header_wraper h2::after {
+  border: 2px solid #ea5455;
+  border-left: none;
 }
 
 .testemonials_index_2 .container .owl-carousel .item {
@@ -3497,90 +3486,61 @@ nav .menu_btn svg {
 
 .testemonials_index_2 .container .owl-carousel .item .testemonial_card {
   position: relative;
-  background-color: #fff;
+  position: relative;
+  background: url("../media/shapes/qutation.png") #fff;
+  background-position: 95% 85%;
+  background-repeat: no-repeat;
   padding: 20px;
   border: 2px solid #00334e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   border-radius: 10px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
-.testemonials_index_2 .container .owl-carousel .item .testemonial_card:hover {
-  background-color: #00334e;
-  border: 2px solid #fff;
-  -webkit-box-shadow: 0 0 5px 2px #003552;
-          box-shadow: 0 0 5px 2px #003552;
-}
-
-.testemonials_index_2 .container .owl-carousel .item .testemonial_card:hover .img_wraper img {
-  border-right: 2px solid #fff;
-  border-bottom: 2px solid #fff;
-}
-
-.testemonials_index_2 .container .owl-carousel .item .testemonial_card:hover .card_body {
-  -webkit-margin-end: 120px;
-          margin-inline-end: 120px;
-  position: relative;
-}
-
-.testemonials_index_2 .container .owl-carousel .item .testemonial_card:hover .card_body img {
-  -webkit-filter: brightness(0) invert(1);
-          filter: brightness(0) invert(1);
-}
-
-.testemonials_index_2 .container .owl-carousel .item .testemonial_card:hover .card_body h4 {
-  color: #fff;
-}
-
-.testemonials_index_2 .container .owl-carousel .item .testemonial_card:hover .card_body .text {
-  word-break: break-word;
-  word-spacing: 2px;
-  font-size: 18px;
-  color: #666;
-  line-height: 1.6;
-  color: #fff;
-  font-size: 16px;
-}
-
 .testemonials_index_2 .container .owl-carousel .item .testemonial_card .img_wraper {
-  min-width: 120px;
-  max-width: 120px;
-  min-height: 120px;
-  max-height: 120px;
-  border-radius: 50%;
-  position: absolute;
-  top: 0;
-  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .testemonials_index_2 .container .owl-carousel .item .testemonial_card .img_wraper img {
-  min-width: 120px;
-  max-width: 120px;
-  min-height: 120px;
-  max-height: 120px;
-  border-right: 2px solid #00334e;
-  border-bottom: 2px solid #00334e;
-  border-radius: 10px 0;
+  display: inline-block;
+  margin-block: 15px;
+  padding: 2px;
+  min-width: 90px;
+  max-width: 90px;
+  min-height: 90px;
+  max-height: 90px;
+  border: 3px solid #ea5455;
+  border-radius: 50%;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
-.testemonials_index_2 .container .owl-carousel .item .testemonial_card .card_body {
-  -webkit-margin-end: 120px;
-          margin-inline-end: 120px;
-  position: relative;
-}
-
-.testemonials_index_2 .container .owl-carousel .item .testemonial_card .card_body img {
-  width: 40px;
-  height: 40px;
-  float: right;
-  z-index: 1;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-
-.testemonials_index_2 .container .owl-carousel .item .testemonial_card .card_body h4 {
+.testemonials_index_2 .container .owl-carousel .item .testemonial_card .img_wraper h5 {
   color: #00334e;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -3592,6 +3552,7 @@ nav .menu_btn svg {
   font-size: 18px;
   color: #666;
   line-height: 1.6;
+  text-align: center;
   font-size: 16px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
