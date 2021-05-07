@@ -2193,6 +2193,69 @@ nav {
     }
   }
 }
+
+.faq_sec_index_2 {
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include secondHeaderStyle();
+    }
+  }
+
+  .sec_desc_wraper {
+    @include textWraper();
+    text-align: center;
+    margin-block: 15px;
+  }
+
+  .heighlight_faqs_wraper {
+    .heighlight_faq_card {
+      h3 {
+        color: $corpColor2;
+      }
+      .answer {
+        @include textWraper();
+        padding-inline-start: 25px;
+      }
+    }
+  }
+
+  .faqs_wraper {
+    .accordion {
+      .card {
+        .card-header {    
+          padding: 0;              
+          h4 {
+            button {
+              padding: 15px;
+              border: none;
+              background-color: transparent;
+              text-decoration: none;
+              color: $corpColor1;
+              svg {
+                @include transitioning();
+              }
+              &[aria-expanded='true'] {
+                color: $white;
+                background-image: linear-gradient(to right, $corpColor1, $corpColor2);
+                svg {
+                  transform: rotate(90deg);
+                }
+              }
+            }
+          }
+        }
+
+        .card-body {
+          @include textWraper();
+          font-size: 16px;
+          padding-inline-start: 45px;
+        }
+      }
+    }
+  }
+}
 // END:: FAQS SECTION STYLES
 
 // START:: NEWS SECCTION STYLES

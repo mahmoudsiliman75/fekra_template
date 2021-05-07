@@ -968,250 +968,254 @@
 </div>
 <!-- END:: TESTEMONIALS SECTION -->
 
-<!-- START:: FAQS SECTION -->
-<div class="faq_sec">
-  <div class="container">
-    <div class="header_wraper">
-      <h2> FAQs </h2>
-    </div>
-
-    <div class="sec_desc_wraper">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-      Culpa enim praesentium minima sunt, eveniet ratione velit 
-      similique omnis porro doloremque dolores? Aut accusantium 
-      possimus voluptates nobis ullam? Amet, ipsa est.
-    </div>
-
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-6 my-3">
-        <div class="heighlight_faqs_wraper">
-
-          <div class="heighlight_faq_card my-3">
-            <h3> Important Question 1 ? </h3>
-            <div class="answer">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-              Consequatur facilis ex, animi, vero laborum corporis assumenda 
-              totam, minima impedit doloribus fugiat eaque optio voluptates.
-            </div>
-          </div>
-
-          <div class="heighlight_faq_card my-3">
-            <h3> Important Question 2 ? </h3>
-            <div class="answer">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-              Consequatur facilis ex, animi, vero laborum corporis assumenda 
-              totam, minima impedit doloribus fugiat eaque optio voluptates.
-            </div>
-          </div>
-
-        </div>
+<div class="bg_wraper">
+  <!-- START:: FAQS SECTION -->
+  <div class="faq_sec_index_2">
+    <div class="container">
+      <div class="header_wraper">
+        <h2> FAQs </h2>
       </div>
 
-      <div class="col-12 col-md-6 my-3">
-        <div class="faqs_wraper">
-          <div class="accordion" id="faqs_accordion">
+      <div class="sec_desc_wraper">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Culpa enim praesentium minima sunt, eveniet ratione velit 
+        similique omnis porro doloremque dolores? Aut accusantium 
+        possimus voluptates nobis ullam? Amet, ipsa est.
+      </div>
 
-            <div class="card border my-3">
-              <div class="card-header" id="headingOne">
-                <h4 class="mb-0">
-                  <button class="btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    <i class="fas fa-angle-double-right"></i>  
-                    Question #1
-                  </button>
-                </h4>
+      <div class="row justify-content-center">
+        <div class="col-12 my-3">
+          <div class="faqs_wraper">
+            <div class="accordion row justify-content-center" id="faqs_accordion">
+              <div class="col-12 col-md-6">
+                <div class="card border my-3">
+                  <div class="card-header" id="headingOne">
+                    <h4 class="mb-0">
+                      <button class="btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <i class="fas fa-angle-double-right"></i>  
+                        Question #1
+                      </button>
+                    </h4>
+                  </div>
+
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqs_accordion">
+                    <div class="card-body">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                      Reprehenderit minima mollitia explicabo unde et illo illum. 
+                      Quia vel, culpa sequi consequuntur neque illo porro facere 
+                    </div>
+                  </div>
+                </div>
               </div>
 
-              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqs_accordion">
-                <div class="card-body">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                  Reprehenderit minima mollitia explicabo unde et illo illum. 
-                  Quia vel, culpa sequi consequuntur neque illo porro facere 
+
+              <div class="col-12 col-md-6">
+                <div class="card border my-3">
+                  <div class="card-header" id="headingTwo">
+                    <h4 class="mb-0">
+                      <button class="btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="fas fa-angle-double-right"></i>
+                        Question #2
+                      </button>
+                    </h4>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqs_accordion">
+                    <div class="card-body">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                      Reprehenderit minima mollitia explicabo unde et illo illum. 
+                      Quia vel, culpa sequi consequuntur neque illo porro facere 
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+
+              <div class="col-12 col-md-6">
+                <div class="card border my-3">
+                  <div class="card-header" id="headingThree">
+                    <h4 class="mb-0">
+                      <button class="btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <i class="fas fa-angle-double-right"></i>
+                        Quesion #3
+                      </button>
+                    </h4>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqs_accordion">
+                    <div class="card-body">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                      Reprehenderit minima mollitia explicabo unde et illo illum. 
+                      Quia vel, culpa sequi consequuntur neque illo porro facere 
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6">
+                <div class="card border my-3">
+                  <div class="card-header" id="headingFour">
+                    <h4 class="mb-0">
+                      <button class="btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <i class="fas fa-angle-double-right"></i>
+                        Quesion #4
+                      </button>
+                    </h4>
+                  </div>
+                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqs_accordion">
+                    <div class="card-body">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                      Reprehenderit minima mollitia explicabo unde et illo illum. 
+                      Quia vel, culpa sequi consequuntur neque illo porro facere 
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-
-            <div class="card border my-3">
-              <div class="card-header" id="headingTwo">
-                <h4 class="mb-0">
-                  <button class="btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    <i class="fas fa-angle-double-right"></i>
-                    Question #2
-                  </button>
-                </h4>
-              </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqs_accordion">
-                <div class="card-body">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                  Reprehenderit minima mollitia explicabo unde et illo illum. 
-                  Quia vel, culpa sequi consequuntur neque illo porro facere 
-                </div>
-              </div>
-            </div>
-
-            <div class="card border my-3">
-              <div class="card-header" id="headingThree">
-                <h4 class="mb-0">
-                  <button class="btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    <i class="fas fa-angle-double-right"></i>
-                    Quesion #3
-                  </button>
-                </h4>
-              </div>
-              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqs_accordion">
-                <div class="card-body">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                  Reprehenderit minima mollitia explicabo unde et illo illum. 
-                  Quia vel, culpa sequi consequuntur neque illo porro facere 
-                </div>
-              </div>
-            </div>
-
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<!-- END:: FAQS SECTION -->
+  <!-- END:: FAQS SECTION -->
 
-<!-- START:: NEWS SECTION -->
-<div class="news_sec">
-  <div class="container">
-    <div class="header_wraper">
-      <h2> News </h2>
-    </div>
-
-    <div class="sec_desc_wraper">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-      Culpa enim praesentium minima sunt, eveniet ratione velit 
-      similique omnis porro doloremque dolores? Aut accusantium 
-      possimus voluptates nobis ullam? Amet, ipsa est.
-    </div>
-
-    <div class="row justify-content-center">
-      <div class="col-10 col-lg-4 my-3">
-        <a href="#">
-          <div class="article_card_wraper">
-            <div class="img_wraper">
-              <div class="overlay">
-                <i class="fas fa-info-circle fa-3x"></i>
-              </div>
-              <img src="assets/media/pic1.jpeg" alt="">
-            </div>
-
-            <div class="card_title_wraper">
-              <h4> Article Title 1 </h4>
-              <h5> 1 - 5 - 2021 </h5>
-            </div>
-
-            <div class="card_text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
-              facilis. Quas ex provident quam, inventore consectetur 
-            </div>
-          </div>
-        </a>
+  <!-- START:: NEWS SECTION -->
+  <div class="news_sec">
+    <div class="container">
+      <div class="header_wraper">
+        <h2> News </h2>
       </div>
 
-      <div class="col-10 col-lg-4 my-3">
-        <a href="#">
-          <div class="article_card_wraper">
-            <div class="img_wraper">
-              <div class="overlay">
-                <i class="fas fa-info-circle fa-3x"></i>
-              </div>
-              <img src="assets/media/pic2.jpeg" alt="">
-            </div>
-
-            <div class="card_title_wraper">
-              <h4> Article Title 2 </h4>
-              <h5> 1 - 5 - 2021 </h5>
-            </div>
-
-            <div class="card_text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
-              facilis. Quas ex provident quam, inventore consectetur 
-            </div>
-          </div>
-        </a>
+      <div class="sec_desc_wraper">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Culpa enim praesentium minima sunt, eveniet ratione velit 
+        similique omnis porro doloremque dolores? Aut accusantium 
+        possimus voluptates nobis ullam? Amet, ipsa est.
       </div>
 
-      <div class="col-10 col-lg-4 my-3">
-        <a href="#">
-          <div class="article_card_wraper">
-            <div class="img_wraper">
-              <div class="overlay">
-                <i class="fas fa-info-circle fa-3x"></i>
+      <div class="row justify-content-center">
+        <div class="col-10 col-lg-4 my-3">
+          <a href="#">
+            <div class="article_card_wraper">
+              <div class="img_wraper">
+                <div class="overlay">
+                  <i class="fas fa-info-circle fa-3x"></i>
+                </div>
+                <img src="assets/media/pic1.jpeg" alt="">
               </div>
-              <img src="assets/media/pic3.jpeg" alt="">
-            </div>
 
-            <div class="card_title_wraper">
-              <h4> Article Title 3 </h4>
-              <h5> 1 - 5 - 2021 </h5>
-            </div>
-
-            <div class="card_text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
-              facilis. Quas ex provident quam, inventore consectetur 
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-10 col-lg-4 my-3">
-        <a href="#">
-          <div class="article_card_wraper">
-            <div class="img_wraper">
-              <div class="overlay">
-                <i class="fas fa-info-circle fa-3x"></i>
+              <div class="card_title_wraper">
+                <h4> Article Title 1 </h4>
+                <h5> 1 - 5 - 2021 </h5>
               </div>
-              <img src="assets/media/pic4.jpeg" alt="">
-            </div>
 
-            <div class="card_title_wraper">
-              <h4> Article Title 4 </h4>
-              <h5> 1 - 5 - 2021 </h5>
-            </div>
-
-            <div class="card_text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
-              facilis. Quas ex provident quam, inventore consectetur 
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-10 col-lg-4 my-3">
-        <a href="#">
-          <div class="article_card_wraper">
-            <div class="img_wraper">
-              <div class="overlay">
-                <i class="fas fa-info-circle fa-3x"></i>
+              <div class="card_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
+                facilis. Quas ex provident quam, inventore consectetur 
               </div>
-              <img src="assets/media/pic5.jpeg" alt="">
             </div>
+          </a>
+        </div>
 
-            <div class="card_title_wraper">
-              <h4> Article Title 5 </h4>
-              <h5> 1 - 5 - 2021 </h5>
-            </div>
+        <div class="col-10 col-lg-4 my-3">
+          <a href="#">
+            <div class="article_card_wraper">
+              <div class="img_wraper">
+                <div class="overlay">
+                  <i class="fas fa-info-circle fa-3x"></i>
+                </div>
+                <img src="assets/media/pic2.jpeg" alt="">
+              </div>
 
-            <div class="card_text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
-              facilis. Quas ex provident quam, inventore consectetur 
+              <div class="card_title_wraper">
+                <h4> Article Title 2 </h4>
+                <h5> 1 - 5 - 2021 </h5>
+              </div>
+
+              <div class="card_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
+                facilis. Quas ex provident quam, inventore consectetur 
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
+
+        <div class="col-10 col-lg-4 my-3">
+          <a href="#">
+            <div class="article_card_wraper">
+              <div class="img_wraper">
+                <div class="overlay">
+                  <i class="fas fa-info-circle fa-3x"></i>
+                </div>
+                <img src="assets/media/pic3.jpeg" alt="">
+              </div>
+
+              <div class="card_title_wraper">
+                <h4> Article Title 3 </h4>
+                <h5> 1 - 5 - 2021 </h5>
+              </div>
+
+              <div class="card_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
+                facilis. Quas ex provident quam, inventore consectetur 
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-10 col-lg-4 my-3">
+          <a href="#">
+            <div class="article_card_wraper">
+              <div class="img_wraper">
+                <div class="overlay">
+                  <i class="fas fa-info-circle fa-3x"></i>
+                </div>
+                <img src="assets/media/pic4.jpeg" alt="">
+              </div>
+
+              <div class="card_title_wraper">
+                <h4> Article Title 4 </h4>
+                <h5> 1 - 5 - 2021 </h5>
+              </div>
+
+              <div class="card_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
+                facilis. Quas ex provident quam, inventore consectetur 
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-10 col-lg-4 my-3">
+          <a href="#">
+            <div class="article_card_wraper">
+              <div class="img_wraper">
+                <div class="overlay">
+                  <i class="fas fa-info-circle fa-3x"></i>
+                </div>
+                <img src="assets/media/pic5.jpeg" alt="">
+              </div>
+
+              <div class="card_title_wraper">
+                <h4> Article Title 5 </h4>
+                <h5> 1 - 5 - 2021 </h5>
+              </div>
+
+              <div class="card_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
+                facilis. Quas ex provident quam, inventore consectetur 
+              </div>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   </div>
+  <!-- END:: NEWS SECTION -->
 </div>
-<!-- END:: NEWS SECTION -->
 
 <!-- START:: CONTACT US SECTION -->
 <div class="contact_us_sec">
