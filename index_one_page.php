@@ -1,15 +1,9 @@
 <!-- START:: INCLUDING THE HEADER -->
-<?php include('layouts/TheHeader.php')?>
+<?php include('layouts/one_page/OnePageHeader.php')?>
 <!-- END:: INCLUDING THE HEADER -->
 
 <!-- START:: INDEX2 HOME SLIDER -->
-<div id="home_slider" class="carousel carousel_2 slide carousel-fade" data-ride="carousel">
-
-  <!-- <ol class="carousel-indicators">
-    <li data-target="#home_slider" data-slide-to="0" class="active"></li>
-    <li data-target="#home_slider" data-slide-to="1"></li>
-    <li data-target="#home_slider" data-slide-to="2"></li>
-  </ol> -->
+<div id="home_slider" class="carousel carousel_one_page slide carousel-fade" data-ride="carousel">
 
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -26,7 +20,9 @@
   </div>
 
   <div class="section_curve_wraper">
-    <img src="assets/media/shapes/banner-15-bottom.png">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+    </svg>
   </div>
 
   <a class="carousel-control-prev" href="#home_slider" role="button" data-slide="prev">
@@ -42,7 +38,7 @@
 
 <div class="bg_wraper">
   <!-- START:: ABOUT US SECTION -->
-  <div class="about_sec_index_2">
+  <div class="about_sec_one_page">
     <div class="container">
       <div class="header_wraper">
         <h2> About Us </h2>
@@ -50,13 +46,13 @@
 
       <div class="sec_desc_wraper">
         <div class="row justify-content-center">
-          <div class="col-9 col-md-5">
+          <div class="col-9 col-md-5 mb-3">
             <div class="image_wraper">
               <img src="assets/media/pic3.jpeg" alt="">
             </div>
           </div>
 
-          <div class="col-12 col-md-7">
+          <div class="col-12 col-md-7 mb-3">
             <div class="text_wraper">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
               Culpa enim praesentium minima sunt, eveniet ratione velit 
@@ -76,7 +72,7 @@
       </div>
 
       <div class="row justify-content-center">
-        <div class="col-10 col-lg-3 mt-5">
+        <div class="col-10 col-lg-4 p-0 mt-5">
           <div class="about_card_wraper">
             <div class="icon_wraper">
               <span>
@@ -96,7 +92,7 @@
           </div>
         </div>
 
-        <div class="col-10 col-lg-3 mt-5">
+        <div class="col-10 col-lg-4 p-0 mt-5">
           <div class="about_card_wraper">
             <div class="icon_wraper">
               <span>
@@ -116,31 +112,11 @@
           </div>
         </div>
 
-        <div class="col-10 col-lg-3 mt-5">
+        <div class="col-10 col-lg-4 p-0 mt-5">
           <div class="about_card_wraper">
             <div class="icon_wraper">
               <span>
                 <i class="fas fa-award fa-2x"></i> 
-              </span>
-            </div>
-
-            <div class="card_title_wraper">
-              <h4> Title 3 </h4>
-            </div>
-
-            <div class="card_text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
-              facilis. Quas ex provident quam, inventore consectetur 
-            </div>
-          </div>
-        </div>
-
-        <div class="col-10 col-lg-3 mt-5">
-          <div class="about_card_wraper">
-            <div class="icon_wraper">
-              <span>
-                <i class="fas fa-cog fa-2x"></i>
               </span>
             </div>
 
@@ -1301,5 +1277,5 @@
 <!-- END:: CONTACT US SECTION -->
 
 <!-- START:: INCLUDING THE FOOTER -->
-<?php include('layouts/Index2Footer.php')?>
+<?php include('layouts/one_page/OnePageFooter.php')?>
 <!-- END:: INCLUDING THE FOOTER -->

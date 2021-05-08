@@ -1,3 +1,4 @@
+
 // START:: INCLUDING GOOGLE FONT
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 // END:: INCLUDING GOOGLE FONT
@@ -513,6 +514,7 @@ nav {
   }
 }
 
+// START:: INDEX2 SLIDER
 .carousel {
   &.carousel_2 {
     position: relative;
@@ -567,6 +569,7 @@ nav {
     }
   }
 }
+
 // END:: HOME SLIDER STYLES
 
 // START:: HOME PAGE ABOUT SECTION STYLES
@@ -576,7 +579,7 @@ nav {
   .header_wraper {
     @include flexCenterAlignment();
     h2 {
-      @include secondHeaderStyle();
+      @include mainHeaderStyle();
     }
   }
 
@@ -2908,7 +2911,7 @@ nav {
   .header_wraper {
     @include flexCenterAlignment();
     h2 {
-      @include mainHeaderStyle();
+      @include secondHeaderStyle();
     }
   }
 
@@ -3146,6 +3149,31 @@ nav {
 // START:: FOOTER STYLES
 footer {
   background-color: $corpColor1;
+  padding-top: 40px;
+  position: relative;
+
+  .section_curve {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    svg {
+      position: relative;
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 50px;
+      .shape-fill {
+        fill: #FFFFFF;
+      }
+    }
+  }
+
+
+
+
 
   .footer_logo {
     @include flexCenterAlignment();

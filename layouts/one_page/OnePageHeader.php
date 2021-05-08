@@ -35,7 +35,7 @@
   <!-- END:: INCLUDING WOW JS STYLE FILE -->
 
   <!-- START:: INCLUDING MAIN STYLE FILE -->
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/onePage/one-page-style.css">
   <!-- <link rel="stylesheet" href="assets/css/ar-style.css"> -->
   <!-- END:: INCLUDING MAIN STYLE FILE -->
 
@@ -70,10 +70,6 @@
 
           <li> 
             <a href="index_2.php"> Home 2 </a> 
-          </li>
-
-          <li> 
-            <a href="index_one_page.php"> One Page </a> 
           </li>
         </ul>
       </li>
