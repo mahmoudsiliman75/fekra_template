@@ -36,108 +36,114 @@
 </div>
 <!-- END:: INDEX2 HOME SLIDER -->
 
-<div class="bg_wraper">
-  <!-- START:: ABOUT US SECTION -->
-  <div class="about_sec_one_page">
-    <div class="container">
-      <div class="header_wraper">
-        <h2> About Us </h2>
-      </div>
+<!-- START:: ABOUT US SECTION -->
+<div class="about_sec_one_page">
+  <div class="container">
+    <div class="header_wraper">
+      <h2> About Us </h2>
+    </div>
 
-      <div class="sec_desc_wraper">
-        <div class="row justify-content-center">
-          <div class="col-9 col-md-5 mb-3">
-            <div class="image_wraper">
-              <img src="assets/media/pic3.jpeg" alt="">
-            </div>
-          </div>
-
-          <div class="col-12 col-md-7 mb-3">
-            <div class="text_wraper">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-              Culpa enim praesentium minima sunt, eveniet ratione velit 
-              similique omnis porro doloremque dolores? Aut accusantium 
-              possimus voluptates nobis ullam? Amet, ipsa est.
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-              Culpa enim praesentium minima sunt, eveniet ratione velit 
-              similique omnis porro doloremque dolores? Aut accusantium 
-              possimus voluptates nobis ullam? Amet, ipsa est.
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-              Culpa enim praesentium minima sunt, eveniet ratione velit 
-              similique omnis porro doloremque dolores? Aut accusantium 
-              possimus voluptates nobis ullam? Amet, ipsa est.
-            </div>
-          </div>
-        </div>
-      </div>
-
+    <div class="sec_desc_wraper">
       <div class="row justify-content-center">
-        <div class="col-10 col-lg-4 p-0 mt-5">
-          <div class="about_card_wraper">
-            <div class="icon_wraper">
-              <span>
-                <i class="fas fa-star fa-2x"></i> 
-              </span>
-            </div>
-
-            <div class="card_title_wraper">
-              <h4> Title 1 </h4>
-            </div>
-
-            <div class="card_text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
-              facilis. Quas ex provident quam, inventore consectetur 
-            </div>
+        <div class="col-9 col-md-5 mb-3">
+          <div class="image_wraper">
+            <img src="assets/media/pic3.jpeg" alt="">
           </div>
         </div>
 
-        <div class="col-10 col-lg-4 p-0 mt-5">
-          <div class="about_card_wraper">
-            <div class="icon_wraper">
-              <span>
-                <i class="fas fa-rocket fa-2x"></i>
-              </span>
-            </div>
-
-            <div class="card_title_wraper">
-              <h4> Title 2 </h4>
-            </div>
-
-            <div class="card_text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
-              facilis. Quas ex provident quam, inventore consectetur 
-            </div>
+        <div class="col-12 col-md-7 mb-3">
+          <div class="text_wraper">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Culpa enim praesentium minima sunt, eveniet ratione velit 
+            similique omnis porro doloremque dolores? Aut accusantium 
+            possimus voluptates nobis ullam? Amet, ipsa est.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Culpa enim praesentium minima sunt, eveniet ratione velit 
+            similique omnis porro doloremque dolores? Aut accusantium 
+            possimus voluptates nobis ullam? Amet, ipsa est.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Culpa enim praesentium minima sunt, eveniet ratione velit 
+            similique omnis porro doloremque dolores? Aut accusantium 
+            possimus voluptates nobis ullam? Amet, ipsa est.
           </div>
         </div>
+      </div>
+    </div>
 
-        <div class="col-10 col-lg-4 p-0 mt-5">
-          <div class="about_card_wraper">
-            <div class="icon_wraper">
-              <span>
-                <i class="fas fa-award fa-2x"></i> 
-              </span>
-            </div>
+    <div class="row justify-content-center">
+      <div class="col-10 col-lg-4 p-0 mt-5">
+        <div class="about_card_wraper">
+          <div class="icon_wraper">
+            <span>
+              <i class="fas fa-star fa-2x"></i> 
+            </span>
+          </div>
 
-            <div class="card_title_wraper">
-              <h4> Title 3 </h4>
-            </div>
+          <div class="card_title_wraper">
+            <h4> Title 1 </h4>
+          </div>
 
-            <div class="card_text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
-              facilis. Quas ex provident quam, inventore consectetur 
-            </div>
+          <div class="card_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
+            facilis. Quas ex provident quam, inventore consectetur 
+          </div>
+        </div>
+      </div>
+
+      <div class="col-10 col-lg-4 p-0 mt-5">
+        <div class="about_card_wraper">
+          <div class="icon_wraper">
+            <span>
+              <i class="fas fa-rocket fa-2x"></i>
+            </span>
+          </div>
+
+          <div class="card_title_wraper">
+            <h4> Title 2 </h4>
+          </div>
+
+          <div class="card_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
+            facilis. Quas ex provident quam, inventore consectetur 
+          </div>
+        </div>
+      </div>
+
+      <div class="col-10 col-lg-4 p-0 mt-5">
+        <div class="about_card_wraper">
+          <div class="icon_wraper">
+            <span>
+              <i class="fas fa-award fa-2x"></i> 
+            </span>
+          </div>
+
+          <div class="card_title_wraper">
+            <h4> Title 3 </h4>
+          </div>
+
+          <div class="card_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
+            facilis. Quas ex provident quam, inventore consectetur 
           </div>
         </div>
       </div>
     </div>
   </div>
-  <!-- END:: ABOUT US SECTION -->
+</div>
+<!-- END:: ABOUT US SECTION -->
 
-  <!-- START:: SERVICES SECTION -->
-  <div class="services_sec_index_2">
+<!-- START:: SERVICES SECTION -->
+<div class="services_sec_one_page">
+  <div class="overlay">
+    <div class="section_upper_curve_wraper">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+      </svg>
+    </div>
+
     <div class="container">
       <div class="header_wraper">
         <h2> Our Services </h2>
@@ -290,16 +296,16 @@
           </a>
         </div>
       </div>
+    </div>
 
-      <div class="col-12">
-        <div class="btn_wraper">
-          <a href="#"> All Services </a>
-        </div>
-      </div>
+    <div class="section_lower_curve_wraper">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+      </svg>
     </div>
   </div>
-  <!-- END:: SERVICES SECTION -->
 </div>
+<!-- END:: SERVICES SECTION -->
 
 <!-- START:: TEAM MEMBERS SECTION -->
 <div class="team_sec_index_2">

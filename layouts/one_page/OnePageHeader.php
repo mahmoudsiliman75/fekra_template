@@ -71,6 +71,10 @@
           <li> 
             <a href="index_2.php"> Home 2 </a> 
           </li>
+
+          <li> 
+            <a href="index_one_page.php"> One Page </a> 
+          </li>
         </ul>
       </li>
 
