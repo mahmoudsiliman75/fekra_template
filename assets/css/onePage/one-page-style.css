@@ -737,7 +737,7 @@ nav .menu_btn svg {
 
 .services_sec_one_page {
   position: relative;
-  background: url("../../media/pic1.jpeg");
+  background: url("../../media/pic7.jpg");
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -817,6 +817,7 @@ nav .menu_btn svg {
   font-size: 18px;
   color: #666;
   line-height: 1.6;
+  color: #fff;
   text-align: center;
   margin-block: 25px;
 }
@@ -830,6 +831,19 @@ nav .menu_btn svg {
   max-height: 465px;
   text-align: center;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -855,13 +869,14 @@ nav .menu_btn svg {
 .services_sec_one_page .overlay a .service_card_wraper .img_wraper {
   position: relative;
   overflow: hidden;
-  min-height: 235px;
-  max-height: 235px;
-  border-radius: 25% 75% 33% 67% / 71% 41% 59% 29%;
+  min-height: 250px;
+  max-height: 250px;
+  min-width: 250px;
+  max-width: 250px;
+  border: 2px solid #ea5455;
+  border-radius: 50%;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  -webkit-box-shadow: 0 0 10px 2px rgba(225, 225, 225, 0.6);
-          box-shadow: 0 0 10px 2px rgba(225, 225, 225, 0.6);
 }
 
 .services_sec_one_page .overlay a .service_card_wraper .img_wraper .overlay {
@@ -895,15 +910,17 @@ nav .menu_btn svg {
 .services_sec_one_page .overlay a .service_card_wraper .img_wraper img {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  width: 100%;
-  height: 100%;
+  min-height: 250px;
+  max-height: 250px;
+  min-width: 250px;
+  max-width: 250px;
   z-index: 2;
   border-radius: 5px 5px 0 0;
 }
 
 .services_sec_one_page .overlay a .service_card_wraper .card_title_wraper h4 {
   margin-block: 15px;
-  color: #00334e;
+  color: #ea5455;
 }
 
 .services_sec_one_page .overlay a .service_card_wraper .card_text {
@@ -913,6 +930,7 @@ nav .menu_btn svg {
   font-size: 18px;
   color: #666;
   line-height: 1.6;
+  color: #fff;
   font-size: 16px;
 }
 
