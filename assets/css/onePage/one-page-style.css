@@ -991,4 +991,170 @@ nav .menu_btn svg {
     height: 24px;
   }
 }
+
+.team_sec_sec_one_page {
+  padding: 50px 0;
+}
+
+.team_sec_sec_one_page .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.team_sec_sec_one_page .header_wraper h2 {
+  padding: 10px 15px;
+  position: relative;
+  color: #ea5455;
+}
+
+.team_sec_sec_one_page .header_wraper h2::before, .team_sec_sec_one_page .header_wraper h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 50%;
+  width: 40%;
+  border: 2px solid #00334e;
+}
+
+.team_sec_sec_one_page .header_wraper h2::before {
+  top: 0;
+  left: 0;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 5px 0 0 0;
+}
+
+.team_sec_sec_one_page .header_wraper h2::after {
+  bottom: 0;
+  right: 0;
+  border-left: none;
+  border-top: none;
+  border-radius: 0 0 5px 0;
+}
+
+.team_sec_sec_one_page .sec_desc_wraper {
+  word-break: break-word;
+  word-spacing: 2px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  text-align: center;
+  margin-block: 25px;
+}
+
+.team_sec_sec_one_page .member_card_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.team_sec_sec_one_page .member_card_wraper .image_wraper {
+  position: relative;
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 300px;
+  max-height: 300px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.team_sec_sec_one_page .member_card_wraper .image_wraper img {
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 300px;
+  max-height: 300px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.team_sec_sec_one_page .member_card_wraper .image_wraper .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 51, 78, 0.6)), to(rgba(234, 84, 85, 0.6)));
+  background-image: linear-gradient(to bottom, rgba(0, 51, 78, 0.6), rgba(234, 84, 85, 0.6));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  opacity: 0;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.team_sec_sec_one_page .member_card_wraper .image_wraper .overlay .card_body {
+  text-align: center;
+}
+
+.team_sec_sec_one_page .member_card_wraper .image_wraper .overlay .card_body a {
+  text-decoration: none;
+}
+
+.team_sec_sec_one_page .member_card_wraper .image_wraper .overlay .card_body a .info {
+  margin-top: 20px;
+}
+
+.team_sec_sec_one_page .member_card_wraper .image_wraper .overlay .card_body a .info h4,
+.team_sec_sec_one_page .member_card_wraper .image_wraper .overlay .card_body a .info h5 {
+  color: #fff;
+}
+
+.team_sec_sec_one_page .member_card_wraper .image_wraper .overlay .card_body .social_links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.team_sec_sec_one_page .member_card_wraper .image_wraper .overlay .card_body .social_links li {
+  display: inline-block;
+  margin-inline: 6px;
+}
+
+.team_sec_sec_one_page .member_card_wraper .image_wraper .overlay .card_body .social_links li a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.team_sec_sec_one_page .member_card_wraper .image_wraper .overlay .card_body .social_links li a:hover {
+  color: #00334e;
+}
+
+.team_sec_sec_one_page .member_card_wraper .image_wraper:hover img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.team_sec_sec_one_page .member_card_wraper .image_wraper:hover .overlay {
+  -webkit-transform: scale(1) rotate(360deg);
+          transform: scale(1) rotate(360deg);
+  opacity: 1;
+}
 /*# sourceMappingURL=one-page-style.css.map */

@@ -308,7 +308,7 @@
 <!-- END:: SERVICES SECTION -->
 
 <!-- START:: TEAM MEMBERS SECTION -->
-<div class="team_sec_index_2">
+<div class="team_sec_sec_one_page">
   <div class="container">
     <div class="header_wraper">
       <h2> Our Team </h2>
@@ -326,12 +326,9 @@
         <div class="member_card_wraper">
           <a href="MemberProfile.php">
             <div class="image_wraper">
-              <img src="assets/media/shapes/fluid.jpg">
               <img src="assets/media/team/member1.jpg" alt="">
-            </div>
-          </a>
-
-          <div class="card_body">
+              <div class="overlay">
+              <div class="card_body">
             <div class="info">
               <h4> Name 1 </h4>
               <h5> Member Role </h5>
@@ -363,6 +360,11 @@
               </li>
             </ul>
           </div>
+              </div>
+            </div>
+          </a>
+
+
         </div>
       </div>
 
@@ -370,12 +372,9 @@
         <div class="member_card_wraper">
           <a href="MemberProfile.php">
             <div class="image_wraper">
-            <img src="assets/media/shapes/fluid.jpg">
               <img src="assets/media/team/member2.jpg" alt="">
-            </div>
-          </a>
-
-          <div class="card_body">
+              <div class="overlay">
+              <div class="card_body">
             <div class="info">
               <h4> Name 2 </h4>
               <h5> Member Role </h5>
@@ -407,6 +406,11 @@
               </li>
             </ul>
           </div>
+              </div>
+            </div>
+          </a>
+
+
         </div>
       </div>
 
@@ -414,12 +418,9 @@
         <div class="member_card_wraper">
           <a href="MemberProfile.php">
             <div class="image_wraper">
-            <img src="assets/media/shapes/fluid.jpg">
               <img src="assets/media/team/member3.jpg" alt="">
-            </div>
-          </a>
-
-          <div class="card_body">
+              <div class="overlay">
+              <div class="card_body">
             <div class="info">
               <h4> Name 3 </h4>
               <h5> Member Role </h5>
@@ -451,13 +452,12 @@
               </li>
             </ul>
           </div>
-        </div>
-      </div>
-    </div>
+              </div>
+            </div>
+          </a>
 
-    <div class="col-12 mt-3">
-      <div class="btn_wraper">
-        <a href="Team.php"> All Team </a>
+
+        </div>
       </div>
     </div>
   </div>
