@@ -1086,7 +1086,7 @@ nav .menu_btn svg {
 
 .team_sec_sec_one_page .member_card_wraper .image_wraper .overlay {
   position: absolute;
-  top: 0;
+  top: -100%;
   left: 0;
   width: 100%;
   height: 100%;
@@ -1101,11 +1101,9 @@ nav .menu_btn svg {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-transform: scale(0);
-          transform: scale(0);
   opacity: 0;
-  -webkit-transition: all 0.8s ease-in-out;
-  transition: all 0.8s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .team_sec_sec_one_page .member_card_wraper .image_wraper .overlay .card_body {
@@ -1153,8 +1151,7 @@ nav .menu_btn svg {
 }
 
 .team_sec_sec_one_page .member_card_wraper .image_wraper:hover .overlay {
-  -webkit-transform: scale(1) rotate(360deg);
-          transform: scale(1) rotate(360deg);
+  top: 0;
   opacity: 1;
 }
 /*# sourceMappingURL=one-page-style.css.map */
