@@ -126,7 +126,7 @@ body {
 }
 
 .bg_wraper {
-  background: url('../media/shapes/striples-bg.svg');
+  background: url('../../media/shapes/striples-bg.svg');
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -776,7 +776,7 @@ nav {
 // END:: SERVICES SECTION STYLES
 
 // START:: TEAM MEMBERS SECTION STYLES
-.team_sec_sec_one_page { 
+.team_sec_one_page { 
   padding: $paddingAmount 0;
   .header_wraper {
     @include flexCenterAlignment();
@@ -868,3 +868,169 @@ nav {
   }
 }
 // END:: TEAM MEMBERS SECTION STYLES
+
+// START:: OUR CLIENTS SECTION STYLES
+.our_clients_sec_one_page {
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include thirdHeaderStyle();
+    }
+  }
+
+  .owl-carousel {
+    position: relative;
+    @include flexCenterAlignment();
+
+    .item {
+      .img_wraper {
+        min-height: 150px;
+        max-height: 150px;
+        img {
+          width: 100%;
+          min-height: 150px;
+          max-height: 150px;
+          filter: grayscale(100);
+          @include transitioning();
+          &:hover {
+            filter: grayscale(0);
+          }
+        }
+      }
+    }
+  }
+}
+// END:: OUR CLIENTS SECTION STYLES
+
+// START:: TESTEMONILS SECTION STYLES
+.testemonials_one_page {
+  padding: $paddingAmount*2 0;
+  background-image: linear-gradient(to bottom, $corpColor1, $corpColor2);
+  position: relative;
+
+  .container {
+    .header_wraper {
+      @include flexCenterAlignment();
+      h2 {
+        @include thirdHeaderStyle();
+        color: $white;
+        &::before,
+        &::after {
+          border: 2px solid $white;
+        }
+        &::before {
+          border-right: none; 
+          border-bottom: none; 
+        }
+        &::after{
+          border-left: none; 
+          border-top: none; 
+        }
+      }
+    }
+    .owl-carousel {
+      .item {
+        padding: 10px;
+        .testemonial_card {
+          position: relative;
+          position: relative;
+          background: url('../../media/shapes/qutation.png') $white;
+          background-position: 95% 15%;
+          background-repeat: no-repeat;
+          padding: 20px;
+          border: 2px solid $corpColor1;
+          @include flexCenterAlignment();
+          flex-direction: column;
+          @include borderRadius($borderRadiusAmount);
+          @include transitioning();
+
+          .img_wraper {
+            @include flexCenterAlignment();
+            flex-direction: column;
+
+            img {
+              display: inline-block;
+              margin-block: 15px;
+              padding: 2px;
+              min-width: 90px;
+              max-width: 90px;
+              min-height: 90px;
+              max-height: 90px;
+              border: 3px solid $corpColor2;
+              @include borderRadius($borderRadiusAmount);
+              @include transitioning();
+            }
+
+            h5 {
+              color: $corpColor1;
+              @include transitioning();
+            }
+          }
+
+          .card_body {
+            .text {
+              @include textWraper();
+              text-align: center;
+              font-size: 16px;
+              @include transitioning();
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .section_upper_curve_wraper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    svg {
+      position: relative;
+      display: block;
+      width: calc(139% + 1.3px);
+      height: 61px;
+      .shape-fill {
+        fill: $white;
+      }
+    }
+
+    /** For mobile devices **/
+    @media (max-width: 767px) {
+      svg {
+        width: calc(139% + 1.3px);
+        height: 24px;
+      }
+    }
+  }
+
+  .section_lower_curve_wraper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    svg {
+      position: relative;
+      display: block;
+      width: calc(130% + 1.3px);
+      height: 61px;
+      .shape-fill {
+        fill: $white;
+      }
+    }
+    /** For mobile devices **/
+    @media (max-width: 767px) {
+      svg {
+        width: calc(130% + 1.3px);
+        height: 24px;
+      }
+    }
+  }
+}
+// END:: TESTEMONILS SECTION STYLES
