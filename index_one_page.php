@@ -465,7 +465,7 @@
 <!-- END:: TEAM MEMBERS SECTION -->
 
 <!-- START:: OUR PRODUCTS SECTION -->
-<div class="products_sec_index_2">
+<div class="products_sec_one_page">
   <div class="container">
     <div class="header_wraper">
       <h2>Our Products</h2>
@@ -816,12 +816,6 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="col-12">
-      <div class="btn_wraper">
-        <a href="#"> All Products </a>
       </div>
     </div>
   </div>

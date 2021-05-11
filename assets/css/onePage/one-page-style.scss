@@ -869,6 +869,121 @@ nav {
 }
 // END:: TEAM MEMBERS SECTION STYLES
 
+// START:: OUR PRODUCTS SECTION
+.products_sec_one_page {
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include thirdHeaderStyle();
+    }
+  }
+
+  .sec_desc_wraper {
+    @include textWraper();
+    text-align: center;
+    margin-block: 15px;
+  }
+
+  .nav-pills {
+    width: 100%;
+    @include flexCenterAlignment();
+    .nav-item {
+      .nav-link {
+        color: $corpColor1;
+        @include borderRadius($largeBorderRadiusAmount);
+        &.active {
+          color: $white;
+          background-image: linear-gradient(to right, $corpColor1, $corpColor2);
+        }
+      }
+    }
+  }
+
+  .tab-pane {
+    .product_card_wraper {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      perspective: 1000;
+      transform-style: preserve-3d;
+      &:hover {
+        .front_face {
+          transform: rotateY(180deg);
+        }
+        .back_face {
+          transform: rotateY(360deg);
+        }
+      }
+
+      .front_face,
+      .back_face {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        @include borderRadius(5px);
+        @include transitioning();
+        }
+      .front_face {
+        img {
+          width: 100%;
+          height: 100%;
+          @include borderRadius(5px);
+        }
+      }
+      .back_face {
+        transform: rotateY(180deg);
+        text-align: center;
+        padding: 20px;
+        background: url('../media/shapes/wave.svg');
+        background-position: bottom;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        @include midShadow();
+        h4 {
+          color: $corpColor1;
+        }
+
+        .text_wraper {
+          @include textWraper();
+          font-size: 16px;
+          margin-block: 15px;
+        }
+
+        .price_wraper {
+          span {
+            font-size: 16px;
+            margin-inline-end: 15px;
+            &.price_after {
+              color: $corpColor1;
+            }
+            &.price_before {
+              text-decoration: line-through;
+              color: $lightRed;
+            }
+          }
+        }
+
+        .btn_wraper {
+          @include flexCenterAlignment();
+          a {
+            @include secondBtnStyle();
+          }
+        }
+      }
+    }
+  }
+
+  .btn_wraper {
+    @include flexCenterAlignment();
+    margin-top: 15px;
+    a {
+      @include secondBtnStyle();
+    }
+  }
+}
+// END:: OUR PRODUCTS SECTION
+
 // START:: OUR CLIENTS SECTION STYLES
 .our_clients_sec_one_page {
   padding: $paddingAmount 0;
