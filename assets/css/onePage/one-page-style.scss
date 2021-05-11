@@ -1099,3 +1099,139 @@ nav {
   }
 }
 // END:: FAQS SECTION STYLES
+
+// START:: NEWS SECCTION STYLES
+.news_sec_one_page {
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include thirdHeaderStyle();
+    }
+  }
+
+  .sec_desc_wraper {
+    @include textWraper();
+    text-align: center;
+    margin-block: 15px;
+  }
+
+  a {
+    text-decoration: none;
+    .article_card_wraper {
+      background-color: $white;
+      min-height: 465px;
+      max-height: 465px;
+      text-align: center;
+      position: relative;
+      @include borderRadius(5px);
+      @include midShadow();
+  
+      &:hover {
+        .img_wraper {
+          .overlay {
+            opacity: 1;
+          }
+  
+          .card_img {
+            transform: scale(1.05);
+          }
+        }
+      }
+  
+      .img_wraper {
+        position: relative;
+        overflow: hidden;
+        min-height: 250px;
+        max-height: 250px;
+        .overlay {
+          opacity: 0;
+          z-index: 3;
+          position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          background-color: rgba(234, 84, 85, 0.8);
+          border-radius: 5px 5px 0 0;
+          @include flexCenterAlignment();
+          @include transitioning();
+          svg {
+            color: $white;
+          }
+        }
+  
+        .card_img {
+          @include transitioning();
+          width: 100%;
+          min-height: 240px;
+          max-height: 240px;
+          z-index: 2;
+          border-radius: 5px 5px 0 0;
+        }
+
+        .card_curve {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          overflow: hidden;
+          line-height: 0;
+          z-index: 3;
+          svg {
+            position: relative;
+            display: block;
+            width: calc(100% + 1.3px);
+            height: 25px;
+            .shape-fill {
+              fill: $white;
+            }
+          }
+          /** For tablet devices **/
+          @media (min-width: 768px) and (max-width: 1023px) {
+            svg {
+                width: calc(100% + 1.3px);
+                height: 52px;
+            }
+          }
+          /** For mobile devices **/
+          @media (max-width: 767px) {
+            svg {
+              width: calc(100% + 1.3px);
+              height: 24px;
+            }
+          }
+        }
+      
+      }
+  
+      .card_title_wraper {
+        margin-top: 25px;
+        position: relative;
+        h4 {
+          text-align: center;
+          color: $corpColor1;
+          margin-bottom: 0;
+        }
+        h6 {
+          position: absolute;
+          right: 15px;
+          top: -38px;
+          z-index: 11;
+          color: $white;
+          padding: 5px;
+          background-image: linear-gradient(to right, $corpColor1, $corpColor2);
+          @include borderRadius($largeBorderRadiusAmount);
+        }
+      }
+  
+      .card_text {
+        padding: 10px 20px 20px 20px;
+        @include textWraper();
+        font-size: 16px;
+      }
+    }
+  }
+}
+// END:: NEWS SECCTION STYLES

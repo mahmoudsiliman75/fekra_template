@@ -1070,7 +1070,7 @@
   <!-- END:: FAQS SECTION -->
 
   <!-- START:: NEWS SECTION -->
-  <div class="news_sec_index_2">
+  <div class="news_sec_one_page">
     <div class="container">
       <div class="header_wraper">
         <h2> News </h2>
@@ -1092,7 +1092,11 @@
                   <i class="fas fa-info-circle fa-3x"></i>
                 </div>
                 <img class="card_img" src="assets/media/pic1.jpeg" alt="">
-                <img class="card_curve" src="assets/media/shapes/banner-15-bottom.png" alt="">
+                <div class="card_curve">
+                  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
+                  </svg>
+                </div>
               </div>
 
               <div class="card_title_wraper">
@@ -1117,7 +1121,11 @@
                   <i class="fas fa-info-circle fa-3x"></i>
                 </div>
                 <img class="card_img" src="assets/media/pic2.jpeg" alt="">
-                <img class="card_curve" src="assets/media/shapes/banner-15-bottom.png" alt="">
+                <div class="card_curve">
+                  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
+                  </svg>
+                </div>
               </div>
 
               <div class="card_title_wraper">
@@ -1142,7 +1150,11 @@
                   <i class="fas fa-info-circle fa-3x"></i>
                 </div>
                 <img class="card_img" src="assets/media/pic3.jpeg" alt="">
-                <img class="card_curve" src="assets/media/shapes/banner-15-bottom.png" alt="">
+                <div class="card_curve">
+                  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
+                  </svg>
+                </div>
               </div>
 
               <div class="card_title_wraper">
@@ -1167,7 +1179,11 @@
                   <i class="fas fa-info-circle fa-3x"></i>
                 </div>
                 <img class="card_img" src="assets/media/pic4.jpeg" alt="">
-                <img class="card_curve" src="assets/media/shapes/banner-15-bottom.png" alt="">
+                <div class="card_curve">
+                  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
+                  </svg>
+                </div>
               </div>
 
               <div class="card_title_wraper">
@@ -1192,7 +1208,11 @@
                   <i class="fas fa-info-circle fa-3x"></i>
                 </div>
                 <img class="card_img" src="assets/media/pic5.jpeg" alt="">
-                <img class="card_curve" src="assets/media/shapes/banner-15-bottom.png" alt="">
+                <div class="card_curve">
+                  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
+                  </svg>
+                </div>
               </div>
 
               <div class="card_title_wraper">
@@ -1217,7 +1237,11 @@
                   <i class="fas fa-info-circle fa-3x"></i>
                 </div>
                 <img class="card_img" src="assets/media/pic6.jpeg" alt="">
-                <img class="card_curve" src="assets/media/shapes/banner-15-bottom.png" alt="">
+                <div class="card_curve">
+                  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
+                  </svg>
+                </div>
               </div>
 
               <div class="card_title_wraper">
@@ -1233,7 +1257,6 @@
             </div>
           </a>
         </div>
-
       </div>
     </div>
   </div>
