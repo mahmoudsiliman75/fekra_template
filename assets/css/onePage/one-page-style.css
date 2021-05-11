@@ -1435,4 +1435,114 @@ nav .menu_btn svg {
     height: 24px;
   }
 }
+
+.faq_sec_one_page {
+  padding: 50px 0;
+}
+
+.faq_sec_one_page .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.faq_sec_one_page .header_wraper h2 {
+  padding: 10px 15px;
+  position: relative;
+  color: #ea5455;
+}
+
+.faq_sec_one_page .header_wraper h2::before, .faq_sec_one_page .header_wraper h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 50%;
+  width: 40%;
+  border: 2px solid #00334e;
+}
+
+.faq_sec_one_page .header_wraper h2::before {
+  top: 0;
+  left: 0;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 5px 0 0 0;
+}
+
+.faq_sec_one_page .header_wraper h2::after {
+  bottom: 0;
+  right: 0;
+  border-left: none;
+  border-top: none;
+  border-radius: 0 0 5px 0;
+}
+
+.faq_sec_one_page .sec_desc_wraper {
+  word-break: break-word;
+  word-spacing: 2px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  text-align: center;
+  margin-block: 15px;
+}
+
+.faq_sec_one_page .heighlight_faqs_wraper .heighlight_faq_card h3 {
+  color: #ea5455;
+}
+
+.faq_sec_one_page .heighlight_faqs_wraper .heighlight_faq_card .answer {
+  word-break: break-word;
+  word-spacing: 2px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  -webkit-padding-start: 25px;
+          padding-inline-start: 25px;
+}
+
+.faq_sec_one_page .faqs_wraper .accordion .card .card-header {
+  padding: 0;
+}
+
+.faq_sec_one_page .faqs_wraper .accordion .card .card-header h4 button {
+  padding: 15px;
+  border: none;
+  background-color: transparent;
+  text-decoration: none;
+  color: #00334e;
+}
+
+.faq_sec_one_page .faqs_wraper .accordion .card .card-header h4 button svg {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.faq_sec_one_page .faqs_wraper .accordion .card .card-header h4 button[aria-expanded='true'] {
+  color: #fff;
+  background-image: -webkit-gradient(linear, left top, right top, from(#00334e), to(#ea5455));
+  background-image: linear-gradient(to right, #00334e, #ea5455);
+}
+
+.faq_sec_one_page .faqs_wraper .accordion .card .card-header h4 button[aria-expanded='true'] svg {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.faq_sec_one_page .faqs_wraper .accordion .card .card-body {
+  word-break: break-word;
+  word-spacing: 2px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  font-size: 16px;
+  -webkit-padding-start: 45px;
+          padding-inline-start: 45px;
+}
 /*# sourceMappingURL=one-page-style.css.map */
