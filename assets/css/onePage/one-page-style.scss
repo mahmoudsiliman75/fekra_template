@@ -599,11 +599,7 @@ nav {
 // START:: SERVICES SECTION STYLES
 .services_sec_one_page {
   position: relative;
-  background: url('../../media/pic7.jpg');
-  background-position: center;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-image: linear-gradient(to bottom, $corpColor1, $corpColor2);
 
   .overlay {
     padding: $paddingAmount*2 0;
@@ -617,6 +613,7 @@ nav {
       @include flexCenterAlignment();
       h2 {
         @include thirdHeaderStyle();
+        color: $white;
         &::before,
         &::after {
           border: 2px solid $white;
