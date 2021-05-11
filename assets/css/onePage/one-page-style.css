@@ -1741,4 +1741,204 @@ nav .menu_btn svg {
   line-height: 1.6;
   font-size: 16px;
 }
+
+.contact_us_sec_one_page {
+  padding: 50px 0;
+}
+
+.contact_us_sec_one_page .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact_us_sec_one_page .header_wraper h2 {
+  padding: 10px 15px;
+  position: relative;
+  color: #ea5455;
+}
+
+.contact_us_sec_one_page .header_wraper h2::before, .contact_us_sec_one_page .header_wraper h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 50%;
+  width: 40%;
+  border: 2px solid #00334e;
+}
+
+.contact_us_sec_one_page .header_wraper h2::before {
+  top: 0;
+  left: 0;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 5px 0 0 0;
+}
+
+.contact_us_sec_one_page .header_wraper h2::after {
+  bottom: 0;
+  right: 0;
+  border-left: none;
+  border-top: none;
+  border-radius: 0 0 5px 0;
+}
+
+.contact_us_sec_one_page .map_wraper {
+  height: 100%;
+  border-radius: 10px;
+}
+
+.contact_us_sec_one_page .map_wraper iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 515px;
+  border-radius: 10px;
+}
+
+.contact_us_sec_one_page .form_wraper {
+  min-height: 520px;
+  padding: 25px;
+}
+
+.contact_us_sec_one_page .form_wraper .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact_us_sec_one_page .form_wraper .header_wraper h2 {
+  color: #00334e;
+  font-weight: 600;
+  text-transform: uppercase;
+  word-spacing: 3px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.contact_us_sec_one_page .form_wraper .header_wraper h2::before {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ea5455;
+}
+
+.contact_us_sec_one_page .form_wraper .header_wraper h2::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 40%;
+  height: 4px;
+  background-color: #00334e;
+}
+
+.contact_us_sec_one_page .form_wraper .form-group {
+  border: 1px solid #c1c1c1;
+  border-radius: 30px;
+  padding: 8px 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact_us_sec_one_page .form_wraper .form-group input {
+  border: none;
+}
+
+.contact_us_sec_one_page .form_wraper .form-group input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.contact_us_sec_one_page .form_wraper .form-group span svg {
+  color: #ea5455;
+}
+
+.contact_us_sec_one_page .form_wraper .form-group textarea {
+  border: none;
+  width: 100%;
+  height: 250px;
+}
+
+.contact_us_sec_one_page .form_wraper .form-group textarea:focus {
+  outline: none;
+}
+
+.contact_us_sec_one_page .form_wraper .btn_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact_us_sec_one_page .form_wraper .btn_box button {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #ea5455;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid #ea5455;
+  border-radius: 5px;
+  padding: 10px 20px;
+  position: relative;
+  padding: 6px 12px;
+}
+
+.contact_us_sec_one_page .form_wraper .btn_box button::before, .contact_us_sec_one_page .form_wraper .btn_box button::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 20%;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.contact_us_sec_one_page .form_wraper .btn_box button::before {
+  top: -2px;
+  left: 10%;
+}
+
+.contact_us_sec_one_page .form_wraper .btn_box button::after {
+  bottom: -2px;
+  right: 10%;
+}
+
+.contact_us_sec_one_page .form_wraper .btn_box button:hover::before {
+  left: 65%;
+}
+
+.contact_us_sec_one_page .form_wraper .btn_box button:hover::after {
+  right: 65%;
+}
 /*# sourceMappingURL=one-page-style.css.map */
