@@ -1305,3 +1305,145 @@ nav {
   }
 }
 // END:: CONTACT US SECTION STYLES
+
+// START:: FOOTER STYLES
+footer {
+  background-color: $corpColor1;
+  padding-top: 40px;
+  position: relative;
+
+  .section_curve {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    svg {
+      position: relative;
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 50px;
+      .shape-fill {
+        fill: #FFFFFF;
+      }
+    }
+  }
+
+
+
+
+
+  .footer_logo {
+    @include flexCenterAlignment();
+    img {
+      min-width: 100px;
+      max-width: 100px;
+      min-height: 100px;
+      max-height: 100px;
+    }
+  }
+
+  .short_cuts {
+    display: flex;
+    flex-direction: row;
+    a {
+      text-decoration: none;
+      color: $white;
+      overflow: hidden;
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: -100%;
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: $lightRed;
+        @include transitioning();
+      }
+      &:hover {
+        color: $lightRed;
+        &::before {
+          left: 0;
+        }
+      }
+    }
+  }
+
+  .get_in_touch {
+    h5 {
+      color: $white;
+    }
+    ul {
+      color: $white; 
+      li {
+        margin: 8px 0;
+        svg {
+          color: $lightRed;
+        }
+        span {
+          color: $white;
+          a {
+            text-decoration: none;
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+
+  .follow_us {
+    h5 {
+      color: $lighterGrey;
+    }
+    ul {
+      text-align: center;
+      li {
+        display: inline-block;
+        margin: 3px 5px;
+        @include transitioning();
+        a {
+          opacity: 0.5;
+          img {
+            width: 40px;
+            height: 40px;
+          }
+        }
+        &:hover {
+          transform: rotate(360deg) scale(1.2);
+          a {
+            opacity: 1;
+          }
+        }
+      }
+    }
+
+    .payment {
+      @include transitioning();
+      a {
+        text-decoration: none;
+        color: $lightRed;
+      }
+      &:hover {
+        transform: scale(1.2)
+      }
+    }
+  }
+
+  .copy_rights {
+    padding: 5px;
+    background-color: #001925;
+    color: $white;
+    span {
+      a {
+        text-decoration: none;
+        color: $corpColor2;
+        @include transitioning();
+      }
+    }
+  }
+}
+// END:: FOOTER STYLES

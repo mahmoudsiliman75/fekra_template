@@ -1,22 +1,17 @@
-<!-- START:: FLOATING ICON SECTION -->
-<!-- <div class="floating_icon">
-  <a href="https://wa.me/01000000001" target="_blanck">
-    <img src="assets/media/icons/whatsapp.png">
-  </a>
-</div> -->
-<!-- END:: FLOATING ICON SECTION -->
-
 <!-- START:: FOOTER -->
 <footer>
-  <div class="container-fluid">
-    <div class="row justify-content-center">
-      <div class="footer_logo col-6 col-md-2"> 
-        <a href="index.php">
-          <img src="assets/media/icons/logo/logo.png" alt="The Logo">
-        </a>
-      </div>
 
-      <div class="short_cuts col-12 col-md-4 d-flex justify-content-between justify-content-md-center"> 
+  <div class="section_curve">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+    </svg>
+  </div>
+
+  <div class="container-fluid">
+
+    <div class="row justify-content-center">
+
+      <div class="short_cuts col-12 col-md-5 d-flex justify-content-between justify-content-md-center"> 
         <div class="d-flex flex-column align-items-start justify-content-start p-3">
           <a href="index.php"> Home </a>
           <a href="#"> Link 1 </a>

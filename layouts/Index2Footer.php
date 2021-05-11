@@ -1,11 +1,3 @@
-<!-- START:: FLOATING ICON SECTION -->
-<!-- <div class="floating_icon">
-  <a href="https://wa.me/01000000001" target="_blanck">
-    <img src="assets/media/icons/whatsapp.png">
-  </a>
-</div> -->
-<!-- END:: FLOATING ICON SECTION -->
-
 <!-- START:: FOOTER -->
 <footer>
 
