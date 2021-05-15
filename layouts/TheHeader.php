@@ -109,7 +109,7 @@
           </li>
 
           <li> 
-            <a href="SingleService2.php"> Single Service 1 </a>  
+            <a href="SingleService2.php"> Single Service 2 </a>  
           </li>
         </ul>
       </li>

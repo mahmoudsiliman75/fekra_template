@@ -540,7 +540,7 @@ nav {
           span {
             &::after {
               position: absolute;
-              top: -13px;
+              top: -11px;
               right: -11px;
               border-radius: 50%;
               width: 60px;
@@ -548,6 +548,8 @@ nav {
             }
             svg {
               color: $white;
+              width: 36px;
+              height: 36px;
             }
           }
         }

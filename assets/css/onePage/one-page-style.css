@@ -659,7 +659,7 @@ nav .menu_btn svg {
 
 .about_sec_one_page .row .about_card_wraper:hover .icon_wraper span::after {
   position: absolute;
-  top: -13px;
+  top: -11px;
   right: -11px;
   border-radius: 50%;
   width: 60px;
@@ -668,6 +668,8 @@ nav .menu_btn svg {
 
 .about_sec_one_page .row .about_card_wraper:hover .icon_wraper span svg {
   color: #fff;
+  width: 36px;
+  height: 36px;
 }
 
 .about_sec_one_page .row .about_card_wraper .icon_wraper {

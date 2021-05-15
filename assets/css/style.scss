@@ -41,15 +41,15 @@ body {
       img,
       iframe {
         border-radius: $borderRadiusAmount;
-        min-height: 500px;
-        max-height: 500px;
+        min-height: 350px;
+        max-height: 350px;
         width: 100%
       }
       .min_img {
-        min-width: 150px;
-        max-width: 150px;
-        min-height: 120px;
-        max-height: 120px;
+        min-width: 145px;
+        max-width: 145px;
+        min-height: 90px;
+        max-height: 90px;
       }
     } 
   }
@@ -1069,7 +1069,8 @@ nav {
   padding: $paddingAmount 0;
   .header_wraper {
     @include flexCenterAlignment();
-    h2 {
+    h2, 
+    h5 {
       @include mainHeaderStyle();
     }
   }
@@ -1137,9 +1138,26 @@ nav {
     margin-block: 15px;
   }
 
-  .filter {
+  .wraper {
     position: sticky;
     top: 65px;
+    .filter {
+      .list-group {
+        .list-group-item {
+          border: none;
+          border-bottom: 1px solid #e1e1e1;
+          @include transitioning();
+          a {
+            text-decoration: none;
+            color: $lightGrey;
+          }
+          &:hover {
+            color: $corpColor2;
+            padding-inline-start: 30px;
+          }
+        }
+      }
+    }
   }
 
   a {
@@ -1225,8 +1243,7 @@ nav {
 
   .sec_desc_wraper {
     @include textWraper();
-    text-align: center;
-    margin-block: 15px;
+    text-align: start;
   }
 
   .service_img_wraper {
@@ -2541,25 +2558,75 @@ nav {
   }
 
   .tab-pane {
-    .portfolio_img_wraper {
-      overflow: hidden;
-      min-width: 350px;
-      max-width: 350px;
-      min-height: 235px;
-      max-height: 235px;
-      @include borderRadius(5px);
+    .product_card_wraper {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      perspective: 1000;
+      transform-style: preserve-3d;
       &:hover {
-        img {
-          transform: scale(1.1);
+        .front_face {
+          transform: rotateY(180deg);
+        }
+        .back_face {
+          transform: rotateY(360deg);
         }
       }
 
-      a {
+      .front_face,
+      .back_face {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        @include borderRadius(5px);
+        @include transitioning();
+        }
+      .front_face {
         img {
           width: 100%;
           height: 100%;
           @include borderRadius(5px);
-          @include transitioning();
+        }
+      }
+      .back_face {
+        transform: rotateY(180deg);
+        text-align: center;
+        padding: 20px;
+        background: url('../media/shapes/wave.svg');
+        background-position: bottom;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        @include midShadow();
+        h4 {
+          color: $corpColor1;
+        }
+
+        .text_wraper {
+          @include textWraper();
+          font-size: 16px;
+          margin-block: 15px;
+        }
+
+        .price_wraper {
+          span {
+            font-size: 16px;
+            margin-inline-end: 15px;
+            &.price_after {
+              color: $corpColor1;
+            }
+            &.price_before {
+              text-decoration: line-through;
+              color: $lightRed;
+            }
+          }
+        }
+
+        .btn_wraper {
+          @include flexCenterAlignment();
+          a {
+            @include secondBtnStyle();
+          }
         }
       }
     }
@@ -2630,7 +2697,7 @@ nav {
   .header_wraper {
     @include flexCenterAlignment();
     h2, 
-    h4 {
+    h5 {
       @include mainHeaderStyle();
     }
   }
@@ -2847,6 +2914,10 @@ nav {
     }
   }
 
+  .alert_wraper {
+    @include flexCenterAlignment();
+  }
+
   .map_wraper {
     height: 100%;
       @include borderRadius($borderRadiusAmount);
@@ -2865,6 +2936,15 @@ nav {
       @include flexCenterAlignment();
       h2 {
         @include mainHeaderStyle();
+      }
+    }
+
+    .invalid_wraber {
+      p {
+        color: $lightRed;
+        margin-top: 0;
+        padding-inline-start: 15px;
+        font-size: 13px;
       }
     }
 
@@ -2892,6 +2972,11 @@ nav {
         &:focus {
           outline: none;
         }
+      }
+
+      &.invalid {
+        border: 1px solid $lightRed;
+        margin-bottom: 5px;
       }
     }
 

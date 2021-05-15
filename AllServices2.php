@@ -90,50 +90,55 @@
 
     <div class="row justify-content-center">
       <div class="col-12 col-md-3 my-3">
-        <form class="filter" action="">
-          <ul class="list-group">
-            <li class="list-group-item">
-              <div class="form-group form-check mb-0">
-                <input type="checkbox" class="form-check-input" id="option_1" name="filter_options">
-                <label class="form-check-label" for="option_1">Option 1</label>
-              </div>
-            </li>
-
-            <li class="list-group-item">
-              <div class="form-group form-check mb-0">
-                <input type="checkbox" class="form-check-input" id="option_2" name="filter_options">
-                <label class="form-check-label" for="option_2">Option 2</label>
-              </div>
-            </li>
-
-            <li class="list-group-item">
-              <div class="form-group form-check mb-0">
-                <input type="checkbox" class="form-check-input" id="option_3" name="filter_options">
-                <label class="form-check-label" for="option_3">Option 3</label>
-              </div>
-            </li>
-
-            <li class="list-group-item">
-              <div class="form-group form-check mb-0">
-                <input type="checkbox" class="form-check-input" id="option_4" name="filter_options">
-                <label class="form-check-label" for="option_4">Option 4</label>
-              </div>
-            </li>
-
-            <li class="list-group-item">
-              <div class="form-group form-check mb-0">
-                <input type="checkbox" class="form-check-input" id="option_5" name="filter_options">
-                <label class="form-check-label" for="option_5">Option 5</label>
-              </div>
-            </li>
-          </ul>
-        </form>
+        <div class="wraper">
+          <div class="header_wraper">
+            <h5> Services Filter </h5>
+          </div>
+          <form class="filter" action="">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <div class="form-group form-check mb-0">
+                  <input type="checkbox" class="form-check-input" id="option_1" name="filter_options">
+                  <label class="form-check-label" for="option_1">Option 1</label>
+                </div>
+              </li>
+  
+              <li class="list-group-item">
+                <div class="form-group form-check mb-0">
+                  <input type="checkbox" class="form-check-input" id="option_2" name="filter_options">
+                  <label class="form-check-label" for="option_2">Option 2</label>
+                </div>
+              </li>
+  
+              <li class="list-group-item">
+                <div class="form-group form-check mb-0">
+                  <input type="checkbox" class="form-check-input" id="option_3" name="filter_options">
+                  <label class="form-check-label" for="option_3">Option 3</label>
+                </div>
+              </li>
+  
+              <li class="list-group-item">
+                <div class="form-group form-check mb-0">
+                  <input type="checkbox" class="form-check-input" id="option_4" name="filter_options">
+                  <label class="form-check-label" for="option_4">Option 4</label>
+                </div>
+              </li>
+  
+              <li class="list-group-item">
+                <div class="form-group form-check mb-0">
+                  <input type="checkbox" class="form-check-input" id="option_5" name="filter_options">
+                  <label class="form-check-label" for="option_5">Option 5</label>
+                </div>
+              </li>
+            </ul>
+          </form>
+        </div>
       </div>
 
       <div class="col-12 col-md-9">
         <div class="row justify-content-center">
           <div class="col-10 col-lg-6 my-3">
-            <a href="#">
+            <a href="SingleService1.php">
               <div class="service_card_wraper">
                 <div class="img_wraper">
                   <div class="overlay">
@@ -156,7 +161,7 @@
           </div>
 
           <div class="col-10 col-lg-6 my-3">
-            <a href="#">
+            <a href="SingleService1.php">
               <div class="service_card_wraper">
                 <div class="img_wraper">
                   <div class="overlay">
@@ -179,7 +184,7 @@
           </div>
 
           <div class="col-10 col-lg-6 my-3">
-            <a href="#">
+            <a href="SingleService1.php">
               <div class="service_card_wraper">
                 <div class="img_wraper">
                   <div class="overlay">
@@ -203,7 +208,7 @@
           </div>
 
           <div class="col-10 col-lg-6 my-3">
-            <a href="#">
+            <a href="SingleService1.php">
               <div class="service_card_wraper">
                 <div class="img_wraper">
                   <div class="overlay">
@@ -226,7 +231,7 @@
           </div>
 
           <div class="col-10 col-lg-6 my-3">
-            <a href="#">
+            <a href="SingleService1.php">
               <div class="service_card_wraper">
                 <div class="img_wraper">
                   <div class="overlay">
@@ -249,7 +254,7 @@
           </div>
 
           <div class="col-10 col-lg-6 my-3">
-            <a href="#">
+            <a href="SingleService1.php">
               <div class="service_card_wraper">
                 <div class="img_wraper">
                   <div class="overlay">

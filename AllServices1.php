@@ -90,7 +90,7 @@
 
     <div class="row justify-content-center">
       <div class="col-10 col-lg-4 my-3">
-        <a href="#">
+        <a href="SingleService1.php">
           <div class="service_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
@@ -113,7 +113,7 @@
       </div>
 
       <div class="col-10 col-lg-4 my-3">
-        <a href="#">
+        <a href="SingleService1.php">
           <div class="service_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
@@ -136,7 +136,7 @@
       </div>
 
       <div class="col-10 col-lg-4 my-3">
-        <a href="#">
+        <a href="SingleService1.php">
           <div class="service_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
@@ -160,7 +160,7 @@
       </div>
 
       <div class="col-10 col-lg-4 my-3">
-        <a href="#">
+        <a href="SingleService1.php">
           <div class="service_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
@@ -183,7 +183,7 @@
       </div>
 
       <div class="col-10 col-lg-4 my-3">
-        <a href="#">
+        <a href="SingleService1.php">
           <div class="service_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
@@ -206,7 +206,7 @@
       </div>
 
       <div class="col-10 col-lg-4 my-3">
-        <a href="#">
+        <a href="SingleService1.php">
           <div class="service_card_wraper">
             <div class="img_wraper">
               <div class="overlay">

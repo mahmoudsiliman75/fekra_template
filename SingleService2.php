@@ -19,71 +19,79 @@
       <h2> About Service </h2>
     </div>
 
-    <div class="sec_desc_wraper">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-      Sapiente doloribus dolorem velit, vero laborum ipsam obcaecati 
-      error unde eius ratione distinctio? Maxime tenetur perspiciatis 
-      velit consequatur accusamus aspernatur natus numquam. vero laborum 
-      ipsam obcaecati error unde eius ratione distinctio? Maxime tenetur 
-      perspiciatis velit consequatur accusamus aspernatur natus numquam.
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-      Sapiente doloribus dolorem velit.
-    </div>
-
-    <div class="row justify-content-center py-5">
-      <div class="col-10">
-				<div id="slider" class="flexslider">
-					<ul class="slides">
-						<li>
+    <div class="row justify-content-center mt-4">
+      <div class="col-12 col-md-6">
+        <div id="slider" class="flexslider">
+          <ul class="slides">
+            <li>
               <iframe src="https://www.youtube.com/embed/xZPafUhm68s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</li>
-						<li>
-							<img src="assets/media/pic1.jpeg" />
-						</li>
-						<li>
-							<img src="assets/media/pic2.jpeg" />
-						</li>
-						<li>
-							<img src="assets/media/pic3.jpeg" />
-						</li>
-						<li>
-							<img src="assets/media/pic4.jpeg" />
-						</li>
-						<li>
-							<img src="assets/media/pic5.jpeg" />
-						</li>
-						<li>
-							<img src="assets/media/pic6.jpeg" />
-						</li>
-					</ul>
-				</div>
+            </li>
+            <li>
+              <img src="assets/media/pic1.jpeg" />
+            </li>
+            <li>
+              <img src="assets/media/pic2.jpeg" />
+            </li>
+            <li>
+              <img src="assets/media/pic3.jpeg" />
+            </li>
+            <li>
+              <img src="assets/media/pic4.jpeg" />
+            </li>
+            <li>
+              <img src="assets/media/pic5.jpeg" />
+            </li>
+            <li>
+              <img src="assets/media/pic6.jpeg" />
+            </li>
+          </ul>
+        </div>
+  
+        <div id="carousel" class="flexslider">
+          <ul class="slides">
+            <li>
+              <img class="min_img" src="https://i.ytimg.com/vi_webp/xZPafUhm68s/sddefault.webp" />
+            </li>
+            <li>
+              <img class="min_img" src="assets/media/pic1.jpeg" />
+            </li>
+            <li>
+              <img class="min_img" src="assets/media/pic2.jpeg" />
+            </li>
+            <li>
+              <img class="min_img" src="assets/media/pic3.jpeg" />
+            </li>
+            <li>
+              <img class="min_img" src="assets/media/pic4.jpeg" />
+            </li>
+            <li>
+              <img class="min_img" src="assets/media/pic5.jpeg" />
+            </li>
+            <li>
+              <img class="min_img" src="assets/media/pic6.jpeg" />
+            </li>
+          </ul>
+        </div>
+      </div>
 
-				<div id="carousel" class="flexslider">
-					<ul class="slides">
-						<li>
-							<img class="min_img" src="https://i.ytimg.com/vi_webp/xZPafUhm68s/sddefault.webp" />
-						</li>
-						<li>
-							<img class="min_img" src="assets/media/pic1.jpeg" />
-						</li>
-						<li>
-							<img class="min_img" src="assets/media/pic2.jpeg" />
-						</li>
-						<li>
-							<img class="min_img" src="assets/media/pic3.jpeg" />
-						</li>
-						<li>
-							<img class="min_img" src="assets/media/pic4.jpeg" />
-						</li>
-						<li>
-							<img class="min_img" src="assets/media/pic5.jpeg" />
-						</li>
-						<li>
-							<img class="min_img" src="assets/media/pic6.jpeg" />
-						</li>
-					</ul>
-				</div>
-			</div>
+      <div class="col-12 col-md-6">
+        <div class="sec_desc_wraper">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Sapiente doloribus dolorem velit, vero laborum ipsam obcaecati 
+          error unde eius ratione distinctio? Maxime tenetur perspiciatis 
+          velit consequatur accusamus aspernatur natus numquam. vero laborum 
+          ipsam obcaecati error unde eius ratione distinctio? Maxime tenetur 
+          perspiciatis velit consequatur accusamus aspernatur natus numquam.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Sapiente doloribus dolorem velit.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Sapiente doloribus dolorem velit, vero laborum ipsam obcaecati 
+          error unde eius ratione distinctio? Maxime tenetur perspiciatis 
+          velit consequatur accusamus aspernatur natus numquam. vero laborum 
+          ipsam obcaecati error unde eius ratione distinctio? Maxime tenetur 
+          perspiciatis velit.
+        </div>
+      </div>
     </div>
 
     <div class="row justify-content-center pt-5">
@@ -139,7 +147,13 @@
 <div class="contact_us_sec">
   <div class="container">
     <div class="header_wraper mb-4">
-      <h2> Get In Touch With Us </h2>
+      <h2> Book Now </h2>
+    </div>
+
+    <div class="alert_wraper">
+      <div class="alert alert-success text-center col-12 col-md-6" role="alert">
+        Your Service Booked Successfuly
+      </div>
     </div>
 
     <div class="row justify-content-center">
@@ -154,11 +168,14 @@
               </span>
             </div>
 
-            <div class="form-group">
-              <input type="tele" class="form-control" placeholder="Your Phone Number*" required>
-              <span>
-                <i class="fas fa-phone-square-alt fa-2x"></i>
-              </span>
+            <div class="invalid_wraber">
+              <div class="form-group invalid">
+                <input type="tele" class="form-control" placeholder="Your Phone Number*" required>
+                <span>
+                  <i class="fas fa-phone-square-alt fa-2x"></i>
+                </span>
+              </div>
+              <p class="invalid_message"> Phone Number Can't Be Empty </p>
             </div>
 
             <div class="form-group mb-4">

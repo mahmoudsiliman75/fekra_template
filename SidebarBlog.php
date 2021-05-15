@@ -30,27 +30,27 @@
       <div class="col-12 col-md-3 my-3">
         <div class="wraper">
           <div class="header_wraper mb-3">
-            <h4> Categories </h4>
+            <h5> Related Articles </h5>
           </div>
           <ul class="list-group">
             <li class="list-group-item">
-              <a href="#"> Articles Category 1 </a>
+              <a href="#"> Related Article 1 </a>
             </li>
 
             <li class="list-group-item">
-              <a href="#"> Articles Category 2 </a>
+              <a href="#"> Related Article 2 </a>
             </li>
 
             <li class="list-group-item">
-              <a href="#"> Articles Category 3 </a>
+              <a href="#"> Related Article 3 </a>
             </li>
 
             <li class="list-group-item">
-              <a href="#"> Articles Category 4 </a>
+              <a href="#"> Related Article 4 </a>
             </li>
 
             <li class="list-group-item">
-              <a href="#"> Articles Category 5 </a>
+              <a href="#"> Related Article 5 </a>
             </li>
           </ul>
         </div>
