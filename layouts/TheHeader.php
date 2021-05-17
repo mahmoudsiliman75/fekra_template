@@ -73,6 +73,10 @@
           </li>
 
           <li> 
+            <a href="index_modern.php"> Modern Home </a> 
+          </li>
+
+          <li> 
             <a href="index_one_page.php"> One Page </a> 
           </li>
         </ul>
