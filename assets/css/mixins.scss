@@ -214,7 +214,7 @@
   }
 }
 
-@mixin fourthHaederStyly {
+@mixin fourthHaederStyle {
   padding: 8px 15px;
   position: relative;
   color: $corpColor2;
@@ -295,4 +295,8 @@
 
 @mixin midShadow {
   box-shadow: 0 0 10px 2px rgba(225, 225, 225, 0.6);
+}
+
+@mixin heighShadow {
+  box-shadow: 0 0 10px 2px rgba(180, 180, 180, 0.6);
 }
