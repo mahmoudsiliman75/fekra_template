@@ -37,21 +37,25 @@
 <!-- END:: INDEX2 HOME SLIDER -->
 
 <!-- START:: ABOUT US SECTION -->
-<div class="about_sec_one_page">
-  <div class="container">
-    <div class="header_wraper">
-      <h2> About Us </h2>
+<div class="about_sec_modern">
+  <div class="container-fluid overflow-hidden">
+    <div class="header_wraper mt-2">
+      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.9s"> 
+        <span></span>
+        <span></span>
+        About Us 
+      </h2>
     </div>
 
     <div class="sec_desc_wraper">
       <div class="row justify-content-center">
-        <div class="col-9 col-md-5 mb-3">
+        <div class="col-9 col-md-5 mb-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.5s">
           <div class="image_wraper">
             <img src="assets/media/pic3.jpeg" alt="">
           </div>
         </div>
 
-        <div class="col-12 col-md-7 mb-3">
+        <div class="col-12 col-md-7 mb-3 wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.5s">
           <div class="text_wraper">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
             Culpa enim praesentium minima sunt, eveniet ratione velit 
@@ -69,20 +73,22 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="row justify-content-center">
-      <div class="col-10 col-lg-4 p-0 mt-5">
+  <div class="container">
+    <div class="row justify-content-center overflow-hidden">
+      <div class="col-10 col-lg-4 mt-5 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
         <div class="about_card_wraper">
           <div class="icon_wraper">
             <span>
               <i class="fas fa-star fa-2x"></i> 
             </span>
           </div>
-
+  
           <div class="card_title_wraper">
             <h4> Title 1 </h4>
           </div>
-
+  
           <div class="card_text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
@@ -90,19 +96,19 @@
           </div>
         </div>
       </div>
-
-      <div class="col-10 col-lg-4 p-0 mt-5">
+  
+      <div class="col-10 col-lg-4 mt-5 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s">
         <div class="about_card_wraper">
           <div class="icon_wraper">
             <span>
               <i class="fas fa-rocket fa-2x"></i>
             </span>
           </div>
-
+  
           <div class="card_title_wraper">
             <h4> Title 2 </h4>
           </div>
-
+  
           <div class="card_text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
@@ -110,19 +116,19 @@
           </div>
         </div>
       </div>
-
-      <div class="col-10 col-lg-4 p-0 mt-5">
+  
+      <div class="col-10 col-lg-4 mt-5 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1.5s">
         <div class="about_card_wraper">
           <div class="icon_wraper">
             <span>
               <i class="fas fa-award fa-2x"></i> 
             </span>
           </div>
-
+  
           <div class="card_title_wraper">
             <h4> Title 3 </h4>
           </div>
-
+  
           <div class="card_text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 

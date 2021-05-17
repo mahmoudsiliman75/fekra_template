@@ -483,78 +483,85 @@ nav {
 // END:: HOME SLIDER STYLES
 
 // START:: ABOUT SECTION STYLES
-.about_sec_one_page {
+.about_sec_modern {
   padding: $paddingAmount 0;
-  .header_wraper {
-    @include flexCenterAlignment();
-    h2 {
-      @include thirdHeaderStyle();
-    }
-  }
-
-  .sec_desc_wraper {
-    margin-block: 30px;
-    .image_wraper {
-      width: 100%;
-      height: auto;
-      img {
-        width: 100%;
-        height: 100%;
-        @include borderRadius(5px);
+  background: url('../../media/shapes/3.png');
+  background-position: right 35%;
+  background-repeat: no-repeat;
+  .container-fluid {
+    padding-inline-start: 0;
+    .header_wraper {
+      @include flexCenterAlignment();
+      h2 {
+        @include fourthHaederStyly();
       }
     }
 
-    .text_wraper {
-      @include textWraper();
-      text-align: start;
-    }
+    .sec_desc_wraper {
+      margin-block: 30px;
+      .image_wraper {
+        width: 100%;
+        height: auto; 
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 0 25px 25px 0;
+          box-shadow: -40px 25px 0px 9px #e4e4e48f;
+        }
+      }
+  
+      .text_wraper {
+        @include textWraper();
+        text-align: start;
+      }
+    }  
   }
 
   .row {
-    & > div {
-      &:nth-child(even) {
-        .about_card_wraper {
-          padding: 30px 0;
-          z-index: 1;
-          @media ( max-width: 991px ) {
-            margin-top: 0;
-          }
-        }
-      }
-    }
-
     .about_card_wraper {
       padding: 20px 0;
       text-align: center;
       position: relative;
-      overflow: hidden;
       background: url('../../media/shapes/header-sape6.png') $white;
       background-position: center;
       background-size: 100%;
       background-repeat: no-repeat;
-      @include midShadow();
-      @include transitioning();
+      border: 1px solid $corpColor2;
+      border-radius: 10px 0 10px 10px;  
+
+      &::after {
+        content: '';
+        position: absolute;
+        top: -1px;
+        right: -1px;
+        display: block;
+        border-radius: 0 0 0 10px;
+        border: 20px solid $corpColor2;
+        border-top: 20px solid $white;
+        border-right: 20px solid $white;
+        box-shadow: -10px 10px 15px 0px rgba(181, 181, 181, 0.8);
+      }
 
       &:hover {
         .icon_wraper {
-          span {
-            &::after {
-              position: absolute;
-              top: -11px;
-              right: -11px;
-              border-radius: 50%;
-              width: 60px;
-              height: 60px;
+            span {
+              &::after {
+                position: absolute;
+                top: -11px;
+                right: -11px;
+                border-radius: 50%;
+                width: 60px;
+                height: 60px;
+              }
+              svg {
+                color: $white;
+                width: 36px;
+                height: 36px;
+              }
             }
-            svg {
-              color: $white;
-              width: 36px;
-              height: 36px;
-            }
-          }
         }
       }
-  
+
       .icon_wraper {
         @include flexCenterAlignment();
         span {
@@ -580,14 +587,14 @@ nav {
           }
         }
       }
-  
+
       .card_title_wraper {
         margin-top: 25px;
         h4 {
           color: $corpColor1;
         }
       }
-  
+
       .card_text {
         @include textWraper();
         padding-inline: 15px;

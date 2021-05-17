@@ -560,11 +560,19 @@ nav .menu_btn svg {
   max-height: 800px;
 }
 
-.about_sec_one_page {
+.about_sec_modern {
   padding: 50px 0;
+  background: url("../../media/shapes/3.png");
+  background-position: right 35%;
+  background-repeat: no-repeat;
 }
 
-.about_sec_one_page .header_wraper {
+.about_sec_modern .container-fluid {
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+.about_sec_modern .container-fluid .header_wraper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -576,53 +584,78 @@ nav .menu_btn svg {
           justify-content: center;
 }
 
-.about_sec_one_page .header_wraper h2 {
-  padding: 10px 15px;
+.about_sec_modern .container-fluid .header_wraper h2 {
+  padding: 8px 15px;
   position: relative;
   color: #ea5455;
 }
 
-.about_sec_one_page .header_wraper h2::before, .about_sec_one_page .header_wraper h2::after {
+.about_sec_modern .container-fluid .header_wraper h2::before, .about_sec_modern .container-fluid .header_wraper h2::after {
   content: "";
   position: absolute;
+  top: 0;
   display: block;
-  height: 50%;
-  width: 40%;
+  height: 15px;
+  width: 15px;
   border: 2px solid #00334e;
 }
 
-.about_sec_one_page .header_wraper h2::before {
-  top: 0;
+.about_sec_modern .container-fluid .header_wraper h2::before {
   left: 0;
   border-right: none;
   border-bottom: none;
   border-radius: 5px 0 0 0;
 }
 
-.about_sec_one_page .header_wraper h2::after {
-  bottom: 0;
+.about_sec_modern .container-fluid .header_wraper h2::after {
   right: 0;
+  border-left: none;
+  border-bottom: none;
+  border-radius: 0 5px 0 0;
+}
+
+.about_sec_modern .container-fluid .header_wraper h2 span {
+  position: absolute;
+  display: bolck;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #00334e;
+}
+
+.about_sec_modern .container-fluid .header_wraper h2 span:first-child {
+  left: 0;
+  bottom: 0;
+  border-right: none;
+  border-top: none;
+  border-radius: 0 0 0 5px;
+}
+
+.about_sec_modern .container-fluid .header_wraper h2 span:last-child {
+  right: 0;
+  bottom: 0;
   border-left: none;
   border-top: none;
   border-radius: 0 0 5px 0;
 }
 
-.about_sec_one_page .sec_desc_wraper {
+.about_sec_modern .container-fluid .sec_desc_wraper {
   margin-block: 30px;
 }
 
-.about_sec_one_page .sec_desc_wraper .image_wraper {
+.about_sec_modern .container-fluid .sec_desc_wraper .image_wraper {
   width: 100%;
   height: auto;
 }
 
-.about_sec_one_page .sec_desc_wraper .image_wraper img {
+.about_sec_modern .container-fluid .sec_desc_wraper .image_wraper img {
   width: 100%;
   height: 100%;
-  border-radius: 5px;
+  border-radius: 0 25px 25px 0;
+  -webkit-box-shadow: -40px 25px 0px 9px #e4e4e48f;
+          box-shadow: -40px 25px 0px 9px #e4e4e48f;
 }
 
-.about_sec_one_page .sec_desc_wraper .text_wraper {
+.about_sec_modern .container-fluid .sec_desc_wraper .text_wraper {
   word-break: break-word;
   word-spacing: 2px;
   font-size: 18px;
@@ -631,33 +664,33 @@ nav .menu_btn svg {
   text-align: start;
 }
 
-.about_sec_one_page .row > div:nth-child(even) .about_card_wraper {
-  padding: 30px 0;
-  z-index: 1;
-}
-
-@media (max-width: 991px) {
-  .about_sec_one_page .row > div:nth-child(even) .about_card_wraper {
-    margin-top: 0;
-  }
-}
-
-.about_sec_one_page .row .about_card_wraper {
+.about_sec_modern .row .about_card_wraper {
   padding: 20px 0;
   text-align: center;
   position: relative;
-  overflow: hidden;
   background: url("../../media/shapes/header-sape6.png") #fff;
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
-  -webkit-box-shadow: 0 0 10px 2px rgba(225, 225, 225, 0.6);
-          box-shadow: 0 0 10px 2px rgba(225, 225, 225, 0.6);
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
+  border: 1px solid #ea5455;
+  border-radius: 10px 0 10px 10px;
 }
 
-.about_sec_one_page .row .about_card_wraper:hover .icon_wraper span::after {
+.about_sec_modern .row .about_card_wraper::after {
+  content: '';
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  display: block;
+  border-radius: 0 0 0 10px;
+  border: 20px solid #ea5455;
+  border-top: 20px solid #fff;
+  border-right: 20px solid #fff;
+  -webkit-box-shadow: -10px 10px 15px 0px rgba(181, 181, 181, 0.8);
+          box-shadow: -10px 10px 15px 0px rgba(181, 181, 181, 0.8);
+}
+
+.about_sec_modern .row .about_card_wraper:hover .icon_wraper span::after {
   position: absolute;
   top: -11px;
   right: -11px;
@@ -666,13 +699,13 @@ nav .menu_btn svg {
   height: 60px;
 }
 
-.about_sec_one_page .row .about_card_wraper:hover .icon_wraper span svg {
+.about_sec_modern .row .about_card_wraper:hover .icon_wraper span svg {
   color: #fff;
   width: 36px;
   height: 36px;
 }
 
-.about_sec_one_page .row .about_card_wraper .icon_wraper {
+.about_sec_modern .row .about_card_wraper .icon_wraper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -684,7 +717,7 @@ nav .menu_btn svg {
           justify-content: center;
 }
 
-.about_sec_one_page .row .about_card_wraper .icon_wraper span {
+.about_sec_modern .row .about_card_wraper .icon_wraper span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -697,7 +730,7 @@ nav .menu_btn svg {
   position: relative;
 }
 
-.about_sec_one_page .row .about_card_wraper .icon_wraper span::after {
+.about_sec_modern .row .about_card_wraper .icon_wraper span::after {
   content: '';
   position: absolute;
   top: 10px;
@@ -712,22 +745,22 @@ nav .menu_btn svg {
   transition: all 0.4s ease-in-out;
 }
 
-.about_sec_one_page .row .about_card_wraper .icon_wraper span svg {
+.about_sec_modern .row .about_card_wraper .icon_wraper span svg {
   color: #ea5455;
   z-index: 2;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
-.about_sec_one_page .row .about_card_wraper .card_title_wraper {
+.about_sec_modern .row .about_card_wraper .card_title_wraper {
   margin-top: 25px;
 }
 
-.about_sec_one_page .row .about_card_wraper .card_title_wraper h4 {
+.about_sec_modern .row .about_card_wraper .card_title_wraper h4 {
   color: #00334e;
 }
 
-.about_sec_one_page .row .about_card_wraper .card_text {
+.about_sec_modern .row .about_card_wraper .card_text {
   word-break: break-word;
   word-spacing: 2px;
   font-size: 18px;
