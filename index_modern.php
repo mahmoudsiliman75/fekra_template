@@ -299,32 +299,45 @@
         </a>
       </div>
     </div>
+
+    <div class="col-12 mt-3">
+      <div class="btn_wraper">
+        <a href="AllServices1.php"> All Services </a>
+      </div>
+    </div>
   </div>
 </div>
 <!-- END:: SERVICES SECTION -->
 
 <!-- START:: TEAM MEMBERS SECTION -->
-<div class="team_sec_one_page">
+<div class="team_sec_modern">
   <div class="container">
     <div class="header_wraper">
-      <h2> Our Team </h2>
+      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.9s">
+        <span></span>
+        <span></span>  
+        Our Team 
+      </h2>
     </div>
 
-    <div class="sec_desc_wraper">
+    <div class="sec_desc_wraper wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.9s">
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
       Culpa enim praesentium minima sunt, eveniet ratione velit 
       similique omnis porro doloremque dolores? Aut accusantium 
       possimus voluptates nobis ullam? Amet, ipsa est.
     </div>
 
-    <div class="row justify-content-center justify-content-md-between">
-      <div class="col-10 col-md-3 my-3">
+    <div class="row justify-content-center justify-content-md-between overflow-hidden">
+      <div class="col-10 col-md-3 my-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
         <div class="member_card_wraper">
           <a href="MemberProfile.php">
             <div class="image_wraper">
+              <img src="assets/media/shapes/graph.jpg">
               <img src="assets/media/team/member1.jpg" alt="">
-              <div class="overlay">
-              <div class="card_body">
+            </div>
+          </a>
+
+          <div class="card_body">
             <div class="info">
               <h4> Name 1 </h4>
               <h5> Member Role </h5>
@@ -356,21 +369,19 @@
               </li>
             </ul>
           </div>
-              </div>
-            </div>
-          </a>
-
-
         </div>
       </div>
 
-      <div class="col-10 col-md-3 my-3">
+      <div class="col-10 col-md-3 my-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">
         <div class="member_card_wraper">
           <a href="MemberProfile.php">
             <div class="image_wraper">
+              <img src="assets/media/shapes/graph.jpg">
               <img src="assets/media/team/member2.jpg" alt="">
-              <div class="overlay">
-              <div class="card_body">
+            </div>
+          </a>
+
+          <div class="card_body">
             <div class="info">
               <h4> Name 2 </h4>
               <h5> Member Role </h5>
@@ -402,21 +413,19 @@
               </li>
             </ul>
           </div>
-              </div>
-            </div>
-          </a>
-
-
         </div>
       </div>
 
-      <div class="col-10 col-md-3 my-3">
+      <div class="col-10 col-md-3 my-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.5s">
         <div class="member_card_wraper">
           <a href="MemberProfile.php">
             <div class="image_wraper">
+              <img src="assets/media/shapes/graph.jpg">
               <img src="assets/media/team/member3.jpg" alt="">
-              <div class="overlay">
-              <div class="card_body">
+            </div>
+          </a>
+
+          <div class="card_body">
             <div class="info">
               <h4> Name 3 </h4>
               <h5> Member Role </h5>
@@ -448,12 +457,13 @@
               </li>
             </ul>
           </div>
-              </div>
-            </div>
-          </a>
-
-
         </div>
+      </div>
+    </div>
+
+    <div class="col-12 mt-3">
+      <div class="btn_wraper">
+        <a href="Team.php"> All Team </a>
       </div>
     </div>
   </div>
