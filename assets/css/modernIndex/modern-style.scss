@@ -1122,12 +1122,15 @@ nav {
 // END:: TESTEMONILS SECTION STYLES
 
 // START:: FAQS SECTION STYLES
-.faq_sec_one_page {
+.faq_sec_modern {
   padding: $paddingAmount 0;
+  margin-top: 30px;
+  background: url('../../media/shapes/row-bgimage-3.png') rgba(207, 207, 207, 0.2);
+
   .header_wraper {
     @include flexCenterAlignment();
     h2 {
-      @include thirdHeaderStyle();
+      @include fourthHaederStyle();
     }
   }
 
@@ -1152,6 +1155,7 @@ nav {
   .faqs_wraper {
     .accordion {
       .card {
+        background-color: transparent;
         .card-header {    
           padding: 0;              
           h4 {
@@ -1160,14 +1164,16 @@ nav {
               border: none;
               background-color: transparent;
               text-decoration: none;
-              color: $corpColor1;
+              color: $white;
+              background-image: linear-gradient(to right, $corpColor1, $corpColor2);
               svg {
                 @include transitioning();
               }
               &[aria-expanded='true'] {
-                color: $white;
-                background-image: linear-gradient(to right, $corpColor1, $corpColor2);
+                color: $corpColor1;
+                background: $white;
                 svg {
+                  color: $corpColor2;
                   transform: rotate(90deg);
                 }
               }
@@ -1181,6 +1187,13 @@ nav {
           padding-inline-start: 45px;
         }
       }
+    }
+  }
+
+  .btn_wraper {
+    @include flexCenterAlignment();
+    a {
+      @include secondBtnStyle();
     }
   }
 }
