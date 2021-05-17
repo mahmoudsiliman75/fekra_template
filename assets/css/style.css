@@ -5241,47 +5241,42 @@ nav .menu_btn svg {
 }
 
 .contact_us_sec_index_2 .form_wraper .btn_box button {
-  display: inline-block;
-  text-decoration: none;
-  text-transform: uppercase;
   background-color: transparent;
-  color: #ea5455;
-  font-size: 18px;
+  text-decoration: none;
+  border: 2px solid #00334e;
+  padding: 8px 16px;
+  margin-top: 15px;
+  color: #00334e;
+  font-size: 16px;
   font-weight: 600;
-  border: 2px solid #ea5455;
+  text-transform: uppercase;
   border-radius: 5px;
-  padding: 10px 20px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
   position: relative;
-  padding: 6px 12px;
 }
 
-.contact_us_sec_index_2 .form_wraper .btn_box button::before, .contact_us_sec_index_2 .form_wraper .btn_box button::after {
+.contact_us_sec_index_2 .form_wraper .btn_box button::before {
   content: '';
-  position: absolute;
   display: block;
-  width: 20%;
-  height: 2px;
-  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #00334e;
+  z-index: -1;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
-.contact_us_sec_index_2 .form_wraper .btn_box button::before {
-  top: -2px;
-  left: 10%;
-}
-
-.contact_us_sec_index_2 .form_wraper .btn_box button::after {
-  bottom: -2px;
-  right: 10%;
+.contact_us_sec_index_2 .form_wraper .btn_box button:hover {
+  color: #fff;
 }
 
 .contact_us_sec_index_2 .form_wraper .btn_box button:hover::before {
-  left: 65%;
-}
-
-.contact_us_sec_index_2 .form_wraper .btn_box button:hover::after {
-  right: 65%;
+  left: 0;
 }
 
 .get_in_touch {

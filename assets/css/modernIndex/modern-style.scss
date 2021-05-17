@@ -1202,7 +1202,7 @@ nav {
 // END:: FAQS SECTION STYLES
 
 // START:: NEWS SECCTION STYLES
-.news_sec_one_page {
+.news_sec_modern {
   padding: $paddingAmount 0;
   .header_wraper {
     @include flexCenterAlignment();
@@ -1323,17 +1323,24 @@ nav {
       }
     }
   }
+
+  .btn_wraper {
+    @include flexCenterAlignment();
+    a {
+      @include secondBtnStyle();
+    }
+  }
 }
 // END:: NEWS SECCTION STYLES
 
 // START:: CONTACT US SECTION STYLES
-.contact_us_sec_one_page {
+.contact_us_sec_modern {
   padding: $paddingAmount 0;
 
   .header_wraper {
     @include flexCenterAlignment();
     h2 {
-      @include thirdHeaderStyle();
+      @include fourthHaederStyle();
     }
   }
 
@@ -1359,6 +1366,7 @@ nav {
     }
 
     .form-group {
+      background-color: $white;
       border: 1px solid $lighterGrey;
       @include borderRadius($largeBorderRadiusAmount);
       padding: 8px 12px;
@@ -1388,8 +1396,8 @@ nav {
     .btn_box {
       @include flexCenterAlignment();
       button {
-        @include mainBtnStyle();
-        padding: 6px 12px;
+        background-color: transparent;
+        @include secondBtnStyle();
       }
     }
   }

@@ -1086,24 +1086,24 @@
 
 <div class="bg_wraper">
   <!-- START:: NEWS SECTION -->
-  <div class="news_sec_one_page">
+  <div class="news_sec_modern">
     <div class="container">
       <div class="header_wraper">
-        <h2>
+        <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.5s">  
           <span></span> 
           <span></span> 
           News 
         </h2>
       </div>
   
-      <div class="sec_desc_wraper">
+      <div class="sec_desc_wraper wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
         Culpa enim praesentium minima sunt, eveniet ratione velit 
         similique omnis porro doloremque dolores? Aut accusantium 
         possimus voluptates nobis ullam? Amet, ipsa est.
       </div>
   
-      <div class="row justify-content-center">
+      <div class="row justify-content-center wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.5s">
         <div class="col-10 col-lg-4 my-3">
           <a href="#">
             <div class="article_card_wraper">
@@ -1278,19 +1278,29 @@
           </a>
         </div>
       </div>
+
+      <div class="col-12 mt-3">
+        <div class="btn_wraper">
+          <a href="Faqs.php"> View More </a>
+        </div>
+      </div>
     </div>
   </div>
   <!-- END:: NEWS SECTION -->
 
   <!-- START:: CONTACT US SECTION -->
-  <div class="contact_us_sec_one_page">
+  <div class="contact_us_sec_modern">
     <div class="container">
       <div class="header_wraper mb-4">
-        <h2> Get In Touch With Us </h2>
+        <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+          <span></span> 
+          <span></span> 
+          Get In Touch With Us 
+        </h2>
       </div>
   
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-6 p-0">
+      <div class="row justify-content-center overflow-hidden">
+        <div class="col-12 col-md-6 p-0 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">
           <div class="map_wraper">
             <iframe 
               src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19338.15820346373!2d31.374660789535696!3d31.039183138529495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1616017063461!5m2!1sar!2seg" 
@@ -1302,7 +1312,7 @@
           </div>
         </div>
   
-        <div class="col-12 col-md-6 p-0">
+        <div class="col-12 col-md-6 p-0 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.5s">
           <div class="form_wraper">
             <form>
               <div class="form-group">

@@ -3051,8 +3051,8 @@ nav {
     .btn_box {
       @include flexCenterAlignment();
       button {
-        @include mainBtnStyle();
-        padding: 6px 12px;
+        background-color: transparent;
+        @include secondBtnStyle();
       }
     }
   }
