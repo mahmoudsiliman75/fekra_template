@@ -1001,29 +1001,18 @@ nav {
 // END:: OUR CLIENTS SECTION STYLES
 
 // START:: TESTEMONILS SECTION STYLES
-.testemonials_one_page {
+.testemonials_modern {
   padding: $paddingAmount*2 0;
-  background-image: linear-gradient(to bottom, $corpColor1, $corpColor2);
+  background: url('../../media/shapes/8.png');
+  background-position: center;
+  background-repeat: no-repeat;
   position: relative;
 
   .container {
     .header_wraper {
       @include flexCenterAlignment();
       h2 {
-        @include thirdHeaderStyle();
-        color: $white;
-        &::before,
-        &::after {
-          border: 2px solid $white;
-        }
-        &::before {
-          border-right: none; 
-          border-bottom: none; 
-        }
-        &::after{
-          border-left: none; 
-          border-top: none; 
-        }
+        @include fourthHaederStyle();
       }
     }
     .owl-carousel {

@@ -1671,14 +1671,15 @@ nav .menu_btn svg {
           filter: grayscale(0);
 }
 
-.testemonials_one_page {
+.testemonials_modern {
   padding: 100px 0;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#00334e), to(#ea5455));
-  background-image: linear-gradient(to bottom, #00334e, #ea5455);
+  background: url("../../media/shapes/8.png");
+  background-position: center;
+  background-repeat: no-repeat;
   position: relative;
 }
 
-.testemonials_one_page .container .header_wraper {
+.testemonials_modern .container .header_wraper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1690,57 +1691,65 @@ nav .menu_btn svg {
           justify-content: center;
 }
 
-.testemonials_one_page .container .header_wraper h2 {
-  padding: 10px 15px;
+.testemonials_modern .container .header_wraper h2 {
+  padding: 8px 15px;
   position: relative;
   color: #ea5455;
-  color: #fff;
 }
 
-.testemonials_one_page .container .header_wraper h2::before, .testemonials_one_page .container .header_wraper h2::after {
+.testemonials_modern .container .header_wraper h2::before, .testemonials_modern .container .header_wraper h2::after {
   content: "";
   position: absolute;
+  top: 0;
   display: block;
-  height: 50%;
-  width: 40%;
+  height: 15px;
+  width: 15px;
   border: 2px solid #00334e;
 }
 
-.testemonials_one_page .container .header_wraper h2::before {
-  top: 0;
+.testemonials_modern .container .header_wraper h2::before {
   left: 0;
   border-right: none;
   border-bottom: none;
   border-radius: 5px 0 0 0;
 }
 
-.testemonials_one_page .container .header_wraper h2::after {
-  bottom: 0;
+.testemonials_modern .container .header_wraper h2::after {
   right: 0;
+  border-left: none;
+  border-bottom: none;
+  border-radius: 0 5px 0 0;
+}
+
+.testemonials_modern .container .header_wraper h2 span {
+  position: absolute;
+  display: bolck;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #00334e;
+}
+
+.testemonials_modern .container .header_wraper h2 span:first-child {
+  left: 0;
+  bottom: 0;
+  border-right: none;
+  border-top: none;
+  border-radius: 0 0 0 5px;
+}
+
+.testemonials_modern .container .header_wraper h2 span:last-child {
+  right: 0;
+  bottom: 0;
   border-left: none;
   border-top: none;
   border-radius: 0 0 5px 0;
 }
 
-.testemonials_one_page .container .header_wraper h2::before, .testemonials_one_page .container .header_wraper h2::after {
-  border: 2px solid #fff;
-}
-
-.testemonials_one_page .container .header_wraper h2::before {
-  border-right: none;
-  border-bottom: none;
-}
-
-.testemonials_one_page .container .header_wraper h2::after {
-  border-left: none;
-  border-top: none;
-}
-
-.testemonials_one_page .container .owl-carousel .item {
+.testemonials_modern .container .owl-carousel .item {
   padding: 10px;
 }
 
-.testemonials_one_page .container .owl-carousel .item .testemonial_card {
+.testemonials_modern .container .owl-carousel .item .testemonial_card {
   position: relative;
   position: relative;
   background: url("../../media/shapes/qutation.png") #fff;
@@ -1766,7 +1775,7 @@ nav .menu_btn svg {
   transition: all 0.4s ease-in-out;
 }
 
-.testemonials_one_page .container .owl-carousel .item .testemonial_card .img_wraper {
+.testemonials_modern .container .owl-carousel .item .testemonial_card .img_wraper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1782,7 +1791,7 @@ nav .menu_btn svg {
           flex-direction: column;
 }
 
-.testemonials_one_page .container .owl-carousel .item .testemonial_card .img_wraper img {
+.testemonials_modern .container .owl-carousel .item .testemonial_card .img_wraper img {
   display: inline-block;
   margin-block: 15px;
   padding: 2px;
@@ -1796,13 +1805,13 @@ nav .menu_btn svg {
   transition: all 0.4s ease-in-out;
 }
 
-.testemonials_one_page .container .owl-carousel .item .testemonial_card .img_wraper h5 {
+.testemonials_modern .container .owl-carousel .item .testemonial_card .img_wraper h5 {
   color: #00334e;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
-.testemonials_one_page .container .owl-carousel .item .testemonial_card .card_body .text {
+.testemonials_modern .container .owl-carousel .item .testemonial_card .card_body .text {
   word-break: break-word;
   word-spacing: 2px;
   font-size: 18px;
@@ -1814,7 +1823,7 @@ nav .menu_btn svg {
   transition: all 0.4s ease-in-out;
 }
 
-.testemonials_one_page .section_upper_curve_wraper {
+.testemonials_modern .section_upper_curve_wraper {
   position: absolute;
   top: 0;
   left: 0;
@@ -1826,25 +1835,25 @@ nav .menu_btn svg {
   /** For mobile devices **/
 }
 
-.testemonials_one_page .section_upper_curve_wraper svg {
+.testemonials_modern .section_upper_curve_wraper svg {
   position: relative;
   display: block;
   width: calc(139% + 1.3px);
   height: 61px;
 }
 
-.testemonials_one_page .section_upper_curve_wraper svg .shape-fill {
+.testemonials_modern .section_upper_curve_wraper svg .shape-fill {
   fill: #fff;
 }
 
 @media (max-width: 767px) {
-  .testemonials_one_page .section_upper_curve_wraper svg {
+  .testemonials_modern .section_upper_curve_wraper svg {
     width: calc(139% + 1.3px);
     height: 24px;
   }
 }
 
-.testemonials_one_page .section_lower_curve_wraper {
+.testemonials_modern .section_lower_curve_wraper {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1854,19 +1863,19 @@ nav .menu_btn svg {
   /** For mobile devices **/
 }
 
-.testemonials_one_page .section_lower_curve_wraper svg {
+.testemonials_modern .section_lower_curve_wraper svg {
   position: relative;
   display: block;
   width: calc(130% + 1.3px);
   height: 61px;
 }
 
-.testemonials_one_page .section_lower_curve_wraper svg .shape-fill {
+.testemonials_modern .section_lower_curve_wraper svg .shape-fill {
   fill: #fff;
 }
 
 @media (max-width: 767px) {
-  .testemonials_one_page .section_lower_curve_wraper svg {
+  .testemonials_modern .section_lower_curve_wraper svg {
     width: calc(130% + 1.3px);
     height: 24px;
   }

@@ -488,7 +488,7 @@
       possimus voluptates nobis ullam? Amet, ipsa est.
     </div>
 
-    <ul class="nav nav-pills my-3 wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="1s" id="pills-tab" role="tablist">
+    <ul class="nav nav-pills my-3 wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s" id="pills-tab" role="tablist">
       <li class="nav-item" role="presentation">
         <a class="nav-link active" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab" aria-controls="pills-all" aria-selected="true">All</a>
       </li>
@@ -828,6 +828,12 @@
         </div>
       </div>
     </div>
+
+    <div class="col-12 mt-3">
+      <div class="btn_wraper">
+        <a href="Portfolio.php"> All Products </a>
+      </div>
+    </div>
   </div>
 </div>
 <!-- END:: OUR PRODUCTS SECTION -->
@@ -889,26 +895,18 @@
 <!-- END:: CLIENTS SECTION -->
 
 <!-- START:: TESTEMONIALS SECTION -->
-<div class="testemonials_one_page">
-  <div class="section_upper_curve_wraper">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-      <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
-    </svg>
-  </div>
-
-  <div class="section_lower_curve_wraper">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-      <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
-    </svg>
-  </div>
-
+<div class="testemonials_modern">
   <div class="container">
     <div class="header_wraper">
-      <h2> Testemonials </h2>
+      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+        <span></span> 
+        <span></span> 
+        Testemonials 
+      </h2>
     </div>
 
     <div class="row flex-column align-items-center justify-content-center mt-3 overflow-hidden">
-      <div id="testemonials_2" class="owl-carousel owl-theme col-8">
+      <div id="testemonials_2" class="owl-carousel owl-theme col-8 wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
 
         <div class="item">
           <div class="testemonial_card">
