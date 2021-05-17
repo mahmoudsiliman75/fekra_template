@@ -643,6 +643,7 @@ nav {
           @include borderRadius($borderRadiusAmount);
           .overlay {
             opacity: 1;
+            transform: scale(1);
           }
   
           img {
@@ -666,6 +667,7 @@ nav {
         @include transitioning();
         .overlay {
           opacity: 0;
+          transform: scale(0);
           z-index: 3;
           position: absolute;
           top: 0;
@@ -1205,7 +1207,7 @@ nav {
   .header_wraper {
     @include flexCenterAlignment();
     h2 {
-      @include thirdHeaderStyle();
+      @include fourthHaederStyle();
     }
   }
 
@@ -1223,7 +1225,7 @@ nav {
       max-height: 465px;
       text-align: center;
       position: relative;
-      @include borderRadius(5px);
+      @include borderRadius($borderRadiusAmount);
       @include midShadow();
   
       &:hover {
@@ -1231,7 +1233,7 @@ nav {
           .overlay {
             opacity: 1;
           }
-  
+
           .card_img {
             transform: scale(1.05);
           }
@@ -1243,6 +1245,7 @@ nav {
         overflow: hidden;
         min-height: 250px;
         max-height: 250px;
+        border-radius: $borderRadiusAmount $borderRadiusAmount 0 0;
         .overlay {
           opacity: 0;
           z-index: 3;
@@ -1255,6 +1258,7 @@ nav {
           background-color: rgba(234, 84, 85, 0.8);
           border-radius: 5px 5px 0 0;
           @include flexCenterAlignment();
+          @include borderRadius($borderRadiusAmount);
           @include transitioning();
           svg {
             color: $white;
@@ -1264,8 +1268,8 @@ nav {
         .card_img {
           @include transitioning();
           width: 100%;
-          min-height: 240px;
-          max-height: 240px;
+          min-height: 250px;
+          max-height: 250px;
           z-index: 2;
           border-radius: 5px 5px 0 0;
         }
@@ -1277,28 +1281,15 @@ nav {
           width: 100%;
           overflow: hidden;
           line-height: 0;
+          transform: rotate(180deg);
           z-index: 3;
           svg {
             position: relative;
             display: block;
             width: calc(100% + 1.3px);
-            height: 25px;
+            height: 30px;
             .shape-fill {
               fill: $white;
-            }
-          }
-          /** For tablet devices **/
-          @media (min-width: 768px) and (max-width: 1023px) {
-            svg {
-                width: calc(100% + 1.3px);
-                height: 52px;
-            }
-          }
-          /** For mobile devices **/
-          @media (max-width: 767px) {
-            svg {
-              width: calc(100% + 1.3px);
-              height: 24px;
             }
           }
         }

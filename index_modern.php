@@ -1084,250 +1084,256 @@
 </div>
 <!-- END:: FAQS SECTION -->
 
-<!-- START:: NEWS SECTION -->
-<div class="news_sec_one_page">
-  <div class="container">
-    <div class="header_wraper">
-      <h2> News </h2>
-    </div>
-
-    <div class="sec_desc_wraper">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-      Culpa enim praesentium minima sunt, eveniet ratione velit 
-      similique omnis porro doloremque dolores? Aut accusantium 
-      possimus voluptates nobis ullam? Amet, ipsa est.
-    </div>
-
-    <div class="row justify-content-center">
-      <div class="col-10 col-lg-4 my-3">
-        <a href="#">
-          <div class="article_card_wraper">
-            <div class="img_wraper">
-              <div class="overlay">
-                <i class="fas fa-info-circle fa-3x"></i>
-              </div>
-              <img class="card_img" src="assets/media/pic1.jpeg" alt="">
-              <div class="card_curve">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                  <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
-                </svg>
-              </div>
-            </div>
-
-            <div class="card_title_wraper">
-              <h4> Article Title 1 </h4>
-              <h6> 1, May, 2021 </h6>
-            </div>
-
-            <div class="card_text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
-              facilis. Quas ex provident quam, inventore consectetur 
-            </div>
-          </div>
-        </a>
+<div class="bg_wraper">
+  <!-- START:: NEWS SECTION -->
+  <div class="news_sec_one_page">
+    <div class="container">
+      <div class="header_wraper">
+        <h2>
+          <span></span> 
+          <span></span> 
+          News 
+        </h2>
       </div>
-
-      <div class="col-10 col-lg-4 my-3">
-        <a href="#">
-          <div class="article_card_wraper">
-            <div class="img_wraper">
-              <div class="overlay">
-                <i class="fas fa-info-circle fa-3x"></i>
-              </div>
-              <img class="card_img" src="assets/media/pic2.jpeg" alt="">
-              <div class="card_curve">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                  <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
-                </svg>
-              </div>
-            </div>
-
-            <div class="card_title_wraper">
-              <h4> Article Title 2 </h4>
-              <h6> 1, May, 2021 </h6>
-            </div>
-
-            <div class="card_text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
-              facilis. Quas ex provident quam, inventore consectetur 
-            </div>
-          </div>
-        </a>
+  
+      <div class="sec_desc_wraper">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Culpa enim praesentium minima sunt, eveniet ratione velit 
+        similique omnis porro doloremque dolores? Aut accusantium 
+        possimus voluptates nobis ullam? Amet, ipsa est.
       </div>
-
-      <div class="col-10 col-lg-4 my-3">
-        <a href="#">
-          <div class="article_card_wraper">
-            <div class="img_wraper">
-              <div class="overlay">
-                <i class="fas fa-info-circle fa-3x"></i>
+  
+      <div class="row justify-content-center">
+        <div class="col-10 col-lg-4 my-3">
+          <a href="#">
+            <div class="article_card_wraper">
+              <div class="img_wraper">
+                <div class="overlay">
+                  <i class="fas fa-info-circle fa-3x"></i>
+                </div>
+                <img class="card_img" src="assets/media/pic1.jpeg" alt="">
+                <div class="card_curve">
+                  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M1200,0H0V120H281.94C572.9,116.24,602.45,3.86,602.45,3.86h0S632,116.24,923,120h277Z" class="shape-fill"></path>
+                  </svg>
+                </div>
               </div>
-              <img class="card_img" src="assets/media/pic3.jpeg" alt="">
-              <div class="card_curve">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                  <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
-                </svg>
+  
+              <div class="card_title_wraper">
+                <h4> Article Title 1 </h4>
+                <h6> 1, May, 2021 </h6>
               </div>
-            </div>
-
-            <div class="card_title_wraper">
-              <h4> Article Title 3 </h4>
-              <h6> 1, May, 2021 </h6>
-            </div>
-
-            <div class="card_text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
-              facilis. Quas ex provident quam, inventore consectetur 
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-10 col-lg-4 my-3">
-        <a href="#">
-          <div class="article_card_wraper">
-            <div class="img_wraper">
-              <div class="overlay">
-                <i class="fas fa-info-circle fa-3x"></i>
-              </div>
-              <img class="card_img" src="assets/media/pic4.jpeg" alt="">
-              <div class="card_curve">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                  <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
-                </svg>
+  
+              <div class="card_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
+                facilis. Quas ex provident quam, inventore consectetur 
               </div>
             </div>
-
-            <div class="card_title_wraper">
-              <h4> Article Title 4 </h4>
-              <h6> 1, May, 2021 </h6>
-            </div>
-
-            <div class="card_text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
-              facilis. Quas ex provident quam, inventore consectetur 
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-10 col-lg-4 my-3">
-        <a href="#">
-          <div class="article_card_wraper">
-            <div class="img_wraper">
-              <div class="overlay">
-                <i class="fas fa-info-circle fa-3x"></i>
-              </div>
-              <img class="card_img" src="assets/media/pic5.jpeg" alt="">
-              <div class="card_curve">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                  <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
-                </svg>
-              </div>
-            </div>
-
-            <div class="card_title_wraper">
-              <h4> Article Title 5 </h4>
-              <h6> 1, May, 2021 </h6>
-            </div>
-
-            <div class="card_text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
-              facilis. Quas ex provident quam, inventore consectetur 
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="col-10 col-lg-4 my-3">
-        <a href="#">
-          <div class="article_card_wraper">
-            <div class="img_wraper">
-              <div class="overlay">
-                <i class="fas fa-info-circle fa-3x"></i>
-              </div>
-              <img class="card_img" src="assets/media/pic6.jpeg" alt="">
-              <div class="card_curve">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                  <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
-                </svg>
-              </div>
-            </div>
-
-            <div class="card_title_wraper">
-              <h4> Article Title 6 </h4>
-              <h6> 1, May, 2021 </h6>
-            </div>
-
-            <div class="card_text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
-              facilis. Quas ex provident quam, inventore consectetur 
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- END:: NEWS SECTION -->
-
-<!-- START:: CONTACT US SECTION -->
-<div class="contact_us_sec_one_page">
-  <div class="container">
-    <div class="header_wraper mb-4">
-      <h2> Get In Touch With Us </h2>
-    </div>
-
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-6 p-0">
-        <div class="map_wraper">
-          <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19338.15820346373!2d31.374660789535696!3d31.039183138529495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1616017063461!5m2!1sar!2seg" 
-            style="border:0;" 
-            allowfullscreen="" 
-            loading="lazy"
-          >
-          </iframe>
+          </a>
         </div>
-      </div>
-
-      <div class="col-12 col-md-6 p-0">
-        <div class="form_wraper">
-          <form>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Full Name*" required>
-              <span>
-                <i class="fas fa-user-circle fa-2x"></i>
-              </span>
+  
+        <div class="col-10 col-lg-4 my-3">
+          <a href="#">
+            <div class="article_card_wraper">
+              <div class="img_wraper">
+                <div class="overlay">
+                  <i class="fas fa-info-circle fa-3x"></i>
+                </div>
+                <img class="card_img" src="assets/media/pic2.jpeg" alt="">
+                <div class="card_curve">
+                  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M1200,0H0V120H281.94C572.9,116.24,602.45,3.86,602.45,3.86h0S632,116.24,923,120h277Z" class="shape-fill"></path>
+                  </svg>
+                </div>
+              </div>
+  
+              <div class="card_title_wraper">
+                <h4> Article Title 2 </h4>
+                <h6> 1, May, 2021 </h6>
+              </div>
+  
+              <div class="card_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
+                facilis. Quas ex provident quam, inventore consectetur 
+              </div>
             </div>
-
-            <div class="form-group">
-              <input type="tele" class="form-control" placeholder="Your Phone Number*" required>
-              <span>
-                <i class="fas fa-phone-square-alt fa-2x"></i>
-              </span>
+          </a>
+        </div>
+  
+        <div class="col-10 col-lg-4 my-3">
+          <a href="#">
+            <div class="article_card_wraper">
+              <div class="img_wraper">
+                <div class="overlay">
+                  <i class="fas fa-info-circle fa-3x"></i>
+                </div>
+                <img class="card_img" src="assets/media/pic3.jpeg" alt="">
+                <div class="card_curve">
+                  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M1200,0H0V120H281.94C572.9,116.24,602.45,3.86,602.45,3.86h0S632,116.24,923,120h277Z" class="shape-fill"></path>
+                  </svg>
+                </div>
+              </div>
+  
+              <div class="card_title_wraper">
+                <h4> Article Title 3 </h4>
+                <h6> 1, May, 2021 </h6>
+              </div>
+  
+              <div class="card_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
+                facilis. Quas ex provident quam, inventore consectetur 
+              </div>
             </div>
-
-            <div class="form-group mb-4">
-              <textarea placeholder="Your Message"></textarea>
+          </a>
+        </div>
+  
+        <div class="col-10 col-lg-4 my-3">
+          <a href="#">
+            <div class="article_card_wraper">
+              <div class="img_wraper">
+                <div class="overlay">
+                  <i class="fas fa-info-circle fa-3x"></i>
+                </div>
+                <img class="card_img" src="assets/media/pic4.jpeg" alt="">
+                <div class="card_curve">
+                  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M1200,0H0V120H281.94C572.9,116.24,602.45,3.86,602.45,3.86h0S632,116.24,923,120h277Z" class="shape-fill"></path>
+                  </svg>
+                </div>
+              </div>
+  
+              <div class="card_title_wraper">
+                <h4> Article Title 4 </h4>
+                <h6> 1, May, 2021 </h6>
+              </div>
+  
+              <div class="card_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
+                facilis. Quas ex provident quam, inventore consectetur 
+              </div>
             </div>
-
-            <div class="btn_box">
-              <button> Submit </button>
+          </a>
+        </div>
+  
+        <div class="col-10 col-lg-4 my-3">
+          <a href="#">
+            <div class="article_card_wraper">
+              <div class="img_wraper">
+                <div class="overlay">
+                  <i class="fas fa-info-circle fa-3x"></i>
+                </div>
+                <img class="card_img" src="assets/media/pic5.jpeg" alt="">
+                <div class="card_curve">
+                  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M1200,0H0V120H281.94C572.9,116.24,602.45,3.86,602.45,3.86h0S632,116.24,923,120h277Z" class="shape-fill"></path>
+                  </svg>
+                </div>
+              </div>
+  
+              <div class="card_title_wraper">
+                <h4> Article Title 5 </h4>
+                <h6> 1, May, 2021 </h6>
+              </div>
+  
+              <div class="card_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
+                facilis. Quas ex provident quam, inventore consectetur 
+              </div>
             </div>
-          </form>
+          </a>
+        </div>
+  
+        <div class="col-10 col-lg-4 my-3">
+          <a href="#">
+            <div class="article_card_wraper">
+              <div class="img_wraper">
+                <div class="overlay">
+                  <i class="fas fa-info-circle fa-3x"></i>
+                </div>
+                <img class="card_img" src="assets/media/pic6.jpeg" alt="">
+                <div class="card_curve">
+                  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M1200,0H0V120H281.94C572.9,116.24,602.45,3.86,602.45,3.86h0S632,116.24,923,120h277Z" class="shape-fill"></path>
+                  </svg>
+                </div>
+              </div>
+  
+              <div class="card_title_wraper">
+                <h4> Article Title 6 </h4>
+                <h6> 1, May, 2021 </h6>
+              </div>
+  
+              <div class="card_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Et corrupti minus ipsa aut, tenetur laboriosam nisi soluta 
+                facilis. Quas ex provident quam, inventore consectetur 
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>
   </div>
+  <!-- END:: NEWS SECTION -->
+
+  <!-- START:: CONTACT US SECTION -->
+  <div class="contact_us_sec_one_page">
+    <div class="container">
+      <div class="header_wraper mb-4">
+        <h2> Get In Touch With Us </h2>
+      </div>
+  
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-6 p-0">
+          <div class="map_wraper">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19338.15820346373!2d31.374660789535696!3d31.039183138529495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1616017063461!5m2!1sar!2seg" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy"
+            >
+            </iframe>
+          </div>
+        </div>
+  
+        <div class="col-12 col-md-6 p-0">
+          <div class="form_wraper">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Full Name*" required>
+                <span>
+                  <i class="fas fa-user-circle fa-2x"></i>
+                </span>
+              </div>
+  
+              <div class="form-group">
+                <input type="tele" class="form-control" placeholder="Your Phone Number*" required>
+                <span>
+                  <i class="fas fa-phone-square-alt fa-2x"></i>
+                </span>
+              </div>
+  
+              <div class="form-group mb-4">
+                <textarea placeholder="Your Message"></textarea>
+              </div>
+  
+              <div class="btn_box">
+                <button> Submit </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END:: CONTACT US SECTION -->
 </div>
-<!-- END:: CONTACT US SECTION -->
 
 <!-- START:: INCLUDING THE FOOTER -->
 <?php include('layouts/modern_index/ModernIndexFooter.php')?>
