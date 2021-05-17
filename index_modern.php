@@ -328,7 +328,7 @@
     </div>
 
     <div class="row justify-content-center justify-content-md-between overflow-hidden">
-      <div class="col-10 col-md-3 my-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
+      <div class="col-10 col-md-4 my-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
         <div class="member_card_wraper">
           <a href="MemberProfile.php">
             <div class="image_wraper">
@@ -372,7 +372,7 @@
         </div>
       </div>
 
-      <div class="col-10 col-md-3 my-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">
+      <div class="col-10 col-md-4 my-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">
         <div class="member_card_wraper">
           <a href="MemberProfile.php">
             <div class="image_wraper">
@@ -416,7 +416,7 @@
         </div>
       </div>
 
-      <div class="col-10 col-md-3 my-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.5s">
+      <div class="col-10 col-md-4 my-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.5s">
         <div class="member_card_wraper">
           <a href="MemberProfile.php">
             <div class="image_wraper">
@@ -471,20 +471,24 @@
 <!-- END:: TEAM MEMBERS SECTION -->
 
 <!-- START:: OUR PRODUCTS SECTION -->
-<div class="products_sec_one_page">
-  <div class="container">
+<div class="products_sec_modern">
+  <div class="container-fluid">
     <div class="header_wraper">
-      <h2>Our Products</h2>
+      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+        <span></span>
+        <span></span>  
+        Our Products
+      </h2>
     </div>
 
-    <div class="sec_desc_wraper">
+    <div class="sec_desc_wraper wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
       Culpa enim praesentium minima sunt, eveniet ratione velit 
       similique omnis porro doloremque dolores? Aut accusantium 
       possimus voluptates nobis ullam? Amet, ipsa est.
     </div>
 
-    <ul class="nav nav-pills my-3" id="pills-tab" role="tablist">
+    <ul class="nav nav-pills my-3 wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="1s" id="pills-tab" role="tablist">
       <li class="nav-item" role="presentation">
         <a class="nav-link active" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab" aria-controls="pills-all" aria-selected="true">All</a>
       </li>
@@ -498,11 +502,11 @@
       </li>
     </ul>
 
-    <div class="tab-content" id="pills-tabContent">
+    <div class="tab-content wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s" id="pills-tabContent">
 
       <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
         <div class="row justify-content-center">
-          <div class="col-10 col-lg-4 my-3">
+          <div class="col-10 col-lg-4 p-0">
             <div class="product_card_wraper">
               <div class="front_face">
                 <img src="assets/media/pic1.jpeg" alt="">
@@ -528,7 +532,7 @@
             </div>
           </div>
 
-          <div class="col-10 col-lg-4 my-3">
+          <div class="col-10 col-lg-4 p-0">
             <div class="product_card_wraper">
               <div class="front_face">
                 <img src="assets/media/pic2.jpeg" alt="">
@@ -554,7 +558,7 @@
             </div>
           </div>
 
-          <div class="col-10 col-lg-4 my-3">
+          <div class="col-10 col-lg-4 p-0">
             <div class="product_card_wraper">
               <div class="front_face">
                 <img src="assets/media/pic3.jpeg" alt="">
@@ -580,7 +584,7 @@
             </div>
           </div>
 
-          <div class="col-10 col-lg-4 my-3">
+          <div class="col-10 col-lg-4 p-0">
             <div class="product_card_wraper">
               <div class="front_face">
                 <img src="assets/media/pic4.jpeg" alt="">
@@ -606,7 +610,7 @@
             </div>
           </div>
 
-          <div class="col-10 col-lg-4 my-3">
+          <div class="col-10 col-lg-4 p-0">
             <div class="product_card_wraper">
               <div class="front_face">
                 <img src="assets/media/pic5.jpeg" alt="">
@@ -632,7 +636,7 @@
             </div>
           </div>
 
-          <div class="col-10 col-lg-4 my-3">
+          <div class="col-10 col-lg-4 p-0">
             <div class="product_card_wraper">
               <div class="front_face">
                 <img src="assets/media/pic6.jpeg" alt="">
@@ -662,7 +666,7 @@
 
       <div class="tab-pane fade" id="pills-cat1" role="tabpanel" aria-labelledby="pills-cat1-tab">
         <div class="row justify-content-center">
-          <div class="col-10 col-lg-4 my-3">
+          <div class="col-10 col-lg-4 p-0">
             <div class="product_card_wraper">
               <div class="front_face">
                 <img src="assets/media/pic1.jpeg" alt="">
@@ -688,7 +692,7 @@
             </div>
           </div>
 
-          <div class="col-10 col-lg-4 my-3">
+          <div class="col-10 col-lg-4 p-0">
             <div class="product_card_wraper">
               <div class="front_face">
                 <img src="assets/media/pic2.jpeg" alt="">
@@ -714,7 +718,7 @@
             </div>
           </div>
 
-          <div class="col-10 col-lg-4 my-3">
+          <div class="col-10 col-lg-4 p-0">
             <div class="product_card_wraper">
               <div class="front_face">
                 <img src="assets/media/pic3.jpeg" alt="">
@@ -744,7 +748,7 @@
 
       <div class="tab-pane fade" id="pills-cat2" role="tabpanel" aria-labelledby="pills-cat2-tab">
         <div class="row justify-content-center">
-          <div class="col-10 col-lg-4 my-3">
+          <div class="col-10 col-lg-4 p-0">
             <div class="product_card_wraper">
               <div class="front_face">
                 <img src="assets/media/pic4.jpeg" alt="">
@@ -770,7 +774,7 @@
             </div>
           </div>
 
-          <div class="col-10 col-lg-4 my-3">
+          <div class="col-10 col-lg-4 p-0">
             <div class="product_card_wraper">
               <div class="front_face">
                 <img src="assets/media/pic5.jpeg" alt="">
@@ -796,7 +800,7 @@
             </div>
           </div>
 
-          <div class="col-10 col-lg-4 my-3">
+          <div class="col-10 col-lg-4 p-0">
             <div class="product_card_wraper">
               <div class="front_face">
                 <img src="assets/media/pic6.jpeg" alt="">

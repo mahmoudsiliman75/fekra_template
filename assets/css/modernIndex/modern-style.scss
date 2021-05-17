@@ -793,8 +793,8 @@ nav {
       position: relative;
       min-width: 370px;
       max-width: 370px;
-      min-height: 285px;
-      max-height: 285px;
+      min-height: 300px;
+      max-height: 300px;
       background-color: #000;
 
       img {
@@ -850,12 +850,12 @@ nav {
 // END:: TEAM MEMBERS SECTION STYLES
 
 // START:: OUR PRODUCTS SECTION
-.products_sec_one_page {
+.products_sec_modern {
   padding: $paddingAmount 0;
   .header_wraper {
     @include flexCenterAlignment();
     h2 {
-      @include thirdHeaderStyle();
+      @include fourthHaederStyle();
     }
   }
 
@@ -884,7 +884,7 @@ nav {
     .product_card_wraper {
       position: relative;
       width: 100%;
-      height: 300px;
+      height: 400px;
       perspective: 1000;
       transform-style: preserve-3d;
       &:hover {
@@ -902,25 +902,22 @@ nav {
         width: 100%;
         height: 100%;
         backface-visibility: hidden;
-        @include borderRadius(5px);
         @include transitioning();
         }
       .front_face {
         img {
           width: 100%;
           height: 100%;
-          @include borderRadius(5px);
         }
       }
       .back_face {
         transform: rotateY(180deg);
         text-align: center;
         padding: 20px;
-        background: url('../media/shapes/wave.svg');
+        background: url('../../media/shapes/wave.svg');
         background-position: bottom;
         background-size: 100%;
         background-repeat: no-repeat;
-        @include midShadow();
         h4 {
           color: $corpColor1;
         }
