@@ -963,12 +963,16 @@ nav {
 // END:: OUR PRODUCTS SECTION
 
 // START:: OUR CLIENTS SECTION STYLES
-.our_clients_sec_one_page {
+.our_clients_sec_modern {
   padding: $paddingAmount 0;
+  background: url('../../media/shapes/9.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
   .header_wraper {
     @include flexCenterAlignment();
     h2 {
-      @include thirdHeaderStyle();
+      @include fourthHaederStyle();
     }
   }
 

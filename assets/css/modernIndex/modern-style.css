@@ -1564,11 +1564,15 @@ nav .menu_btn svg {
   left: 0;
 }
 
-.our_clients_sec_one_page {
+.our_clients_sec_modern {
   padding: 50px 0;
+  background: url("../../media/shapes/9.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.our_clients_sec_one_page .header_wraper {
+.our_clients_sec_modern .header_wraper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1580,38 +1584,61 @@ nav .menu_btn svg {
           justify-content: center;
 }
 
-.our_clients_sec_one_page .header_wraper h2 {
-  padding: 10px 15px;
+.our_clients_sec_modern .header_wraper h2 {
+  padding: 8px 15px;
   position: relative;
   color: #ea5455;
 }
 
-.our_clients_sec_one_page .header_wraper h2::before, .our_clients_sec_one_page .header_wraper h2::after {
+.our_clients_sec_modern .header_wraper h2::before, .our_clients_sec_modern .header_wraper h2::after {
   content: "";
   position: absolute;
+  top: 0;
   display: block;
-  height: 50%;
-  width: 40%;
+  height: 15px;
+  width: 15px;
   border: 2px solid #00334e;
 }
 
-.our_clients_sec_one_page .header_wraper h2::before {
-  top: 0;
+.our_clients_sec_modern .header_wraper h2::before {
   left: 0;
   border-right: none;
   border-bottom: none;
   border-radius: 5px 0 0 0;
 }
 
-.our_clients_sec_one_page .header_wraper h2::after {
-  bottom: 0;
+.our_clients_sec_modern .header_wraper h2::after {
   right: 0;
+  border-left: none;
+  border-bottom: none;
+  border-radius: 0 5px 0 0;
+}
+
+.our_clients_sec_modern .header_wraper h2 span {
+  position: absolute;
+  display: bolck;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #00334e;
+}
+
+.our_clients_sec_modern .header_wraper h2 span:first-child {
+  left: 0;
+  bottom: 0;
+  border-right: none;
+  border-top: none;
+  border-radius: 0 0 0 5px;
+}
+
+.our_clients_sec_modern .header_wraper h2 span:last-child {
+  right: 0;
+  bottom: 0;
   border-left: none;
   border-top: none;
   border-radius: 0 0 5px 0;
 }
 
-.our_clients_sec_one_page .owl-carousel {
+.our_clients_sec_modern .owl-carousel {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1624,12 +1651,12 @@ nav .menu_btn svg {
           justify-content: center;
 }
 
-.our_clients_sec_one_page .owl-carousel .item .img_wraper {
+.our_clients_sec_modern .owl-carousel .item .img_wraper {
   min-height: 150px;
   max-height: 150px;
 }
 
-.our_clients_sec_one_page .owl-carousel .item .img_wraper img {
+.our_clients_sec_modern .owl-carousel .item .img_wraper img {
   width: 100%;
   min-height: 150px;
   max-height: 150px;
@@ -1639,7 +1666,7 @@ nav .menu_btn svg {
   transition: all 0.4s ease-in-out;
 }
 
-.our_clients_sec_one_page .owl-carousel .item .img_wraper img:hover {
+.our_clients_sec_modern .owl-carousel .item .img_wraper img:hover {
   -webkit-filter: grayscale(0);
           filter: grayscale(0);
 }

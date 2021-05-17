@@ -833,14 +833,18 @@
 <!-- END:: OUR PRODUCTS SECTION -->
 
 <!-- START:: CLIENTS SECTION -->
-<div class="our_clients_sec_one_page">
+<div class="our_clients_sec_modern">
   <div class="container-fluid">
     <div class="header_wraper">
-      <h2> Our Clients </h2>
+      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+        <span></span> 
+        <span></span> 
+        Our Clients 
+      </h2>
     </div>
 
     <div class="row flex-column align-items-center justify-content-center mt-3 overflow-hidden">
-      <div id="clients" class="owl-carousel owl-theme col-11">
+      <div id="clients" class="owl-carousel owl-theme col-11 wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
 
         <div class="item text-center">
           <div class="img_wraper">
