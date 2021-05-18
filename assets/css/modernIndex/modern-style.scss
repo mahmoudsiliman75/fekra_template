@@ -74,7 +74,7 @@ body {
   position: relative;
   min-height: 450px;
   max-height: 450px;
-  background-size: 100% !important;
+  background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 
@@ -491,6 +491,21 @@ nav {
         }
       }
     }
+
+    @media ( max-width: 850px ) {
+      .carousel-inner {
+        max-height: 400px;
+        
+  
+        .carousel-item {
+          img {
+            width: 100%;
+            min-height: 400px;
+            max-height: 400px;
+          }
+        }
+      }
+    }
   }
 }
 // END:: HOME SLIDER STYLES
@@ -502,7 +517,7 @@ nav {
   background-position: right 35%;
   background-repeat: no-repeat;
   .container-fluid {
-    padding-inline-start: 0;
+    padding-inline: 0;
     .header_wraper {
       @include flexCenterAlignment();
       h2 {
@@ -521,11 +536,19 @@ nav {
           border-radius: 0 25px 25px 0;
           box-shadow: -40px 25px 0px 9px #e4e4e48f;
         }
+
+        @media ( max-width: 767px ){
+          img {
+            @include borderRadius(15px);
+            box-shadow: none;
+          }
+        }
       }
   
       .text_wraper {
         @include textWraper();
         text-align: start;
+        padding-inline: 1.5rem;
       }
     }  
   }
@@ -617,6 +640,222 @@ nav {
   }
 }
 // END:: ABOUT SECTION STYLES
+
+// START:: ABOUT US MODERN STYLES
+.main_about_us_modern {
+  padding: $paddingAmount 0;
+  background: url('../../media/shapes/header-sape6.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2, 
+    h4 {
+      @include fourthHaederStyle();
+    }
+  }
+
+  .sec_desc_wraper {
+    @include textWraper();
+    text-align: center;
+    margin-block: 15px;
+  }
+
+  .img_wraper {
+    width: 100%;
+    height: 100%;
+    margin-inline-end: 25px;
+    img {
+      width: 100%;
+      height: auto;
+      @include borderRadius($borderRadiusAmount);
+    }
+  }
+
+  .video_wraper {
+    width: 100%;
+    min-height: 500px;
+    max-height: 500px;
+    background: url('../../media/pic5.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(45, 64, 89, 0.5);
+      @include flexCenterAlignment();
+      .btn_wraper {
+        width: 100px;
+        height: 100px;
+        background-color: transparent;
+        border: none;
+        img {
+          width: 100%;
+          box-shadow: 
+          0 0 2px 15px rgba(225, 225, 225, 0.2),
+          0 0 2px 10px rgba(225, 225, 225, 0.4),
+          0 0 2px 5px rgba(225, 225, 225, 0.8);
+          @include borderRadius(50%);
+        }
+      }
+    }
+
+    .modal {
+      .modal-dialog {
+        .modal-content {
+          .modal-body {
+            padding: 0;
+            overflow: hidden;
+            iframe {
+              width: 100%;
+              height: 500px;
+            }
+          }
+        }
+      }
+    }
+
+    .section_upper_curve {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+      transform: rotate(180deg);
+      z-index: 3;
+      svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 40px;
+        .shape-fill {
+          fill: $white;
+        }
+      }
+    }
+
+    .section_lower_curve {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+      z-index: 3;
+      svg  {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 40px;
+        .shape-fill {
+          fill: $white;
+        }
+      }
+    }
+
+  }
+
+  .services{
+    background: url('../../media/shapes/striples-bg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    a {
+      text-decoration: none;
+      .service_card_wraper {
+        min-height: 400px;
+        max-height: 400px;
+        text-align: center;
+        position: relative;
+        @include flexCenterAlignment();
+        flex-direction: column;
+        @include borderRadius($borderRadiusAmount);
+        @include heighShadow();
+        @include transitioning();
+  
+        &:hover {
+          transform: scale(1.03);
+          .img_wraper {
+            @include borderRadius($borderRadiusAmount);
+            .overlay {
+              opacity: 1;
+              transform: scale(1);
+            }
+    
+            img {
+              transform: scale(1.05);
+            }
+          }
+        }
+  
+        .img_wraper {
+          position: absolute;
+          top: -45px;
+          left: 50%;
+          transform: translateX(-50%);
+          overflow: hidden;
+          min-height: 250px;
+          max-height: 250px;
+          min-width: 250px;
+          max-width: 250px;
+          border: 2px solid $corpColor2;
+          @include borderRadius($borderRadiusAmount);
+          @include transitioning();
+          .overlay {
+            opacity: 0;
+            transform: scale(0);
+            z-index: 3;
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(234, 84, 85, 0.8);
+            border-radius: 5px 5px 0 0;
+            @include flexCenterAlignment();
+            @include transitioning();
+            svg {
+              color: $white;
+            }
+          }
+    
+          img {
+            @include transitioning();
+            min-height: 250px;
+            max-height: 250px;
+            min-width: 250px;
+            max-width: 250px;
+            z-index: 2;
+            border-radius: 5px 5px 0 0;
+          }
+        }
+    
+        .card_title_wraper {
+          h4 {
+            margin-top: 190px;
+            color: $corpColor2;
+          }
+        }
+    
+        .card_text {
+          padding: 10px;
+          @include textWraper();
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+// END:: ABOUT US MODERN STYLES
 
 // START:: SERVICES SECTION STYLES
 .services_sec_modern {
@@ -1505,8 +1744,7 @@ nav {
           0 0 2px 15px rgba(225, 225, 225, 0.2),
           0 0 2px 10px rgba(225, 225, 225, 0.4),
           0 0 2px 5px rgba(225, 225, 225, 0.8);
-        @include borderRadius(50%);
-
+          @include borderRadius(50%);
         }
       }
     }

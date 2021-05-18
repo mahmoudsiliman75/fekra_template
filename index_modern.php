@@ -50,7 +50,7 @@
     <div class="sec_desc_wraper">
       <div class="row justify-content-center">
         <div class="col-9 col-md-5 mb-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.5s">
-          <div class="image_wraper">
+          <div class="image_wraper mb-3">
             <img src="assets/media/pic7.jpg" alt="">
           </div>
         </div>

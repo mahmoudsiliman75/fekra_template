@@ -93,6 +93,10 @@
           <li> 
             <a href="AboutUs2.php"> About Us 2 </a> 
           </li>
+
+          <li> 
+            <a href="AboutModern.php"> About Us Modern </a> 
+          </li>
         </ul>
       </li>
 
