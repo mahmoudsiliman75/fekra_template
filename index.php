@@ -75,7 +75,7 @@
     </div>
 
     <div class="row justify-content-center">
-      <div class="col-10 col-lg-3 mt-5">
+      <div class="col-9 col-lg-3 mt-5">
         <div class="about_card_wraper">
           <div class="icon_wraper">
             <span>
@@ -95,7 +95,7 @@
         </div>
       </div>
 
-      <div class="col-10 col-lg-3 mt-5">
+      <div class="col-9 col-lg-3 mt-5">
         <div class="about_card_wraper">
           <div class="icon_wraper">
             <span>
@@ -115,7 +115,7 @@
         </div>
       </div>
 
-      <div class="col-10 col-lg-3 mt-5">
+      <div class="col-9 col-lg-3 mt-5">
         <div class="about_card_wraper">
           <div class="icon_wraper">
             <span>
@@ -135,7 +135,7 @@
         </div>
       </div>
 
-      <div class="col-10 col-lg-3 mt-5">
+      <div class="col-9 col-lg-3 mt-5">
         <div class="about_card_wraper">
           <div class="icon_wraper">
             <span>
@@ -175,7 +175,7 @@
 
     <div class="row justify-content-center">
       <div class="col-10 col-lg-4 my-3">
-        <a href="#">
+        <a href="SingleService1.php">
           <div class="service_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
@@ -198,7 +198,7 @@
       </div>
 
       <div class="col-10 col-lg-4 my-3">
-        <a href="#">
+        <a href="SingleService1.php">
           <div class="service_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
@@ -221,7 +221,7 @@
       </div>
 
       <div class="col-10 col-lg-4 my-3">
-        <a href="#">
+        <a href="SingleService1.php">
           <div class="service_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
@@ -245,7 +245,7 @@
       </div>
 
       <div class="col-10 col-lg-4 my-3">
-        <a href="#">
+        <a href="SingleService1.php">
           <div class="service_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
@@ -268,7 +268,7 @@
       </div>
 
       <div class="col-10 col-lg-4 my-3">
-        <a href="#">
+        <a href="SingleService1.php">
           <div class="service_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
@@ -291,7 +291,7 @@
       </div>
 
       <div class="col-10 col-lg-4 my-3">
-        <a href="#">
+        <a href="SingleService1.php">
           <div class="service_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
@@ -316,7 +316,7 @@
 
     <div class="col-12 mt-3">
       <div class="btn_wraper">
-        <a href="#"> All Services </a>
+        <a href="AllServices1.php"> All Services </a>
       </div>
     </div>
   </div>
@@ -510,7 +510,7 @@
       <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
         <div class="row justify-content-center">
           <div class="col-10 col-lg-4 my-3">
-            <a href="#">
+            <a href="SingleProduct1.php">
               <div class="product_card_wraper">
                 <div class="img_wraper">
                   <img src="assets/media/pic1.jpeg" alt="">
@@ -524,7 +524,7 @@
           </div>
 
           <div class="col-10 col-lg-4 my-3">
-            <a href="#">
+            <a href="SingleProduct1.php">
               <div class="product_card_wraper">
                 <div class="img_wraper">
                   <img src="assets/media/pic2.jpeg" alt="">
@@ -538,7 +538,7 @@
           </div>
 
           <div class="col-10 col-lg-4 my-3">
-            <a href="#">
+            <a href="SingleProduct1.php">
               <div class="product_card_wraper">
                 <div class="img_wraper">
                   <img src="assets/media/pic3.jpeg" alt="">
@@ -552,7 +552,7 @@
           </div>
 
           <div class="col-10 col-lg-4 my-3">
-            <a href="#">
+            <a href="SingleProduct1.php">
               <div class="product_card_wraper">
                 <div class="img_wraper">
                   <img src="assets/media/pic4.jpeg" alt="">
@@ -566,7 +566,7 @@
           </div>
 
           <div class="col-10 col-lg-4 my-3">
-            <a href="#">
+            <a href="SingleProduct1.php">
               <div class="product_card_wraper">
                 <div class="img_wraper">
                   <img src="assets/media/pic5.jpeg" alt="">
@@ -580,7 +580,7 @@
           </div>
 
           <div class="col-10 col-lg-4 my-3">
-            <a href="#">
+            <a href="SingleProduct1.php">
               <div class="product_card_wraper">
                 <div class="img_wraper">
                   <img src="assets/media/pic1.jpeg" alt="">
@@ -598,7 +598,7 @@
       <div class="tab-pane fade" id="pills-cat1" role="tabpanel" aria-labelledby="pills-cat1-tab">
         <div class="row justify-content-center">
           <div class="col-10 col-lg-4 my-3">
-            <a href="#">
+            <a href="SingleProduct1.php">
               <div class="product_card_wraper">
                 <div class="img_wraper">
                   <img src="assets/media/pic1.jpeg" alt="">
@@ -612,7 +612,7 @@
           </div>
 
           <div class="col-10 col-lg-4 my-3">
-            <a href="#">
+            <a href="SingleProduct1.php">
               <div class="product_card_wraper">
                 <div class="img_wraper">
                   <img src="assets/media/pic2.jpeg" alt="">
@@ -626,7 +626,7 @@
           </div>
 
           <div class="col-10 col-lg-4 my-3">
-            <a href="#">
+            <a href="SingleProduct1.php">
               <div class="product_card_wraper">
                 <div class="img_wraper">
                   <img src="assets/media/pic3.jpeg" alt="">
@@ -644,7 +644,7 @@
       <div class="tab-pane fade" id="pills-cat2" role="tabpanel" aria-labelledby="pills-cat2-tab">
         <div class="row justify-content-center">
           <div class="col-10 col-lg-4 my-3">
-            <a href="#">
+            <a href="SingleProduct1.php">
               <div class="product_card_wraper">
                 <div class="img_wraper">
                   <img src="assets/media/pic4.jpeg" alt="">
@@ -658,7 +658,7 @@
           </div>
 
           <div class="col-10 col-lg-4 my-3">
-            <a href="#">
+            <a href="SingleProduct1.php">
               <div class="product_card_wraper">
                 <div class="img_wraper">
                   <img src="assets/media/pic5.jpeg" alt="">
@@ -672,7 +672,7 @@
           </div>
 
           <div class="col-10 col-lg-4 my-3">
-            <a href="#">
+            <a href="SingleProduct1.php">
               <div class="product_card_wraper">
                 <div class="img_wraper">
                   <img src="assets/media/pic1.jpeg" alt="">
@@ -690,7 +690,7 @@
 
     <div class="col-12 mt-3">
       <div class="btn_wraper">
-        <a href="#"> All Products </a>
+        <a href="AllProducts1.php"> All Products </a>
       </div>
     </div>
   </div>
@@ -931,6 +931,12 @@
         </div>
       </div>
     </div>
+
+    <div class="col-12 mt-3">
+      <div class="btn_wraper">
+        <a href="Faqs.php"> View More </a>
+      </div>
+    </div>
   </div>
 </div>
 <!-- END:: FAQS SECTION -->
@@ -951,7 +957,7 @@
 
     <div class="row justify-content-center">
       <div class="col-10 col-lg-4 my-3">
-        <a href="#">
+        <a href="SidebarArticle.php">
           <div class="article_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
@@ -975,7 +981,7 @@
       </div>
 
       <div class="col-10 col-lg-4 my-3">
-        <a href="#">
+        <a href="SidebarArticle.php">
           <div class="article_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
@@ -999,7 +1005,7 @@
       </div>
 
       <div class="col-10 col-lg-4 my-3">
-        <a href="#">
+        <a href="SidebarArticle.php">
           <div class="article_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
@@ -1023,7 +1029,7 @@
       </div>
 
       <div class="col-10 col-lg-4 my-3">
-        <a href="#">
+        <a href="SidebarArticle.php">
           <div class="article_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
@@ -1047,7 +1053,7 @@
       </div>
 
       <div class="col-10 col-lg-4 my-3">
-        <a href="#">
+        <a href="SidebarArticle.php">
           <div class="article_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
@@ -1068,6 +1074,12 @@
             </div>
           </div>
         </a>
+      </div>
+    </div>
+
+    <div class="col-12 mt-3">
+      <div class="btn_wraper">
+        <a href="SidebarBlog.php"> View More </a>
       </div>
     </div>
   </div>

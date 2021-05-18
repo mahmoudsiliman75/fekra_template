@@ -3700,6 +3700,62 @@ nav .menu_btn svg {
           padding-inline-start: 45px;
 }
 
+.faq_sec .btn_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.faq_sec .btn_wraper a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #ea5455;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid #ea5455;
+  border-radius: 5px;
+  padding: 10px 20px;
+  position: relative;
+  padding: 6px 12px;
+}
+
+.faq_sec .btn_wraper a::before, .faq_sec .btn_wraper a::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 20%;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.faq_sec .btn_wraper a::before {
+  top: -2px;
+  left: 10%;
+}
+
+.faq_sec .btn_wraper a::after {
+  bottom: -2px;
+  right: 10%;
+}
+
+.faq_sec .btn_wraper a:hover::before {
+  left: 65%;
+}
+
+.faq_sec .btn_wraper a:hover::after {
+  right: 65%;
+}
+
 .faq_sec_index_2 {
   padding: 50px 0;
 }
@@ -3791,6 +3847,57 @@ nav .menu_btn svg {
   font-size: 16px;
   -webkit-padding-start: 45px;
           padding-inline-start: 45px;
+}
+
+.faq_sec_index_2 .btn_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.faq_sec_index_2 .btn_wraper a {
+  text-decoration: none;
+  border: 2px solid #00334e;
+  padding: 8px 16px;
+  margin-top: 15px;
+  color: #00334e;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 5px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+  position: relative;
+  padding: 6px 12px;
+}
+
+.faq_sec_index_2 .btn_wraper a::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #00334e;
+  z-index: -1;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.faq_sec_index_2 .btn_wraper a:hover {
+  color: #fff;
+}
+
+.faq_sec_index_2 .btn_wraper a:hover::before {
+  left: 0;
 }
 
 .main_faqs {
@@ -4047,6 +4154,62 @@ nav .menu_btn svg {
   font-size: 16px;
 }
 
+.news_sec .btn_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.news_sec .btn_wraper a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #ea5455;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid #ea5455;
+  border-radius: 5px;
+  padding: 10px 20px;
+  position: relative;
+  padding: 6px 12px;
+}
+
+.news_sec .btn_wraper a::before, .news_sec .btn_wraper a::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 20%;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.news_sec .btn_wraper a::before {
+  top: -2px;
+  left: 10%;
+}
+
+.news_sec .btn_wraper a::after {
+  bottom: -2px;
+  right: 10%;
+}
+
+.news_sec .btn_wraper a:hover::before {
+  left: 65%;
+}
+
+.news_sec .btn_wraper a:hover::after {
+  right: 65%;
+}
+
 .news_sec_index_2 {
   padding: 50px 0;
 }
@@ -4209,6 +4372,57 @@ nav .menu_btn svg {
   color: #666;
   line-height: 1.6;
   font-size: 16px;
+}
+
+.news_sec_index_2 .btn_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.news_sec_index_2 .btn_wraper a {
+  text-decoration: none;
+  border: 2px solid #00334e;
+  padding: 8px 16px;
+  margin-top: 15px;
+  color: #00334e;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 5px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+  position: relative;
+  padding: 6px 12px;
+}
+
+.news_sec_index_2 .btn_wraper a::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #00334e;
+  z-index: -1;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.news_sec_index_2 .btn_wraper a:hover {
+  color: #fff;
+}
+
+.news_sec_index_2 .btn_wraper a:hover::before {
+  left: 0;
 }
 
 .portfolio_sec {

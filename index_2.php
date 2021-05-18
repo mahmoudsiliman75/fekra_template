@@ -176,7 +176,7 @@
 
       <div class="row justify-content-center">
         <div class="col-10 col-lg-4 my-3">
-          <a href="#">
+          <a href="SingleService1.php">
             <div class="service_card_wraper">
               <div class="img_wraper">
                 <div class="overlay">
@@ -199,7 +199,7 @@
         </div>
 
         <div class="col-10 col-lg-4 my-3">
-          <a href="#">
+          <a href="SingleService1.php">
             <div class="service_card_wraper">
               <div class="img_wraper">
                 <div class="overlay">
@@ -222,7 +222,7 @@
         </div>
 
         <div class="col-10 col-lg-4 my-3">
-          <a href="#">
+          <a href="SingleService1.php">
             <div class="service_card_wraper">
               <div class="img_wraper">
                 <div class="overlay">
@@ -246,7 +246,7 @@
         </div>
 
         <div class="col-10 col-lg-4 my-3">
-          <a href="#">
+          <a href="SingleService1.php">
             <div class="service_card_wraper">
               <div class="img_wraper">
                 <div class="overlay">
@@ -269,7 +269,7 @@
         </div>
 
         <div class="col-10 col-lg-4 my-3">
-          <a href="#">
+          <a href="SingleService1.php">
             <div class="service_card_wraper">
               <div class="img_wraper">
                 <div class="overlay">
@@ -292,7 +292,7 @@
         </div>
 
         <div class="col-10 col-lg-4 my-3">
-          <a href="#">
+          <a href="SingleService1.php">
             <div class="service_card_wraper">
               <div class="img_wraper">
                 <div class="overlay">
@@ -317,7 +317,7 @@
 
       <div class="col-12">
         <div class="btn_wraper">
-          <a href="#"> All Services </a>
+          <a href="AllServices1.php"> All Services </a>
         </div>
       </div>
     </div>
@@ -534,7 +534,7 @@
                 </div>
 
                 <div class="btn_wraper">
-                  <a href="#"> More Details </a>
+                  <a href="SingleProduct1.php"> More Details </a>
                 </div>
               </div>
             </div>
@@ -560,7 +560,7 @@
                 </div>
 
                 <div class="btn_wraper">
-                  <a href="#"> More Details </a>
+                  <a href="SingleProduct1.php"> More Details </a>
                 </div>
               </div>
             </div>
@@ -586,7 +586,7 @@
                 </div>
 
                 <div class="btn_wraper">
-                  <a href="#"> More Details </a>
+                  <a href="SingleProduct1.php"> More Details </a>
                 </div>
               </div>
             </div>
@@ -612,7 +612,7 @@
                 </div>
 
                 <div class="btn_wraper">
-                  <a href="#"> More Details </a>
+                  <a href="SingleProduct1.php"> More Details </a>
                 </div>
               </div>
             </div>
@@ -638,7 +638,7 @@
                 </div>
 
                 <div class="btn_wraper">
-                  <a href="#"> More Details </a>
+                  <a href="SingleProduct1.php"> More Details </a>
                 </div>
               </div>
             </div>
@@ -664,7 +664,7 @@
                 </div>
 
                 <div class="btn_wraper">
-                  <a href="#"> More Details </a>
+                  <a href="SingleProduct1.php"> More Details </a>
                 </div>
               </div>
             </div>
@@ -694,7 +694,7 @@
                 </div>
 
                 <div class="btn_wraper">
-                  <a href="#"> More Details </a>
+                  <a href="SingleProduct1.php"> More Details </a>
                 </div>
               </div>
             </div>
@@ -720,7 +720,7 @@
                 </div>
 
                 <div class="btn_wraper">
-                  <a href="#"> More Details </a>
+                  <a href="SingleProduct1.php"> More Details </a>
                 </div>
               </div>
             </div>
@@ -746,7 +746,7 @@
                 </div>
 
                 <div class="btn_wraper">
-                  <a href="#"> More Details </a>
+                  <a href="SingleProduct1.php"> More Details </a>
                 </div>
               </div>
             </div>
@@ -776,7 +776,7 @@
                 </div>
 
                 <div class="btn_wraper">
-                  <a href="#"> More Details </a>
+                  <a href="SingleProduct1.php"> More Details </a>
                 </div>
               </div>
             </div>
@@ -802,7 +802,7 @@
                 </div>
 
                 <div class="btn_wraper">
-                  <a href="#"> More Details </a>
+                  <a href="SingleProduct1.php"> More Details </a>
                 </div>
               </div>
             </div>
@@ -828,7 +828,7 @@
                 </div>
 
                 <div class="btn_wraper">
-                  <a href="#"> More Details </a>
+                  <a href="SingleProduct1.php"> More Details </a>
                 </div>
               </div>
             </div>
@@ -839,7 +839,7 @@
 
     <div class="col-12">
       <div class="btn_wraper">
-        <a href="#"> All Products </a>
+        <a href="AllProducts1.php"> All Products </a>
       </div>
     </div>
   </div>
@@ -1071,6 +1071,12 @@
           </div>
         </div>
       </div>
+
+      <div class="col-12 mt-3">
+        <div class="btn_wraper">
+          <a href="Faqs.php"> View More </a>
+        </div>
+      </div>
     </div>
   </div>
   <!-- END:: FAQS SECTION -->
@@ -1091,7 +1097,7 @@
 
       <div class="row justify-content-center">
         <div class="col-10 col-lg-4 my-3">
-          <a href="#">
+          <a href="SidebarArticle.php">
             <div class="article_card_wraper">
               <div class="img_wraper">
                 <div class="overlay">
@@ -1116,7 +1122,7 @@
         </div>
 
         <div class="col-10 col-lg-4 my-3">
-          <a href="#">
+          <a href="SidebarArticle.php">
             <div class="article_card_wraper">
               <div class="img_wraper">
                 <div class="overlay">
@@ -1141,7 +1147,7 @@
         </div>
 
         <div class="col-10 col-lg-4 my-3">
-          <a href="#">
+          <a href="SidebarArticle.php">
             <div class="article_card_wraper">
               <div class="img_wraper">
                 <div class="overlay">
@@ -1166,7 +1172,7 @@
         </div>
 
         <div class="col-10 col-lg-4 my-3">
-          <a href="#">
+          <a href="SidebarArticle.php">
             <div class="article_card_wraper">
               <div class="img_wraper">
                 <div class="overlay">
@@ -1191,7 +1197,7 @@
         </div>
 
         <div class="col-10 col-lg-4 my-3">
-          <a href="#">
+          <a href="SidebarArticle.php">
             <div class="article_card_wraper">
               <div class="img_wraper">
                 <div class="overlay">
@@ -1216,7 +1222,7 @@
         </div>
 
         <div class="col-10 col-lg-4 my-3">
-          <a href="#">
+          <a href="SidebarArticle.php">
             <div class="article_card_wraper">
               <div class="img_wraper">
                 <div class="overlay">
@@ -1240,6 +1246,12 @@
           </a>
         </div>
 
+      </div>
+
+      <div class="col-12 mt-3">
+        <div class="btn_wraper">
+          <a href="SidebarBlog.php"> View More </a>
+        </div>
       </div>
     </div>
   </div>

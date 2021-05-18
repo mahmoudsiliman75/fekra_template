@@ -2239,6 +2239,14 @@ nav {
       }
     }
   }
+
+  .btn_wraper {
+    @include flexCenterAlignment();
+    a {
+      @include mainBtnStyle();
+      padding: 6px 12px;
+    }
+  }
 }
 
 .faq_sec_index_2 {
@@ -2288,6 +2296,14 @@ nav {
           padding-inline-start: 45px;
         }
       }
+    }
+  }
+
+  .btn_wraper {
+    @include flexCenterAlignment();
+    a {
+      @include secondBtnStyle();
+      padding: 6px 12px;
     }
   }
 }
@@ -2443,6 +2459,14 @@ nav {
       }
     }
   }
+
+  .btn_wraper {
+    @include flexCenterAlignment();
+    a {
+      @include mainBtnStyle();
+      padding: 6px 12px;
+    }
+  }
 }
 
 .news_sec_index_2 {
@@ -2549,6 +2573,14 @@ nav {
         @include textWraper();
         font-size: 16px;
       }
+    }
+  }
+
+  .btn_wraper {
+    @include flexCenterAlignment();
+    a {
+      @include secondBtnStyle();
+      padding: 6px 12px;
     }
   }
 }
