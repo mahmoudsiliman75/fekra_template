@@ -133,7 +133,17 @@
       </li>
 
       <li> 
-        <a href="Team.php"> Our Team </a>
+        <a href="javascript:;" class="dropdown_toggeler"> Our Team </a>
+
+        <ul class="dropdown_menu">
+          <li> 
+            <a href="Team.php"> Our Team 1 </a>
+          </li>
+
+          <li> 
+            <a href="TeamModern.php"> Our Team Modern </a> 
+          </li>
+        </ul>
       </li>
 
       <li> 

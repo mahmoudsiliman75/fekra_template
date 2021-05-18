@@ -328,12 +328,37 @@
     </div>
 
     <div class="row justify-content-center justify-content-md-between overflow-hidden">
-      <div class="col-10 col-md-4 my-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
+      <div class="col-10 col-md-3 mt-2 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
         <div class="member_card_wraper">
-          <a href="MemberProfile.php">
+          <a href="#">
             <div class="image_wraper">
-              <img src="assets/media/shapes/graph.jpg">
               <img src="assets/media/team/member1.jpg" alt="">
+
+              <ul class="social_links">
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-facebook-f fa-lg"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-linkedin-in fa-lg"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-twitter fa-lg"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-instagram fa-lg"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
           </a>
 
@@ -342,42 +367,41 @@
               <h4> Name 1 </h4>
               <h5> Member Role </h5>
             </div>
-
-            <ul class="social_links">
-              <li>
-                <a href="#" target="_blank">
-                  <i class="fab fa-facebook-f fa-lg"></i>
-                </a>
-              </li>
-
-              <li>
-                <a href="#" target="_blank">
-                  <i class="fab fa-linkedin-in fa-lg"></i>
-                </a>
-              </li>
-
-              <li>
-                <a href="#" target="_blank">
-                  <i class="fab fa-twitter fa-lg"></i>
-                </a>
-              </li>
-
-              <li>
-                <a href="#" target="_blank">
-                  <i class="fab fa-instagram fa-lg"></i>
-                </a>
-              </li>
-            </ul>
           </div>
         </div>
       </div>
 
-      <div class="col-10 col-md-4 my-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">
+      <div class="col-10 col-md-3 mt-2 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">
         <div class="member_card_wraper">
-          <a href="MemberProfile.php">
+          <a href="#">
             <div class="image_wraper">
-              <img src="assets/media/shapes/graph.jpg">
               <img src="assets/media/team/member2.jpg" alt="">
+
+              <ul class="social_links">
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-facebook-f fa-lg"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-linkedin-in fa-lg"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-twitter fa-lg"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-instagram fa-lg"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
           </a>
 
@@ -386,42 +410,41 @@
               <h4> Name 2 </h4>
               <h5> Member Role </h5>
             </div>
-
-            <ul class="social_links">
-              <li>
-                <a href="#" target="_blank">
-                  <i class="fab fa-facebook-f fa-lg"></i>
-                </a>
-              </li>
-
-              <li>
-                <a href="#" target="_blank">
-                  <i class="fab fa-linkedin-in fa-lg"></i>
-                </a>
-              </li>
-
-              <li>
-                <a href="#" target="_blank">
-                  <i class="fab fa-twitter fa-lg"></i>
-                </a>
-              </li>
-
-              <li>
-                <a href="#" target="_blank">
-                  <i class="fab fa-instagram fa-lg"></i>
-                </a>
-              </li>
-            </ul>
           </div>
         </div>
       </div>
 
-      <div class="col-10 col-md-4 my-3 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.5s">
+      <div class="col-10 col-md-3 mt-2 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.5s">
         <div class="member_card_wraper">
-          <a href="MemberProfile.php">
+          <a href="#">
             <div class="image_wraper">
-              <img src="assets/media/shapes/graph.jpg">
               <img src="assets/media/team/member3.jpg" alt="">
+
+              <ul class="social_links">
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-facebook-f fa-lg"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-linkedin-in fa-lg"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-twitter fa-lg"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-instagram fa-lg"></i>
+                  </a>
+                </li>
+              </ul>
             </div>
           </a>
 
@@ -430,38 +453,55 @@
               <h4> Name 3 </h4>
               <h5> Member Role </h5>
             </div>
+          </div>
+        </div>
+      </div>
 
-            <ul class="social_links">
-              <li>
-                <a href="#" target="_blank">
-                  <i class="fab fa-facebook-f fa-lg"></i>
-                </a>
-              </li>
+      <div class="col-10 col-md-3 mt-2 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="2s">
+        <div class="member_card_wraper">
+          <a href="#">
+            <div class="image_wraper">
+              <img src="assets/media/team/member4.jpg" alt="">
 
-              <li>
-                <a href="#" target="_blank">
-                  <i class="fab fa-linkedin-in fa-lg"></i>
-                </a>
-              </li>
+              <ul class="social_links">
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-facebook-f fa-lg"></i>
+                  </a>
+                </li>
 
-              <li>
-                <a href="#" target="_blank">
-                  <i class="fab fa-twitter fa-lg"></i>
-                </a>
-              </li>
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-linkedin-in fa-lg"></i>
+                  </a>
+                </li>
 
-              <li>
-                <a href="#" target="_blank">
-                  <i class="fab fa-instagram fa-lg"></i>
-                </a>
-              </li>
-            </ul>
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-twitter fa-lg"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-instagram fa-lg"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </a>
+
+          <div class="card_body">
+            <div class="info">
+              <h4> Name 4 </h4>
+              <h5> Member Role </h5>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="col-12 mt-3">
+    <div class="col-12">
       <div class="btn_wraper">
         <a href="Team.php"> All Team </a>
       </div>

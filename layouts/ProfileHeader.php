@@ -101,15 +101,45 @@
       </li>
 
       <li> 
-        <a href="Faqs.php"> FAQs </a>
+        <a href="javascript:;" class="dropdown_toggeler"> FAQs </a>
+
+        <ul class="dropdown_menu">
+          <li> 
+            <a href="Faqs.php"> FAQs 1 </a>
+          </li>
+
+          <li> 
+            <a href="FaqsModern.php"> FAQs Modern </a> 
+          </li>
+        </ul>
       </li>
 
       <li> 
-        <a href="Team.php"> Our Team </a>
+        <a href="javascript:;" class="dropdown_toggeler"> Our Team </a>
+
+        <ul class="dropdown_menu">
+          <li> 
+            <a href="Team.php"> Our Team 1 </a>
+          </li>
+
+          <li> 
+            <a href="TeamModern.php"> Our Team Modern </a> 
+          </li>
+        </ul>
       </li>
 
       <li> 
-        <a href="Portfolio.php"> Portfolio </a>
+        <a href="javascript:;" class="dropdown_toggeler"> Portfolio </a>
+
+        <ul class="dropdown_menu">
+          <li> 
+            <a href="Portfolio.php"> Portfolio 1 </a>
+          </li>
+
+          <li> 
+            <a href="PortfolioModern.php"> Portfolio Modern </a> 
+          </li>
+        </ul>
       </li>
 
       <li> 

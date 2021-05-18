@@ -788,6 +788,11 @@ nav {
 // START:: TEAM MEMBERS SECTION STYLES
 .team_sec_modern { 
   padding: $paddingAmount 0;
+  padding: $paddingAmount 0;
+  background: url('../../media/shapes/4.png'), url('../../media/shapes/header-sape6.png');
+  background-position: left 35%;
+  background-repeat: no-repeat;
+
   .header_wraper {
     @include flexCenterAlignment();
     h2 {
@@ -804,44 +809,54 @@ nav {
   .member_card_wraper {
     @include flexCenterAlignment();
     flex-direction: column;
-    .image_wraper {
-      position: relative;
-      min-width: 370px;
-      max-width: 370px;
-      min-height: 300px;
-      max-height: 300px;
-      background-color: #000;
+    position: relative;
 
-      img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        mix-blend-mode: screen;
+    &:hover {
+      .image_wraper {
+        img {
+          border-bottom: 3px solid $corpColor2;
+        }
+
+        .social_links {
+          left: 0;
+        }
+      }
+
+      .card_body {
+        .info {
+          opacity: 1;
+        }
       }
     }
 
-    .card_body {
-      text-align: center;
-      .info {
-        margin-top: 20px;
-        h4 {
-          color: $corpColor1;
-        }
-        h5 {
-          color: $corpColor2;
-        }
+    .image_wraper {
+      overflow: hidden;
+      position: relative;
+      min-width: 255px;
+      max-width: 255px;
+      min-height: 285px;
+      max-height: 285px;
+
+      img {
+        min-width: 255px;
+        max-width: 255px;
+        min-height: 285px;
+        max-height: 285px;
+        border-bottom: 3px solid transparent;
+        @include transitioning();
       }
 
       .social_links {
         list-style: none;
-        padding: 0;
+        padding: 10px;
         margin: 0;
+        background-color: $white;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        @include transitioning();
         li {
-          display: inline-block;
-          margin-inline: 6px;
+          margin-block: 10px;
           a {
             color: $corpColor1;
             text-decoration: none;
@@ -850,6 +865,21 @@ nav {
               color: $corpColor2;
             }
           }
+        }
+      }
+    }
+
+    .card_body {
+      text-align: center;
+      .info {
+        margin-top: 12px;
+        opacity: 0;
+        @include transitioning();
+        h4 {
+          color: $corpColor1;
+        }
+        h5 {
+          color: $corpColor2;
         }
       }
     }
@@ -863,6 +893,108 @@ nav {
   }
 }
 // END:: TEAM MEMBERS SECTION STYLES
+
+// START:: ALL TEAM SECTION STYLES
+.all_team_modern {
+  padding: $paddingAmount 0;
+  background: url('../../media/shapes/striples-bg.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include fourthHaederStyle();
+    }
+  }
+
+  .sec_desc_wraper {
+    @include textWraper();
+    text-align: center;
+    margin-block: 15px;
+  }
+
+  .member_card_wraper {
+    @include flexCenterAlignment();
+    flex-direction: column;
+    position: relative;
+
+    &:hover {
+      .image_wraper {
+        img {
+          border-bottom: 3px solid $corpColor2;
+        }
+
+        .social_links {
+          left: 0;
+        }
+      }
+
+      .card_body {
+        .info {
+          opacity: 1;
+        }
+      }
+    }
+
+    .image_wraper {
+      overflow: hidden;
+      position: relative;
+      min-width: 255px;
+      max-width: 255px;
+      min-height: 285px;
+      max-height: 285px;
+
+      img {
+        min-width: 255px;
+        max-width: 255px;
+        min-height: 285px;
+        max-height: 285px;
+        border-bottom: 3px solid transparent;
+        @include transitioning();
+      }
+
+      .social_links {
+        list-style: none;
+        padding: 10px;
+        margin: 0;
+        background-color: $white;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        @include transitioning();
+        li {
+          margin-block: 10px;
+          a {
+            color: $corpColor1;
+            text-decoration: none;
+            @include transitioning();
+            &:hover {
+              color: $corpColor2;
+            }
+          }
+        }
+      }
+    }
+
+    .card_body {
+      text-align: center;
+      .info {
+        margin-top: 12px;
+        opacity: 0;
+        @include transitioning();
+        h4 {
+          color: $corpColor1;
+        }
+        h5 {
+          color: $corpColor2;
+        }
+      }
+    }
+  }
+}
+// END:: ALL TEAM SECTION STYLES
 
 // START:: OUR PRODUCTS SECTION
 .products_sec_modern {
