@@ -72,7 +72,7 @@
   </div>
 
   <div class="container">
-    <div class="header_wraper">
+    <div class="header_wraper mb-3">
       <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.9s"> 
         <span></span>
         <span></span>

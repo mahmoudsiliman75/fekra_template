@@ -72,8 +72,8 @@ body {
 
 .header_img_wraper {
   position: relative;
-  min-height: 400px;
-  max-height: 400px;
+  min-height: 450px;
+  max-height: 450px;
   background-size: 100% !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -122,7 +122,7 @@ body {
       position: relative;
       display: block;
       width: calc(100% + 1.3px);
-      height: 61px;
+      height: 50px;
       .shape-fill {
         fill: #FFFFFF;
       }
@@ -976,6 +976,116 @@ nav {
   }
 }
 // END:: OUR PRODUCTS SECTION
+
+// START:: PORTFOLIO SECTION STYLES
+.portfolio_modern {
+  padding: $paddingAmount 0;
+  background: url('../../media/shapes/striples-bg.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include fourthHaederStyle();
+    }
+  }
+
+  .sec_desc_wraper {
+    @include textWraper();
+    text-align: center;
+    margin-block: 15px;
+  }
+
+  .nav-pills {
+    width: 100%;
+    @include flexCenterAlignment();
+    .nav-item {
+      .nav-link {
+        color: $corpColor1;
+        @include borderRadius($largeBorderRadiusAmount);
+        &.active {
+          color: $white;
+          background-image: linear-gradient(to right, $corpColor1, $corpColor2);
+        }
+      }
+    }
+  }
+
+  .tab-pane {
+    .product_card_wraper {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      perspective: 1000;
+      transform-style: preserve-3d;
+      &:hover {
+        .front_face {
+          transform: rotateY(180deg);
+        }
+        .back_face {
+          transform: rotateY(360deg);
+        }
+      }
+
+      .front_face,
+      .back_face {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        @include transitioning();
+        }
+      .front_face {
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .back_face {
+        transform: rotateY(180deg);
+        text-align: center;
+        padding: 20px;
+        background: url('../../media/shapes/wave.svg');
+        background-position: bottom;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        h4 {
+          color: $corpColor1;
+        }
+
+        .text_wraper {
+          @include textWraper();
+          font-size: 16px;
+          margin-block: 15px;
+        }
+
+        .price_wraper {
+          span {
+            font-size: 16px;
+            margin-inline-end: 15px;
+            &.price_after {
+              color: $corpColor1;
+            }
+            &.price_before {
+              text-decoration: line-through;
+              color: $lightRed;
+            }
+          }
+        }
+
+        .btn_wraper {
+          @include flexCenterAlignment();
+          a {
+            @include secondBtnStyle();
+          }
+        }
+      }
+    }
+  }
+}
+// END:: PORTFOLIO SECTION STYLES
 
 // START:: OUR CLIENTS SECTION STYLES
 .our_clients_sec_modern {
