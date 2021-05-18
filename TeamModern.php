@@ -170,6 +170,49 @@
         <div class="member_card_wraper">
           <a href="#">
             <div class="image_wraper">
+              <img src="assets/media/team/member4.jpg" alt="">
+
+              <ul class="social_links">
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-facebook-f fa-lg"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-linkedin-in fa-lg"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-twitter fa-lg"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" target="_blank">
+                    <i class="fab fa-instagram fa-lg"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </a>
+
+          <div class="card_body">
+            <div class="info">
+              <h4> Name 4 </h4>
+              <h5> Member Role </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-10 col-md-3 my-2">
+        <div class="member_card_wraper">
+          <a href="#">
+            <div class="image_wraper">
               <img src="assets/media/team/member1.jpg" alt="">
 
               <ul class="social_links">
@@ -299,7 +342,7 @@
         <div class="member_card_wraper">
           <a href="#">
             <div class="image_wraper">
-              <img src="assets/media/team/member2.jpg" alt="">
+              <img src="assets/media/team/member4.jpg" alt="">
 
               <ul class="social_links">
                 <li>
@@ -331,50 +374,7 @@
 
           <div class="card_body">
             <div class="info">
-              <h4> Name 2 </h4>
-              <h5> Member Role </h5>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-10 col-md-3 my-2">
-        <div class="member_card_wraper">
-          <a href="#">
-            <div class="image_wraper">
-              <img src="assets/media/team/member3.jpg" alt="">
-
-              <ul class="social_links">
-                <li>
-                  <a href="#" target="_blank">
-                    <i class="fab fa-facebook-f fa-lg"></i>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" target="_blank">
-                    <i class="fab fa-linkedin-in fa-lg"></i>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" target="_blank">
-                    <i class="fab fa-twitter fa-lg"></i>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" target="_blank">
-                    <i class="fab fa-instagram fa-lg"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </a>
-
-          <div class="card_body">
-            <div class="info">
-              <h4> Name 3 </h4>
+              <h4> Name 4 </h4>
               <h5> Member Role </h5>
             </div>
           </div>

@@ -68,12 +68,12 @@
     <div class="video_wrape" style="background-image: url('https://i.ytimg.com/vi_webp/xZPafUhm68s/sddefault.webp');">
       <div class="overlay">
         <!-- Button trigger modal -->
-        <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
-          <img src="assets/media/icons/play.png" alt="">
+        <button type="button" class="btn_wraper" data-toggle="modal" data-target="#video">
+          <img src="assets/media/icons/play.png">
         </button>
 
         <!-- START:: DEMO MODAL -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="video" tabindex="-1" aria-labelledby="videoLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl">
             <div class="modal-content">
               <div class="modal-body">
