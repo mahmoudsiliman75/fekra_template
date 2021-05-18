@@ -51,7 +51,7 @@
       <div class="row justify-content-center">
         <div class="col-9 col-md-5 mb-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.5s">
           <div class="image_wraper">
-            <img src="assets/media/pic3.jpeg" alt="">
+            <img src="assets/media/pic7.jpg" alt="">
           </div>
         </div>
 
@@ -1077,7 +1077,7 @@
 
     <div class="col-12 mt-3">
       <div class="btn_wraper">
-        <a href="Faqs.php"> View More </a>
+        <a href="FaqsModern.php"> View More </a>
       </div>
     </div>
   </div>

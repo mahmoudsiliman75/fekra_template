@@ -98,22 +98,9 @@ body {
       text-align: center;
       h1 {
         span {
-          @include borderRadius(5px);
-          background-color: $corpColor2;
-          font-weight: 600;
-          padding: 15px;
-          position: relative;
-          &::after {
-            content: '';
-            position: absolute;
-            right: -15px;
-            bottom: -15px;
-            display: block;
-            width: 100%;
-            height: 100%;
-            border: 2px solid $corpColor2;
-            @include borderRadius(5px);
-          }
+          font-size: 3.5rem;
+          color: $corpColor2;
+          font-weight: 700;
         }
       }
       @media (max-width: 767px) {
@@ -123,6 +110,32 @@ body {
       }
     }
   }
+
+  .section_curve_wraper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    svg {
+      position: relative;
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 61px;
+      .shape-fill {
+        fill: #FFFFFF;
+      }
+    }
+
+    /** For mobile devices **/
+    @media (max-width: 767px) {
+    svg {
+      width: calc(100% + 1.3px);
+      height: 24px;
+    }
+  }
+}
 }
 
 .bg_wraper {
@@ -1200,6 +1213,169 @@ nav {
   }
 }
 // END:: FAQS SECTION STYLES
+
+// START:: MAIN FAQS SECTION STYLES
+.main_faqs_modern {
+  padding: $paddingAmount 0;
+  background: url('../../media/shapes/striples-bg.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include fourthHaederStyle();
+    }
+  }
+
+  .sec_desc_wraper {
+    @include textWraper();
+    text-align: center;
+    margin-block: 15px;
+  }
+
+  .video_wraper {
+    width: 100%;
+    min-height: 500px;
+    max-height: 500px;
+    background: url('../../media/pic5.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(45, 64, 89, 0.5);
+      @include flexCenterAlignment();
+      .btn_wraper {
+        width: 100px;
+        height: 100px;
+        background-color: transparent;
+        border: none;
+        img {
+          width: 100%;
+          box-shadow: 
+          0 0 2px 15px rgba(225, 225, 225, 0.2),
+          0 0 2px 10px rgba(225, 225, 225, 0.4),
+          0 0 2px 5px rgba(225, 225, 225, 0.8);
+        @include borderRadius(50%);
+
+        }
+      }
+    }
+
+    .modal {
+      .modal-dialog {
+        .modal-content {
+          .modal-body {
+            padding: 0;
+            overflow: hidden;
+            iframe {
+              width: 100%;
+              height: 500px;
+            }
+          }
+        }
+      }
+    }
+
+    .section_upper_curve {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+      transform: rotate(180deg);
+      z-index: 3;
+      svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 40px;
+        .shape-fill {
+          fill: $white;
+        }
+      }
+    }
+
+    .section_lower_curve {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+      z-index: 3;
+      svg  {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 40px;
+        .shape-fill {
+          fill: $white;
+        }
+      }
+    }
+
+  }
+
+  .heighlight_faqs_wraper {
+    .heighlight_faq_card {
+      h3 {
+        color: $corpColor2;
+      }
+      .answer {
+        @include textWraper();
+        padding-inline-start: 25px;
+      }
+    }
+  }
+
+  .faqs_wraper {
+    .accordion {
+      .card {
+        .card-header {    
+          padding: 0;              
+          h4 {
+            button {
+              padding: 15px;
+              border: none;
+              background-color: transparent;
+              text-decoration: none;
+              color: $white;
+              background-image: linear-gradient(to right, $corpColor1, $corpColor2);
+              svg {
+                @include transitioning();
+              }
+              &[aria-expanded='true'] {
+                color: $corpColor1;
+                background-image: none;
+                background-color: #e6e6e6;
+                svg {
+                  color: $corpColor2;
+                  transform: rotate(90deg);
+                }
+              }
+            }
+          }
+        }
+
+        .card-body {
+          @include textWraper();
+          font-size: 16px;
+          padding-inline-start: 45px;
+        }
+      }
+    }
+  }
+}
+// END:: MAIN FAQS SECTION STYLES
 
 // START:: NEWS SECCTION STYLES
 .news_sec_modern {

@@ -73,11 +73,11 @@
           </li>
 
           <li> 
-            <a href="index_modern.php"> Modern Home </a> 
+            <a href="index_one_page.php"> One Page </a> 
           </li>
 
           <li> 
-            <a href="index_one_page.php"> One Page </a> 
+            <a href="index_modern.php"> Modern Home </a> 
           </li>
         </ul>
       </li>
@@ -119,7 +119,17 @@
       </li>
 
       <li> 
-        <a href="Faqs.php"> FAQs </a>
+        <a href="javascript:;" class="dropdown_toggeler"> FAQs </a>
+
+        <ul class="dropdown_menu">
+          <li> 
+            <a href="Faqs.php"> FAQs 1 </a>
+          </li>
+
+          <li> 
+            <a href="FaqsModern.php"> FAQs Modern </a> 
+          </li>
+        </ul>
       </li>
 
       <li> 
