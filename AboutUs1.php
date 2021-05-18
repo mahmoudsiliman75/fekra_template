@@ -4,7 +4,6 @@
 
 <!-- START:: HEDAER IMAGE SECTION -->
 <div class="header_img_wraper" style="background: url('assets/media/pic5.jpeg');">
-
   <div class="overlay">
     <div class="intro_text_wraper">
       <h1> Know More <span> About Us</span> </h1>
@@ -64,25 +63,24 @@
   <!-- END:: ABOUT TEXT SECTION -->
 
   <!-- START:: VIDEO SECTION -->
-  <div class="about_video_sec">
-    <div class="video_wrape" style="background-image: url('https://i.ytimg.com/vi_webp/xZPafUhm68s/sddefault.webp');">
+  <div class="container-fluid p-0 my-5 overflow-hidden">
+    <div class="video_wraper wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.9s" style="    background: url('assets/media/pic4.jpeg');">
       <div class="overlay">
         <!-- Button trigger modal -->
         <button type="button" class="btn_wraper" data-toggle="modal" data-target="#video">
           <img src="assets/media/icons/play.png">
         </button>
+      </div>
 
-        <!-- START:: DEMO MODAL -->
-        <div class="modal fade" id="video" tabindex="-1" aria-labelledby="videoLabel" aria-hidden="true">
-          <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-              <div class="modal-body">
-                <iframe src="https://www.youtube.com/embed/xZPafUhm68s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
+      <!-- Modal -->
+      <div class="modal fade" id="video" tabindex="-1" aria-labelledby="videoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-body">
+              <iframe src="https://www.youtube.com/embed/xZPafUhm68s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
         </div>
-        <!-- END:: DEMO MODAL -->
       </div>
     </div>
   </div>

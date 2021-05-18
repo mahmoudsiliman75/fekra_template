@@ -911,10 +911,9 @@ nav .menu_btn svg {
   width: 100%;
   min-height: 500px;
   max-height: 500px;
-  background: url("../../media/pic5.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
   position: relative;
 }
 
@@ -2963,10 +2962,9 @@ nav .menu_btn svg {
   width: 100%;
   min-height: 500px;
   max-height: 500px;
-  background: url("../../media/pic5.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
   position: relative;
 }
 

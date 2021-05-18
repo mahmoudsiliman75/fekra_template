@@ -38,7 +38,7 @@
   </div>
 
   <div class="container-fluid p-0 my-5 overflow-hidden">
-    <div class="video_wraper wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.9s">
+    <div class="video_wraper wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.9s" style="background: url('assets/media/pic6.jpeg')">
       <div class="section_upper_curve">
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
           <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" class="shape-fill"></path>
