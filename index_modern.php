@@ -1145,7 +1145,7 @@
   
       <div class="row justify-content-center wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.5s">
         <div class="col-10 col-lg-4 my-3">
-          <a href="SidebarArticle.php">
+          <a href="ModernArticle.php">
             <div class="article_card_wraper">
               <div class="img_wraper">
                 <div class="overlay">
@@ -1174,7 +1174,7 @@
         </div>
   
         <div class="col-10 col-lg-4 my-3">
-          <a href="SidebarArticle.php">
+          <a href="ModernArticle.php">
             <div class="article_card_wraper">
               <div class="img_wraper">
                 <div class="overlay">
@@ -1203,7 +1203,7 @@
         </div>
   
         <div class="col-10 col-lg-4 my-3">
-          <a href="SidebarArticle.php">
+          <a href="ModernArticle.php">
             <div class="article_card_wraper">
               <div class="img_wraper">
                 <div class="overlay">
@@ -1232,7 +1232,7 @@
         </div>
   
         <div class="col-10 col-lg-4 my-3">
-          <a href="SidebarArticle.php">
+          <a href="ModernArticle.php">
             <div class="article_card_wraper">
               <div class="img_wraper">
                 <div class="overlay">
@@ -1261,7 +1261,7 @@
         </div>
   
         <div class="col-10 col-lg-4 my-3">
-          <a href="SidebarArticle.php">
+          <a href="ModernArticle.php">
             <div class="article_card_wraper">
               <div class="img_wraper">
                 <div class="overlay">
@@ -1290,7 +1290,7 @@
         </div>
   
         <div class="col-10 col-lg-4 my-3">
-          <a href="SidebarArticle.php">
+          <a href="ModernArticle.php">
             <div class="article_card_wraper">
               <div class="img_wraper">
                 <div class="overlay">
