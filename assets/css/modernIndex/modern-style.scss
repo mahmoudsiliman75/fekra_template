@@ -1023,6 +1023,189 @@ nav {
 }
 // END:: SERVICES SECTION STYLES
 
+// START:: MAIN SERVICES SECTION STYLES
+.all_services_modern {
+  padding: $paddingAmount 0;
+  background: url('../../media/shapes/striples-bg.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2, 
+    h5 {
+      @include fourthHaederStyle();
+    }
+  }
+
+  .sec_desc_wraper {
+    @include textWraper();
+    text-align: center;
+    margin-block: 15px;
+  }
+
+  .heighlight_card_wraper {
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    background: url('../../media/shapes/wave.svg') $white;
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    @include borderRadius(5px);
+    @include heighShadow();
+    @include transitioning();
+
+    &:hover {
+      transform: scale(1.05);
+      .icon_wraper {
+          span {
+            &::after {
+              position: absolute;
+              top: -11px;
+              right: -11px;
+              border-radius: 50%;
+              width: 60px;
+              height: 60px;
+            }
+            svg {
+              color: $white;
+              width: 36px;
+              height: 36px;
+            }
+          }
+      }
+    }
+
+    .icon_wraper {
+      @include flexCenterAlignment();
+      span {
+        @include flexCenterAlignment();
+        position: relative;
+        &::after {
+          content: '';
+          position: absolute;
+          top: 10px;
+          right: -10px;
+          display: block;
+          border-radius: 68% 32% 75% 25% / 30% 38% 62% 70%;
+          background-color: $corpColor1;
+          width: 40px;
+          height: 40px;
+          z-index: 1;
+          @include transitioning();
+        }
+        svg {
+          color: $corpColor2;
+          z-index: 2;
+          @include transitioning();
+        }
+      }
+    }
+
+    .card_title_wraper {
+      margin-top: 25px;
+      h4 {
+        color: $corpColor1;
+      }
+    }
+
+    .card_text {
+      @include textWraper();
+      padding-inline: 15px;
+      font-size: 16px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    .service_card_wraper {
+      min-height: 400px;
+      max-height: 400px;
+      text-align: center;
+      position: relative;
+      @include flexCenterAlignment();
+      flex-direction: column;
+      @include borderRadius($borderRadiusAmount);
+      @include heighShadow();
+      @include transitioning();
+
+      &:hover {
+        transform: scale(1.03);
+        .img_wraper {
+          @include borderRadius($borderRadiusAmount);
+          .overlay {
+            opacity: 1;
+            transform: scale(1);
+          }
+  
+          img {
+            transform: scale(1.05);
+          }
+        }
+      }
+
+      .img_wraper {
+        position: absolute;
+        top: -45px;
+        left: 50%;
+        transform: translateX(-50%);
+        overflow: hidden;
+        min-height: 250px;
+        max-height: 250px;
+        min-width: 250px;
+        max-width: 250px;
+        border: 2px solid $corpColor2;
+        @include borderRadius($borderRadiusAmount);
+        @include transitioning();
+        .overlay {
+          opacity: 0;
+          transform: scale(0);
+          z-index: 3;
+          position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          background-color: rgba(234, 84, 85, 0.8);
+          border-radius: 5px 5px 0 0;
+          @include flexCenterAlignment();
+          @include transitioning();
+          svg {
+            color: $white;
+          }
+        }
+  
+        img {
+          @include transitioning();
+          min-height: 250px;
+          max-height: 250px;
+          min-width: 250px;
+          max-width: 250px;
+          z-index: 2;
+          border-radius: 5px 5px 0 0;
+        }
+      }
+  
+      .card_title_wraper {
+        h4 {
+          margin-top: 190px;
+          color: $corpColor2;
+        }
+      }
+  
+      .card_text {
+        padding: 10px;
+        @include textWraper();
+        font-size: 16px;
+      }
+    }
+  }
+}
+// END:: MAIN SERVICES SECTION STYLES
+
 // START:: TEAM MEMBERS SECTION STYLES
 .team_sec_modern { 
   padding: $paddingAmount 0;

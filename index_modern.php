@@ -37,7 +37,7 @@
 <!-- END:: INDEX2 HOME SLIDER -->
 
 <!-- START:: ABOUT US SECTION -->
-<div class="about_sec_modern">
+<div class="about_sec_modern"> 
   <div class="container-fluid overflow-hidden">
     <div class="header_wraper mt-2">
       <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.9s"> 
@@ -161,7 +161,7 @@
 
     <div class="row justify-content-center mt-5 wow bounceInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">
       <div class="col-10 col-lg-4 my-5">
-        <a href="SingleService2.php">
+        <a href="SingleServiceModern.php">
           <div class="service_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
@@ -184,7 +184,7 @@
       </div>
 
       <div class="col-10 col-lg-4 my-5">
-        <a href="SingleService2.php">
+        <a href="SingleServiceModern.php">
           <div class="service_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
@@ -207,7 +207,7 @@
       </div>
 
       <div class="col-10 col-lg-4 my-5">
-        <a href="SingleService2.php">
+        <a href="SingleServiceModern.php">
           <div class="service_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
@@ -231,7 +231,7 @@
       </div>
 
       <div class="col-10 col-lg-4 my-5">
-        <a href="SingleService2.php">
+        <a href="SingleServiceModern.php">
           <div class="service_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
@@ -254,7 +254,7 @@
       </div>
 
       <div class="col-10 col-lg-4 my-5">
-        <a href="SingleService2.php">
+        <a href="SingleServiceModern.php">
           <div class="service_card_wraper">
             <div class="img_wraper">
               <div class="overlay">
@@ -277,7 +277,7 @@
       </div>
 
       <div class="col-10 col-lg-4 my-5">
-        <a href="SingleService2.php">
+        <a href="SingleServiceModern.php">
           <div class="service_card_wraper">
             <div class="img_wraper">
               <div class="overlay">

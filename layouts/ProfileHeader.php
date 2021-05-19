@@ -95,6 +95,10 @@
           </li>
 
           <li> 
+            <a href="AllServicesModern.php"> Services Modern </a> 
+          </li>
+
+          <li> 
             <a href="SingleService1.php"> Single Service 1 </a> 
           </li>
 
