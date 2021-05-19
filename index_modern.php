@@ -302,7 +302,7 @@
 
     <div class="col-12 mt-3">
       <div class="btn_wraper">
-        <a href="AllServices1.php"> All Services </a>
+        <a href="AllServicesModern.php"> All Services </a>
       </div>
     </div>
   </div>
@@ -503,7 +503,7 @@
 
     <div class="col-12">
       <div class="btn_wraper">
-        <a href="Team.php"> All Team </a>
+        <a href="TeamModern.php"> All Team </a>
       </div>
     </div>
   </div>
@@ -871,7 +871,7 @@
 
     <div class="col-12 mt-3">
       <div class="btn_wraper">
-        <a href="Portfolio.php"> All Products </a>
+        <a href="PortfolioModern.php"> All Products </a>
       </div>
     </div>
   </div>
@@ -1321,7 +1321,7 @@
 
       <div class="col-12 mt-3">
         <div class="btn_wraper">
-          <a href="SidebarBlog.php"> View More </a>
+          <a href="BlogModern.php"> View More </a>
         </div>
       </div>
     </div>

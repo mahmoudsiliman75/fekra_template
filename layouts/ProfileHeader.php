@@ -105,6 +105,10 @@
           <li> 
             <a href="SingleService2.php"> Single Service 2 </a>  
           </li>
+
+          <li> 
+            <a href="SingleServiceModern.php"> Single Service Modern </a>  
+          </li>
         </ul>
       </li>
 

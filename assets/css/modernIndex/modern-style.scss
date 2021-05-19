@@ -1206,6 +1206,73 @@ nav {
 }
 // END:: MAIN SERVICES SECTION STYLES
 
+// START:: SERVICE DETAILS SCTION STYLE
+.service_details_modern {
+  padding: $paddingAmount 0;
+  background: url('../../media/shapes/striples-bg.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include fourthHaederStyle();
+    }
+  }
+
+  .sec_desc_wraper {
+    @include textWraper();
+    text-align: start;
+  }
+
+  .service_img_wraper {
+    width: 100%;
+    height: auto;
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 0 25px 25px 0;
+      box-shadow: -40px 25px 0px 9px #e4e4e48f;
+    }
+
+    @media ( max-width: 767px ){
+      img {
+        @include borderRadius(15px);
+        box-shadow: none;
+      }
+    }
+  }
+
+  .desc {
+    @include textWraper();
+    text-align: start;
+  }
+
+  .owl-carousel {
+    position: relative;
+    @include flexCenterAlignment();
+
+    .item {
+      .img_wraper {
+        min-height: 150px;
+        max-height: 150px;
+        img {
+          width: 100%;
+          min-height: 150px;
+          max-height: 150px;
+          filter: grayscale(100);
+          @include transitioning();
+          &:hover {
+            filter: grayscale(0);
+          }
+        }
+      }
+    }
+  }
+}
+// END:: SERVICE DETAILS SCTION STYLE
+
 // START:: TEAM MEMBERS SECTION STYLES
 .team_sec_modern { 
   padding: $paddingAmount 0;
@@ -2477,6 +2544,10 @@ nav {
     }
   }
 
+  .alert_wraper {
+    @include flexCenterAlignment();
+  }
+
   .map_wraper {
     height: 100%;
       @include borderRadius($borderRadiusAmount);
@@ -2495,6 +2566,15 @@ nav {
       @include flexCenterAlignment();
       h2 {
         @include mainHeaderStyle();
+      }
+    }
+
+    .invalid_wraber {
+      p {
+        color: $lightRed;
+        margin-top: 0;
+        padding-inline-start: 15px;
+        font-size: 13px;
       }
     }
 
@@ -2524,13 +2604,19 @@ nav {
           outline: none;
         }
       }
+
+      &.invalid {
+        border: 1px solid $lightRed;
+        margin-bottom: 5px;
+      }
     }
 
     .btn_box {
       @include flexCenterAlignment();
       button {
-        background-color: transparent;
         @include secondBtnStyle();
+        padding: 6px 12px;
+        background-color: transparent;
       }
     }
   }
