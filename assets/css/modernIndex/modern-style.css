@@ -3367,6 +3367,208 @@ nav .menu_btn svg {
   left: 0;
 }
 
+.blog_sec_modern {
+  padding: 50px 0;
+}
+
+.blog_sec_modern .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blog_sec_modern .header_wraper h2 {
+  padding: 8px 15px;
+  position: relative;
+  color: #ea5455;
+}
+
+.blog_sec_modern .header_wraper h2::before, .blog_sec_modern .header_wraper h2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  display: block;
+  height: 15px;
+  width: 15px;
+  border: 2px solid #00334e;
+}
+
+.blog_sec_modern .header_wraper h2::before {
+  left: 0;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 5px 0 0 0;
+}
+
+.blog_sec_modern .header_wraper h2::after {
+  right: 0;
+  border-left: none;
+  border-bottom: none;
+  border-radius: 0 5px 0 0;
+}
+
+.blog_sec_modern .header_wraper h2 span {
+  position: absolute;
+  display: bolck;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #00334e;
+}
+
+.blog_sec_modern .header_wraper h2 span:first-child {
+  left: 0;
+  bottom: 0;
+  border-right: none;
+  border-top: none;
+  border-radius: 0 0 0 5px;
+}
+
+.blog_sec_modern .header_wraper h2 span:last-child {
+  right: 0;
+  bottom: 0;
+  border-left: none;
+  border-top: none;
+  border-radius: 0 0 5px 0;
+}
+
+.blog_sec_modern .sec_desc_wraper {
+  word-break: break-word;
+  word-spacing: 2px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  text-align: center;
+  margin-block: 15px;
+}
+
+.blog_sec_modern .article_wraper:nth-child(even) .img_col {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+@media (max-width: 991px) {
+  .blog_sec_modern .article_wraper:nth-child(even) .img_col {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .blog_sec_modern .article_wraper:nth-child(even) .text_col {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+
+.blog_sec_modern .article_wraper .img_wraper img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.blog_sec_modern .article_wraper .date_wraper {
+  margin-bottom: 15px;
+  color: #666;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blog_sec_modern .article_wraper .date_wraper span {
+  -webkit-margin-start: 8px;
+          margin-inline-start: 8px;
+}
+
+.blog_sec_modern .article_wraper h4 {
+  color: #313131;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.blog_sec_modern .article_wraper .article_text_wraper {
+  word-break: break-word;
+  word-spacing: 2px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  text-align: start;
+  position: relative;
+}
+
+.blog_sec_modern .article_wraper .article_text_wraper::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#fff));
+  background-image: linear-gradient(to bottom, transparent, #fff);
+}
+
+.blog_sec_modern .article_wraper .btn_wraper {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.blog_sec_modern .article_wraper .btn_wraper a {
+  text-decoration: none;
+  border: 2px solid #00334e;
+  padding: 8px 16px;
+  margin-top: 15px;
+  color: #00334e;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 5px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+  position: relative;
+  padding: 5px 10px;
+}
+
+.blog_sec_modern .article_wraper .btn_wraper a::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #00334e;
+  z-index: -1;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.blog_sec_modern .article_wraper .btn_wraper a:hover {
+  color: #fff;
+}
+
+.blog_sec_modern .article_wraper .btn_wraper a:hover::before {
+  left: 0;
+}
+
 .contact_us_sec_modern {
   padding: 50px 0;
 }

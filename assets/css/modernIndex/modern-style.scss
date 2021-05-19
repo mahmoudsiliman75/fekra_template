@@ -3,7 +3,7 @@
 // END:: INCLUDING GOOGLE FONT
 
 // START:: VARIABLES
-@import '../variables.scss'; 
+@import '../variables.scss';
 // END:: VARIABLES
 
 // START:: MIXINS
@@ -1986,6 +1986,94 @@ nav {
   }
 }
 // END:: NEWS SECCTION STYLES
+
+// START:: GLOG SECTION STYLES
+.blog_sec_modern {
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include fourthHaederStyle();
+    }
+  }
+
+  .sec_desc_wraper {
+    @include textWraper();
+    text-align: center;
+    margin-block: 15px;
+  }
+
+  .article_wraper {
+    &:nth-child(even) {
+      .img_col {
+        order: 2;
+      }
+    }
+
+    @media ( max-width: 991px ) {
+      &:nth-child(even) {
+        .img_col {
+          order: 1;
+        }
+
+        .text_col {
+          order: 2;
+        }
+      }
+    }
+
+    .img_wraper {
+      img {
+        width: 100%;
+        height: auto;
+        @include borderRadius(5px);
+      }
+    }
+  
+    .date_wraper {
+      margin-bottom: 15px;
+      color: $lightGrey;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      span {
+        margin-inline-start: 8px;
+      }
+    }
+  
+    h4 {
+      color: #313131;
+      font-size: 2rem;
+      font-weight: 700;
+    }
+  
+    .article_text_wraper {
+      @include textWraper();
+      text-align: start;
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        height: 50px;
+        background-image: linear-gradient( to bottom, transparent, $white );
+      }
+    }
+  
+    .btn_wraper {
+      margin-top: 15px;
+      @include flexStartAlignment();
+      a {
+        @include secondBtnStyle();
+        padding: 5px 10px;
+      }
+    }
+  }
+}
+// END:: GLOG SECTION STYLES
 
 // START:: CONTACT US SECTION STYLES
 .contact_us_sec_modern {

@@ -195,7 +195,15 @@
           </li>
 
           <li> 
+            <a href="BlogModern.php"> Blog Modern </a> 
+          </li>
+
+          <li> 
             <a href="SidebarArticle.php"> Article With SideBar </a> 
+          </li>
+
+          <li> 
+            <a href="#"> Article Modern </a> 
           </li>
         </ul>
       </li>
