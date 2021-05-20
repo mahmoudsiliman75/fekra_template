@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 // END:: INCLUDING GOOGLE FONT
 
-// START:: VARIABLES
+// START:: VARIABLES 
 @import '../variables.scss';
 // END:: VARIABLES
 
@@ -1596,6 +1596,98 @@ nav {
   }
 }
 // END:: OUR PRODUCTS SECTION
+
+// START:: ALL PRODUCTS SECTION STYLES
+.main_products_modern {
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include fourthHaederStyle();
+    }
+  }
+
+  .sec_desc_wraper {
+    @include textWraper();
+    text-align: center;
+    margin-block: 15px;
+  }
+
+  .filter {
+    position: sticky;
+    top: 65px;
+  }
+
+  .product_card_wraper {
+    position: relative;
+    overflow: hidden;
+
+    &:hover {
+      .img_wraper {
+        img {
+          transform: scale(1.1);
+        }
+      }
+
+      .overlay {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    .img_wraper {
+      overflow: hidden;
+      min-width: 350px;
+      max-width: 350px;
+      min-height: 400px;
+      max-height: 400px;
+      @include borderRadius(5px);
+      img {
+        width: 100%;
+        min-height: 400px;
+        max-height: 400px;
+        @include borderRadius(5px);
+        @include transitioning();
+      }
+    }
+
+    .overlay {
+      opacity: 0;
+      transform: scale(0);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(45, 64, 89, 0.8);
+      @include borderRadius(5px);
+      @include flexCenterAlignment();
+      @include transitioning();
+      h4 {
+        text-align: center;
+        font-weight: 600;
+        color: $corpColor2;
+      }
+      .details {
+        @include textWraper();
+        text-align: center;
+        font-size: 16px;
+        color: $white;
+        padding-inline: 15px;
+      }
+
+      .btn_wraper {
+        @include flexCenterAlignment();
+        a {
+          @include secondaryBtnStyle();
+          padding: 5px 10px;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+// END:: ALL PRODUCTS SECTION STYLES
 
 // START:: PORTFOLIO SECTION STYLES
 .portfolio_modern {
