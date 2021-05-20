@@ -177,6 +177,10 @@
           <li> 
             <a href="SingleProduct2.php"> Single Product 2 </a> 
           </li>
+
+          <li> 
+            <a href="SingleProductModern.php"> Single Product Modern </a> 
+          </li>
         </ul>
       </li>
 

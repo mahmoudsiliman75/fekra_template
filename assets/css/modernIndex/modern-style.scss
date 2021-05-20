@@ -1689,6 +1689,86 @@ nav {
 }
 // END:: ALL PRODUCTS SECTION STYLES
 
+// START:: PRODUCT DETAILS SCTION STYLE
+.product_details_modern {
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include fourthHaederStyle();
+    }
+  }
+
+  .sec_desc_wraper {
+    @include textWraper();
+    text-align: center;
+    margin-block: 15px;
+  }
+
+
+  .product_img_wraper {
+    width: 100%;
+    height: auto;
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 0 25px 25px 0;
+      box-shadow: -40px 25px 0px 9px #e4e4e48f;
+    }
+
+    @media ( max-width: 767px ){
+      img {
+        @include borderRadius(15px);
+        box-shadow: none;
+      }
+    }
+  }
+
+  .price_wraper {
+    display: flex;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    .price_after {
+      color: $lightGrey;
+      margin-inline: 10px;
+    }
+    .price_before {
+      color: $midRed;
+      text-decoration: line-through;
+      margin-inline: 10px;
+    }
+  }
+  
+  .desc {
+    @include textWraper();
+    text-align: start;
+  }
+
+  .owl-carousel {
+    position: relative;
+    @include flexCenterAlignment();
+
+    .item {
+      .img_wraper {
+        min-height: 150px;
+        max-height: 150px;
+        img {
+          width: 100%;
+          min-height: 150px;
+          max-height: 150px;
+          filter: grayscale(100);
+          @include transitioning();
+          &:hover {
+            filter: grayscale(0);
+          }
+        }
+      }
+    }
+  }
+}
+// END:: PRODUCT DETAILS SCTION STYLE
+
 // START:: PORTFOLIO SECTION STYLES
 .portfolio_modern {
   padding: $paddingAmount 0;
