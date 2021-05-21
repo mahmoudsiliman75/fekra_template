@@ -344,7 +344,7 @@ nav .menu_btn svg {
   position: absolute;
   top: 0;
   right: -100%;
-  width: 75%;
+  width: 100%;
   height: 100vh;
   z-index: 999;
   background-color: #fff;
@@ -422,6 +422,53 @@ nav .menu_btn svg {
 
 .small_menu ul li.active a {
   font-weight: bold;
+}
+
+.small_menu ul li a {
+  color: #00334e;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.small_menu ul li a:hover {
+  color: #ea5455;
+}
+
+.small_menu ul li .dropdown_menu {
+  display: none;
+  width: 230px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  border-top: 2px solid #ea5455;
+  border-bottom: 2px solid #ea5455;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.small_menu ul li .dropdown_menu.active {
+  display: block;
+}
+
+.small_menu ul li .dropdown_menu li {
+  padding: 8px 20px 8px 5px;
+  border-bottom: 1px solid lightgray;
+}
+
+.small_menu ul li .dropdown_menu li:last-child {
+  border-bottom: none;
+}
+
+.small_menu ul li .dropdown_menu li a {
+  text-decoration: none;
+  color: #00334e;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.small_menu ul li .dropdown_menu li:hover a {
+  color: #ea5455;
 }
 
 @media (max-width: 1242px) {
