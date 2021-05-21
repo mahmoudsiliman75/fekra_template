@@ -19,71 +19,79 @@
       <h2> About Product </h2>
     </div>
 
-    <div class="sec_desc_wraper">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-      Sapiente doloribus dolorem velit, vero laborum ipsam obcaecati 
-      error unde eius ratione distinctio? Maxime tenetur perspiciatis 
-      velit consequatur accusamus aspernatur natus numquam. vero laborum 
-      ipsam obcaecati error unde eius ratione distinctio? Maxime tenetur 
-      perspiciatis velit consequatur accusamus aspernatur natus numquam.
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-      Sapiente doloribus dolorem velit.
-    </div>
-
-    <div class="row justify-content-center py-5">
-      <div class="col-10">
-				<div id="slider" class="flexslider">
-					<ul class="slides">
-						<li>
+    <div class="row justify-content-center mt-4">
+      <div class="col-12 col-md-6">
+        <div id="slider" class="flexslider">
+          <ul class="slides">
+            <li>
               <iframe src="https://www.youtube.com/embed/xZPafUhm68s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</li>
-						<li>
-							<img src="assets/media/pic1.jpeg" />
-						</li>
-						<li>
-							<img src="assets/media/pic2.jpeg" />
-						</li>
-						<li>
-							<img src="assets/media/pic3.jpeg" />
-						</li>
-						<li>
-							<img src="assets/media/pic4.jpeg" />
-						</li>
-						<li>
-							<img src="assets/media/pic5.jpeg" />
-						</li>
-						<li>
-							<img src="assets/media/pic6.jpeg" />
-						</li>
-					</ul>
-				</div>
+            </li>
+            <li>
+              <img src="assets/media/pic1.jpeg" />
+            </li>
+            <li>
+              <img src="assets/media/pic2.jpeg" />
+            </li>
+            <li>
+              <img src="assets/media/pic3.jpeg" />
+            </li>
+            <li>
+              <img src="assets/media/pic4.jpeg" />
+            </li>
+            <li>
+              <img src="assets/media/pic5.jpeg" />
+            </li>
+            <li>
+              <img src="assets/media/pic6.jpeg" />
+            </li>
+          </ul>
+        </div>
+  
+        <div id="carousel" class="flexslider">
+          <ul class="slides">
+            <li>
+              <img class="min_img" src="https://i.ytimg.com/vi_webp/xZPafUhm68s/sddefault.webp" />
+            </li>
+            <li>
+              <img class="min_img" src="assets/media/pic1.jpeg" />
+            </li>
+            <li>
+              <img class="min_img" src="assets/media/pic2.jpeg" />
+            </li>
+            <li>
+              <img class="min_img" src="assets/media/pic3.jpeg" />
+            </li>
+            <li>
+              <img class="min_img" src="assets/media/pic4.jpeg" />
+            </li>
+            <li>
+              <img class="min_img" src="assets/media/pic5.jpeg" />
+            </li>
+            <li>
+              <img class="min_img" src="assets/media/pic6.jpeg" />
+            </li>
+          </ul>
+        </div>
+      </div>
 
-				<div id="carousel" class="flexslider">
-					<ul class="slides">
-						<li>
-							<img class="min_img" src="https://i.ytimg.com/vi_webp/xZPafUhm68s/sddefault.webp" />
-						</li>
-						<li>
-							<img class="min_img" src="assets/media/pic1.jpeg" />
-						</li>
-						<li>
-							<img class="min_img" src="assets/media/pic2.jpeg" />
-						</li>
-						<li>
-							<img class="min_img" src="assets/media/pic3.jpeg" />
-						</li>
-						<li>
-							<img class="min_img" src="assets/media/pic4.jpeg" />
-						</li>
-						<li>
-							<img class="min_img" src="assets/media/pic5.jpeg" />
-						</li>
-						<li>
-							<img class="min_img" src="assets/media/pic6.jpeg" />
-						</li>
-					</ul>
-				</div>
-			</div>
+      <div class="col-12 col-md-6">
+        <div class="sec_desc_wraper">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Sapiente doloribus dolorem velit, vero laborum ipsam obcaecati 
+          error unde eius ratione distinctio? Maxime tenetur perspiciatis 
+          velit consequatur accusamus aspernatur natus numquam. vero laborum 
+          ipsam obcaecati error unde eius ratione distinctio? Maxime tenetur 
+          perspiciatis velit consequatur accusamus aspernatur natus numquam.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Sapiente doloribus dolorem velit.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Sapiente doloribus dolorem velit, vero laborum ipsam obcaecati 
+          error unde eius ratione distinctio? Maxime tenetur perspiciatis 
+          velit consequatur accusamus aspernatur natus numquam. vero laborum 
+          ipsam obcaecati error unde eius ratione distinctio? Maxime tenetur 
+          perspiciatis velit.
+        </div>
+      </div>
     </div>
 
     <div class="row justify-content-center pt-5">
@@ -129,6 +137,146 @@
           </div>
         </div>
 
+      </div>
+    </div>
+
+    <div class="row justify-content-center pt-5">
+      <div class="header_wraper mb-4">
+        <h2> Related Products </h2>
+      </div>
+
+      <div id="related_products" class="owl-carousel owl-theme mt-4 col-11">
+        <div class="item text-center">
+          <a href="SingleProduct1.php">
+            <div class="product_card_wraper">
+              <div class="img_wraper">
+                <img src="assets/media/pic1.jpeg" alt="">
+              </div>
+
+              <div class="card_data_wraper mt-3">
+                <h4> Product1 </h4>
+                <div class="details">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Natus voluptatibus temporibus, porro a repudiandae reiciendis.
+                </div>
+                <div class="price_wraper">
+                  <span class="price_after"> 100 EGP </span>
+                  <span class="price_before"> 200 EGP </span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="item text-center">
+          <a href="SingleProduct1.php">
+            <div class="product_card_wraper">
+              <div class="img_wraper">
+                <img src="assets/media/pic2.jpeg" alt="">
+              </div>
+
+              <div class="card_data_wraper mt-3">
+                <h4> Product2 </h4>
+                <div class="details">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Natus voluptatibus temporibus, porro a repudiandae reiciendis.
+                </div>
+                <div class="price_wraper">
+                  <span class="price_after"> 100 EGP </span>
+                  <span class="price_before"> 200 EGP </span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="item text-center">
+          <a href="SingleProduct1.php">
+            <div class="product_card_wraper">
+              <div class="img_wraper">
+                <img src="assets/media/pic3.jpeg" alt="">
+              </div>
+
+              <div class="card_data_wraper mt-3">
+                <h4> Product3 </h4>
+                <div class="details">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Natus voluptatibus temporibus, porro a repudiandae reiciendis.
+                </div>
+                <div class="price_wraper">
+                  <span class="price_after"> 100 EGP </span>
+                  <span class="price_before"> 200 EGP </span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="item text-center">
+          <a href="SingleProduct1.php">
+            <div class="product_card_wraper">
+              <div class="img_wraper">
+                <img src="assets/media/pic4.jpeg" alt="">
+              </div>
+
+              <div class="card_data_wraper mt-3">
+                <h4> Product4 </h4>
+                <div class="details">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Natus voluptatibus temporibus, porro a repudiandae reiciendis.
+                </div>
+                <div class="price_wraper">
+                  <span class="price_after"> 100 EGP </span>
+                  <span class="price_before"> 200 EGP </span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="item text-center">
+          <a href="SingleProduct1.php">
+            <div class="product_card_wraper">
+              <div class="img_wraper">
+                <img src="assets/media/pic5.jpeg" alt="">
+              </div>
+
+              <div class="card_data_wraper mt-3">
+                <h4> Product5 </h4>
+                <div class="details">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Natus voluptatibus temporibus, porro a repudiandae reiciendis.
+                </div>
+                <div class="price_wraper">
+                  <span class="price_after"> 100 EGP </span>
+                  <span class="price_before"> 200 EGP </span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="item text-center">
+          <a href="SingleProduct1.php">
+            <div class="product_card_wraper">
+              <div class="img_wraper">
+                <img src="assets/media/pic6.jpeg" alt="">
+              </div>
+
+              <div class="card_data_wraper mt-3">
+                <h4> Product6 </h4>
+                <div class="details">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Natus voluptatibus temporibus, porro a repudiandae reiciendis.
+                </div>
+                <div class="price_wraper">
+                  <span class="price_after"> 100 EGP </span>
+                  <span class="price_before"> 200 EGP </span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   </div>
