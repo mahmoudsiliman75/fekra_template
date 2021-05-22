@@ -5969,13 +5969,13 @@ nav .menu_btn svg {
           margin-inline-end: 10px;
 }
 
-footer.main {
+footer {
   background-color: #00334e;
   padding-top: 40px;
   position: relative;
 }
 
-footer.main .section_curve {
+footer .section_curve {
   position: absolute;
   top: 0;
   left: 0;
@@ -5986,18 +5986,18 @@ footer.main .section_curve {
           transform: rotate(180deg);
 }
 
-footer.main .section_curve svg {
+footer .section_curve svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
   height: 50px;
 }
 
-footer.main .section_curve svg .shape-fill {
+footer .section_curve svg .shape-fill {
   fill: #FFFFFF;
 }
 
-footer.main .footer_logo {
+footer .footer_logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6009,14 +6009,14 @@ footer.main .footer_logo {
           justify-content: center;
 }
 
-footer.main .footer_logo img {
+footer .footer_logo img {
   min-width: 100px;
   max-width: 100px;
   min-height: 100px;
   max-height: 100px;
 }
 
-footer.main .short_cuts {
+footer .short_cuts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6026,14 +6026,14 @@ footer.main .short_cuts {
           flex-direction: row;
 }
 
-footer.main .short_cuts a {
+footer .short_cuts a {
   text-decoration: none;
   color: #fff;
   overflow: hidden;
   position: relative;
 }
 
-footer.main .short_cuts a::before {
+footer .short_cuts a::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -6046,94 +6046,94 @@ footer.main .short_cuts a::before {
   transition: all 0.4s ease-in-out;
 }
 
-footer.main .short_cuts a:hover {
+footer .short_cuts a:hover {
   color: #dc4040;
 }
 
-footer.main .short_cuts a:hover::before {
+footer .short_cuts a:hover::before {
   left: 0;
 }
 
-footer.main .get_in_touch h5 {
+footer .get_in_touch h5 {
   color: #fff;
 }
 
-footer.main .get_in_touch ul {
+footer .get_in_touch ul {
   color: #fff;
 }
 
-footer.main .get_in_touch ul li {
+footer .get_in_touch ul li {
   margin: 8px 0;
 }
 
-footer.main .get_in_touch ul li svg {
+footer .get_in_touch ul li svg {
   color: #dc4040;
 }
 
-footer.main .get_in_touch ul li span {
+footer .get_in_touch ul li span {
   color: #fff;
 }
 
-footer.main .get_in_touch ul li span a {
+footer .get_in_touch ul li span a {
   text-decoration: none;
   color: #fff;
 }
 
-footer.main .follow_us h5 {
+footer .follow_us h5 {
   color: #c1c1c1;
 }
 
-footer.main .follow_us ul {
+footer .follow_us ul {
   text-align: center;
 }
 
-footer.main .follow_us ul li {
+footer .follow_us ul li {
   display: inline-block;
   margin: 3px 5px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
-footer.main .follow_us ul li a {
+footer .follow_us ul li a {
   opacity: 0.5;
 }
 
-footer.main .follow_us ul li a img {
+footer .follow_us ul li a img {
   width: 40px;
   height: 40px;
 }
 
-footer.main .follow_us ul li:hover {
+footer .follow_us ul li:hover {
   -webkit-transform: rotate(360deg) scale(1.2);
           transform: rotate(360deg) scale(1.2);
 }
 
-footer.main .follow_us ul li:hover a {
+footer .follow_us ul li:hover a {
   opacity: 1;
 }
 
-footer.main .follow_us .payment {
+footer .follow_us .payment {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
-footer.main .follow_us .payment a {
+footer .follow_us .payment a {
   text-decoration: none;
   color: #dc4040;
 }
 
-footer.main .follow_us .payment:hover {
+footer .follow_us .payment:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
 
-footer.main .copy_rights {
+footer .copy_rights {
   padding: 5px;
   background-color: #001925;
   color: #fff;
 }
 
-footer.main .copy_rights span a {
+footer .copy_rights span a {
   text-decoration: none;
   color: #ea5455;
   -webkit-transition: all 0.4s ease-in-out;
