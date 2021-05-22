@@ -1,0 +1,3222 @@
+// START:: INCLUDING GOOGLE FONT
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+// END:: INCLUDING GOOGLE FONT
+
+// START:: VARIABLES
+@import '../../variables.scss'; 
+// END:: VARIABLES
+
+// START:: MIXINS
+@import '../../mixins.scss';
+// END:: MIXINS
+
+// START:: GLOBAL STYLES COLORING
+.header_img_wraper {
+  .overlay {
+    background-color: rgba(43, 55, 56, 0.5);
+
+    .intro_text_wraper {
+      h1 {
+        span {
+          background-color: $startUpColor1;
+          &::after {
+            border: 2px solid $startUpColor1;
+          }
+        }
+      }
+    }
+  }
+
+  &.modern {
+    .overlay {
+      background-color: rgba(43, 55, 56, 0.5);
+      .intro_text_wraper {
+        h1 {
+          span {
+            background-color: transparent;
+            color: $startUpColor1;
+          }
+        }
+      }
+    }
+  }
+}
+// END:: GLOBAL STYLES COLORING
+
+// START:: LARGE SCREENS NAVBAR STYLES COLORING
+nav {
+  background-color: rgba(54, 69, 71, 0.7);
+
+  &.stiky {
+    background-color: rgba(39, 48, 49, 0.9);
+  }
+
+  &.profile_nav {
+    background-color: $startUpColor2;
+  }
+
+  // START:: NAV LINKS STYLE
+  .nav-links {
+    ul {
+      li {
+        position: relative;
+        @include menuHoverEffect();
+        &.active {
+          a {
+            color: $startUpColor1;
+          }
+        }
+
+        &:hover {
+          a{
+            color: $startUpColor1;
+          }
+        }
+
+        .dropdown_menu {
+          background-color: $white;
+          border-top: 2px solid $startUpColor1;
+          border-bottom: 2px solid $startUpColor1;
+
+          li {
+            a {
+              color: $startUpColor2;
+            }
+
+            &:hover {
+              a {
+                color: $startUpColor1;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  // END:: NAV LINKS STYLE
+
+  // START:: LANGUAGE BTN STYLE
+  .lang-button {
+    a {
+      border: 2px solid $startUpColor1;
+
+      span {
+        &.circle {
+          background-color: $startUpColor1;
+        }
+      }
+    }
+  }
+  // END:: LANGUAGE BTN STYLE
+
+  // START:: MENU TOGGLER BTN STYLE
+  .menu_btn {
+    svg {
+      color: $startUpColor1;
+    }
+  }
+  // END:: MENU TOGGLER BTN STYLE
+}
+// END:: LARGE SCREENS NAVBAR STYLES COLORING
+
+// START:: SMALL SCREENS MENU STYLES COLORING
+.small_menu {
+  .btn_box {
+    button {
+      svg {
+        color: $startUpColor2;
+        &:hover {
+          color: $midRed;
+        }
+      }
+    }
+  }
+
+  ul {
+    li {
+      a {
+        color: $startUpColor2;
+        &:hover {
+          color: $startUpColor1;
+        }
+      }
+
+      .dropdown_menu {
+        border-top: 2px solid $startUpColor1;
+        border-bottom: 2px solid $startUpColor1;
+
+        li {
+          a {
+            color: $startUpColor2;
+          }
+
+          &:hover {
+            a {
+              color: $startUpColor1;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// END:: SMALL SCREENS MENU STYLES COLORING
+
+// START:: HOME SLIDER STYLES COLORING
+.carousel {
+  .carousel-indicators {
+    li {
+      &.active {
+        background-color: $startUpColor1;
+      }
+    }
+  }
+
+  .carousel-inner {
+    .carousel-item {
+      .overlay {
+        background-color: rgba(43, 55, 56, 0.5);
+
+        .intro_text_wraper {
+          h1 {
+            span {
+              background-color: $startUpColor1;
+              &::after {
+                border: 2px solid $startUpColor1;
+              }
+            }
+          }
+        }
+
+        .btn_wraber {
+          a {
+            @include secondaryBtnStyle();
+            color: $startUpColor1;
+            border: 2px solid $startUpColor1;
+            &:hover {
+              background-color: $startUpColor1;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// END:: HOME SLIDER STYLES COLORING
+
+// START:: HOME PAGE ABOUT SECTION STYLES COLORING
+.about_sec {
+  .header_wraper {
+    h2 {
+      @include mainHeaderStyle();
+      color: $startUpColor2;
+      &::before {
+        background-color: $startUpColor1;
+      }
+    
+      &::after {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+
+  .about_card_wraper {
+    &:hover {
+      .icon_wraper {
+        span {
+          border: 2px solid $startUpColor1;
+          background-color: $startUpColor1;
+        }
+      }
+    }
+
+    .icon_wraper {
+      span {
+        border: 2px dashed $startUpColor1;
+        svg {
+          color: $startUpColor1;
+        }
+      }
+    }
+
+    .card_title_wraper {
+      h4 {
+        color: $startUpColor2;
+      }
+    }
+  }
+}
+
+.about_sec_index_2 {
+  .header_wraper {
+    h2 {
+      @include secondHeaderStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        left: 0;
+        border-right: none; 
+        border-radius: 5px 0 0 5px;
+      }
+      &::after{
+        right: 0;
+        border-left: none; 
+        border-radius: 0 5px 5px 0;
+      }
+    }
+  }
+
+  .row {
+    .about_card_wraper {
+      &::before,
+      &::after {
+        background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+      }
+
+      .icon_wraper {
+        span {
+          svg {
+            color: $startUpColor1;
+          }
+        }
+      }
+  
+      .card_title_wraper {
+        h4 {
+          color: $startUpColor2;
+        }
+      }
+    }
+  }
+}
+
+.about_sec_one_page {
+  .header_wraper {
+    h2 {
+      @include thirdHeaderStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        top: 0;
+        left: 0;
+        border-right: none; 
+        border-bottom: none; 
+        border-radius: 5px 0 0 0;
+      }
+      &::after{
+        bottom: 0;
+        right: 0;
+        border-left: none; 
+        border-top: none; 
+        border-radius: 0 0 5px 0;
+      }
+    }
+  }
+
+  .row {
+    .about_card_wraper {
+      .icon_wraper {
+        span {
+          &::after {
+            background-color: $startUpColor2;
+          }
+          svg {
+            color: $startUpColor1;
+          }
+        }
+      }
+  
+      .card_title_wraper {
+        h4 {
+          color: $startUpColor2;
+        }
+      }
+    }
+  }
+}
+
+.about_sec_modern {
+  .container-fluid {
+    .header_wraper {
+      h2 {
+        @include fourthHaederStyle();
+        color: $startUpColor1;
+        &::before,
+        &::after {
+          border: 2px solid $startUpColor2;
+        }
+        &::before {
+          left: 0;
+          border-right: none;
+          border-bottom: none;
+          border-radius: 5px 0 0 0;
+        }
+        &::after{
+          right: 0;
+          border-left: none;
+          border-bottom: none;
+          border-radius: 0 5px 0 0;
+        }
+        span {
+          border: 2px solid $startUpColor2;
+          &:first-child {
+            left: 0;
+            bottom: 0;
+            border-right: none;
+            border-top: none;
+            border-radius: 0 0 0 5px;
+          }
+          &:last-child {
+            right: 0;
+            bottom: 0;
+            border-left: none;
+            border-top: none;
+            border-radius: 0 0 5px 0;
+          }
+        }
+      }
+    } 
+  }
+
+  .row {
+    .about_card_wraper {
+      border: 1px solid $startUpColor1;
+
+      &::after {
+        border: 20px solid $startUpColor1;
+        border-top: 20px solid $white;
+        border-right: 20px solid $white;
+      }
+
+      .icon_wraper {
+        span {
+          &::after {
+            background-color: $startUpColor2;
+          }
+          svg {
+            color: $startUpColor1;
+          }
+        }
+      }
+
+      .card_title_wraper {
+        h4 {
+          color: $startUpColor2;
+        }
+      }
+    }
+  }
+}
+// END:: HOME PAGE ABOUT SECTION STYLES COLORING
+
+// START:: ABOUT US SECTION 1&2 STYLES COLORING
+.main_about_us {
+  .header_wraper {
+    h2, 
+    h4 {
+      @include mainHeaderStyle();
+      color: $startUpColor2;
+      &::before {
+        background-color: $startUpColor1;
+      }
+    
+      &::after {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+
+  .video_wraper {
+    .overlay {
+      background-color: rgba(54, 69, 71, 0.7);
+    }
+  }
+
+  .service_card_wraper {
+    .card_title_wraper {
+      h4 {
+        color: $startUpColor2;
+      }
+    }
+  }
+}
+
+.main_about_us_modern {
+  .header_wraper {
+    h2,
+    h4 {
+      @include fourthHaederStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        left: 0;
+        border-right: none;
+        border-bottom: none;
+        border-radius: 5px 0 0 0;
+      }
+      &::after{
+        right: 0;
+        border-left: none;
+        border-bottom: none;
+        border-radius: 0 5px 0 0;
+      }
+      span {
+        border: 2px solid $startUpColor2;
+        &:first-child {
+          left: 0;
+          bottom: 0;
+          border-right: none;
+          border-top: none;
+          border-radius: 0 0 0 5px;
+        }
+        &:last-child {
+          right: 0;
+          bottom: 0;
+          border-left: none;
+          border-top: none;
+          border-radius: 0 0 5px 0;
+        }
+      }
+    }
+  } 
+
+  .services{
+    a {
+      .service_card_wraper {
+        .img_wraper {
+          border: 2px solid $startUpColor1;
+          .overlay {
+            background-color: rgba(255, 131, 3, 0.8);
+          }
+        }
+
+        .card_title_wraper {
+          h4 {
+            color: $startUpColor1;
+          }
+        }
+      }
+    }
+  }
+}
+// END:: ABOUT US SECTION 1&2 STYLES COLORING
+
+// START:: SERVICES SECTION STYLES COLORING
+.services_sec {
+  .header_wraper {
+    h2 {
+      @include mainHeaderStyle();
+      color: $startUpColor2;
+      &::before {
+        background-color: $startUpColor1;
+      }
+    
+      &::after {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+
+  a {
+    .service_card_wraper {
+      .img_wraper {
+        .overlay {
+          background-color: rgba(255, 131, 3, 0.8);
+        }
+      }
+      .card_title_wraper {
+        h4 {
+          color: $startUpColor2;
+        }
+      }
+    }
+  }
+
+  .btn_wraper {
+    a {
+      @include mainBtnStyle();
+      color: $startUpColor1;
+      border: 2px solid $startUpColor1;
+    }
+  }
+}
+
+.services_sec_index_2 {
+  .header_wraper {
+    h2 {
+      @include secondHeaderStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        left: 0;
+        border-right: none; 
+        border-radius: 5px 0 0 5px;
+      }
+      &::after{
+        right: 0;
+        border-left: none; 
+        border-radius: 0 5px 5px 0;
+      }
+    }
+  }
+
+  a {
+    .service_card_wraper {
+      .img_wraper {
+        .overlay {
+          background-color: rgba(255, 131, 3, 0.8);
+        }
+      }
+  
+      .card_title_wraper {
+        h4 {
+          color: $startUpColor2;
+        }
+      }
+    }
+  }
+
+  .btn_wraper {
+    a {
+      @include secondBtnStyle();
+      color: $startUpColor2;
+      border: 2px solid $startUpColor2;
+      &::before {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+}
+
+.services_sec_one_page {
+  position: relative;
+  background-image: linear-gradient(to bottom, $startUpColor2, $startUpColor1);
+
+  .overlay {
+    a {
+      .service_card_wraper {
+
+        .img_wraper {
+          border: 2px solid $startUpColor1;
+          .overlay {
+            background-color: rgba(255, 131, 3, 0.8);
+          }
+        }
+    
+        .card_title_wraper {
+          h4 {
+            color: $startUpColor1;
+          }
+        }
+      }
+    }
+  }
+}
+
+.services_sec_modern {
+  .header_wraper {
+    h2 {
+      @include fourthHaederStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        left: 0;
+        border-right: none;
+        border-bottom: none;
+        border-radius: 5px 0 0 0;
+      }
+      &::after{
+        right: 0;
+        border-left: none;
+        border-bottom: none;
+        border-radius: 0 5px 0 0;
+      }
+      span {
+        border: 2px solid $startUpColor2;
+        &:first-child {
+          left: 0;
+          bottom: 0;
+          border-right: none;
+          border-top: none;
+          border-radius: 0 0 0 5px;
+        }
+        &:last-child {
+          right: 0;
+          bottom: 0;
+          border-left: none;
+          border-top: none;
+          border-radius: 0 0 5px 0;
+        }
+      }
+    }
+  } 
+
+  a {
+    .service_card_wraper {
+      .img_wraper {
+        border: 2px solid $startUpColor1;
+        .overlay {
+          background-color: rgba(255, 131, 3, 0.8);
+        }
+      }
+
+      .card_title_wraper {
+        h4 {
+          color: $startUpColor1;
+        }
+      }
+    }
+  }
+
+  .btn_wraper {
+    a {
+      @include secondBtnStyle();
+      color: $startUpColor2;
+      border: 2px solid $startUpColor2;
+      &::before {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+}
+// END:: SERVICES SECTION STYLES COLORING
+
+// START:: MAIN SERVICES SECTION STYLES COLORING
+.main_services {
+  .header_wraper {
+    h2, 
+    h5 {
+      @include mainHeaderStyle();
+      color: $startUpColor2;
+      &::before {
+        background-color: $startUpColor1;
+      }
+    
+      &::after {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+
+  .heighlight_card_wraper {
+    &:hover {
+      .icon_wraper {
+        span {
+          border: 2px solid $startUpColor1;
+          background-color: $startUpColor1;
+        }
+      }
+    }
+
+    .icon_wraper {
+      span {
+        border: 2px dashed $startUpColor1;
+        svg {
+          color: $startUpColor1;
+        }
+      }
+    }
+
+    .card_title_wraper {
+      h4 {
+        color: $startUpColor2;
+      }
+    }
+  }
+
+  .wraper {
+    .filter {
+      .list-group {
+        .list-group-item {
+          &:hover {
+            color: $startUpColor1;
+          }
+        }
+      }
+    }
+  }
+
+  a {
+    .service_card_wraper {
+      .img_wraper {
+        .overlay {
+          background-color: rgba(255, 131, 3, 0.8);
+        }
+      }
+
+      .card_title_wraper {
+        h4 {
+          color: $startUpColor2;
+        }
+      }
+    }
+  }
+}
+
+.all_services_modern {
+  .header_wraper {
+    h2,
+    h5 {
+      @include fourthHaederStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        left: 0;
+        border-right: none;
+        border-bottom: none;
+        border-radius: 5px 0 0 0;
+      }
+      &::after{
+        right: 0;
+        border-left: none;
+        border-bottom: none;
+        border-radius: 0 5px 0 0;
+      }
+      span {
+        border: 2px solid $startUpColor2;
+        &:first-child {
+          left: 0;
+          bottom: 0;
+          border-right: none;
+          border-top: none;
+          border-radius: 0 0 0 5px;
+        }
+        &:last-child {
+          right: 0;
+          bottom: 0;
+          border-left: none;
+          border-top: none;
+          border-radius: 0 0 5px 0;
+        }
+      }
+    }
+  } 
+
+  .heighlight_card_wraper {
+    .icon_wraper {
+      span {
+        &::after {
+          background-color: $startUpColor2;
+        }
+        svg {
+          color: $startUpColor1;
+        }
+      }
+    }
+
+    .card_title_wraper {
+      h4 {
+        color: $startUpColor2;
+      }
+    }
+  }
+
+  a {
+    .service_card_wraper {
+      .img_wraper {
+        border: 2px solid $startUpColor1;
+        .overlay {
+          background-color: rgba(255, 131, 3, 0.8);
+        }
+      }
+  
+      .card_title_wraper {
+        h4 {
+          color: $startUpColor1;
+        }
+      }
+    }
+  }
+}
+// END:: MAIN SERVICES SECTION STYLES COLORING
+
+// START:: SERVICE DETAILS SCTION STYLE COLORING
+.service_details {
+  .header_wraper {
+    h2 {
+      @include mainHeaderStyle();
+      color: $startUpColor2;
+      &::before {
+        background-color: $startUpColor1;
+      }
+    
+      &::after {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+}
+
+.service_details_modern {
+  .header_wraper {
+    h2 {
+      @include fourthHaederStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        left: 0;
+        border-right: none;
+        border-bottom: none;
+        border-radius: 5px 0 0 0;
+      }
+      &::after{
+        right: 0;
+        border-left: none;
+        border-bottom: none;
+        border-radius: 0 5px 0 0;
+      }
+      span {
+        border: 2px solid $startUpColor2;
+        &:first-child {
+          left: 0;
+          bottom: 0;
+          border-right: none;
+          border-top: none;
+          border-radius: 0 0 0 5px;
+        }
+        &:last-child {
+          right: 0;
+          bottom: 0;
+          border-left: none;
+          border-top: none;
+          border-radius: 0 0 5px 0;
+        }
+      }
+    }
+  } 
+}
+// END:: SERVICE DETAILS SCTION STYLE COLORING
+
+// START:: TEAM MEMBERS SECTION STYLES COLORING
+.team_sec { 
+  background-color: $startUpColor2;
+  .header_wraper {
+    h2 {
+      @include mainHeaderStyle();
+      color: $white;
+      &::before {
+        background-color: $startUpColor1;
+      }
+      &::after {
+        background-color: $white;
+      }
+    }
+  }
+
+  .member_card_wraper {
+    .card_body {
+      .info {
+        h5 {
+          color: $startUpColor1;
+        }
+      }
+
+      .social_links {
+        li {
+          a {
+            &:hover {
+              color: $startUpColor1;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .btn_wraper {
+    a {
+      @include mainBtnStyle();
+      color: $startUpColor1;
+      border: 2px solid $startUpColor1;
+      &::before,
+      &::after {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+}
+
+.team_sec_index_2 { 
+  .header_wraper {
+    h2 {
+      @include secondHeaderStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        left: 0;
+        border-right: none; 
+        border-radius: 5px 0 0 5px;
+      }
+      &::after{
+        right: 0;
+        border-left: none; 
+        border-radius: 0 5px 5px 0;
+      }
+    }
+  }
+
+  .member_card_wraper {
+    .card_body {
+      .info {
+        h4 {
+          color: $startUpColor2;
+        }
+        h5 {
+          color: $startUpColor1;
+        }
+      }
+
+      .social_links {
+        li {
+
+          a {
+            color: $startUpColor2;
+            &:hover {
+              color: $startUpColor1;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .btn_wraper {
+    a {
+      @include secondBtnStyle();
+      color: $startUpColor2;
+      border: 2px solid $startUpColor2;
+      &::before {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+}
+
+.team_sec_one_page { 
+  .header_wraper {
+    h2 {
+      @include thirdHeaderStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        top: 0;
+        left: 0;
+        border-right: none; 
+        border-bottom: none; 
+        border-radius: 5px 0 0 0;
+      }
+      &::after{
+        bottom: 0;
+        right: 0;
+        border-left: none; 
+        border-top: none; 
+        border-radius: 0 0 5px 0;
+      }
+    }
+  }
+
+  .member_card_wraper {
+    .image_wraper {
+      .overlay {
+        background-image: linear-gradient(to bottom, rgba(43, 55, 56, 0.5), rgba(255, 131, 3, 0.8));
+        .card_body {
+          .social_links {
+
+            li {
+              a {
+                &:hover {
+                  color: $startUpColor2;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.team_sec_modern { 
+  .header_wraper {
+    h2 {
+      @include fourthHaederStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        left: 0;
+        border-right: none;
+        border-bottom: none;
+        border-radius: 5px 0 0 0;
+      }
+      &::after{
+        right: 0;
+        border-left: none;
+        border-bottom: none;
+        border-radius: 0 5px 0 0;
+      }
+      span {
+        border: 2px solid $startUpColor2;
+        &:first-child {
+          left: 0;
+          bottom: 0;
+          border-right: none;
+          border-top: none;
+          border-radius: 0 0 0 5px;
+        }
+        &:last-child {
+          right: 0;
+          bottom: 0;
+          border-left: none;
+          border-top: none;
+          border-radius: 0 0 5px 0;
+        }
+      }
+    }
+  } 
+
+  .member_card_wraper {
+    &:hover {
+      .image_wraper {
+        img {
+          border-bottom: 3px solid $startUpColor1;
+        }
+      }
+    }
+
+    .image_wraper {
+      .social_links {
+        li {
+          a {
+            color: $startUpColor2;
+            &:hover {
+              color: $startUpColor1;
+            }
+          }
+        }
+      }
+    }
+
+    .card_body {
+      text-align: center;
+      .info {
+        margin-top: 12px;
+        opacity: 0;
+        @include transitioning();
+        h4 {
+          color: $startUpColor2;
+        }
+        h5 {
+          color: $startUpColor1;
+        }
+      }
+    }
+  }
+
+  .btn_wraper {
+    a {
+      @include secondBtnStyle();
+      color: $startUpColor2;
+      border: 2px solid $startUpColor2;
+      &::before {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+}
+// END:: TEAM MEMBERS SECTION STYLES COLORING
+
+// START:: ALL TEAM SECTION STYLES COLORING
+.all_team_sec {
+  .header_wraper {
+    h2 {
+      @include mainHeaderStyle();
+      color: $startUpColor2;
+      &::before {
+        background-color: $startUpColor1;
+      }
+      &::after {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+
+  .member_card_wraper {
+    .card_body {
+      .info {
+        h4 {
+          color: $startUpColor2;
+        }
+        h5 {
+          color: $startUpColor1;
+        }
+      }
+
+      .social_links {
+        li {
+
+          a {
+            color: $startUpColor2;
+            &:hover {
+              color: $startUpColor1;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.all_team_modern {
+  .header_wraper {
+    h2 {
+      @include fourthHaederStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        left: 0;
+        border-right: none;
+        border-bottom: none;
+        border-radius: 5px 0 0 0;
+      }
+      &::after{
+        right: 0;
+        border-left: none;
+        border-bottom: none;
+        border-radius: 0 5px 0 0;
+      }
+      span {
+        border: 2px solid $startUpColor2;
+        &:first-child {
+          left: 0;
+          bottom: 0;
+          border-right: none;
+          border-top: none;
+          border-radius: 0 0 0 5px;
+        }
+        &:last-child {
+          right: 0;
+          bottom: 0;
+          border-left: none;
+          border-top: none;
+          border-radius: 0 0 5px 0;
+        }
+      }
+    }
+  } 
+
+  .member_card_wraper {
+    &:hover {
+      .image_wraper {
+        img {
+          border-bottom: 3px solid $startUpColor1;
+        }
+      }
+    }
+
+    .image_wraper {
+      .social_links {
+        li {
+          a {
+            color: $startUpColor2;
+            &:hover {
+              color: $startUpColor1;
+            }
+          }
+        }
+      }
+    }
+
+    .card_body {
+      text-align: center;
+      .info {
+        margin-top: 12px;
+        opacity: 0;
+        @include transitioning();
+        h4 {
+          color: $startUpColor2;
+        }
+        h5 {
+          color: $startUpColor1;
+        }
+      }
+    }
+  }
+}
+// END:: ALL TEAM SECTION STYLES COLORING
+
+// START:: PRODUCTS SECTION STYLES COLORING
+.products_sec {
+  .header_wraper {
+    h2 {
+      @include mainHeaderStyle();
+      color: $startUpColor2;
+      &::before {
+        background-color: $startUpColor1;
+      }
+    
+      &::after {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+
+  .nav-pills {
+    .nav-item {
+      .nav-link {
+        color: $startUpColor2;
+        &.active {
+          background-color: $startUpColor2;
+        }
+      }
+    }
+  }
+
+  .tab-pane {
+    a {
+      .product_card_wraper {
+        .card_title_wraper {
+          h4 {
+            color: $startUpColor1;
+          }
+        }
+      }
+    }
+  }
+
+  .btn_wraper {
+    a {
+      @include mainBtnStyle();
+      color: $startUpColor1;
+      border: 2px solid $startUpColor1;
+    }
+  }
+}
+
+.products_sec_index_2 {
+  .header_wraper {
+    h2 {
+      @include secondHeaderStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        left: 0;
+        border-right: none; 
+        border-radius: 5px 0 0 5px;
+      }
+      &::after{
+        right: 0;
+        border-left: none; 
+        border-radius: 0 5px 5px 0;
+      }
+    }
+  }
+
+  .nav-pills {
+    .nav-item {
+      .nav-link {
+        color: $startUpColor2;
+        &.active {
+          background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+        }
+      }
+    }
+  }
+
+  .tab-pane {
+    .product_card_wraper {
+      .back_face {
+        h4 {
+          color: $startUpColor2;
+        }
+
+        .price_wraper {
+          span {
+            &.price_after {
+              color: $startUpColor2;
+            }
+          }
+        }
+
+        .btn_wraper {
+          @include flexCenterAlignment();
+          a {
+            @include secondBtnStyle();
+          }
+        }
+      }
+    }
+  }
+
+  .btn_wraper {
+    a {
+      @include secondBtnStyle();
+      color: $startUpColor2;
+      border: 2px solid $startUpColor2;
+      &::before {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+}
+
+.products_sec_one_page {
+  .header_wraper {
+    h2 {
+      @include thirdHeaderStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        top: 0;
+        left: 0;
+        border-right: none; 
+        border-bottom: none; 
+        border-radius: 5px 0 0 0;
+      }
+      &::after{
+        bottom: 0;
+        right: 0;
+        border-left: none; 
+        border-top: none; 
+        border-radius: 0 0 5px 0;
+      }
+    }
+  }
+
+  .nav-pills {
+    .nav-item {
+      .nav-link {
+        color: $startUpColor2;
+        &.active {
+          background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+        }
+      }
+    }
+  }
+
+  .tab-pane {
+    .product_card_wraper {
+      .back_face {
+        background: url('../../../media/shapes/wave.svg');
+        background-position: bottom;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        .btn_wraper {
+          a {
+            @include secondBtnStyle();
+            color: $startUpColor2;
+            &::before {
+              background-color: $startUpColor2;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .btn_wraper {
+    a {
+      @include secondBtnStyle();
+      color: $startUpColor2;
+      border: 2px solid $startUpColor2;
+      &::before {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+}
+
+.products_sec_modern {
+  .header_wraper {
+    h2 {
+      @include fourthHaederStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        left: 0;
+        border-right: none;
+        border-bottom: none;
+        border-radius: 5px 0 0 0;
+      }
+      &::after{
+        right: 0;
+        border-left: none;
+        border-bottom: none;
+        border-radius: 0 5px 0 0;
+      }
+      span {
+        border: 2px solid $startUpColor2;
+        &:first-child {
+          left: 0;
+          bottom: 0;
+          border-right: none;
+          border-top: none;
+          border-radius: 0 0 0 5px;
+        }
+        &:last-child {
+          right: 0;
+          bottom: 0;
+          border-left: none;
+          border-top: none;
+          border-radius: 0 0 5px 0;
+        }
+      }
+    }
+  } 
+
+  .nav-pills {
+    .nav-item {
+      .nav-link {
+        color: $startUpColor2;
+        &.active {
+          background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+        }
+      }
+    }
+  }
+
+  .tab-pane {
+    .product_card_wraper {
+      .back_face {
+        h4 {
+          color: $startUpColor2;
+        }
+
+        .btn_wraper {
+          a {
+            @include secondBtnStyle();
+            color: $startUpColor2;
+            border: 2px solid $startUpColor2;
+            &::before {
+              background-color: $startUpColor2;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .btn_wraper {
+    a {
+      @include secondBtnStyle();
+      color: $startUpColor2;
+      border: 2px solid $startUpColor2;
+      &::before {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+}
+// END:: PRODUCTS SECTION STYLES COLORING
+
+// START:: PRODUCT DETAILS SCTION STYLE COLORING
+.product_details {
+  .header_wraper {
+    h2 {
+      @include mainHeaderStyle();
+      color: $startUpColor2;
+      &::before {
+        background-color: $startUpColor1;
+      }
+    
+      &::after {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+
+  .owl-carousel {
+    .owl-stage-outer {
+      .item {
+        a {
+          .product_card_wraper {
+            .card_data_wraper {
+              h4 {
+                color: $startUpColor1;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.product_details_modern {
+  .header_wraper {
+    h2 {
+      @include fourthHaederStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        left: 0;
+        border-right: none;
+        border-bottom: none;
+        border-radius: 5px 0 0 0;
+      }
+      &::after{
+        right: 0;
+        border-left: none;
+        border-bottom: none;
+        border-radius: 0 5px 0 0;
+      }
+      span {
+        border: 2px solid $startUpColor2;
+        &:first-child {
+          left: 0;
+          bottom: 0;
+          border-right: none;
+          border-top: none;
+          border-radius: 0 0 0 5px;
+        }
+        &:last-child {
+          right: 0;
+          bottom: 0;
+          border-left: none;
+          border-top: none;
+          border-radius: 0 0 5px 0;
+        }
+      }
+    }
+  } 
+}
+
+.main_products_modern {
+  .header_wraper {
+    h2 {
+      @include fourthHaederStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        left: 0;
+        border-right: none;
+        border-bottom: none;
+        border-radius: 5px 0 0 0;
+      }
+      &::after{
+        right: 0;
+        border-left: none;
+        border-bottom: none;
+        border-radius: 0 5px 0 0;
+      }
+      span {
+        border: 2px solid $startUpColor2;
+        &:first-child {
+          left: 0;
+          bottom: 0;
+          border-right: none;
+          border-top: none;
+          border-radius: 0 0 0 5px;
+        }
+        &:last-child {
+          right: 0;
+          bottom: 0;
+          border-left: none;
+          border-top: none;
+          border-radius: 0 0 5px 0;
+        }
+      }
+    }
+  } 
+
+  .product_card_wraper {
+    .overlay {
+      h4 {
+        color: $startUpColor1;
+      }
+
+      .btn_wraper {
+        a {
+          @include secondBtnStyle();
+          color: $startUpColor1;
+          border: 2px solid $startUpColor1;
+        
+          &:hover {
+            background-color: $startUpColor1;
+          }
+        }
+      }
+    }
+  }
+}
+// END:: PRODUCT DETAILS SCTION STYLE COLORING
+
+// START:: PORTFOLIO SECTION STYLES COLORING
+.portfolio_sec {
+  .header_wraper {
+    h2 {
+      @include mainHeaderStyle();
+      color: $startUpColor2;
+      &::before {
+        background-color: $startUpColor1;
+      }
+    
+      &::after {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+
+  .nav-pills {
+    .nav-item {
+      .nav-link {
+        color: $startUpColor2;
+        &.active {
+          background-color: $startUpColor2;
+        }
+      }
+    }
+  }
+
+  .tab-pane {
+    .product_card_wraper {
+      .back_face {
+        h4 {
+          color: $startUpColor2;
+        }
+
+        .btn_wraper {
+          a {
+            @include secondBtnStyle();
+            color: $startUpColor1;
+            border: 2px solid $startUpColor1;
+          
+            &:hover {
+              background-color: $startUpColor1;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.portfolio_modern {
+  .header_wraper {
+    h2 {
+      @include fourthHaederStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        left: 0;
+        border-right: none;
+        border-bottom: none;
+        border-radius: 5px 0 0 0;
+      }
+      &::after{
+        right: 0;
+        border-left: none;
+        border-bottom: none;
+        border-radius: 0 5px 0 0;
+      }
+      span {
+        border: 2px solid $startUpColor2;
+        &:first-child {
+          left: 0;
+          bottom: 0;
+          border-right: none;
+          border-top: none;
+          border-radius: 0 0 0 5px;
+        }
+        &:last-child {
+          right: 0;
+          bottom: 0;
+          border-left: none;
+          border-top: none;
+          border-radius: 0 0 5px 0;
+        }
+      }
+    }
+  } 
+
+  .nav-pills {
+    .nav-item {
+      .nav-link {
+        color: $startUpColor2;
+        &.active {
+          background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+        }
+      }
+    }
+  }
+
+  .tab-pane {
+    .product_card_wraper {
+      .back_face {
+        h4 {
+          color: $startUpColor2;
+        }
+
+        .btn_wraper {
+          a {
+            @include secondBtnStyle();
+            color: $startUpColor1;
+            border: 2px solid $startUpColor1;
+          
+            &:hover {
+              background-color: $startUpColor1;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// END:: PORTFOLIO SECTION STYLES COLORING
+
+// START:: OUR CLIENTS SECTION STYLES COLORING
+.our_clients_sec {
+  .header_wraper {
+    h2 {
+      @include mainHeaderStyle();
+      color: $startUpColor2;
+      &::before {
+        background-color: $startUpColor1;
+      }
+    
+      &::after {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+}
+
+.our_clients_sec_index_2 {
+  .header_wraper {
+    h2 {
+      @include secondHeaderStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        left: 0;
+        border-right: none; 
+        border-radius: 5px 0 0 5px;
+      }
+      &::after{
+        right: 0;
+        border-left: none; 
+        border-radius: 0 5px 5px 0;
+      }
+    }
+  }
+}
+
+.our_clients_sec_one_page {
+  .header_wraper {
+    h2 {
+      @include thirdHeaderStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        top: 0;
+        left: 0;
+        border-right: none; 
+        border-bottom: none; 
+        border-radius: 5px 0 0 0;
+      }
+      &::after{
+        bottom: 0;
+        right: 0;
+        border-left: none; 
+        border-top: none; 
+        border-radius: 0 0 5px 0;
+      }
+    }
+  }
+}
+
+.our_clients_sec_modern {
+  .header_wraper {
+    h2 {
+      @include fourthHaederStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        left: 0;
+        border-right: none;
+        border-bottom: none;
+        border-radius: 5px 0 0 0;
+      }
+      &::after{
+        right: 0;
+        border-left: none;
+        border-bottom: none;
+        border-radius: 0 5px 0 0;
+      }
+      span {
+        border: 2px solid $startUpColor2;
+        &:first-child {
+          left: 0;
+          bottom: 0;
+          border-right: none;
+          border-top: none;
+          border-radius: 0 0 0 5px;
+        }
+        &:last-child {
+          right: 0;
+          bottom: 0;
+          border-left: none;
+          border-top: none;
+          border-radius: 0 0 5px 0;
+        }
+      }
+    }
+  } 
+}
+// END:: OUR CLIENTS SECTION STYLES COLORING
+
+// START:: TESTEMONILS SECTION STYLES COLORING
+.testemonials {
+  background-color: $startUpColor2;
+  .container {
+    .header_wraper {
+      h2 {
+        @include mainHeaderStyle();
+        color: $white;
+        &::before {
+          background-color: $white;
+        }
+        &::after {
+          background-color: $startUpColor1;
+        }
+      }
+    }
+
+    .owl-carousel {
+      .item {
+        .testemonial_card {
+          border: 2px solid $startUpColor2;
+          &:hover {
+            background-color: $startUpColor1;
+            box-shadow: 0 0 5px 2px $startUpColor1;
+          }
+  
+          .img_wraper {
+            img {
+              border-right: 2px solid $startUpColor2;
+              border-bottom: 2px solid $startUpColor2;
+            }
+          }
+  
+          .card_body {
+            h4 {
+              color: $startUpColor2;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.testemonials_index_2 {
+  background: url('../../../media/shapes/client-shape2.png') $startUpColor2;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: right 0;
+  .container {
+    .header_wraper {
+      h2 {
+        @include secondHeaderStyle();
+        color: $white;
+        &::before {
+          border: 2px solid $startUpColor1;
+          border-right: none;
+        }
+        &::after {
+          border: 2px solid $startUpColor1;
+          border-left: none;
+        }
+      }
+    }
+
+    .owl-carousel {
+      .item {
+        .testemonial_card {
+          background: url('../../../media/shapes/qutation.png') $white;
+          background-position: 95% 85%;
+          background-repeat: no-repeat;
+          border: 2px solid $startUpColor2;
+
+          .img_wraper {
+            img {
+              border: 3px solid $startUpColor1;
+            }
+
+            h5 {
+              color: $startUpColor2;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.testemonials_one_page {
+  background-image: linear-gradient(to bottom, $startUpColor2, $startUpColor1);
+
+  .container {
+    .header_wraper {
+      @include flexCenterAlignment();
+      h2 {
+        @include thirdHeaderStyle();
+        color: $white;
+        &::before,
+        &::after {
+          border: 2px solid $white;
+        }
+        &::before {
+          border-right: none; 
+          border-bottom: none; 
+        }
+        &::after{
+          border-left: none; 
+          border-top: none; 
+        }
+      }
+    }
+
+    .owl-carousel {
+      .item {
+
+        .testemonial_card {
+          border: 2px solid $startUpColor2;
+
+          .img_wraper {
+            img {
+              border: 3px solid $startUpColor1;
+            }
+
+            h5 {
+              color: $startUpColor2;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.testemonials_modern {
+  .container {
+    .header_wraper {
+      h2 {
+        @include fourthHaederStyle();
+        color: $startUpColor1;
+        &::before,
+        &::after {
+          border: 2px solid $startUpColor2;
+        }
+        &::before {
+          left: 0;
+          border-right: none;
+          border-bottom: none;
+          border-radius: 5px 0 0 0;
+        }
+        &::after{
+          right: 0;
+          border-left: none;
+          border-bottom: none;
+          border-radius: 0 5px 0 0;
+        }
+        span {
+          border: 2px solid $startUpColor2;
+          &:first-child {
+            left: 0;
+            bottom: 0;
+            border-right: none;
+            border-top: none;
+            border-radius: 0 0 0 5px;
+          }
+          &:last-child {
+            right: 0;
+            bottom: 0;
+            border-left: none;
+            border-top: none;
+            border-radius: 0 0 5px 0;
+          }
+        }
+      }
+    } 
+
+    .owl-carousel {
+      .item {
+        .testemonial_card {
+          border: 2px solid $startUpColor2;
+
+          .img_wraper {
+            img {
+              border: 3px solid $startUpColor1;
+            }
+
+            h5 {
+              color: $startUpColor2;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// END:: TESTEMONILS SECTION STYLES COLORING
+
+// START:: FAQS SECTION STYLES COLORING
+.faq_sec {
+  .header_wraper {
+    h2 {
+      @include mainHeaderStyle();
+      color: $startUpColor2;
+      &::before {
+        background-color: $startUpColor1;
+      }
+    
+      &::after {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+
+  .heighlight_faqs_wraper {
+    .heighlight_faq_card {
+      h3 {
+        color: $startUpColor1;
+      }
+    }
+  }
+
+  .faqs_wraper {
+    .accordion {
+      .card {
+        .card-header {               
+          h4 {
+            button {
+              color: $startUpColor2;
+
+              &[aria-expanded='true'] {
+                background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .btn_wraper {
+    a {
+      @include mainBtnStyle();
+      color: $startUpColor1;
+      border: 2px solid $startUpColor1;
+    }
+  }
+}
+
+.faq_sec_index_2 {
+  .header_wraper {
+    h2 {
+      @include secondHeaderStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        left: 0;
+        border-right: none; 
+        border-radius: 5px 0 0 5px;
+      }
+      &::after{
+        right: 0;
+        border-left: none; 
+        border-radius: 0 5px 5px 0;
+      }
+    }
+  }
+
+  .faqs_wraper {
+    .accordion {
+      .card {
+        .card-header {               
+          h4 {
+            button {
+              color: $startUpColor2;
+
+              &[aria-expanded='true'] {
+                background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .btn_wraper {
+    a {
+      @include secondBtnStyle();
+      color: $startUpColor2;
+      border: 2px solid $startUpColor2;
+      &::before {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+}
+
+.faq_sec_one_page { 
+  .header_wraper {
+    h2 {
+      @include thirdHeaderStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        top: 0;
+        left: 0;
+        border-right: none; 
+        border-bottom: none; 
+        border-radius: 5px 0 0 0;
+      }
+      &::after{
+        bottom: 0;
+        right: 0;
+        border-left: none; 
+        border-top: none; 
+        border-radius: 0 0 5px 0;
+      }
+    }
+  }
+
+  .heighlight_faqs_wraper {
+    .heighlight_faq_card {
+      h3 {
+        color: $startUpColor1;
+      }
+    }
+  }
+
+  .faqs_wraper {
+    .accordion {
+      .card {
+        .card-header {                
+          h4 {
+            button {
+              color: $startUpColor2;
+              &[aria-expanded='true'] {
+                background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.faq_sec_modern {
+  .header_wraper {
+    h2 {
+      @include fourthHaederStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        left: 0;
+        border-right: none;
+        border-bottom: none;
+        border-radius: 5px 0 0 0;
+      }
+      &::after{
+        right: 0;
+        border-left: none;
+        border-bottom: none;
+        border-radius: 0 5px 0 0;
+      }
+      span {
+        border: 2px solid $startUpColor2;
+        &:first-child {
+          left: 0;
+          bottom: 0;
+          border-right: none;
+          border-top: none;
+          border-radius: 0 0 0 5px;
+        }
+        &:last-child {
+          right: 0;
+          bottom: 0;
+          border-left: none;
+          border-top: none;
+          border-radius: 0 0 5px 0;
+        }
+      }
+    }
+  } 
+
+  .heighlight_faqs_wraper {
+    .heighlight_faq_card {
+      h3 {
+        color: $startUpColor1;
+      }
+    }
+  }
+
+  .faqs_wraper {
+    .accordion {
+      .card {
+        .card-header {               
+          h4 {
+            button {
+              background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+              &[aria-expanded='true'] {
+                color: $startUpColor2;
+                svg {
+                  color: $corpColor2;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .btn_wraper {
+    a {
+      @include secondBtnStyle();
+      color: $startUpColor2;
+      border: 2px solid $startUpColor2;
+      &::before {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+}
+// END:: FAQS SECTION STYLES COLORING
+
+// START:: MAIN FAQS SECTION STYLES
+.main_faqs {
+  .header_wraper {
+    h2 {
+      @include mainHeaderStyle();
+      color: $startUpColor2;
+      &::before {
+        background-color: $startUpColor1;
+      }
+    
+      &::after {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+
+  .faqs_wraper {
+    .accordion {
+      .card {
+        .card-header {               
+          h4 {
+            button {
+              color: $startUpColor2;
+
+              &[aria-expanded='true'] {
+                background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// END:: MAIN FAQS SECTION STYLES
+
+// START:: NEWS SECCTION STYLES
+.news_sec {
+  .header_wraper {
+    h2 {
+      @include mainHeaderStyle();
+      color: $startUpColor2;
+      &::before {
+        background-color: $startUpColor1;
+      }
+    
+      &::after {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+
+  a {
+    .article_card_wraper {
+      .img_wraper {
+        .overlay {
+          background-color: rgba(255, 131, 3, 0.8);
+        }
+      }
+
+      .card_title_wraper {
+        h4, 
+        h5 {
+          color: $startUpColor2;
+        }
+      }
+    }
+  }
+
+  .btn_wraper {
+    a {
+      @include mainBtnStyle();
+      color: $startUpColor1;
+      border: 2px solid $startUpColor1;
+    }
+  }
+}
+
+.news_sec_index_2 {
+  .header_wraper {
+    h2 {
+      @include secondHeaderStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        left: 0;
+        border-right: none; 
+        border-radius: 5px 0 0 5px;
+      }
+      &::after{
+        right: 0;
+        border-left: none; 
+        border-radius: 0 5px 5px 0;
+      }
+    }
+  }
+
+  a {
+    .article_card_wraper {
+      .img_wraper {
+        .overlay {
+          background-color: rgba(255, 131, 3, 0.8);
+        }
+      }
+  
+      .card_title_wraper {
+        h4 {
+          color: $startUpColor2;
+        }
+        h6 {
+          background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+        }
+      }
+    }
+  }
+
+  .btn_wraper {
+    a {
+      @include secondBtnStyle();
+      color: $startUpColor2;
+      border: 2px solid $startUpColor2;
+      &::before {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+}
+
+.news_sec_one_page {
+  .header_wraper {
+    h2 {
+      @include thirdHeaderStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        top: 0;
+        left: 0;
+        border-right: none; 
+        border-bottom: none; 
+        border-radius: 5px 0 0 0;
+      }
+      &::after{
+        bottom: 0;
+        right: 0;
+        border-left: none; 
+        border-top: none; 
+        border-radius: 0 0 5px 0;
+      }
+    }
+  }
+
+  a {
+    .article_card_wraper {
+      .img_wraper {
+        .overlay {
+          background-color: rgba(255, 131, 3, 0.8);
+        }
+      }
+
+      .card_title_wraper {
+        h4 {
+          color: $startUpColor2;
+        }
+        h6 {
+          background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+        }
+      }
+    }
+  }
+}
+
+.news_sec_modern {
+  .header_wraper {
+    h2 {
+      @include fourthHaederStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        left: 0;
+        border-right: none;
+        border-bottom: none;
+        border-radius: 5px 0 0 0;
+      }
+      &::after{
+        right: 0;
+        border-left: none;
+        border-bottom: none;
+        border-radius: 0 5px 0 0;
+      }
+      span {
+        border: 2px solid $startUpColor2;
+        &:first-child {
+          left: 0;
+          bottom: 0;
+          border-right: none;
+          border-top: none;
+          border-radius: 0 0 0 5px;
+        }
+        &:last-child {
+          right: 0;
+          bottom: 0;
+          border-left: none;
+          border-top: none;
+          border-radius: 0 0 5px 0;
+        }
+      }
+    }
+  } 
+
+  a {
+    .article_card_wraper {
+      .img_wraper {
+        .overlay {
+          background-color: rgba(255, 131, 3, 0.8);
+        }
+      }
+  
+      .card_title_wraper {
+        h4 {
+          color: $startUpColor2;
+        }
+        h6 {
+          background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+        }
+      }
+    }
+  }
+
+  .btn_wraper {
+    a {
+      @include secondBtnStyle();
+      color: $startUpColor2;
+      border: 2px solid $startUpColor2;
+      &::before {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+}
+// END:: NEWS SECCTION STYLES
+
+// START:: GLOG SECTION STYLES
+.blog_sec {
+  .header_wraper {
+    h2, 
+    h5 {
+      @include mainHeaderStyle();
+      color: $startUpColor2;
+      &::before {
+        background-color: $startUpColor1;
+      }
+    
+      &::after {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+
+  .wraper {
+    .list-group {
+      .list-group-item {
+        a {
+          &:hover {
+            color: $startUpColor1;
+          }
+        }
+      }
+    }
+  }
+
+  a {
+    .article_card_wraper {
+      .img_wraper {
+        .overlay {
+          background-color: rgba(255, 131, 3, 0.8);
+        }
+      }
+      .card_title_wraper {
+        h4, 
+        h5 {
+          color: $startUpColor2;
+        }
+      }
+    }
+  }
+}
+
+.blog_sec_modern {
+  .header_wraper {
+    h2 {
+      @include fourthHaederStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        left: 0;
+        border-right: none;
+        border-bottom: none;
+        border-radius: 5px 0 0 0;
+      }
+      &::after{
+        right: 0;
+        border-left: none;
+        border-bottom: none;
+        border-radius: 0 5px 0 0;
+      }
+      span {
+        border: 2px solid $startUpColor2;
+        &:first-child {
+          left: 0;
+          bottom: 0;
+          border-right: none;
+          border-top: none;
+          border-radius: 0 0 0 5px;
+        }
+        &:last-child {
+          right: 0;
+          bottom: 0;
+          border-left: none;
+          border-top: none;
+          border-radius: 0 0 5px 0;
+        }
+      }
+    }
+  } 
+
+  .article_wraper {
+    .btn_wraper {
+      a {
+        @include secondBtnStyle();
+        color: $startUpColor2;
+        border: 2px solid $startUpColor2;
+        &::before {
+          background-color: $startUpColor2;
+        }
+      }
+    }
+  }
+}
+// END:: GLOG SECTION STYLES
+
+// START:: ARTICLE SECTION STYLES
+.article_header_img_wraper {
+  .overlay {
+    background-color: rgba(43, 55, 56, 0.5);
+
+    .intro_text_wraper {
+      h1 {
+        span {
+          background-color: $startUpColor1;
+          &::after {
+            border: 2px solid $startUpColor1;
+          }
+        }
+      }
+    }
+  }
+}
+
+.article_sec {
+  .header_wraper {
+    h4 {
+      @include mainHeaderStyle();
+      color: $startUpColor2;
+      &::before {
+        background-color: $startUpColor1;
+      }
+    
+      &::after {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+
+  .wraper {
+    .list-group {
+      .list-group-item {
+        a {
+          &:hover {
+            color: $startUpColor1;
+          }
+        }
+      }
+    }
+  }
+
+  .articl_body {
+    border-top: 1px solid $startUpColor1;
+    border-bottom: 1px solid $startUpColor1;
+  }
+}
+
+.article_header_img_wraper_modern {
+  .overlay {
+    background-color: rgba(43, 55, 56, 0.5);
+
+    .intro_text_wraper {
+      h1 {
+        span {
+          background-color: $startUpColor1;
+          &::after {
+            border: 2px solid $startUpColor1;
+          }
+        }
+      }
+    }
+  }
+}
+
+.article_modern {
+  .header_wraper {
+    h2 {
+      @include fourthHaederStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        left: 0;
+        border-right: none;
+        border-bottom: none;
+        border-radius: 5px 0 0 0;
+      }
+      &::after{
+        right: 0;
+        border-left: none;
+        border-bottom: none;
+        border-radius: 0 5px 0 0;
+      }
+      span {
+        border: 2px solid $startUpColor2;
+        &:first-child {
+          left: 0;
+          bottom: 0;
+          border-right: none;
+          border-top: none;
+          border-radius: 0 0 0 5px;
+        }
+        &:last-child {
+          right: 0;
+          bottom: 0;
+          border-left: none;
+          border-top: none;
+          border-radius: 0 0 5px 0;
+        }
+      }
+    }
+  } 
+
+  .articl_body {
+    border-bottom: 1px solid $startUpColor1;
+  }
+
+  .owl-carousel {
+    .item {
+      a {
+        .article_card_wraper {
+
+          .img_wraper {
+            .overlay {
+              background-color: rgba(255, 131, 3, 0.8);
+            }
+          }
+      
+          .card_title_wraper {
+            h4 {
+              color: $startUpColor2;
+            }
+            h6 {
+              background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// END:: ARTICLE SECTION STYLES
+
+// START:: CONTACT US SECTION STYLES
+.contact_us_sec {
+  .header_wraper {
+    h2 {
+      @include mainHeaderStyle();
+      color: $startUpColor2;
+      &::before {
+        background-color: $startUpColor1;
+      }
+    
+      &::after {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+
+  .form_wraper {
+    .header_wraper {
+      h2 {
+        @include mainHeaderStyle();
+        color: $startUpColor2;
+        &::before {
+          background-color: $startUpColor1;
+        }
+      
+        &::after {
+          background-color: $startUpColor2;
+        }
+      }
+    }
+
+    .form-group {
+      span {
+        svg {
+          color: $startUpColor1;
+        }
+      }
+    }
+
+    .btn_box {
+      button {
+        @include mainBtnStyle();
+        color: $startUpColor1;
+        border: 2px solid $startUpColor1;
+      }
+    }
+  }
+}
+
+.contact_us_sec_index_2 {
+  .header_wraper {
+    h2 {
+      @include secondHeaderStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        left: 0;
+        border-right: none; 
+        border-radius: 5px 0 0 5px;
+      }
+      &::after{
+        right: 0;
+        border-left: none; 
+        border-radius: 0 5px 5px 0;
+      }
+    }
+  }
+
+  .form_wraper {
+    .header_wraper {
+      h2 {
+        @include mainHeaderStyle();
+        color: $startUpColor2;
+        &::before {
+          background-color: $startUpColor1;
+        }
+      
+        &::after {
+          background-color: $startUpColor2;
+        }
+      }
+    }
+
+    .form-group {
+      span {
+        svg {
+          color: $startUpColor1;
+        }
+      }
+    }
+
+    .btn_box {
+      button {
+        @include secondBtnStyle();
+        background-color: transparent;
+        border: 2px solid $startUpColor1;
+        color: $startUpColor1;
+        &::before {
+          background-color: $startUpColor1;
+        }
+      }
+    }
+  }
+}
+
+.contact_us_sec_one_page {
+  .header_wraper {
+    h2 {
+      @include thirdHeaderStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        top: 0;
+        left: 0;
+        border-right: none; 
+        border-bottom: none; 
+        border-radius: 5px 0 0 0;
+      }
+      &::after{
+        bottom: 0;
+        right: 0;
+        border-left: none; 
+        border-top: none; 
+        border-radius: 0 0 5px 0;
+      }
+    }
+  }
+
+  .form_wraper {
+    .form-group {
+      span {
+        svg {
+          color: $startUpColor1;
+        }
+      }
+    }
+
+    .btn_box {
+      button {
+        @include secondBtnStyle();
+        background-color: transparent;
+        border: 2px solid $startUpColor1;
+        color: $startUpColor1;
+        &::before {
+          background-color: $startUpColor1;
+        }
+      }
+    }
+  }
+}
+
+.contact_us_sec_modern {
+  .header_wraper {
+    h2 {
+      @include fourthHaederStyle();
+      color: $startUpColor1;
+      &::before,
+      &::after {
+        border: 2px solid $startUpColor2;
+      }
+      &::before {
+        left: 0;
+        border-right: none;
+        border-bottom: none;
+        border-radius: 5px 0 0 0;
+      }
+      &::after{
+        right: 0;
+        border-left: none;
+        border-bottom: none;
+        border-radius: 0 5px 0 0;
+      }
+      span {
+        border: 2px solid $startUpColor2;
+        &:first-child {
+          left: 0;
+          bottom: 0;
+          border-right: none;
+          border-top: none;
+          border-radius: 0 0 0 5px;
+        }
+        &:last-child {
+          right: 0;
+          bottom: 0;
+          border-left: none;
+          border-top: none;
+          border-radius: 0 0 5px 0;
+        }
+      }
+    }
+  } 
+
+  .form_wraper {
+    .header_wraper {
+      h2 {
+        @include fourthHaederStyle();
+        color: $startUpColor1;
+        &::before,
+        &::after {
+          border: 2px solid $startUpColor2;
+        }
+        &::before {
+          left: 0;
+          border-right: none;
+          border-bottom: none;
+          border-radius: 5px 0 0 0;
+        }
+        &::after{
+          right: 0;
+          border-left: none;
+          border-bottom: none;
+          border-radius: 0 5px 0 0;
+        }
+        span {
+          border: 2px solid $startUpColor2;
+          &:first-child {
+            left: 0;
+            bottom: 0;
+            border-right: none;
+            border-top: none;
+            border-radius: 0 0 0 5px;
+          }
+          &:last-child {
+            right: 0;
+            bottom: 0;
+            border-left: none;
+            border-top: none;
+            border-radius: 0 0 5px 0;
+          }
+        }
+      }
+    } 
+
+    .form-group {
+      span {
+        svg {
+          color: $startUpColor1;
+        }
+      }
+    }
+
+    .btn_wraper {
+      a {
+        @include secondBtnStyle();
+        color: $startUpColor2;
+        border: 2px solid $startUpColor2;
+        &::before {
+          background-color: $startUpColor2;
+        }
+      }
+    }
+  }
+}
+// END:: CONTACT US SECTION STYLES
+
+// START:: CONTACT INFO SECTION STYLES
+.contact_info {
+  .card {
+    span {
+      svg {
+        color: $startUpColor1;
+      }
+    }
+
+    h4 {
+      color: $startUpColor2;
+    }
+
+    h5 {
+      color: $lightGrey;
+    }
+  }
+}
+// END:: CONTACT INFO SECTION STYLES
+
+// START:: SHARE SECTION STYLES
+.share {
+  .header_wraper {
+    h2 {
+      @include mainHeaderStyle();
+      color: $startUpColor2;
+      &::before {
+        background-color: $startUpColor1;
+      }
+    
+      &::after {
+        background-color: $startUpColor2;
+      }
+    }
+  }
+
+  .form_wraper {
+    form {
+      .btn_box {
+        button {
+          @include mainBtnStyle();
+          color: $startUpColor1;
+          border: 2px solid $startUpColor1;
+          padding: 6px 12px;
+        }
+      }
+    }
+  }
+}
+// END:: SHARE SECTION STYLES
+
+// START:: BRANCHES SECTION STYLES
+.branches_sec {
+  .map_info_wraper {
+    h3 {
+      color: $startUpColor2;
+    }
+
+    .map_text {
+      ul {
+        li {
+          span {
+            color: $startUpColor1;
+          }
+        }
+      }
+    }
+  }
+}
+// END:: BRANCHES SECTION STYLES
+
+// START:: FOOTER STYLES
+footer {
+
+  background-color: $startUpColor2;
+
+  .short_cuts {
+    a {
+      &::before {
+        background-color: $startUpColor1;
+      }
+      &:hover {
+        color: $startUpColor1;
+        &::before {
+          left: 0;
+        }
+      }
+    }
+  }
+
+  .get_in_touch {
+    ul {
+      li {
+        svg {
+          color: $startUpColor1;
+        }
+      }
+    }
+  }
+
+  .copy_rights {
+    background-color: #212121;
+    span {
+      a {
+        color: $startUpColor1;
+      }
+    }
+  }
+
+}
+// END:: FOOTER STYLES

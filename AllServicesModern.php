@@ -3,7 +3,7 @@
 <!-- END:: INCLUDING THE HEADER -->
 
 <!-- START:: HEDAER IMAGE SECTION -->
-<div class="header_img_wraper" style="background: url('assets/media/pic1.jpeg');">
+<div class="header_img_wraper modern" style="background: url('assets/media/pic1.jpeg');">
   <div class="overlay">
     <div class="intro_text_wraper">
       <h1> <span>O</span>ur <span>S</span>ervices </h1>

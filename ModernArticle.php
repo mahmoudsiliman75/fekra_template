@@ -3,7 +3,7 @@
 <!-- END:: INCLUDING THE HEADER -->
 
 <!-- START:: ARTICLE HEDAER IMAGE SECTION -->
-<div class="article_header_img_wraper" style="background: url('assets/media/pic5.jpeg');">
+<div class="article_header_img_wraper_modern" style="background: url('assets/media/pic5.jpeg');">
   <div class="overlay">
     <div class="intro_text_wraper">
       <h1> <span>A</span>rticle <span>T</span>itle  </h1>

@@ -37,6 +37,7 @@
   <!-- START:: INCLUDING MAIN STYLE FILE -->
   <link rel="stylesheet" href="assets/css/modernIndex/modern-style.css">
   <!-- <link rel="stylesheet" href="assets/css/ar-style.css"> -->
+  <link rel="stylesheet" href="assets/css/colorThemes/FirstTheme/FirstTheme.css">
   <!-- END:: INCLUDING MAIN STYLE FILE -->
 
   <!-- START:: SET FAV ICON -->
