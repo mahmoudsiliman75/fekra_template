@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -36,7 +36,7 @@
 
   <!-- START:: INCLUDING MAIN STYLE FILE -->
   <link rel="stylesheet" href="assets/css/style.css">
-  <!-- <link rel="stylesheet" href="assets/css/ar-style.css"> -->
+  <link rel="stylesheet" href="assets/css/ar-style.css">
   <!-- <link rel="stylesheet" href="assets/css/colorThemes/FirstTheme/FirstTheme.css">
   <link rel="stylesheet" href="assets/css/colorThemes/SecondTheme/SecondTheme.css">
   <link rel="stylesheet" href="assets/css/colorThemes/ThirdTheme/ThirdTheme.css"> -->

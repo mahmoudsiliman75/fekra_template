@@ -10,25 +10,15 @@
 @import 'mixins.scss';
 // END:: MIXINS
 
-body {
-  font-family: 'Tajawal', sans-serif !important;
-}
+// body {
+//   font-family: 'Tajawal', sans-serif !important;
+// }
 
 // START:: GLOBA AR STYLES
 .form-check {
   padding-right: 1.25rem;
   .form-check-input {
     margin-right: -1.25rem;
-  }
-}
-
-h2,
-h3 {
-  &::after {
-    right: -70px;
-  }
-  &::before {
-    right: -55px;
   }
 }
 // END:: GLOBA AR STYLES
@@ -56,172 +46,25 @@ nav {
 // END:: LARGE SCREENS NAVBAR AR STYLES
 
 // START:: PAGES AR STYLES
-.services_sec {
-  .service_wraper {
-    a {
-      h5 {
-        border-left: none;
-        border-right: 2px solid $deepRed;
-      }
-    }
-  } 
-}
-
-.events_sec {
-  .event_img_wraper {
-    .event_date {
-      right: -10%;
-      left: auto;
-    }
-  }
-}
-
-.products_cats {
-  .cats_wraper {
-    a {
-      h5 {
-        border-right: 2px solid $deepRed;
-        border-left: none;
-      }
-    }
-  }
-}
-
-.story {
-  padding: $paddingAmount 0;
-  .header_wraper {
-    @include flexCenterAlignment();
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
-
-  .story_main_wraper {
-    border-right: 2px solid $lighterGrey;
-    border-left: none;
-    .story_line {
-      .date {
-        right: -30px;
+.team_sec { 
+  .member_card_wraper {
+    .image_wraper {
+      &::before {
+        position: absolute;
+        right: -20px;
+        bottom: -20px;
       }
 
-      .story_content {
-        h3 {
-          text-align: start;
+      &:hover {
+        img {
+          position: relative;
         }
-      }
-    } 
-  }
-}
-
-.all_products {
-  .product_details {
-    a {
-      h4 {
-        border-right: 2px solid $deepRed;
-        border-left: none;
-      }
-    }
-  }
-}
-
-.product_info {
-  .actions_wraper {
-    .price {
-      margin-inline-end: 8px;
-    }
-  }
-}
-
-.related_products {
-  .owl-carousel {
-    .item {
-      a {
-        h5 {
-          padding-inline-start: 10px;
-          border-right: 2px solid $deepRed;
-          border-left: none;
+        &::before {
+          right: -10px;
+          bottom: -10px;
         }
       }
     }
   }
-}
-
-.events_slider {
-  .owl-carousel {
-    .item {
-      direction: rtl;
-      .event_img_wraper {    
-        .event_date {
-          right: -10%;
-          left: auto;
-        }
-      }
-  
-    }
-  }
-}
-
-.all_events {
-  .event_img_wraper {
-    .event_date {
-      right: -10%;
-      left: auto;
-    }
-  }
-
-  .event_text_wraper {
-    .text_wraper {
-      font-size: 18px;
-      line-height: 1.6;
-      color: $lightGrey;
-      word-break: break-word;
-      text-align: start;
-    }
-  }
-}
-
-.latest_news_slider {
-  .owl-carousel {
-    .item {
-      direction: rtl;
-    }
-  }
-}
-
-.related_news_slider {
-  padding: $paddingAmount;
-
-  .header_wraper {
-    @include flexCenterAlignment();
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
-
-  .owl-carousel {
-    .item {
-      .card {
-        .card-body {
-          border-right: 2px solid $deepRed;
-          border-left: none;
-        }
-      }
-    }
-  }
-
-}
-
-.all_news {
-  .card {
-    .card-body {
-      border-right: 2px solid $deepRed;
-      border-left: none;
-    }
-  }
-}
-
-.user_profile_menu {
-  border-right: 2px solid $deepRed;
-  border-left: none;
 }
 // END:: PAGES AR STYLES

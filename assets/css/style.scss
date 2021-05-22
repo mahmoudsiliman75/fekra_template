@@ -597,6 +597,7 @@ nav {
           color: $white;
           text-align: center;
           h1 {
+            @include flexCenterAlignment();
             span {
               @include borderRadius(5px);
               background-color: $corpColor2;
@@ -1955,6 +1956,7 @@ nav {
         }
 
         .price_wraper {
+          @include flexCenterAlignment();
           span {
             font-size: 16px;
             margin-inline-end: 15px;
@@ -2396,9 +2398,11 @@ nav {
     .heighlight_faq_card {
       h3 {
         color: $corpColor2;
+        text-align: start;
       }
       .answer {
         @include textWraper();
+        text-align: start;
         padding-inline-start: 25px;
       }
     }
@@ -2416,6 +2420,7 @@ nav {
               background-color: transparent;
               text-decoration: none;
               color: $corpColor1;
+              @include flexStartAlignment();
               svg {
                 @include transitioning();
               }
@@ -2432,6 +2437,7 @@ nav {
 
         .card-body {
           @include textWraper();
+          text-align: start;
           font-size: 16px;
           padding-inline-start: 45px;
         }

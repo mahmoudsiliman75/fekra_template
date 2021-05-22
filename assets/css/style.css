@@ -700,6 +700,18 @@ nav .menu_btn svg {
   text-align: center;
 }
 
+.carousel .carousel-inner .carousel-item .overlay .intro_text_wraper h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .carousel .carousel-inner .carousel-item .overlay .intro_text_wraper h1 span {
   border-radius: 5px;
   background-color: #ea5455;
@@ -1637,6 +1649,7 @@ nav .menu_btn svg {
 
 .services_sec_index_2 .btn_wraper a {
   text-decoration: none;
+  color: #00334e;
   border: 2px solid #00334e;
   padding: 8px 16px;
   margin-top: 15px;
@@ -2401,6 +2414,7 @@ nav .menu_btn svg {
 
 .team_sec_index_2 .btn_wraper a {
   text-decoration: none;
+  color: #00334e;
   border: 2px solid #00334e;
   padding: 8px 16px;
   margin-top: 15px;
@@ -3006,6 +3020,18 @@ nav .menu_btn svg {
   margin-block: 15px;
 }
 
+.products_sec_index_2 .tab-pane .product_card_wraper .back_face .price_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .products_sec_index_2 .tab-pane .product_card_wraper .back_face .price_wraper span {
   font-size: 16px;
   -webkit-margin-end: 15px;
@@ -3035,6 +3061,7 @@ nav .menu_btn svg {
 
 .products_sec_index_2 .tab-pane .product_card_wraper .back_face .btn_wraper a {
   text-decoration: none;
+  color: #00334e;
   border: 2px solid #00334e;
   padding: 8px 16px;
   margin-top: 15px;
@@ -3085,6 +3112,7 @@ nav .menu_btn svg {
 
 .products_sec_index_2 .btn_wraper a {
   text-decoration: none;
+  color: #00334e;
   border: 2px solid #00334e;
   padding: 8px 16px;
   margin-top: 15px;
@@ -3854,6 +3882,7 @@ nav .menu_btn svg {
 
 .faq_sec .heighlight_faqs_wraper .heighlight_faq_card h3 {
   color: #ea5455;
+  text-align: start;
 }
 
 .faq_sec .heighlight_faqs_wraper .heighlight_faq_card .answer {
@@ -3862,6 +3891,7 @@ nav .menu_btn svg {
   font-size: 18px;
   color: #666;
   line-height: 1.6;
+  text-align: start;
   -webkit-padding-start: 25px;
           padding-inline-start: 25px;
 }
@@ -3876,6 +3906,15 @@ nav .menu_btn svg {
   background-color: transparent;
   text-decoration: none;
   color: #00334e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .faq_sec .faqs_wraper .accordion .card .card-header h4 button svg {
@@ -3900,6 +3939,7 @@ nav .menu_btn svg {
   font-size: 18px;
   color: #666;
   line-height: 1.6;
+  text-align: start;
   font-size: 16px;
   -webkit-padding-start: 45px;
           padding-inline-start: 45px;
@@ -4068,6 +4108,7 @@ nav .menu_btn svg {
 
 .faq_sec_index_2 .btn_wraper a {
   text-decoration: none;
+  color: #00334e;
   border: 2px solid #00334e;
   padding: 8px 16px;
   margin-top: 15px;
@@ -4592,6 +4633,7 @@ nav .menu_btn svg {
 
 .news_sec_index_2 .btn_wraper a {
   text-decoration: none;
+  color: #00334e;
   border: 2px solid #00334e;
   padding: 8px 16px;
   margin-top: 15px;
@@ -4803,6 +4845,7 @@ nav .menu_btn svg {
 
 .portfolio_sec .tab-pane .product_card_wraper .back_face .btn_wraper a {
   text-decoration: none;
+  color: #00334e;
   border: 2px solid #00334e;
   padding: 8px 16px;
   margin-top: 15px;
@@ -5728,6 +5771,7 @@ nav .menu_btn svg {
 .contact_us_sec_index_2 .form_wraper .btn_box button {
   background-color: transparent;
   text-decoration: none;
+  color: #00334e;
   border: 2px solid #00334e;
   padding: 8px 16px;
   margin-top: 15px;
