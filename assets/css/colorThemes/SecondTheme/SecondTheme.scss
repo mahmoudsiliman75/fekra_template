@@ -2767,9 +2767,10 @@ nav {
     .intro_text_wraper {
       h1 {
         span {
-          background-color: $medicalColor1;
+          background-color: transparent;
+          color: $singleColor4;
           &::after {
-            border: 2px solid $medicalColor1;
+            border: 2px solid $singleColor4;
           }
         }
       }

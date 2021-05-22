@@ -4744,11 +4744,12 @@ nav .menu_btn svg {
 }
 
 .article_header_img_wraper_modern .overlay .intro_text_wraper h1 span {
-  background-color: #ff8303;
+  background-color: transparent;
+  color: #867ae9;
 }
 
 .article_header_img_wraper_modern .overlay .intro_text_wraper h1 span::after {
-  border: 2px solid #ff8303;
+  border: 2px solid #867ae9;
 }
 
 .article_modern .header_wraper h2 {
