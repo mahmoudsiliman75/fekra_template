@@ -258,6 +258,47 @@ nav {
               }
             }
           }
+
+          &.colors {
+            li {
+              padding: 8px;
+              &:first-child {
+                span {
+                  display: block;
+                  height: 30px;
+                  background-image: linear-gradient(to right, $corpColor1, $corpColor2);
+                  @include borderRadius($largeBorderRadiusAmount);
+                }
+              }
+
+              &:nth-child(2) {
+                span {
+                  display: block;
+                  height: 30px;
+                  background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+                  @include borderRadius($largeBorderRadiusAmount);
+                }
+              }
+
+              &:nth-child(3) {
+                span {
+                  display: block;
+                  height: 30px;
+                  background-image: linear-gradient(to right, $medicalColor2, $medicalColor1);
+                  @include borderRadius($largeBorderRadiusAmount);
+                }
+              }
+
+              &:last-child {
+                span {
+                  display: block;
+                  height: 30px;
+                  background-image: linear-gradient(to right, $singleColor3, $singleColor4);
+                  @include borderRadius($largeBorderRadiusAmount);
+                }
+              }
+            }
+          }
         }
       }
     }
@@ -309,6 +350,7 @@ nav {
 
 // START:: SMALL SCREENS MENU STYLES
 .small_menu {
+  overflow-y: auto;
   display: none;
   position: absolute;
   top: 0;
@@ -385,6 +427,47 @@ nav {
           &:hover {
             a {
               color: $corpColor2;
+            }
+          }
+        }
+
+        &.colors {
+          li {
+            padding: 8px;
+            &:first-child {
+              span {
+                display: block;
+                height: 30px;
+                background-image: linear-gradient(to right, $corpColor1, $corpColor2);
+                @include borderRadius($largeBorderRadiusAmount);
+              }
+            }
+
+            &:nth-child(2) {
+              span {
+                display: block;
+                height: 30px;
+                background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+                @include borderRadius($largeBorderRadiusAmount);
+              }
+            }
+
+            &:nth-child(3) {
+              span {
+                display: block;
+                height: 30px;
+                background-image: linear-gradient(to right, $medicalColor2, $medicalColor1);
+                @include borderRadius($largeBorderRadiusAmount);
+              }
+            }
+
+            &:last-child {
+              span {
+                display: block;
+                height: 30px;
+                background-image: linear-gradient(to right, $singleColor3, $singleColor4);
+                @include borderRadius($largeBorderRadiusAmount);
+              }
             }
           }
         }

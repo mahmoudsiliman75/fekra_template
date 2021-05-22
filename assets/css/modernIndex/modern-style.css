@@ -291,6 +291,42 @@ nav .nav-links ul li .dropdown_menu li:hover a {
   color: #ea5455;
 }
 
+nav .nav-links ul li .dropdown_menu.colors li {
+  padding: 8px;
+}
+
+nav .nav-links ul li .dropdown_menu.colors li:first-child span {
+  display: block;
+  height: 30px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#00334e), to(#ea5455));
+  background-image: linear-gradient(to right, #00334e, #ea5455);
+  border-radius: 30px;
+}
+
+nav .nav-links ul li .dropdown_menu.colors li:nth-child(2) span {
+  display: block;
+  height: 30px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#323c3d), to(#ff8303));
+  background-image: linear-gradient(to right, #323c3d, #ff8303);
+  border-radius: 30px;
+}
+
+nav .nav-links ul li .dropdown_menu.colors li:nth-child(3) span {
+  display: block;
+  height: 30px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#0c5e70), to(#44eec3));
+  background-image: linear-gradient(to right, #0c5e70, #44eec3);
+  border-radius: 30px;
+}
+
+nav .nav-links ul li .dropdown_menu.colors li:last-child span {
+  display: block;
+  height: 30px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#271a4a), to(#867ae9));
+  background-image: linear-gradient(to right, #271a4a, #867ae9);
+  border-radius: 30px;
+}
+
 nav .lang-button a {
   text-decoration: none;
   color: #c1c1c1;
@@ -340,6 +376,7 @@ nav .menu_btn svg {
 }
 
 .small_menu {
+  overflow-y: auto;
   display: none;
   position: absolute;
   top: 0;
@@ -469,6 +506,42 @@ nav .menu_btn svg {
 
 .small_menu ul li .dropdown_menu li:hover a {
   color: #ea5455;
+}
+
+.small_menu ul li .dropdown_menu.colors li {
+  padding: 8px;
+}
+
+.small_menu ul li .dropdown_menu.colors li:first-child span {
+  display: block;
+  height: 30px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#00334e), to(#ea5455));
+  background-image: linear-gradient(to right, #00334e, #ea5455);
+  border-radius: 30px;
+}
+
+.small_menu ul li .dropdown_menu.colors li:nth-child(2) span {
+  display: block;
+  height: 30px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#323c3d), to(#ff8303));
+  background-image: linear-gradient(to right, #323c3d, #ff8303);
+  border-radius: 30px;
+}
+
+.small_menu ul li .dropdown_menu.colors li:nth-child(3) span {
+  display: block;
+  height: 30px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#0c5e70), to(#44eec3));
+  background-image: linear-gradient(to right, #0c5e70, #44eec3);
+  border-radius: 30px;
+}
+
+.small_menu ul li .dropdown_menu.colors li:last-child span {
+  display: block;
+  height: 30px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#271a4a), to(#867ae9));
+  background-image: linear-gradient(to right, #271a4a, #867ae9);
+  border-radius: 30px;
 }
 
 @media (max-width: 1242px) {

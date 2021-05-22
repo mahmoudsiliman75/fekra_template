@@ -37,9 +37,9 @@
   <!-- START:: INCLUDING MAIN STYLE FILE -->
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- <link rel="stylesheet" href="assets/css/ar-style.css"> -->
-  <link rel="stylesheet" href="assets/css/colorThemes/FirstTheme/FirstTheme.css">
+  <!-- <link rel="stylesheet" href="assets/css/colorThemes/FirstTheme/FirstTheme.css">
   <link rel="stylesheet" href="assets/css/colorThemes/SecondTheme/SecondTheme.css">
-  <link rel="stylesheet" href="assets/css/colorThemes/ThirdTheme/ThirdTheme.css">
+  <link rel="stylesheet" href="assets/css/colorThemes/ThirdTheme/ThirdTheme.css"> -->
   <!-- END:: INCLUDING MAIN STYLE FILE -->
 
   <!-- START:: SET FAV ICON -->
@@ -223,6 +223,28 @@
 
           <li> 
             <a href="ContactUs3.php">Contact Us 3</a> 
+          </li>
+        </ul>
+      </li>
+
+      <li> 
+        <a href="javascript:;" class="dropdown_toggeler"> Theme </a>
+
+        <ul class="dropdown_menu colors">
+          <li> 
+            <span></span>
+          </li>
+
+          <li> 
+            <span></span>
+          </li>
+
+          <li> 
+            <span></span>
+          </li>
+
+          <li> 
+            <span></span>
           </li>
         </ul>
       </li>
@@ -440,6 +462,28 @@
         </li>
       </ul>
     </li>
+
+    <li> 
+        <a href="javascript:;" class="dropdown_toggeler"> Theme </a>
+
+        <ul class="dropdown_menu colors">
+          <li> 
+            <span></span>
+          </li>
+
+          <li> 
+            <span></span>
+          </li>
+
+          <li> 
+            <span></span>
+          </li>
+
+          <li> 
+            <span></span>
+          </li>
+        </ul>
+      </li>
   </ul>
 </div>
 <!-- END:: SMALL SCREENS MENU -->
