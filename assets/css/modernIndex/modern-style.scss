@@ -17,17 +17,16 @@
 
 html {
   scroll-behavior: smooth;
-}
-
-body {
-  font-family: 'Raleway', sans-serif;
-  overflow-x: hidden;
-  &::-webkit-scrollbar {
-    background-color: $lighterGrey;
-    width: 5px;
-  }
-  &::-webkit-scrollbar-thumb {
-    background-color: $corpColor1;
+  body {
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+    &::-webkit-scrollbar {
+      background-color: $lighterGrey;
+      width: 5px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: $corpColor1;
+    }
   }
 }
 
@@ -1689,6 +1688,7 @@ nav {
         }
 
         .price_wraper {
+          @include flexCenterAlignment();
           span {
             font-size: 16px;
             margin-inline-end: 15px;
@@ -1979,6 +1979,7 @@ nav {
         }
 
         .price_wraper {
+          @include flexCenterAlignment();
           span {
             font-size: 16px;
             margin-inline-end: 15px;
@@ -2186,10 +2187,12 @@ nav {
     .heighlight_faq_card {
       h3 {
         color: $corpColor2;
+        text-align: start;
       }
       .answer {
         @include textWraper();
         padding-inline-start: 25px;
+        text-align: start;
       }
     }
   }
@@ -2208,6 +2211,7 @@ nav {
               text-decoration: none;
               color: $white;
               background-image: linear-gradient(to right, $corpColor1, $corpColor2);
+              @include flexStartAlignment();
               svg {
                 @include transitioning();
               }
@@ -2226,7 +2230,8 @@ nav {
         .card-body {
           @include textWraper();
           font-size: 16px;
-          padding-inline-start: 45px;
+          padding-inline-start: 35px;
+          text-align: start;
         }
       }
     }
@@ -2354,10 +2359,12 @@ nav {
     .heighlight_faq_card {
       h3 {
         color: $corpColor2;
+        text-align: start;
       }
       .answer {
         @include textWraper();
         padding-inline-start: 25px;
+        text-align: start;
       }
     }
   }
@@ -2375,6 +2382,7 @@ nav {
               text-decoration: none;
               color: $white;
               background-image: linear-gradient(to right, $corpColor1, $corpColor2);
+              @include flexStartAlignment();
               svg {
                 @include transitioning();
               }
@@ -2394,7 +2402,8 @@ nav {
         .card-body {
           @include textWraper();
           font-size: 16px;
-          padding-inline-start: 45px;
+          padding-inline-start: 35px;
+          text-align: start;
         }
       }
     }
@@ -2592,6 +2601,7 @@ nav {
       color: #313131;
       font-size: 2rem;
       font-weight: 700;
+      text-align: start;
     }
   
     .article_text_wraper {
@@ -2872,6 +2882,7 @@ nav {
         color: $lightRed;
         margin-top: 0;
         padding-inline-start: 15px;
+        text-align: start;
         font-size: 13px;
       }
     }

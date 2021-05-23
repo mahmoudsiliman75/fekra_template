@@ -22,17 +22,45 @@ nav .lang-button a span.ar {
           margin-inline-start: 3px;
 }
 
-.team_sec .member_card_wraper .image_wraper::before {
+.about_sec_modern {
+  padding: 50px 0;
+  background: url("../media/shapes/4.png");
+  background-position: left 35%;
+  background-repeat: no-repeat;
+}
+
+.about_sec_modern .container-fluid .sec_desc_wraper .image_wraper img {
+  border-radius: 25px 0 0 25px;
+  -webkit-box-shadow: 40px 25px 0px 9px #e4e4e48f;
+          box-shadow: 40px 25px 0px 9px #e4e4e48f;
+}
+
+.service_details_modern .service_img_wraper img {
+  border-radius: 25px 0 0 25px;
+  -webkit-box-shadow: 40px 25px 0px 9px #e4e4e48f;
+          box-shadow: 40px 25px 0px 9px #e4e4e48f;
+}
+
+.product_details_modern .product_img_wraper img {
+  border-radius: 25px 0 0 25px;
+  -webkit-box-shadow: 40px 25px 0px 9px #e4e4e48f;
+          box-shadow: 40px 25px 0px 9px #e4e4e48f;
+}
+
+.team_sec .member_card_wraper .image_wraper::before,
+.all_team_sec .member_card_wraper .image_wraper::before {
   position: absolute;
   right: -20px;
   bottom: -20px;
 }
 
-.team_sec .member_card_wraper .image_wraper:hover img {
+.team_sec .member_card_wraper .image_wraper:hover img,
+.all_team_sec .member_card_wraper .image_wraper:hover img {
   position: relative;
 }
 
-.team_sec .member_card_wraper .image_wraper:hover::before {
+.team_sec .member_card_wraper .image_wraper:hover::before,
+.all_team_sec .member_card_wraper .image_wraper:hover::before {
   right: -10px;
   bottom: -10px;
 }

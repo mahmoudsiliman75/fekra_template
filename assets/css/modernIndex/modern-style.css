@@ -9,17 +9,17 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+html body {
   font-family: 'Raleway', sans-serif;
   overflow-x: hidden;
 }
 
-body::-webkit-scrollbar {
+html body::-webkit-scrollbar {
   background-color: #c1c1c1;
   width: 5px;
 }
 
-body::-webkit-scrollbar-thumb {
+html body::-webkit-scrollbar-thumb {
   background-color: #00334e;
 }
 
@@ -1529,6 +1529,7 @@ nav .menu_btn svg {
 
 .services_sec_modern .btn_wraper a {
   text-decoration: none;
+  color: #00334e;
   border: 2px solid #00334e;
   padding: 8px 16px;
   margin-top: 15px;
@@ -2216,6 +2217,7 @@ nav .menu_btn svg {
 
 .team_sec_modern .btn_wraper a {
   text-decoration: none;
+  color: #00334e;
   border: 2px solid #00334e;
   padding: 8px 16px;
   margin-top: 15px;
@@ -2594,6 +2596,18 @@ nav .menu_btn svg {
   margin-block: 15px;
 }
 
+.products_sec_modern .tab-pane .product_card_wraper .back_face .price_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .products_sec_modern .tab-pane .product_card_wraper .back_face .price_wraper span {
   font-size: 16px;
   -webkit-margin-end: 15px;
@@ -2623,6 +2637,7 @@ nav .menu_btn svg {
 
 .products_sec_modern .tab-pane .product_card_wraper .back_face .btn_wraper a {
   text-decoration: none;
+  color: #00334e;
   border: 2px solid #00334e;
   padding: 8px 16px;
   margin-top: 15px;
@@ -2673,6 +2688,7 @@ nav .menu_btn svg {
 
 .products_sec_modern .btn_wraper a {
   text-decoration: none;
+  color: #00334e;
   border: 2px solid #00334e;
   padding: 8px 16px;
   margin-top: 15px;
@@ -3236,6 +3252,18 @@ nav .menu_btn svg {
   margin-block: 15px;
 }
 
+.portfolio_modern .tab-pane .product_card_wraper .back_face .price_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .portfolio_modern .tab-pane .product_card_wraper .back_face .price_wraper span {
   font-size: 16px;
   -webkit-margin-end: 15px;
@@ -3265,6 +3293,7 @@ nav .menu_btn svg {
 
 .portfolio_modern .tab-pane .product_card_wraper .back_face .btn_wraper a {
   text-decoration: none;
+  color: #00334e;
   border: 2px solid #00334e;
   padding: 8px 16px;
   margin-top: 15px;
@@ -3701,6 +3730,7 @@ nav .menu_btn svg {
 
 .faq_sec_modern .heighlight_faqs_wraper .heighlight_faq_card h3 {
   color: #ea5455;
+  text-align: start;
 }
 
 .faq_sec_modern .heighlight_faqs_wraper .heighlight_faq_card .answer {
@@ -3711,6 +3741,7 @@ nav .menu_btn svg {
   line-height: 1.6;
   -webkit-padding-start: 25px;
           padding-inline-start: 25px;
+  text-align: start;
 }
 
 .faq_sec_modern .faqs_wraper .accordion .card {
@@ -3729,6 +3760,15 @@ nav .menu_btn svg {
   color: #fff;
   background-image: -webkit-gradient(linear, left top, right top, from(#00334e), to(#ea5455));
   background-image: linear-gradient(to right, #00334e, #ea5455);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .faq_sec_modern .faqs_wraper .accordion .card .card-header h4 button svg {
@@ -3754,8 +3794,9 @@ nav .menu_btn svg {
   color: #666;
   line-height: 1.6;
   font-size: 16px;
-  -webkit-padding-start: 45px;
-          padding-inline-start: 45px;
+  -webkit-padding-start: 35px;
+          padding-inline-start: 35px;
+  text-align: start;
 }
 
 .faq_sec_modern .btn_wraper {
@@ -3772,6 +3813,7 @@ nav .menu_btn svg {
 
 .faq_sec_modern .btn_wraper a {
   text-decoration: none;
+  color: #00334e;
   border: 2px solid #00334e;
   padding: 8px 16px;
   margin-top: 15px;
@@ -3989,6 +4031,7 @@ nav .menu_btn svg {
 
 .main_faqs_modern .heighlight_faqs_wraper .heighlight_faq_card h3 {
   color: #ea5455;
+  text-align: start;
 }
 
 .main_faqs_modern .heighlight_faqs_wraper .heighlight_faq_card .answer {
@@ -3999,6 +4042,7 @@ nav .menu_btn svg {
   line-height: 1.6;
   -webkit-padding-start: 25px;
           padding-inline-start: 25px;
+  text-align: start;
 }
 
 .main_faqs_modern .faqs_wraper .accordion .card .card-header {
@@ -4013,6 +4057,15 @@ nav .menu_btn svg {
   color: #fff;
   background-image: -webkit-gradient(linear, left top, right top, from(#00334e), to(#ea5455));
   background-image: linear-gradient(to right, #00334e, #ea5455);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .main_faqs_modern .faqs_wraper .accordion .card .card-header h4 button svg {
@@ -4039,8 +4092,9 @@ nav .menu_btn svg {
   color: #666;
   line-height: 1.6;
   font-size: 16px;
-  -webkit-padding-start: 45px;
-          padding-inline-start: 45px;
+  -webkit-padding-start: 35px;
+          padding-inline-start: 35px;
+  text-align: start;
 }
 
 .news_sec_modern {
@@ -4264,6 +4318,7 @@ nav .menu_btn svg {
 
 .news_sec_modern .btn_wraper a {
   text-decoration: none;
+  color: #00334e;
   border: 2px solid #00334e;
   padding: 8px 16px;
   margin-top: 15px;
@@ -4425,6 +4480,7 @@ nav .menu_btn svg {
   color: #313131;
   font-size: 2rem;
   font-weight: 700;
+  text-align: start;
 }
 
 .blog_sec_modern .article_wraper .article_text_wraper {
@@ -4464,6 +4520,7 @@ nav .menu_btn svg {
 
 .blog_sec_modern .article_wraper .btn_wraper a {
   text-decoration: none;
+  color: #00334e;
   border: 2px solid #00334e;
   padding: 8px 16px;
   margin-top: 15px;
@@ -4966,6 +5023,7 @@ nav .menu_btn svg {
   margin-top: 0;
   -webkit-padding-start: 15px;
           padding-inline-start: 15px;
+  text-align: start;
   font-size: 13px;
 }
 
@@ -5024,6 +5082,7 @@ nav .menu_btn svg {
 
 .contact_us_sec_modern .form_wraper .btn_box button {
   text-decoration: none;
+  color: #00334e;
   border: 2px solid #00334e;
   padding: 8px 16px;
   margin-top: 15px;

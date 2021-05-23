@@ -7,7 +7,7 @@
 
   <div class="overlay">
     <div class="intro_text_wraper">
-      <h1> Get In Touch <span> With Us</span> </h1>
+      <h1> <span> Get In Touch With Us</span> </h1>
     </div>
   </div>
 </div>

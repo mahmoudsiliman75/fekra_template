@@ -7,7 +7,7 @@
 
   <div class="overlay">
     <div class="intro_text_wraper">
-      <h1> Know More <span> About Us</span> </h1>
+      <h1> <span> Know More About Us</span> </h1>
     </div>
   </div>
 </div>

@@ -46,7 +46,43 @@ nav {
 // END:: LARGE SCREENS NAVBAR AR STYLES
 
 // START:: PAGES AR STYLES
-.team_sec { 
+.about_sec_modern {
+  padding: $paddingAmount 0;
+  background: url('../media/shapes/4.png');
+  background-position: left 35%;
+  background-repeat: no-repeat;
+  .container-fluid {
+    .sec_desc_wraper {
+      .image_wraper {
+        img {
+          border-radius: 25px 0 0 25px;
+          box-shadow: 40px 25px 0px 9px #e4e4e48f;
+        }
+      }
+    }  
+  }
+}
+
+.service_details_modern {
+  .service_img_wraper {
+    img {
+      border-radius: 25px 0 0 25px;
+      box-shadow: 40px 25px 0px 9px #e4e4e48f;
+    }
+  }
+}
+
+.product_details_modern {
+  .product_img_wraper {
+    img {
+      border-radius: 25px 0 0 25px;
+      box-shadow: 40px 25px 0px 9px #e4e4e48f;
+    }
+  }
+}
+
+.team_sec,
+.all_team_sec  { 
   .member_card_wraper {
     .image_wraper {
       &::before {

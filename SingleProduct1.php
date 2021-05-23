@@ -239,7 +239,13 @@
 <div class="contact_us_sec">
   <div class="container">
     <div class="header_wraper mb-4">
-      <h2> Get In Touch With Us </h2>
+      <h2> Book Now </h2>
+    </div>
+
+    <div class="alert_wraper">
+      <div class="alert alert-success text-center col-12 col-md-6" role="alert">
+        Your Service Booked Successfuly
+      </div>
     </div>
 
     <div class="row justify-content-center">
@@ -254,11 +260,14 @@
               </span>
             </div>
 
-            <div class="form-group">
-              <input type="tele" class="form-control" placeholder="Your Phone Number*" required>
-              <span>
-                <i class="fas fa-phone-square-alt fa-2x"></i>
-              </span>
+            <div class="invalid_wraber">
+              <div class="form-group invalid">
+                <input type="tele" class="form-control" placeholder="Your Phone Number*" required>
+                <span>
+                  <i class="fas fa-phone-square-alt fa-2x"></i>
+                </span>
+              </div>
+              <p class="invalid_message"> Phone Number Can't Be Empty </p>
             </div>
 
             <div class="form-group mb-4">

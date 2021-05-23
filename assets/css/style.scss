@@ -18,17 +18,16 @@
 
 html {
   scroll-behavior: smooth;
-}
-
-body {
-  font-family: 'Raleway', sans-serif;
-  overflow-x: hidden;
-  &::-webkit-scrollbar {
-    background-color: $lighterGrey;
-    width: 5px;
-  }
-  &::-webkit-scrollbar-thumb {
-    background-color: $corpColor1;
+  body {
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+    &::-webkit-scrollbar {
+      background-color: $lighterGrey;
+      width: 5px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: $corpColor1;
+    }
   }
 }
 
@@ -1295,6 +1294,7 @@ nav {
     position: sticky;
     top: 65px;
     .filter {
+      text-align: start;
       .list-group {
         .list-group-item {
           border: none;
@@ -2469,6 +2469,20 @@ nav {
     margin-block: 15px;
   }
 
+  .heighlight_faqs_wraper {
+    .heighlight_faq_card {
+      h3 {
+        color: $corpColor2;
+        text-align: start;
+      }
+      .answer {
+        @include textWraper();
+        text-align: start;
+        padding-inline-start: 25px;
+      }
+    }
+  }
+
   .faqs_wraper {
     .accordion {
       .card {
@@ -2481,6 +2495,7 @@ nav {
               background-color: transparent;
               text-decoration: none;
               color: $corpColor1;
+              @include flexStartAlignment();
               svg {
                 @include transitioning();
               }
@@ -2498,7 +2513,8 @@ nav {
         .card-body {
           @include textWraper();
           font-size: 16px;
-          padding-inline-start: 45px;
+          text-align: start;
+          padding-inline-start: 35px;
         }
       }
     }
@@ -2551,6 +2567,7 @@ nav {
               background-color: transparent;
               text-decoration: none;
               color: $corpColor1;
+              @include flexStartAlignment();
               svg {
                 @include transitioning();
               }
@@ -2569,6 +2586,7 @@ nav {
           @include textWraper();
           font-size: 16px;
           padding-inline-start: 45px;
+          text-align: start;
         }
       }
     }
@@ -2792,7 +2810,7 @@ nav {
 // END:: NEWS SECCTION STYLES
 
 // START:: PORTFOLIO SECTION STYLES
-.portfolio_sec {
+.portfolio_sec {  
   padding: $paddingAmount 0;
   .header_wraper {
     @include flexCenterAlignment();
@@ -2873,6 +2891,7 @@ nav {
         }
 
         .price_wraper {
+          @include flexCenterAlignment();
           span {
             font-size: 16px;
             margin-inline-end: 15px;
@@ -2919,6 +2938,7 @@ nav {
     position: sticky;
     top: 65px;
     .filter {
+      text-align: start;
       .list-group {
         .list-group-item {
           border: none;
@@ -3016,6 +3036,7 @@ nav {
   .wraper {
     position: sticky;
     top: 65px;
+    text-align: start;
     .list-group {
       .list-group-item {
         border: none;
@@ -3176,6 +3197,7 @@ nav {
   .wraper {
     position: sticky;
     top: 65px;
+    text-align: start;
     .list-group {
       .list-group-item {
         border: none;
@@ -3249,6 +3271,7 @@ nav {
         color: $lightRed;
         margin-top: 0;
         padding-inline-start: 15px;
+        text-align: start;
         font-size: 13px;
       }
     }
@@ -3305,6 +3328,11 @@ nav {
     }
   }
 
+
+  .alert_wraper {
+    @include flexCenterAlignment();
+  }
+
   .map_wraper {
     height: 100%;
       @include borderRadius($borderRadiusAmount);
@@ -3323,6 +3351,16 @@ nav {
       @include flexCenterAlignment();
       h2 {
         @include mainHeaderStyle();
+      }
+    }
+
+    .invalid_wraber {
+      p {
+        color: $lightRed;
+        margin-top: 0;
+        padding-inline-start: 15px;
+        text-align: start;
+        font-size: 13px;
       }
     }
 
@@ -3351,13 +3389,18 @@ nav {
           outline: none;
         }
       }
+
+      &.invalid {
+        border: 1px solid $lightRed;
+        margin-bottom: 5px;
+      }
     }
 
     .btn_box {
       @include flexCenterAlignment();
       button {
-        background-color: transparent;
-        @include secondBtnStyle();
+        @include mainBtnStyle();
+        padding: 6px 12px;
       }
     }
   }

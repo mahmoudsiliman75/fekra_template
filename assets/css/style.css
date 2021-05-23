@@ -9,17 +9,17 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+html body {
   font-family: 'Raleway', sans-serif;
   overflow-x: hidden;
 }
 
-body::-webkit-scrollbar {
+html body::-webkit-scrollbar {
   background-color: #c1c1c1;
   width: 5px;
 }
 
-body::-webkit-scrollbar-thumb {
+html body::-webkit-scrollbar-thumb {
   background-color: #00334e;
 }
 
@@ -1830,6 +1830,10 @@ nav .menu_btn svg {
   position: -webkit-sticky;
   position: sticky;
   top: 65px;
+}
+
+.main_services .wraper .filter {
+  text-align: start;
 }
 
 .main_services .wraper .filter .list-group .list-group-item {
@@ -4055,6 +4059,22 @@ nav .menu_btn svg {
   margin-block: 15px;
 }
 
+.faq_sec_index_2 .heighlight_faqs_wraper .heighlight_faq_card h3 {
+  color: #ea5455;
+  text-align: start;
+}
+
+.faq_sec_index_2 .heighlight_faqs_wraper .heighlight_faq_card .answer {
+  word-break: break-word;
+  word-spacing: 2px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  text-align: start;
+  -webkit-padding-start: 25px;
+          padding-inline-start: 25px;
+}
+
 .faq_sec_index_2 .faqs_wraper .accordion .card .card-header {
   padding: 0;
 }
@@ -4065,6 +4085,15 @@ nav .menu_btn svg {
   background-color: transparent;
   text-decoration: none;
   color: #00334e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .faq_sec_index_2 .faqs_wraper .accordion .card .card-header h4 button svg {
@@ -4090,8 +4119,9 @@ nav .menu_btn svg {
   color: #666;
   line-height: 1.6;
   font-size: 16px;
-  -webkit-padding-start: 45px;
-          padding-inline-start: 45px;
+  text-align: start;
+  -webkit-padding-start: 35px;
+          padding-inline-start: 35px;
 }
 
 .faq_sec_index_2 .btn_wraper {
@@ -4221,6 +4251,15 @@ nav .menu_btn svg {
   background-color: transparent;
   text-decoration: none;
   color: #00334e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .main_faqs .faqs_wraper .accordion .card .card-header h4 button svg {
@@ -4248,6 +4287,7 @@ nav .menu_btn svg {
   font-size: 16px;
   -webkit-padding-start: 45px;
           padding-inline-start: 45px;
+  text-align: start;
 }
 
 .news_sec {
@@ -4816,6 +4856,18 @@ nav .menu_btn svg {
   margin-block: 15px;
 }
 
+.portfolio_sec .tab-pane .product_card_wraper .back_face .price_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .portfolio_sec .tab-pane .product_card_wraper .back_face .price_wraper span {
   font-size: 16px;
   -webkit-margin-end: 15px;
@@ -4947,6 +4999,10 @@ nav .menu_btn svg {
   position: -webkit-sticky;
   position: sticky;
   top: 65px;
+}
+
+.main_products .wraper .filter {
+  text-align: start;
 }
 
 .main_products .wraper .filter .list-group .list-group-item {
@@ -5107,6 +5163,7 @@ nav .menu_btn svg {
   position: -webkit-sticky;
   position: sticky;
   top: 65px;
+  text-align: start;
 }
 
 .blog_sec .wraper .list-group .list-group-item {
@@ -5350,6 +5407,7 @@ nav .menu_btn svg {
   position: -webkit-sticky;
   position: sticky;
   top: 65px;
+  text-align: start;
 }
 
 .article_sec .wraper .list-group .list-group-item {
@@ -5516,6 +5574,7 @@ nav .menu_btn svg {
   margin-top: 0;
   -webkit-padding-start: 15px;
           padding-inline-start: 15px;
+  text-align: start;
   font-size: 13px;
 }
 
@@ -5659,6 +5718,18 @@ nav .menu_btn svg {
   border-radius: 0 5px 5px 0;
 }
 
+.contact_us_sec_index_2 .alert_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .contact_us_sec_index_2 .map_wraper {
   height: 100%;
   border-radius: 10px;
@@ -5721,6 +5792,15 @@ nav .menu_btn svg {
   background-color: #00334e;
 }
 
+.contact_us_sec_index_2 .form_wraper .invalid_wraber p {
+  color: #dc4040;
+  margin-top: 0;
+  -webkit-padding-start: 15px;
+          padding-inline-start: 15px;
+  text-align: start;
+  font-size: 13px;
+}
+
 .contact_us_sec_index_2 .form_wraper .form-group {
   border: 1px solid #c1c1c1;
   border-radius: 30px;
@@ -5756,6 +5836,11 @@ nav .menu_btn svg {
   outline: none;
 }
 
+.contact_us_sec_index_2 .form_wraper .form-group.invalid {
+  border: 1px solid #dc4040;
+  margin-bottom: 5px;
+}
+
 .contact_us_sec_index_2 .form_wraper .btn_box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5769,42 +5854,47 @@ nav .menu_btn svg {
 }
 
 .contact_us_sec_index_2 .form_wraper .btn_box button {
-  background-color: transparent;
+  display: inline-block;
   text-decoration: none;
-  color: #00334e;
-  border: 2px solid #00334e;
-  padding: 8px 16px;
-  margin-top: 15px;
-  font-size: 16px;
-  font-weight: 600;
   text-transform: uppercase;
+  background-color: transparent;
+  color: #ea5455;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid #ea5455;
   border-radius: 5px;
+  padding: 10px 20px;
+  position: relative;
+  padding: 6px 12px;
+}
+
+.contact_us_sec_index_2 .form_wraper .btn_box button::before, .contact_us_sec_index_2 .form_wraper .btn_box button::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 20%;
+  height: 2px;
+  background-color: #fff;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  overflow: hidden;
-  position: relative;
 }
 
 .contact_us_sec_index_2 .form_wraper .btn_box button::before {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background-color: #00334e;
-  z-index: -1;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
+  top: -2px;
+  left: 10%;
 }
 
-.contact_us_sec_index_2 .form_wraper .btn_box button:hover {
-  color: #fff;
+.contact_us_sec_index_2 .form_wraper .btn_box button::after {
+  bottom: -2px;
+  right: 10%;
 }
 
 .contact_us_sec_index_2 .form_wraper .btn_box button:hover::before {
-  left: 0;
+  left: 65%;
+}
+
+.contact_us_sec_index_2 .form_wraper .btn_box button:hover::after {
+  right: 65%;
 }
 
 .get_in_touch {

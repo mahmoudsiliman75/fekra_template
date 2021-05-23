@@ -6,7 +6,7 @@
 <div class="header_img_wraper" style="background: url('assets/media/pic2.jpeg');">
   <div class="overlay">
     <div class="intro_text_wraper">
-      <h1> Our <span> Work </span> </h1>
+      <h1> <span> Our Work </span> </h1>
     </div>
   </div>
 </div>

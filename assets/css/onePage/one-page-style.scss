@@ -17,17 +17,16 @@
 
 html {
   scroll-behavior: smooth;
-}
-
-body {
-  font-family: 'Raleway', sans-serif;
-  overflow-x: hidden;
-  &::-webkit-scrollbar {
-    background-color: $lighterGrey;
-    width: 5px;
-  }
-  &::-webkit-scrollbar-thumb {
-    background-color: $corpColor1;
+  body {
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+    &::-webkit-scrollbar {
+      background-color: $lighterGrey;
+      width: 5px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: $corpColor1;
+    }
   }
 }
 
@@ -1309,10 +1308,12 @@ nav {
     .heighlight_faq_card {
       h3 {
         color: $corpColor2;
+        text-align: start;
       }
       .answer {
         @include textWraper();
         padding-inline-start: 25px;
+        text-align: start;
       }
     }
   }
@@ -1329,6 +1330,7 @@ nav {
               background-color: transparent;
               text-decoration: none;
               color: $corpColor1;
+              @include flexStartAlignment();
               svg {
                 @include transitioning();
               }
@@ -1347,6 +1349,7 @@ nav {
           @include textWraper();
           font-size: 16px;
           padding-inline-start: 45px;
+          text-align: start;
         }
       }
     }
