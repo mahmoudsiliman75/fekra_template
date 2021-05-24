@@ -894,7 +894,7 @@
     </div>
 
     <div class="row flex-column align-items-center justify-content-center mt-3 overflow-hidden">
-      <div id="testemonials_2" class="owl-carousel owl-theme col-8">
+      <div id="testemonials_2" class="owl-carousel owl-theme col-12 col-md-8">
 
         <div class="item">
           <div class="testemonial_card">

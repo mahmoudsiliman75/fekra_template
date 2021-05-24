@@ -946,7 +946,7 @@
     </div>
 
     <div class="row flex-column align-items-center justify-content-center mt-3 overflow-hidden">
-      <div id="testemonials_2" class="owl-carousel owl-theme col-8 wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
+      <div id="testemonials_2" class="owl-carousel owl-theme col-12 col-md-8 wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.5s">
 
         <div class="item">
           <div class="testemonial_card">

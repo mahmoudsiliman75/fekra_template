@@ -227,6 +227,32 @@ nav .site-logo img {
   height: 100%;
 }
 
+@media (max-width: 767px) {
+  nav {
+    padding: 0 10px;
+  }
+  nav .site-logo {
+    min-width: 60px;
+    max-width: 60px;
+    min-height: 60px;
+    max-height: 60px;
+    padding: 3px 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  nav .site-logo img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
 nav .nav-links ul li {
   position: relative;
   margin: 0 10px;
@@ -306,24 +332,24 @@ nav .nav-links ul li .dropdown_menu.colors li:first-child span {
 nav .nav-links ul li .dropdown_menu.colors li:nth-child(2) span {
   display: block;
   height: 30px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#323c3d), to(#ff8303));
-  background-image: linear-gradient(to right, #323c3d, #ff8303);
+  background-image: -webkit-gradient(linear, left top, right top, from(#222831), to(#fed049));
+  background-image: linear-gradient(to right, #222831, #fed049);
   border-radius: 30px;
 }
 
 nav .nav-links ul li .dropdown_menu.colors li:nth-child(3) span {
   display: block;
   height: 30px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#0c5e70), to(#44eec3));
-  background-image: linear-gradient(to right, #0c5e70, #44eec3);
+  background-image: -webkit-gradient(linear, left top, right top, from(#00587a), to(#1eae98));
+  background-image: linear-gradient(to right, #00587a, #1eae98);
   border-radius: 30px;
 }
 
 nav .nav-links ul li .dropdown_menu.colors li:last-child span {
   display: block;
   height: 30px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#271a4a), to(#867ae9));
-  background-image: linear-gradient(to right, #271a4a, #867ae9);
+  background-image: -webkit-gradient(linear, left top, right top, from(#271a4a), to(#ff7a8a));
+  background-image: linear-gradient(to right, #271a4a, #ff7a8a);
   border-radius: 30px;
 }
 
@@ -523,24 +549,24 @@ nav .menu_btn svg {
 .small_menu ul li .dropdown_menu.colors li:nth-child(2) span {
   display: block;
   height: 30px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#323c3d), to(#ff8303));
-  background-image: linear-gradient(to right, #323c3d, #ff8303);
+  background-image: -webkit-gradient(linear, left top, right top, from(#222831), to(#fed049));
+  background-image: linear-gradient(to right, #222831, #fed049);
   border-radius: 30px;
 }
 
 .small_menu ul li .dropdown_menu.colors li:nth-child(3) span {
   display: block;
   height: 30px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#0c5e70), to(#44eec3));
-  background-image: linear-gradient(to right, #0c5e70, #44eec3);
+  background-image: -webkit-gradient(linear, left top, right top, from(#00587a), to(#1eae98));
+  background-image: linear-gradient(to right, #00587a, #1eae98);
   border-radius: 30px;
 }
 
 .small_menu ul li .dropdown_menu.colors li:last-child span {
   display: block;
   height: 30px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#271a4a), to(#867ae9));
-  background-image: linear-gradient(to right, #271a4a, #867ae9);
+  background-image: -webkit-gradient(linear, left top, right top, from(#271a4a), to(#ff7a8a));
+  background-image: linear-gradient(to right, #271a4a, #ff7a8a);
   border-radius: 30px;
 }
 
