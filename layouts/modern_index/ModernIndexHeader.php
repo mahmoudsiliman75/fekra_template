@@ -37,9 +37,7 @@
   <!-- START:: INCLUDING MAIN STYLE FILE -->
   <link rel="stylesheet" href="assets/css/modernIndex/modern-style.css">
   <!-- <link rel="stylesheet" href="assets/css/ar-style.css"> -->
-  <!-- <link rel="stylesheet" href="assets/css/colorThemes/FirstTheme/FirstTheme.css">
-  <link rel="stylesheet" href="assets/css/colorThemes/SecondTheme/SecondTheme.css">
-  <link rel="stylesheet" href="assets/css/colorThemes/ThirdTheme/ThirdTheme.css"> -->
+  <link rel="stylesheet" href="" data-targetTheme="current_theme"/>
   <!-- END:: INCLUDING MAIN STYLE FILE -->
 
   <!-- START:: SET FAV ICON -->
@@ -250,19 +248,19 @@
 
         <ul class="dropdown_menu colors">
           <li> 
-            <span></span>
+            <span id="main_theme"></span>
           </li>
 
           <li> 
-            <span></span>
+            <span id="first_theme"></span>
           </li>
 
           <li> 
-            <span></span>
+            <span id="second_theme"></span>
           </li>
 
           <li> 
-            <span></span>
+            <span id="third_theme"></span>
           </li>
         </ul>
       </li>
@@ -482,32 +480,32 @@
     </li>
 
     <li> 
-        <a href="javascript:;" class="dropdown_toggeler"> Theme </a>
+      <a href="javascript:;" class="dropdown_toggeler"> Theme </a>
 
-        <ul class="dropdown_menu colors">
-          <li> 
-            <span></span>
-          </li>
+      <ul class="dropdown_menu colors">
+        <li> 
+          <span id="main_theme"></span>
+        </li>
 
-          <li> 
-            <span></span>
-          </li>
+        <li> 
+          <span id="first_theme"></span>
+        </li>
 
-          <li> 
-            <span></span>
-          </li>
+        <li> 
+          <span id="second_theme"></span>
+        </li>
 
-          <li> 
-            <span></span>
-          </li>
-        </ul>
-      </li>
+        <li> 
+          <span id="third_theme"></span>
+        </li>
+      </ul>
+    </li>
   </ul>
 </div>
 <!-- END:: SMALL SCREENS MENU -->
 
 <!-- START:: PRE LOADER -->
-<!-- <div class="pre_loader">
+<div class="pre_loader">
   <div class="spinner">
     <div class="rect1"></div>
     <div class="rect2"></div>
@@ -515,5 +513,5 @@
     <div class="rect4"></div>
     <div class="rect5"></div>
   </div>
-</div> -->
+</div>
 <!-- END:: PRE LOADER -->

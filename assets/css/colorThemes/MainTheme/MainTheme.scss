@@ -3,7 +3,7 @@
 // END:: INCLUDING GOOGLE FONT
 
 // START:: VARIABLES
-@import '../../variables.scss';  
+@import '../../variables.scss'; 
 // END:: VARIABLES
 
 // START:: MIXINS
@@ -11,24 +11,16 @@
 // END:: MIXINS
 
 // START:: GLOBAL STYLES COLORING
-html {
-  body {
-    &::-webkit-scrollbar-thumb {
-      background-color: $startUpColor2;
-    }
-  }
-}
-
 .header_img_wraper {
   .overlay {
-    background-color: rgba(43, 55, 56, 0.5);
+    background-color: rgba(45, 64, 89, 0.5);
 
     .intro_text_wraper {
       h1 {
         span {
-          background-color: $startUpColor1;
+          background-color: $corpColor2;
           &::after {
-            border: 2px solid $startUpColor1;
+            border: 2px solid $corpColor2;
           }
         }
       }
@@ -37,12 +29,12 @@ html {
 
   &.modern {
     .overlay {
-      background-color: rgba(43, 55, 56, 0.5);
+      background-color: rgba(45, 64, 89, 0.5);
       .intro_text_wraper {
         h1 {
           span {
             background-color: transparent;
-            color: $startUpColor1;
+            color: $corpColor2;
           }
         }
       }
@@ -53,14 +45,14 @@ html {
 
 // START:: LARGE SCREENS NAVBAR STYLES COLORING
 nav {
-  background-color: rgba(54, 69, 71, 0.7);
+  background-color: rgba(45, 64, 89, 0.5);
 
   &.stiky {
-    background-color: rgba(39, 48, 49, 0.9);
+    background-color: rgba(45, 64, 89, 0.8);
   }
 
   &.profile_nav {
-    background-color: $startUpColor2;
+    background-color: $corpColor1;
   }
 
   // START:: NAV LINKS STYLE
@@ -71,29 +63,29 @@ nav {
         @include menuHoverEffect();
         &.active {
           a {
-            color: $startUpColor1;
+            color: $corpColor2;
           }
         }
 
         &:hover {
           a{
-            color: $startUpColor1;
+            color: $corpColor2;
           }
         }
 
         .dropdown_menu {
           background-color: $white;
-          border-top: 2px solid $startUpColor1;
-          border-bottom: 2px solid $startUpColor1;
+          border-top: 2px solid $corpColor2;
+          border-bottom: 2px solid $corpColor2;
 
           li {
             a {
-              color: $startUpColor2;
+              color: $corpColor1;
             }
 
             &:hover {
               a {
-                color: $startUpColor1;
+                color: $corpColor2;
               }
             }
           }
@@ -106,11 +98,11 @@ nav {
   // START:: LANGUAGE BTN STYLE
   .lang-button {
     a {
-      border: 2px solid $startUpColor1;
+      border: 2px solid $corpColor2;
 
       span {
         &.circle {
-          background-color: $startUpColor1;
+          background-color: $corpColor2;
         }
       }
     }
@@ -120,7 +112,7 @@ nav {
   // START:: MENU TOGGLER BTN STYLE
   .menu_btn {
     svg {
-      color: $startUpColor1;
+      color: $corpColor2;
     }
   }
   // END:: MENU TOGGLER BTN STYLE
@@ -132,7 +124,7 @@ nav {
   .btn_box {
     button {
       svg {
-        color: $startUpColor2;
+        color: $corpColor1;
         &:hover {
           color: $midRed;
         }
@@ -143,24 +135,24 @@ nav {
   ul {
     li {
       a {
-        color: $startUpColor2;
+        color: $corpColor1;
         &:hover {
-          color: $startUpColor1;
+          color: $corpColor2;
         }
       }
 
       .dropdown_menu {
-        border-top: 2px solid $startUpColor1;
-        border-bottom: 2px solid $startUpColor1;
+        border-top: 2px solid $corpColor2;
+        border-bottom: 2px solid $corpColor2;
 
         li {
           a {
-            color: $startUpColor2;
+            color: $corpColor1;
           }
 
           &:hover {
             a {
-              color: $startUpColor1;
+              color: $corpColor2;
             }
           }
         }
@@ -175,7 +167,7 @@ nav {
   .carousel-indicators {
     li {
       &.active {
-        background-color: $startUpColor1;
+        background-color: $corpColor2;
       }
     }
   }
@@ -183,14 +175,14 @@ nav {
   .carousel-inner {
     .carousel-item {
       .overlay {
-        background-color: rgba(43, 55, 56, 0.5);
+        background-color: rgba(45, 64, 89, 0.5);
 
         .intro_text_wraper {
           h1 {
             span {
-              background-color: $startUpColor1;
+              background-color: $corpColor2;
               &::after {
-                border: 2px solid $startUpColor1;
+                border: 2px solid $corpColor2;
               }
             }
           }
@@ -199,10 +191,10 @@ nav {
         .btn_wraber {
           a {
             @include secondaryBtnStyle();
-            color: $startUpColor1;
-            border: 2px solid $startUpColor1;
+            color: $corpColor2;
+            border: 2px solid $corpColor2;
             &:hover {
-              background-color: $startUpColor1;
+              background-color: $corpColor2;
             }
           }
         }
@@ -217,13 +209,13 @@ nav {
   .header_wraper {
     h2 {
       @include mainHeaderStyle();
-      color: $startUpColor2;
+      color: $corpColor1;
       &::before {
-        background-color: $startUpColor1;
+        background-color: $corpColor2;
       }
     
       &::after {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -232,24 +224,24 @@ nav {
     &:hover {
       .icon_wraper {
         span {
-          border: 2px solid $startUpColor1;
-          background-color: $startUpColor1;
+          border: 2px solid $corpColor2;
+          background-color: $corpColor2;
         }
       }
     }
 
     .icon_wraper {
       span {
-        border: 2px dashed $startUpColor1;
+        border: 2px dashed $corpColor2;
         svg {
-          color: $startUpColor1;
+          color: $corpColor2;
         }
       }
     }
 
     .card_title_wraper {
       h4 {
-        color: $startUpColor2;
+        color: $corpColor1;
       }
     }
   }
@@ -259,10 +251,10 @@ nav {
   .header_wraper {
     h2 {
       @include secondHeaderStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         left: 0;
@@ -281,20 +273,20 @@ nav {
     .about_card_wraper {
       &::before,
       &::after {
-        background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+        background-image: linear-gradient(to right, $corpColor1, $corpColor2);
       }
 
       .icon_wraper {
         span {
           svg {
-            color: $startUpColor1;
+            color: $corpColor2;
           }
         }
       }
   
       .card_title_wraper {
         h4 {
-          color: $startUpColor2;
+          color: $corpColor1;
         }
       }
     }
@@ -305,10 +297,10 @@ nav {
   .header_wraper {
     h2 {
       @include thirdHeaderStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         top: 0;
@@ -332,17 +324,17 @@ nav {
       .icon_wraper {
         span {
           &::after {
-            background-color: $startUpColor2;
+            background-color: $corpColor1;
           }
           svg {
-            color: $startUpColor1;
+            color: $corpColor2;
           }
         }
       }
   
       .card_title_wraper {
         h4 {
-          color: $startUpColor2;
+          color: $corpColor1;
         }
       }
     }
@@ -354,10 +346,10 @@ nav {
     .header_wraper {
       h2 {
         @include fourthHaederStyle();
-        color: $startUpColor1;
+        color: $corpColor2;
         &::before,
         &::after {
-          border: 2px solid $startUpColor2;
+          border: 2px solid $corpColor1;
         }
         &::before {
           left: 0;
@@ -372,7 +364,7 @@ nav {
           border-radius: 0 5px 0 0;
         }
         span {
-          border: 2px solid $startUpColor2;
+          border: 2px solid $corpColor1;
           &:first-child {
             left: 0;
             bottom: 0;
@@ -394,10 +386,10 @@ nav {
 
   .row {
     .about_card_wraper {
-      border: 1px solid $startUpColor1;
+      border: 1px solid $corpColor2;
 
       &::after {
-        border: 20px solid $startUpColor1;
+        border: 20px solid $corpColor2;
         border-top: 20px solid $white;
         border-right: 20px solid $white;
       }
@@ -405,17 +397,17 @@ nav {
       .icon_wraper {
         span {
           &::after {
-            background-color: $startUpColor2;
+            background-color: $corpColor1;
           }
           svg {
-            color: $startUpColor1;
+            color: $corpColor2;
           }
         }
       }
 
       .card_title_wraper {
         h4 {
-          color: $startUpColor2;
+          color: $corpColor1;
         }
       }
     }
@@ -429,13 +421,13 @@ nav {
     h2, 
     h4 {
       @include mainHeaderStyle();
-      color: $startUpColor2;
+      color: $corpColor1;
       &::before {
-        background-color: $startUpColor1;
+        background-color: $corpColor2;
       }
     
       &::after {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -449,7 +441,7 @@ nav {
   .service_card_wraper {
     .card_title_wraper {
       h4 {
-        color: $startUpColor2;
+        color: $corpColor1;
       }
     }
   }
@@ -460,10 +452,10 @@ nav {
     h2,
     h4 {
       @include fourthHaederStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         left: 0;
@@ -478,7 +470,7 @@ nav {
         border-radius: 0 5px 0 0;
       }
       span {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
         &:first-child {
           left: 0;
           bottom: 0;
@@ -501,15 +493,15 @@ nav {
     a {
       .service_card_wraper {
         .img_wraper {
-          border: 2px solid $startUpColor1;
+          border: 2px solid $corpColor2;
           .overlay {
-            background-color: rgba(255, 131, 3, 0.8);
+            background-color: rgba(234, 84, 85, 0.8);
           }
         }
 
         .card_title_wraper {
           h4 {
-            color: $startUpColor1;
+            color: $corpColor2;
           }
         }
       }
@@ -523,13 +515,13 @@ nav {
   .header_wraper {
     h2 {
       @include mainHeaderStyle();
-      color: $startUpColor2;
+      color: $corpColor1;
       &::before {
-        background-color: $startUpColor1;
+        background-color: $corpColor2;
       }
     
       &::after {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -538,12 +530,12 @@ nav {
     .service_card_wraper {
       .img_wraper {
         .overlay {
-          background-color: rgba(255, 131, 3, 0.8);
+          background-color: rgba(234, 84, 85, 0.8);
         }
       }
       .card_title_wraper {
         h4 {
-          color: $startUpColor2;
+          color: $corpColor1;
         }
       }
     }
@@ -552,8 +544,8 @@ nav {
   .btn_wraper {
     a {
       @include mainBtnStyle();
-      color: $startUpColor1;
-      border: 2px solid $startUpColor1;
+      color: $corpColor2;
+      border: 2px solid $corpColor2;
     }
   }
 }
@@ -562,10 +554,10 @@ nav {
   .header_wraper {
     h2 {
       @include secondHeaderStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         left: 0;
@@ -584,13 +576,13 @@ nav {
     .service_card_wraper {
       .img_wraper {
         .overlay {
-          background-color: rgba(255, 131, 3, 0.8);
+          background-color: rgba(234, 84, 85, 0.8);
         }
       }
   
       .card_title_wraper {
         h4 {
-          color: $startUpColor2;
+          color: $corpColor1;
         }
       }
     }
@@ -599,10 +591,10 @@ nav {
   .btn_wraper {
     a {
       @include secondBtnStyle();
-      color: $startUpColor2;
-      border: 2px solid $startUpColor2;
+      color: $corpColor1;
+      border: 2px solid $corpColor1;
       &::before {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -610,22 +602,22 @@ nav {
 
 .services_sec_one_page {
   position: relative;
-  background-image: linear-gradient(to bottom, $startUpColor2, $startUpColor1);
+  background-image: linear-gradient(to bottom, $corpColor1, $corpColor2);
 
   .overlay {
     a {
       .service_card_wraper {
 
         .img_wraper {
-          border: 2px solid $startUpColor1;
+          border: 2px solid $corpColor2;
           .overlay {
-            background-color: rgba(255, 131, 3, 0.8);
+            background-color: rgba(234, 84, 85, 0.8);
           }
         }
     
         .card_title_wraper {
           h4 {
-            color: $startUpColor1;
+            color: $corpColor2;
           }
         }
       }
@@ -637,10 +629,10 @@ nav {
   .header_wraper {
     h2 {
       @include fourthHaederStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         left: 0;
@@ -655,7 +647,7 @@ nav {
         border-radius: 0 5px 0 0;
       }
       span {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
         &:first-child {
           left: 0;
           bottom: 0;
@@ -677,15 +669,15 @@ nav {
   a {
     .service_card_wraper {
       .img_wraper {
-        border: 2px solid $startUpColor1;
+        border: 2px solid $corpColor2;
         .overlay {
-          background-color: rgba(255, 131, 3, 0.8);
+          background-color: rgba(234, 84, 85, 0.8);
         }
       }
 
       .card_title_wraper {
         h4 {
-          color: $startUpColor1;
+          color: $corpColor2;
         }
       }
     }
@@ -694,10 +686,10 @@ nav {
   .btn_wraper {
     a {
       @include secondBtnStyle();
-      color: $startUpColor2;
-      border: 2px solid $startUpColor2;
+      color: $corpColor1;
+      border: 2px solid $corpColor1;
       &::before {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -710,13 +702,13 @@ nav {
     h2, 
     h5 {
       @include mainHeaderStyle();
-      color: $startUpColor2;
+      color: $corpColor1;
       &::before {
-        background-color: $startUpColor1;
+        background-color: $corpColor2;
       }
     
       &::after {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -725,24 +717,24 @@ nav {
     &:hover {
       .icon_wraper {
         span {
-          border: 2px solid $startUpColor1;
-          background-color: $startUpColor1;
+          border: 2px solid $corpColor2;
+          background-color: $corpColor2;
         }
       }
     }
 
     .icon_wraper {
       span {
-        border: 2px dashed $startUpColor1;
+        border: 2px dashed $corpColor2;
         svg {
-          color: $startUpColor1;
+          color: $corpColor2;
         }
       }
     }
 
     .card_title_wraper {
       h4 {
-        color: $startUpColor2;
+        color: $corpColor1;
       }
     }
   }
@@ -752,7 +744,7 @@ nav {
       .list-group {
         .list-group-item {
           &:hover {
-            color: $startUpColor1;
+            color: $corpColor2;
           }
         }
       }
@@ -763,13 +755,13 @@ nav {
     .service_card_wraper {
       .img_wraper {
         .overlay {
-          background-color: rgba(255, 131, 3, 0.8);
+          background-color: rgba(234, 84, 85, 0.8);
         }
       }
 
       .card_title_wraper {
         h4 {
-          color: $startUpColor2;
+          color: $corpColor1;
         }
       }
     }
@@ -781,10 +773,10 @@ nav {
     h2,
     h5 {
       @include fourthHaederStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         left: 0;
@@ -799,7 +791,7 @@ nav {
         border-radius: 0 5px 0 0;
       }
       span {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
         &:first-child {
           left: 0;
           bottom: 0;
@@ -822,17 +814,17 @@ nav {
     .icon_wraper {
       span {
         &::after {
-          background-color: $startUpColor2;
+          background-color: $corpColor1;
         }
         svg {
-          color: $startUpColor1;
+          color: $corpColor2;
         }
       }
     }
 
     .card_title_wraper {
       h4 {
-        color: $startUpColor2;
+        color: $corpColor1;
       }
     }
   }
@@ -840,15 +832,15 @@ nav {
   a {
     .service_card_wraper {
       .img_wraper {
-        border: 2px solid $startUpColor1;
+        border: 2px solid $corpColor2;
         .overlay {
-          background-color: rgba(255, 131, 3, 0.8);
+          background-color: rgba(234, 84, 85, 0.8);
         }
       }
   
       .card_title_wraper {
         h4 {
-          color: $startUpColor1;
+          color: $corpColor2;
         }
       }
     }
@@ -861,13 +853,13 @@ nav {
   .header_wraper {
     h2 {
       @include mainHeaderStyle();
-      color: $startUpColor2;
+      color: $corpColor1;
       &::before {
-        background-color: $startUpColor1;
+        background-color: $corpColor2;
       }
     
       &::after {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -877,10 +869,10 @@ nav {
   .header_wraper {
     h2 {
       @include fourthHaederStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         left: 0;
@@ -895,7 +887,7 @@ nav {
         border-radius: 0 5px 0 0;
       }
       span {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
         &:first-child {
           left: 0;
           bottom: 0;
@@ -918,13 +910,13 @@ nav {
 
 // START:: TEAM MEMBERS SECTION STYLES COLORING
 .team_sec { 
-  background-color: $startUpColor2;
+  background-color: $corpColor1;
   .header_wraper {
     h2 {
       @include mainHeaderStyle();
       color: $white;
       &::before {
-        background-color: $startUpColor1;
+        background-color: $corpColor2;
       }
       &::after {
         background-color: $white;
@@ -936,7 +928,7 @@ nav {
     .card_body {
       .info {
         h5 {
-          color: $startUpColor1;
+          color: $corpColor2;
         }
       }
 
@@ -944,7 +936,7 @@ nav {
         li {
           a {
             &:hover {
-              color: $startUpColor1;
+              color: $corpColor2;
             }
           }
         }
@@ -955,11 +947,11 @@ nav {
   .btn_wraper {
     a {
       @include mainBtnStyle();
-      color: $startUpColor1;
-      border: 2px solid $startUpColor1;
+      color: $corpColor2;
+      border: 2px solid $corpColor2;
       &::before,
       &::after {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -969,10 +961,10 @@ nav {
   .header_wraper {
     h2 {
       @include secondHeaderStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         left: 0;
@@ -991,10 +983,10 @@ nav {
     .card_body {
       .info {
         h4 {
-          color: $startUpColor2;
+          color: $corpColor1;
         }
         h5 {
-          color: $startUpColor1;
+          color: $corpColor2;
         }
       }
 
@@ -1002,9 +994,9 @@ nav {
         li {
 
           a {
-            color: $startUpColor2;
+            color: $corpColor1;
             &:hover {
-              color: $startUpColor1;
+              color: $corpColor2;
             }
           }
         }
@@ -1015,10 +1007,10 @@ nav {
   .btn_wraper {
     a {
       @include secondBtnStyle();
-      color: $startUpColor2;
-      border: 2px solid $startUpColor2;
+      color: $corpColor1;
+      border: 2px solid $corpColor1;
       &::before {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -1028,10 +1020,10 @@ nav {
   .header_wraper {
     h2 {
       @include thirdHeaderStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         top: 0;
@@ -1060,7 +1052,7 @@ nav {
             li {
               a {
                 &:hover {
-                  color: $startUpColor2;
+                  color: $corpColor1;
                 }
               }
             }
@@ -1075,10 +1067,10 @@ nav {
   .header_wraper {
     h2 {
       @include fourthHaederStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         left: 0;
@@ -1093,7 +1085,7 @@ nav {
         border-radius: 0 5px 0 0;
       }
       span {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
         &:first-child {
           left: 0;
           bottom: 0;
@@ -1116,7 +1108,7 @@ nav {
     &:hover {
       .image_wraper {
         img {
-          border-bottom: 3px solid $startUpColor1;
+          border-bottom: 3px solid $corpColor2;
         }
       }
     }
@@ -1125,9 +1117,9 @@ nav {
       .social_links {
         li {
           a {
-            color: $startUpColor2;
+            color: $corpColor1;
             &:hover {
-              color: $startUpColor1;
+              color: $corpColor2;
             }
           }
         }
@@ -1141,10 +1133,10 @@ nav {
         opacity: 0;
         @include transitioning();
         h4 {
-          color: $startUpColor2;
+          color: $corpColor1;
         }
         h5 {
-          color: $startUpColor1;
+          color: $corpColor2;
         }
       }
     }
@@ -1153,10 +1145,10 @@ nav {
   .btn_wraper {
     a {
       @include secondBtnStyle();
-      color: $startUpColor2;
-      border: 2px solid $startUpColor2;
+      color: $corpColor1;
+      border: 2px solid $corpColor1;
       &::before {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -1168,12 +1160,12 @@ nav {
   .header_wraper {
     h2 {
       @include mainHeaderStyle();
-      color: $startUpColor2;
+      color: $corpColor1;
       &::before {
-        background-color: $startUpColor1;
+        background-color: $corpColor2;
       }
       &::after {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -1182,10 +1174,10 @@ nav {
     .card_body {
       .info {
         h4 {
-          color: $startUpColor2;
+          color: $corpColor1;
         }
         h5 {
-          color: $startUpColor1;
+          color: $corpColor2;
         }
       }
 
@@ -1193,9 +1185,9 @@ nav {
         li {
 
           a {
-            color: $startUpColor2;
+            color: $corpColor1;
             &:hover {
-              color: $startUpColor1;
+              color: $corpColor2;
             }
           }
         }
@@ -1208,10 +1200,10 @@ nav {
   .header_wraper {
     h2 {
       @include fourthHaederStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         left: 0;
@@ -1226,7 +1218,7 @@ nav {
         border-radius: 0 5px 0 0;
       }
       span {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
         &:first-child {
           left: 0;
           bottom: 0;
@@ -1249,7 +1241,7 @@ nav {
     &:hover {
       .image_wraper {
         img {
-          border-bottom: 3px solid $startUpColor1;
+          border-bottom: 3px solid $corpColor2;
         }
       }
     }
@@ -1258,9 +1250,9 @@ nav {
       .social_links {
         li {
           a {
-            color: $startUpColor2;
+            color: $corpColor1;
             &:hover {
-              color: $startUpColor1;
+              color: $corpColor2;
             }
           }
         }
@@ -1274,10 +1266,10 @@ nav {
         opacity: 0;
         @include transitioning();
         h4 {
-          color: $startUpColor2;
+          color: $corpColor1;
         }
         h5 {
-          color: $startUpColor1;
+          color: $corpColor2;
         }
       }
     }
@@ -1290,13 +1282,13 @@ nav {
   .header_wraper {
     h2 {
       @include mainHeaderStyle();
-      color: $startUpColor2;
+      color: $corpColor1;
       &::before {
-        background-color: $startUpColor1;
+        background-color: $corpColor2;
       }
     
       &::after {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -1304,9 +1296,9 @@ nav {
   .nav-pills {
     .nav-item {
       .nav-link {
-        color: $startUpColor2;
+        color: $corpColor1;
         &.active {
-          background-color: $startUpColor2;
+          background-color: $corpColor1;
         }
       }
     }
@@ -1317,7 +1309,7 @@ nav {
       .product_card_wraper {
         .card_title_wraper {
           h4 {
-            color: $startUpColor1;
+            color: $corpColor2;
           }
         }
       }
@@ -1327,8 +1319,8 @@ nav {
   .btn_wraper {
     a {
       @include mainBtnStyle();
-      color: $startUpColor1;
-      border: 2px solid $startUpColor1;
+      color: $corpColor2;
+      border: 2px solid $corpColor2;
     }
   }
 }
@@ -1337,10 +1329,10 @@ nav {
   .header_wraper {
     h2 {
       @include secondHeaderStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         left: 0;
@@ -1358,9 +1350,9 @@ nav {
   .nav-pills {
     .nav-item {
       .nav-link {
-        color: $startUpColor2;
+        color: $corpColor1;
         &.active {
-          background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+          background-image: linear-gradient(to right, $corpColor1, $corpColor2);
         }
       }
     }
@@ -1370,13 +1362,13 @@ nav {
     .product_card_wraper {
       .back_face {
         h4 {
-          color: $startUpColor2;
+          color: $corpColor1;
         }
 
         .price_wraper {
           span {
             &.price_after {
-              color: $startUpColor2;
+              color: $corpColor1;
             }
           }
         }
@@ -1394,10 +1386,10 @@ nav {
   .btn_wraper {
     a {
       @include secondBtnStyle();
-      color: $startUpColor2;
-      border: 2px solid $startUpColor2;
+      color: $corpColor1;
+      border: 2px solid $corpColor1;
       &::before {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -1407,10 +1399,10 @@ nav {
   .header_wraper {
     h2 {
       @include thirdHeaderStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         top: 0;
@@ -1432,9 +1424,9 @@ nav {
   .nav-pills {
     .nav-item {
       .nav-link {
-        color: $startUpColor2;
+        color: $corpColor1;
         &.active {
-          background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+          background-image: linear-gradient(to right, $corpColor1, $corpColor2);
         }
       }
     }
@@ -1450,9 +1442,9 @@ nav {
         .btn_wraper {
           a {
             @include secondBtnStyle();
-            color: $startUpColor2;
+            color: $corpColor1;
             &::before {
-              background-color: $startUpColor2;
+              background-color: $corpColor1;
             }
           }
         }
@@ -1463,10 +1455,10 @@ nav {
   .btn_wraper {
     a {
       @include secondBtnStyle();
-      color: $startUpColor2;
-      border: 2px solid $startUpColor2;
+      color: $corpColor1;
+      border: 2px solid $corpColor1;
       &::before {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -1476,10 +1468,10 @@ nav {
   .header_wraper {
     h2 {
       @include fourthHaederStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         left: 0;
@@ -1494,7 +1486,7 @@ nav {
         border-radius: 0 5px 0 0;
       }
       span {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
         &:first-child {
           left: 0;
           bottom: 0;
@@ -1516,9 +1508,9 @@ nav {
   .nav-pills {
     .nav-item {
       .nav-link {
-        color: $startUpColor2;
+        color: $corpColor1;
         &.active {
-          background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+          background-image: linear-gradient(to right, $corpColor1, $corpColor2);
         }
       }
     }
@@ -1528,16 +1520,16 @@ nav {
     .product_card_wraper {
       .back_face {
         h4 {
-          color: $startUpColor2;
+          color: $corpColor1;
         }
 
         .btn_wraper {
           a {
             @include secondBtnStyle();
-            color: $startUpColor2;
-            border: 2px solid $startUpColor2;
+            color: $corpColor1;
+            border: 2px solid $corpColor1;
             &::before {
-              background-color: $startUpColor2;
+              background-color: $corpColor1;
             }
           }
         }
@@ -1548,10 +1540,10 @@ nav {
   .btn_wraper {
     a {
       @include secondBtnStyle();
-      color: $startUpColor2;
-      border: 2px solid $startUpColor2;
+      color: $corpColor1;
+      border: 2px solid $corpColor1;
       &::before {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -1563,13 +1555,13 @@ nav {
   .header_wraper {
     h2 {
       @include mainHeaderStyle();
-      color: $startUpColor2;
+      color: $corpColor1;
       &::before {
-        background-color: $startUpColor1;
+        background-color: $corpColor2;
       }
     
       &::after {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -1581,7 +1573,7 @@ nav {
           .product_card_wraper {
             .card_data_wraper {
               h4 {
-                color: $startUpColor1;
+                color: $corpColor2;
               }
             }
           }
@@ -1595,10 +1587,10 @@ nav {
   .header_wraper {
     h2 {
       @include fourthHaederStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         left: 0;
@@ -1613,7 +1605,7 @@ nav {
         border-radius: 0 5px 0 0;
       }
       span {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
         &:first-child {
           left: 0;
           bottom: 0;
@@ -1637,10 +1629,10 @@ nav {
   .header_wraper {
     h2 {
       @include fourthHaederStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         left: 0;
@@ -1655,7 +1647,7 @@ nav {
         border-radius: 0 5px 0 0;
       }
       span {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
         &:first-child {
           left: 0;
           bottom: 0;
@@ -1677,17 +1669,17 @@ nav {
   .product_card_wraper {
     .overlay {
       h4 {
-        color: $startUpColor1;
+        color: $corpColor2;
       }
 
       .btn_wraper {
         a {
           @include secondBtnStyle();
-          color: $startUpColor1;
-          border: 2px solid $startUpColor1;
+          color: $corpColor2;
+          border: 2px solid $corpColor2;
         
           &:hover {
-            background-color: $startUpColor1;
+            background-color: $corpColor2;
           }
         }
       }
@@ -1701,13 +1693,13 @@ nav {
   .header_wraper {
     h2 {
       @include mainHeaderStyle();
-      color: $startUpColor2;
+      color: $corpColor1;
       &::before {
-        background-color: $startUpColor1;
+        background-color: $corpColor2;
       }
     
       &::after {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -1715,9 +1707,9 @@ nav {
   .nav-pills {
     .nav-item {
       .nav-link {
-        color: $startUpColor2;
+        color: $corpColor1;
         &.active {
-          background-color: $startUpColor2;
+          background-color: $corpColor1;
         }
       }
     }
@@ -1727,17 +1719,17 @@ nav {
     .product_card_wraper {
       .back_face {
         h4 {
-          color: $startUpColor2;
+          color: $corpColor1;
         }
 
         .btn_wraper {
           a {
             @include secondBtnStyle();
-            color: $startUpColor1;
-            border: 2px solid $startUpColor1;
+            color: $corpColor2;
+            border: 2px solid $corpColor2;
           
             &:hover {
-              background-color: $startUpColor1;
+              background-color: $corpColor2;
             }
           }
         }
@@ -1750,10 +1742,10 @@ nav {
   .header_wraper {
     h2 {
       @include fourthHaederStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         left: 0;
@@ -1768,7 +1760,7 @@ nav {
         border-radius: 0 5px 0 0;
       }
       span {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
         &:first-child {
           left: 0;
           bottom: 0;
@@ -1790,9 +1782,9 @@ nav {
   .nav-pills {
     .nav-item {
       .nav-link {
-        color: $startUpColor2;
+        color: $corpColor1;
         &.active {
-          background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+          background-image: linear-gradient(to right, $corpColor1, $corpColor2);
         }
       }
     }
@@ -1802,17 +1794,17 @@ nav {
     .product_card_wraper {
       .back_face {
         h4 {
-          color: $startUpColor2;
+          color: $corpColor1;
         }
 
         .btn_wraper {
           a {
             @include secondBtnStyle();
-            color: $startUpColor1;
-            border: 2px solid $startUpColor1;
+            color: $corpColor2;
+            border: 2px solid $corpColor2;
           
             &:hover {
-              background-color: $startUpColor1;
+              background-color: $corpColor2;
             }
           }
         }
@@ -1827,13 +1819,13 @@ nav {
   .header_wraper {
     h2 {
       @include mainHeaderStyle();
-      color: $startUpColor2;
+      color: $corpColor1;
       &::before {
-        background-color: $startUpColor1;
+        background-color: $corpColor2;
       }
     
       &::after {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -1843,10 +1835,10 @@ nav {
   .header_wraper {
     h2 {
       @include secondHeaderStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         left: 0;
@@ -1866,10 +1858,10 @@ nav {
   .header_wraper {
     h2 {
       @include thirdHeaderStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         top: 0;
@@ -1893,10 +1885,10 @@ nav {
   .header_wraper {
     h2 {
       @include fourthHaederStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         left: 0;
@@ -1911,7 +1903,7 @@ nav {
         border-radius: 0 5px 0 0;
       }
       span {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
         &:first-child {
           left: 0;
           bottom: 0;
@@ -1934,7 +1926,7 @@ nav {
 
 // START:: TESTEMONILS SECTION STYLES COLORING
 .testemonials {
-  background-color: $startUpColor2;
+  background-color: $corpColor1;
   .container {
     .header_wraper {
       h2 {
@@ -1944,7 +1936,7 @@ nav {
           background-color: $white;
         }
         &::after {
-          background-color: $startUpColor1;
+          background-color: $corpColor2;
         }
       }
     }
@@ -1952,22 +1944,22 @@ nav {
     .owl-carousel {
       .item {
         .testemonial_card {
-          border: 2px solid $startUpColor2;
+          border: 2px solid $corpColor1;
           &:hover {
-            background-color: $startUpColor1;
-            box-shadow: 0 0 5px 2px $startUpColor1;
+            background-color: $corpColor2;
+            box-shadow: 0 0 5px 2px $corpColor2;
           }
   
           .img_wraper {
             img {
-              border-right: 2px solid $startUpColor2;
-              border-bottom: 2px solid $startUpColor2;
+              border-right: 2px solid $corpColor1;
+              border-bottom: 2px solid $corpColor1;
             }
           }
   
           .card_body {
             h4 {
-              color: $startUpColor2;
+              color: $corpColor1;
             }
           }
         }
@@ -1977,7 +1969,7 @@ nav {
 }
 
 .testemonials_index_2 {
-  background: url('../../../media/shapes/client-shape2.png') $startUpColor2;
+  background: url('../../../media/shapes/client-shape2.png') $corpColor1;
   background-repeat: no-repeat;
   background-size: 80%;
   background-position: right 0;
@@ -1987,11 +1979,11 @@ nav {
         @include secondHeaderStyle();
         color: $white;
         &::before {
-          border: 2px solid $startUpColor1;
+          border: 2px solid $corpColor2;
           border-right: none;
         }
         &::after {
-          border: 2px solid $startUpColor1;
+          border: 2px solid $corpColor2;
           border-left: none;
         }
       }
@@ -2003,15 +1995,15 @@ nav {
           background: url('../../../media/shapes/qutation.png') $white;
           background-position: 95% 85%;
           background-repeat: no-repeat;
-          border: 2px solid $startUpColor2;
+          border: 2px solid $corpColor1;
 
           .img_wraper {
             img {
-              border: 3px solid $startUpColor1;
+              border: 3px solid $corpColor2;
             }
 
             h5 {
-              color: $startUpColor2;
+              color: $corpColor1;
             }
           }
         }
@@ -2021,7 +2013,7 @@ nav {
 }
 
 .testemonials_one_page {
-  background-image: linear-gradient(to bottom, $startUpColor2, $startUpColor1);
+  background-image: linear-gradient(to bottom, $corpColor1, $corpColor2);
 
   .container {
     .header_wraper {
@@ -2048,15 +2040,15 @@ nav {
       .item {
 
         .testemonial_card {
-          border: 2px solid $startUpColor2;
+          border: 2px solid $corpColor1;
 
           .img_wraper {
             img {
-              border: 3px solid $startUpColor1;
+              border: 3px solid $corpColor2;
             }
 
             h5 {
-              color: $startUpColor2;
+              color: $corpColor1;
             }
           }
         }
@@ -2070,10 +2062,10 @@ nav {
     .header_wraper {
       h2 {
         @include fourthHaederStyle();
-        color: $startUpColor1;
+        color: $corpColor2;
         &::before,
         &::after {
-          border: 2px solid $startUpColor2;
+          border: 2px solid $corpColor1;
         }
         &::before {
           left: 0;
@@ -2088,7 +2080,7 @@ nav {
           border-radius: 0 5px 0 0;
         }
         span {
-          border: 2px solid $startUpColor2;
+          border: 2px solid $corpColor1;
           &:first-child {
             left: 0;
             bottom: 0;
@@ -2110,15 +2102,15 @@ nav {
     .owl-carousel {
       .item {
         .testemonial_card {
-          border: 2px solid $startUpColor2;
+          border: 2px solid $corpColor1;
 
           .img_wraper {
             img {
-              border: 3px solid $startUpColor1;
+              border: 3px solid $corpColor2;
             }
 
             h5 {
-              color: $startUpColor2;
+              color: $corpColor1;
             }
           }
         }
@@ -2133,13 +2125,13 @@ nav {
   .header_wraper {
     h2 {
       @include mainHeaderStyle();
-      color: $startUpColor2;
+      color: $corpColor1;
       &::before {
-        background-color: $startUpColor1;
+        background-color: $corpColor2;
       }
     
       &::after {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -2147,7 +2139,7 @@ nav {
   .heighlight_faqs_wraper {
     .heighlight_faq_card {
       h3 {
-        color: $startUpColor1;
+        color: $corpColor2;
       }
     }
   }
@@ -2158,10 +2150,10 @@ nav {
         .card-header {               
           h4 {
             button {
-              color: $startUpColor2;
+              color: $corpColor1;
 
               &[aria-expanded='true'] {
-                background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+                background-image: linear-gradient(to right, $corpColor1, $corpColor2);
               }
             }
           }
@@ -2173,8 +2165,8 @@ nav {
   .btn_wraper {
     a {
       @include mainBtnStyle();
-      color: $startUpColor1;
-      border: 2px solid $startUpColor1;
+      color: $corpColor2;
+      border: 2px solid $corpColor2;
     }
   }
 }
@@ -2183,10 +2175,10 @@ nav {
   .header_wraper {
     h2 {
       @include secondHeaderStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         left: 0;
@@ -2207,10 +2199,10 @@ nav {
         .card-header {               
           h4 {
             button {
-              color: $startUpColor2;
+              color: $corpColor1;
 
               &[aria-expanded='true'] {
-                background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+                background-image: linear-gradient(to right, $corpColor1, $corpColor2);
               }
             }
           }
@@ -2222,10 +2214,10 @@ nav {
   .btn_wraper {
     a {
       @include secondBtnStyle();
-      color: $startUpColor2;
-      border: 2px solid $startUpColor2;
+      color: $corpColor1;
+      border: 2px solid $corpColor1;
       &::before {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -2235,10 +2227,10 @@ nav {
   .header_wraper {
     h2 {
       @include thirdHeaderStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         top: 0;
@@ -2260,7 +2252,7 @@ nav {
   .heighlight_faqs_wraper {
     .heighlight_faq_card {
       h3 {
-        color: $startUpColor1;
+        color: $corpColor2;
       }
     }
   }
@@ -2271,9 +2263,9 @@ nav {
         .card-header {                
           h4 {
             button {
-              color: $startUpColor2;
+              color: $corpColor1;
               &[aria-expanded='true'] {
-                background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+                background-image: linear-gradient(to right, $corpColor1, $corpColor2);
               }
             }
           }
@@ -2287,10 +2279,10 @@ nav {
   .header_wraper {
     h2 {
       @include fourthHaederStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         left: 0;
@@ -2305,7 +2297,7 @@ nav {
         border-radius: 0 5px 0 0;
       }
       span {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
         &:first-child {
           left: 0;
           bottom: 0;
@@ -2327,7 +2319,7 @@ nav {
   .heighlight_faqs_wraper {
     .heighlight_faq_card {
       h3 {
-        color: $startUpColor1;
+        color: $corpColor2;
       }
     }
   }
@@ -2338,9 +2330,9 @@ nav {
         .card-header {               
           h4 {
             button {
-              background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+              background-image: linear-gradient(to right, $corpColor1, $corpColor2);
               &[aria-expanded='true'] {
-                color: $startUpColor2;
+                color: $corpColor1;
                 svg {
                   color: $corpColor2;
                 }
@@ -2355,10 +2347,10 @@ nav {
   .btn_wraper {
     a {
       @include secondBtnStyle();
-      color: $startUpColor2;
-      border: 2px solid $startUpColor2;
+      color: $corpColor1;
+      border: 2px solid $corpColor1;
       &::before {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -2370,13 +2362,13 @@ nav {
   .header_wraper {
     h2 {
       @include mainHeaderStyle();
-      color: $startUpColor2;
+      color: $corpColor1;
       &::before {
-        background-color: $startUpColor1;
+        background-color: $corpColor2;
       }
     
       &::after {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -2387,10 +2379,10 @@ nav {
         .card-header {               
           h4 {
             button {
-              color: $startUpColor2;
+              color: $corpColor1;
 
               &[aria-expanded='true'] {
-                background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+                background-image: linear-gradient(to right, $corpColor1, $corpColor2);
               }
             }
           }
@@ -2406,13 +2398,13 @@ nav {
   .header_wraper {
     h2 {
       @include mainHeaderStyle();
-      color: $startUpColor2;
+      color: $corpColor1;
       &::before {
-        background-color: $startUpColor1;
+        background-color: $corpColor2;
       }
     
       &::after {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -2421,14 +2413,14 @@ nav {
     .article_card_wraper {
       .img_wraper {
         .overlay {
-          background-color: rgba(255, 131, 3, 0.8);
+          background-color: rgba(234, 84, 85, 0.8);
         }
       }
 
       .card_title_wraper {
         h4, 
         h5 {
-          color: $startUpColor2;
+          color: $corpColor1;
         }
       }
     }
@@ -2437,8 +2429,8 @@ nav {
   .btn_wraper {
     a {
       @include mainBtnStyle();
-      color: $startUpColor1;
-      border: 2px solid $startUpColor1;
+      color: $corpColor2;
+      border: 2px solid $corpColor2;
     }
   }
 }
@@ -2447,10 +2439,10 @@ nav {
   .header_wraper {
     h2 {
       @include secondHeaderStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         left: 0;
@@ -2469,16 +2461,16 @@ nav {
     .article_card_wraper {
       .img_wraper {
         .overlay {
-          background-color: rgba(255, 131, 3, 0.8);
+          background-color: rgba(234, 84, 85, 0.8);
         }
       }
   
       .card_title_wraper {
         h4 {
-          color: $startUpColor2;
+          color: $corpColor1;
         }
         h6 {
-          background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+          background-image: linear-gradient(to right, $corpColor1, $corpColor2);
         }
       }
     }
@@ -2487,10 +2479,10 @@ nav {
   .btn_wraper {
     a {
       @include secondBtnStyle();
-      color: $startUpColor2;
-      border: 2px solid $startUpColor2;
+      color: $corpColor1;
+      border: 2px solid $corpColor1;
       &::before {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -2500,10 +2492,10 @@ nav {
   .header_wraper {
     h2 {
       @include thirdHeaderStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         top: 0;
@@ -2526,16 +2518,16 @@ nav {
     .article_card_wraper {
       .img_wraper {
         .overlay {
-          background-color: rgba(255, 131, 3, 0.8);
+          background-color: rgba(234, 84, 85, 0.8);
         }
       }
 
       .card_title_wraper {
         h4 {
-          color: $startUpColor2;
+          color: $corpColor1;
         }
         h6 {
-          background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+          background-image: linear-gradient(to right, $corpColor1, $corpColor2);
         }
       }
     }
@@ -2546,10 +2538,10 @@ nav {
   .header_wraper {
     h2 {
       @include fourthHaederStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         left: 0;
@@ -2564,7 +2556,7 @@ nav {
         border-radius: 0 5px 0 0;
       }
       span {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
         &:first-child {
           left: 0;
           bottom: 0;
@@ -2587,16 +2579,16 @@ nav {
     .article_card_wraper {
       .img_wraper {
         .overlay {
-          background-color: rgba(255, 131, 3, 0.8);
+          background-color: rgba(234, 84, 85, 0.8);
         }
       }
   
       .card_title_wraper {
         h4 {
-          color: $startUpColor2;
+          color: $corpColor1;
         }
         h6 {
-          background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+          background-image: linear-gradient(to right, $corpColor1, $corpColor2);
         }
       }
     }
@@ -2605,10 +2597,10 @@ nav {
   .btn_wraper {
     a {
       @include secondBtnStyle();
-      color: $startUpColor2;
-      border: 2px solid $startUpColor2;
+      color: $corpColor1;
+      border: 2px solid $corpColor1;
       &::before {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -2621,13 +2613,13 @@ nav {
     h2, 
     h5 {
       @include mainHeaderStyle();
-      color: $startUpColor2;
+      color: $corpColor1;
       &::before {
-        background-color: $startUpColor1;
+        background-color: $corpColor2;
       }
     
       &::after {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -2637,7 +2629,7 @@ nav {
       .list-group-item {
         a {
           &:hover {
-            color: $startUpColor1;
+            color: $corpColor2;
           }
         }
       }
@@ -2648,13 +2640,13 @@ nav {
     .article_card_wraper {
       .img_wraper {
         .overlay {
-          background-color: rgba(255, 131, 3, 0.8);
+          background-color: rgba(234, 84, 85, 0.8);
         }
       }
       .card_title_wraper {
         h4, 
         h5 {
-          color: $startUpColor2;
+          color: $corpColor1;
         }
       }
     }
@@ -2665,10 +2657,10 @@ nav {
   .header_wraper {
     h2 {
       @include fourthHaederStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         left: 0;
@@ -2683,7 +2675,7 @@ nav {
         border-radius: 0 5px 0 0;
       }
       span {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
         &:first-child {
           left: 0;
           bottom: 0;
@@ -2706,10 +2698,10 @@ nav {
     .btn_wraper {
       a {
         @include secondBtnStyle();
-        color: $startUpColor2;
-        border: 2px solid $startUpColor2;
+        color: $corpColor1;
+        border: 2px solid $corpColor1;
         &::before {
-          background-color: $startUpColor2;
+          background-color: $corpColor1;
         }
       }
     }
@@ -2720,14 +2712,14 @@ nav {
 // START:: ARTICLE SECTION STYLES
 .article_header_img_wraper {
   .overlay {
-    background-color: rgba(43, 55, 56, 0.5);
+    background-color: rgba(45, 64, 89, 0.5);
 
     .intro_text_wraper {
       h1 {
         span {
-          background-color: $startUpColor1;
+          background-color: $corpColor2;
           &::after {
-            border: 2px solid $startUpColor1;
+            border: 2px solid $corpColor2;
           }
         }
       }
@@ -2739,13 +2731,13 @@ nav {
   .header_wraper {
     h4 {
       @include mainHeaderStyle();
-      color: $startUpColor2;
+      color: $corpColor1;
       &::before {
-        background-color: $startUpColor1;
+        background-color: $corpColor2;
       }
     
       &::after {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -2755,7 +2747,7 @@ nav {
       .list-group-item {
         a {
           &:hover {
-            color: $startUpColor1;
+            color: $corpColor2;
           }
         }
       }
@@ -2763,14 +2755,14 @@ nav {
   }
 
   .articl_body {
-    border-top: 1px solid $startUpColor1;
-    border-bottom: 1px solid $startUpColor1;
+    border-top: 1px solid $corpColor2;
+    border-bottom: 1px solid $corpColor2;
   }
 }
 
 .article_header_img_wraper_modern {
   .overlay {
-    background-color: rgba(43, 55, 56, 0.5);
+    background-color: rgba(45, 64, 89, 0.5);
 
     .intro_text_wraper {
       h1 {
@@ -2790,10 +2782,10 @@ nav {
   .header_wraper {
     h2 {
       @include fourthHaederStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         left: 0;
@@ -2808,7 +2800,7 @@ nav {
         border-radius: 0 5px 0 0;
       }
       span {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
         &:first-child {
           left: 0;
           bottom: 0;
@@ -2828,7 +2820,7 @@ nav {
   } 
 
   .articl_body {
-    border-bottom: 1px solid $startUpColor1;
+    border-bottom: 1px solid $corpColor2;
   }
 
   .owl-carousel {
@@ -2838,16 +2830,16 @@ nav {
 
           .img_wraper {
             .overlay {
-              background-color: rgba(255, 131, 3, 0.8);
+              background-color: rgba(234, 84, 85, 0.8);
             }
           }
       
           .card_title_wraper {
             h4 {
-              color: $startUpColor2;
+              color: $corpColor1;
             }
             h6 {
-              background-image: linear-gradient(to right, $startUpColor2, $startUpColor1);
+              background-image: linear-gradient(to right, $corpColor1, $corpColor2);
             }
           }
         }
@@ -2862,13 +2854,13 @@ nav {
   .header_wraper {
     h2 {
       @include mainHeaderStyle();
-      color: $startUpColor2;
+      color: $corpColor1;
       &::before {
-        background-color: $startUpColor1;
+        background-color: $corpColor2;
       }
     
       &::after {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -2877,13 +2869,13 @@ nav {
     .header_wraper {
       h2 {
         @include mainHeaderStyle();
-        color: $startUpColor2;
+        color: $corpColor1;
         &::before {
-          background-color: $startUpColor1;
+          background-color: $corpColor2;
         }
       
         &::after {
-          background-color: $startUpColor2;
+          background-color: $corpColor1;
         }
       }
     }
@@ -2891,7 +2883,7 @@ nav {
     .form-group {
       span {
         svg {
-          color: $startUpColor1;
+          color: $corpColor2;
         }
       }
     }
@@ -2899,8 +2891,8 @@ nav {
     .btn_box {
       button {
         @include mainBtnStyle();
-        color: $startUpColor1;
-        border: 2px solid $startUpColor1;
+        color: $corpColor2;
+        border: 2px solid $corpColor2;
       }
     }
   }
@@ -2910,10 +2902,10 @@ nav {
   .header_wraper {
     h2 {
       @include secondHeaderStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         left: 0;
@@ -2932,13 +2924,13 @@ nav {
     .header_wraper {
       h2 {
         @include mainHeaderStyle();
-        color: $startUpColor2;
+        color: $corpColor1;
         &::before {
-          background-color: $startUpColor1;
+          background-color: $corpColor2;
         }
       
         &::after {
-          background-color: $startUpColor2;
+          background-color: $corpColor1;
         }
       }
     }
@@ -2946,7 +2938,7 @@ nav {
     .form-group {
       span {
         svg {
-          color: $startUpColor1;
+          color: $corpColor2;
         }
       }
     }
@@ -2955,10 +2947,10 @@ nav {
       button {
         @include secondBtnStyle();
         background-color: transparent;
-        border: 2px solid $startUpColor1;
-        color: $startUpColor1;
+        border: 2px solid $corpColor2;
+        color: $corpColor2;
         &::before {
-          background-color: $startUpColor1;
+          background-color: $corpColor2;
         }
       }
     }
@@ -2969,10 +2961,10 @@ nav {
   .header_wraper {
     h2 {
       @include thirdHeaderStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         top: 0;
@@ -2995,7 +2987,7 @@ nav {
     .form-group {
       span {
         svg {
-          color: $startUpColor1;
+          color: $corpColor2;
         }
       }
     }
@@ -3004,10 +2996,10 @@ nav {
       button {
         @include secondBtnStyle();
         background-color: transparent;
-        border: 2px solid $startUpColor1;
-        color: $startUpColor1;
+        border: 2px solid $corpColor2;
+        color: $corpColor2;
         &::before {
-          background-color: $startUpColor1;
+          background-color: $corpColor2;
         }
       }
     }
@@ -3018,10 +3010,10 @@ nav {
   .header_wraper {
     h2 {
       @include fourthHaederStyle();
-      color: $startUpColor1;
+      color: $corpColor2;
       &::before,
       &::after {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
       }
       &::before {
         left: 0;
@@ -3036,7 +3028,7 @@ nav {
         border-radius: 0 5px 0 0;
       }
       span {
-        border: 2px solid $startUpColor2;
+        border: 2px solid $corpColor1;
         &:first-child {
           left: 0;
           bottom: 0;
@@ -3059,10 +3051,10 @@ nav {
     .header_wraper {
       h2 {
         @include fourthHaederStyle();
-        color: $startUpColor1;
+        color: $corpColor2;
         &::before,
         &::after {
-          border: 2px solid $startUpColor2;
+          border: 2px solid $corpColor1;
         }
         &::before {
           left: 0;
@@ -3077,7 +3069,7 @@ nav {
           border-radius: 0 5px 0 0;
         }
         span {
-          border: 2px solid $startUpColor2;
+          border: 2px solid $corpColor1;
           &:first-child {
             left: 0;
             bottom: 0;
@@ -3099,7 +3091,7 @@ nav {
     .form-group {
       span {
         svg {
-          color: $startUpColor1;
+          color: $corpColor2;
         }
       }
     }
@@ -3107,10 +3099,10 @@ nav {
     .btn_wraper {
       a {
         @include secondBtnStyle();
-        color: $startUpColor2;
-        border: 2px solid $startUpColor2;
+        color: $corpColor1;
+        border: 2px solid $corpColor1;
         &::before {
-          background-color: $startUpColor2;
+          background-color: $corpColor1;
         }
       }
     }
@@ -3123,12 +3115,12 @@ nav {
   .card {
     span {
       svg {
-        color: $startUpColor1;
+        color: $corpColor2;
       }
     }
 
     h4 {
-      color: $startUpColor2;
+      color: $corpColor1;
     }
 
     h5 {
@@ -3143,13 +3135,13 @@ nav {
   .header_wraper {
     h2 {
       @include mainHeaderStyle();
-      color: $startUpColor2;
+      color: $corpColor1;
       &::before {
-        background-color: $startUpColor1;
+        background-color: $corpColor2;
       }
     
       &::after {
-        background-color: $startUpColor2;
+        background-color: $corpColor1;
       }
     }
   }
@@ -3159,8 +3151,8 @@ nav {
       .btn_box {
         button {
           @include mainBtnStyle();
-          color: $startUpColor1;
-          border: 2px solid $startUpColor1;
+          color: $corpColor2;
+          border: 2px solid $corpColor2;
           padding: 6px 12px;
         }
       }
@@ -3173,14 +3165,14 @@ nav {
 .branches_sec {
   .map_info_wraper {
     h3 {
-      color: $startUpColor2;
+      color: $corpColor1;
     }
 
     .map_text {
       ul {
         li {
           span {
-            color: $startUpColor1;
+            color: $corpColor2;
           }
         }
       }
@@ -3192,15 +3184,15 @@ nav {
 // START:: FOOTER STYLES
 footer {
 
-  background-color: $startUpColor2;
+  background-color: $corpColor1;
 
   .short_cuts {
     a {
       &::before {
-        background-color: $startUpColor1;
+        background-color: $corpColor2;
       }
       &:hover {
-        color: $startUpColor1;
+        color: $corpColor2;
         &::before {
           left: 0;
         }
@@ -3212,17 +3204,17 @@ footer {
     ul {
       li {
         svg {
-          color: $startUpColor1;
+          color: $corpColor2;
         }
       }
     }
   }
 
   .copy_rights {
-    background-color: #212121;
+    background-color: $deepBlue;
     span {
       a {
-        color: $startUpColor1;
+        color: $corpColor2;
       }
     }
   }

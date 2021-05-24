@@ -11,6 +11,14 @@
 // END:: MIXINS
 
 // START:: GLOBAL STYLES COLORING
+html {
+  body {
+    &::-webkit-scrollbar-thumb {
+      background-color: $singleColor3;
+    }
+  }
+}
+
 .header_img_wraper {
   .overlay {
     background-color: rgba(21, 15, 37, 0.3);

@@ -16,7 +16,7 @@
       <img src="assets/media/slider/slide1.jpeg" class="d-block" alt="Slide 1">
       <div class="overlay">
         <div class="intro_text_wraper">
-          <h1> <span>|Welcome To Our Website</span> </h1>
+          <h1> <span>Welcome To Our Website</span> </h1>
           <h5> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non laudantium eum aliquam reiciendis. </h5>
         </div>
         

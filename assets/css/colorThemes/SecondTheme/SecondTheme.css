@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+html body::-webkit-scrollbar-thumb {
+  background-color: #0c5e70;
+}
+
 .header_img_wraper .overlay {
   background-color: rgba(12, 94, 112, 0.3);
 }

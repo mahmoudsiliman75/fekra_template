@@ -22,6 +22,38 @@ $(document).ready( function() {
   });
   // END:: TOGGLE DROPDOWN MENU
 
+  // START:: HANDLING CHANGING COLORS THEME
+  let theme_url = localStorage.getItem('theme_url');
+  $('link[data-targetTheme="current_theme"]').attr('href', theme_url);
+
+  $('#main_theme').click(function (){
+    localStorage.setItem('theme_url', 'assets/css/colorThemes/MainTheme/MainTheme.css');
+    let theme_url = localStorage.getItem('theme_url');
+    $('link[data-targetTheme="current_theme"]').attr('href', theme_url);
+    location.reload();
+  });
+
+  $('#first_theme').click(function (){
+    localStorage.setItem('theme_url', 'assets/css/colorThemes/FirstTheme/FirstTheme.css');
+    let theme_url = localStorage.getItem('theme_url');
+    $('link[data-targetTheme="current_theme"]').attr('href', theme_url);
+    location.reload();
+  });
+
+  $('#second_theme').click(function (){
+    localStorage.setItem('theme_url', 'assets/css/colorThemes/SecondTheme/SecondTheme.css');
+    let theme_url = localStorage.getItem('theme_url');
+    $('link[data-targetTheme="current_theme"]').attr('href', theme_url);
+    location.reload();
+  });
+  $('#third_theme').click(function (){
+    localStorage.setItem('theme_url', 'assets/css/colorThemes/ThirdTheme/ThirdTheme.css');
+    let theme_url = localStorage.getItem('theme_url');
+    $('link[data-targetTheme="current_theme"]').attr('href', theme_url);
+    location.reload();
+  });
+  // END:: HANDLING CHANGING COLORS THEME
+
   // START:: WOW JS
   wow = new WOW(
     {
